@@ -1,0 +1,235 @@
+---
+title: "Methods for detecting ancient hybridization"
+subtitle: "Bioinformatic Tutorial"
+author: "Carolina Siniscalchi, Erika Moore-Pollard, Paige Ellestad, & Jennifer Mandel"
+date: "`r Sys.Date()`"
+output:
+#  bookdown::pdf_document2:
+#    toc: TRUE
+  bookdown::html_document2: 
+    toc: TRUE
+    toc_float: TRUE
+    toc_depth: 2
+    self_contained: TRUE
+link-citations: yes
+fontsize: 12pt
+urlcolor: blue
+csl: AmJBot.csl
+bibliography: References.bib
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+```{js logo-uofm, echo=FALSE}
+$(document).ready(function() {
+  $('#header').parent().prepend('<div id=\"logo\"><img src=\"Images/logos.png\" style=\"position:absolute; top:0; right:0; padding:10px; height:200px\"></div>');
+  $('#header').css('margin-right', '200px')
+});
+```
+
+
+```{r packages, echo=FALSE, warning=FALSE, include=FALSE}
+library(knitr)
+library(rmarkdown)
+library(bookdown)
+#library(distill)
+library(knitcitations)
+library(formatR)
+library(devtools)
+library(kfigr)
+library(dplyr)
+library(kableExtra)
+library(tufte)
+require(leaflet)
+
+library(magick)
+library(pafr, quietly=TRUE)
+#library("gplots")
+#library(SNPRelate)
+#library(gdsfmt)
+library(R.utils) # This package is used to uncompress vcf.gz file
+library(seqinr)
+#library(RCircos)
+
+#Generate BibTex citation file for all R packages used to produce report
+knitr::write_bib(.packages(), file = 'packages.bib')
+```
+
+# Introduction
+
+Recent advances in phylogenetic network methods now allow simultaneous estimation of ILS and hybridization, improving our ability to detect and quantify these processes in plant evolution. Using Hyb-Seq data and newly generated transcriptomes, we present case studies from Asteraceae, the sunflower family, focusing on nuclear and plastid discordance at the base of the family. We further explore how these reticulations intersect with other evolutionary processes, such as polyploidy and whole-genome duplication events, and assess the impact of taxon selection on these analyses. Given the complexity of these approaches, we developed an R Markdown tutorial to guide researchers through our methodology, making it applicable to other clades. Our study, alongside a growing body of research, underscores the role of gene flow, hybridization, and introgression in speciation. We anticipate further advancements in theoretical approaches that will continue to enhance empirical studies in the field of plant evol
+
+# Sequence Quality and Trimming
+
+## Checking sequence quality with FastQC
+
+FastqQC is a tool that can spot potential problems in high throughput sequencing datasets. Input can be raw or trimmed sequence files in fastq or bam format. The result of FastQC is an html report which summarises the sequence quality of your samples.
+
+1. Installation with a new conda environment ‘fastqc’
+
+```{bash echo = T, eval = F}
+# Install program with Bioconda
+conda create --name fastqc
+conda activate fastqc
+conda install -c bioconda fastqc
+```
+
+2. Run samples through fastqc. The only input it needs are your sequence files in fastq or bam format. If you have many files, you can run it as a loop. For example, with fastq files:
+
+```{bash echo = T, eval = F}
+cd /PATH/TO/FASTQ/FILES/
+for filename in *.fastq
+do
+fastqc $filename
+done
+```
+
+Note: The fastq files can be zipped or unzipped!
+
+The result should be an html file for each sequence run through the loop. This html file can be opened through any web browser. A great resource to better understand the report can be found here.
+
+## Trimming sequence data with Trimmomatic
+
+Trimmomatic is a read trimming tool that removes Illumina adapters from low-quality bases and adapter contamination. It’s important to do this step first to make sure you have cleaned and trimmed data going forward.
+
+1.	Installation instructions can be found here.
+2.	After installation, the java script needed to run Trimmomatic should be in a folder such as ‘Trimmomatic-0.36’.
+3.	Go into your folder containing the sequence files and run the below script.
+trimmomatic.sh
+
+```{bash echo = T, eval = F}
+cd /PATH/TO/FASTQ/FILES/
+
+for fileR1 in *R1.fastq
+do
+fileR2=`echo ${fileR1} | sed 's/R1/R2/'`
+java -jar /home/USER/Trimmomatic-0.36/trimmomatic-0.36.jar PE $fileR1 $fileR2 $fileR1.tp.fastq $fileR1.tunp.fastq $fileR2.tp.fastq $fileR2.tunp.fastq ILLUMINACLIP:/home/USER/Trimmomatic-0.36/adapters/TruSeq3-PE.fa:2:30:10 LEADING:20 TRAILING:20 SLIDINGWINDOW:5:20 MINLEN:36
+done
+```
+
+Note: This script is assuming that your paired-end reads have R1 or R2 endings. If that is not the case with your sequence data, then please alter the script.
+
+4.	One common change made to the script is changing the values for ILLUMINACLIP, LEADING, TRAILING, SLIDINGWINDOW, and MINLEN. Please refer to the GitHub or primary literature to determine which values best fit your data.
+
+5.	Results of Trimmomatic will be two types of files: *.tp.fastq or *.tunp.fastq. The *.tunp.fastq files contain sequence data removed from trimming, while *.tp.fastq files have the resulting trimmed data. Future work will continue with the *.tp.fastq files!!
+
+6.	[Optional] Re-run FastQC on the trimmed sequence data (*.tp.fastq) to see if the quality improved from trimming!
+
+# Assembling Sequence Data
+
+## Running SPAdes Genome Assembler
+
+1.	Installation instructions can be found here.
+
+2.	Run SPAdes as a script with your trimmed sequence data from Trimmomatic 
+
+```{bash echo = T, eval = F}
+spades.sh
+
+# run SPADES for all the samples with a loop
+for trimR1 in `find ./ -name "*R1.fastq.tp.fastq"`    
+do
+trimR2=`echo ${trimR1} | sed 's/R1/R2/'`
+/PATH/TO/bin/spades.py -k 21,33,55,77,99 --only-assembler --pe1-1 $trimR1 --pe1-2 $trimR2 -o ./$trimR1.spades_output 
+done
+
+# Rename spade output folder making it short having only sample name
+for i in *;
+do
+mv "./$i" "./$(echo $i |grep ".fastq.spades_output"| awk '{split($0,a,"_");print a[1]}')"
+done
+
+# copy all the contig files with the sample name in a folder named ‘contigs’
+mkdir ../contigs
+for f in *;
+do
+cp "$f/contigs.fasta" "./contigs/$f.fasta";
+done
+```
+
+## Assembling chloroplast genomes
+
+Organellar sequences may be extracted from off-target sequence reads and assembled using GetOrganelle (https://github.com/Kinggerm/GetOrganelle) [@Jin2020]. Often, there will not be enought off-target sequence data for complete organellar assembly. The integrity of complete chloroplast assemblies may be assessed using Bandage [@Wick2015], then annotated using GeSeq [@Tillich2017].
+
+1. Install Getorganelle
+
+```{bash echo = T, eval = F}
+conda install -c bioconda getorganelle
+```
+
+2. Run GetOrganelle using trimmed paired-end reads for plant chloroplast assembly. 
+
+```{bash echo = T, eval = F}
+get_organelle_from_reads.py -1 forward.fq -2 reverse.fq -o plastome_output -R 15 -k 21,45,65,85,105 -F embplant_pt
+```
+
+3. Plastome assembly using off-target reads may not always result in a complete circular assembly. Pastome integrity may be checked with Bandage [@Wick2015] using the file "extended_K*.assembly_graph.fastg.extend_embplant_pt-embplant_mt.csv" as input. Bandage is normally run as an exe... but can be run command line using ... ASK ERIKA
+
+```{r bandage, echo=FALSE, fig.cap="Bandage visualization of contig structure of plastome assembly for Amphoricarpus autariatus", out.width = '100%'}
+knitr::include_graphics("Images/Amphoricarpus_bandage.png")
+```
+
+3. Complete circular plastomes may be annotated using GeSeq [@Tillich2017] and visualized using OGDraw. 
+
+```{r ogdraw, echo=FALSE, fig.cap="Annotated chloroplast of Amphoricarpos autariatus produced by OGDraw.", out.width = '100%'}
+knitr::include_graphics("Images/GeSeqJob-20240601-170716_Amphoricarpos_autariatus_OGDRAW.jpg")
+```
+
+
+# Generate Species Phylogenies
+
+## Identifying ultra-conserved elements from target-enriched data
+
+1. Install Phyluce
+
+## Model Selection
+
+1. Install PartitionFinder
+
+## Concatenated Phylogeny
+
+1. Install RAxML
+
+## Pseduo-coalescent Phylogeny
+
+1. Install RAxML
+
+## Astral Phylogeny
+
+1. Install Astral-III
+
+## Chloroplast Phylogeny
+
+
+# Phylogenetic Discordance
+
+## PhyParts
+
+## Quartet Sampling
+
+
+# Investigating ancient hybridizations
+
+## Phylogenetic networks
+
+
+# Inferring whole genome duplications
+
+## WGDv2
+
+
+# References
+
+<div id="refs"></div>
+
+# Appendix 1 {.appendix}
+
+Citations of all R packages used to generate this report. 
+
+```{r generateBibliography, eval = T, results="asis", cache = F, echo=F, warning = FALSE, message=FALSE}
+library("knitcitations")
+cleanbib()
+options("citation_format" = "pandoc")
+read.bibtex(file = "packages.bib")
+``` 
