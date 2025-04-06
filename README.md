@@ -7,7 +7,7 @@ Phylogenomic studies increasingly reveal the pervasiveness of conflicting evolut
 
 Given the complexity of these bioinformatic approaches, the following tutorial was developed to guide researchers through these methodological processes, making it applicable to other study systems. This tutorial serves as a template for researchers aiming to investigate the complex evolutionary processes that influence the diversity of life. Researchers may contact moore.erika.r@gmail.com or pllestad@memphis.edu regarding questions in methodology. This pipeline implements code in multiple languages, mainly bash, R, python, and julia, and often uses conda as a way to quickly and cleanly install packages on a HPC.
 
-Please refer to the following R Markdown to access the tutorial. File and images for the tutorial can be found in the folders above. Please reference the README.rd for further information.
+Please refer to the following [R Markdown](https://erika-r-moore.github.io/Ellestad_etal_2025_APPS_Hybridizations/) to access the tutorial. File and images for the tutorial can be found in the folders above. Please reference the README.md for further information.
 
 
 
