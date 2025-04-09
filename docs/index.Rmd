@@ -2,7 +2,7 @@
 title: "Methods for detecting hybridization and phylogenetic discordance"
 subtitle: "Bioinformatic Tutorial"
 author: "Paige Ellestad, Erika R. Moore-Pollard, Carolina M. Siniscalchi, Ramhari Thapa, Linda E. Watson, J. Mauricio Bonifacino, Jennifer R. Mandel"
-date: "`r Sys.Date()`"
+#date: "`r Sys.Date()`"
 output: 
 #  bookdown::word_document2:
  #   toc: TRUE
@@ -10,8 +10,8 @@ output:
 #  bookdown::pdf_document2:
  #   toc: TRUE
   #  toc_depth: 2
-bookdown::html_document2: 
-   toc: TRUE
+  bookdown::html_document2: 
+    toc: TRUE
     toc_float: TRUE
     toc_depth: 2
     self_contained: TRUE
@@ -32,29 +32,11 @@ $(document).ready(function() {
 });
 ```
 
-
 ```{r packages, echo=FALSE, warning=FALSE, include=FALSE}
 library(knitr)
 library(rmarkdown)
 library(bookdown)
-#library(distill)
 library(knitcitations)
-library(formatR)
-library(devtools)
-library(kfigr)
-library(dplyr)
-library(kableExtra)
-library(tufte)
-require(leaflet)
-
-library(magick)
-library(pafr, quietly=TRUE)
-#library("gplots")
-#library(SNPRelate)
-#library(gdsfmt)
-library(R.utils) # This package is used to uncompress vcf.gz file
-library(seqinr)
-#library(RCircos)
 
 #Generate BibTex citation file for all R packages used to produce report
 knitr::write_bib(.packages(), file = 'packages.bib')
@@ -62,7 +44,7 @@ knitr::write_bib(.packages(), file = 'packages.bib')
 
 # Introduction
 
-Recent advances in phylogenetic network methods now allow for the estimation of ancient hybridization. Using Hyb-Seq and transcriptomic data from ~300 species within the family Asteraceae, the sunflower family, this study explores how these reticulations intersect with other evolutionary processes, such as polyploidy and whole-genome duplication events, and assesses the impact of taxon selection on these analyses. Given the complexity of these bioinformatic approaches, a tutorial was developed to guide researchers through these methodological processes, making it applicable to other study systems. Alongside a growing body of research, this study underscores the role of gene flow, hybridization, and introgression in speciation. Further advancements in bioinformatic approaches will continue to enhance theoretical studies in the field of plant evolution. 
+Conflicting phylogenetic signals are common in plant phylogenomics and often reflect complex evolutionary histories shaped by processes like hybridization, incomplete lineage sorting, and whole genome duplication. Understanding these patterns is especially challenging in large, diverse families like Asteraceae. This study, along with a growing body of phylogenomic research, emphasizes the role of reticulation and whole-genome duplication in the evolution of large, diverse clades, while also underscoring the challenges. Given the complexity of many of these bioinformatic approaches, a tutorial was developed to guide researchers through the methodological processes, making it applicable to other study systems. Further advancements in bioinformatic approaches will continue to enhance theoretical studies in the field of plant evolution.
 
 This tutorial may serve as a template for researchers aiming to investigate the complex evolutionary processes that influence the diversity of life. Researchers may contact moore.erika.r@gmail.com or pllestad@memphis.edu regarding questions in methodology. This pipeline implements code in multiple languages, mainly bash, R, python, and julia, and often uses conda as a way to quickly and cleanly install packages on a HPC. 
 
@@ -132,9 +114,9 @@ Installation instructions can be found at http://www.usadellab.org/cms/?page=tri
 
 **INPUT**
 
-* Paired end raw sequence files in fastq format. 
+* Paired-end raw sequence files in fastq format. 
 
-After installation, the java script needed to run Trimmomatic should be in a folder such as ‘Trimmomatic-0.36’. Go into your folder containing the sequence files and run Trimmomatic in a loop on all paired end fastq files (here ending in R1.fastq and R2.fastq) using the following code:
+After installation, the java script needed to run Trimmomatic should be in a folder such as ‘Trimmomatic-0.36’. Go into your folder containing the sequence files and run Trimmomatic in a loop on all paired-end fastq files (here ending in R1.fastq and R2.fastq) using the following code:
 
 ```{bash echo = T, eval = F}
 #bash
@@ -149,18 +131,18 @@ One common change made to the script is changing the values for ILLUMINACLIP, LE
 
 **OUTPUT**
 
-* *.tp.fastq, the trimmed sequence data
-* *.tunp.fastq, the sequence data removed from trimming
+* *.tp.fastq: the trimmed sequence data
+* *.tunp.fastq: the sequence data removed from trimming
 
 [Optional] Re-run FastQC on the trimmed sequence data to see if the quality improved from trimming!
 
 # Assembling Sequence Data
 
-This tutorial will cover different sequence assembly methods including SPAdes [@Prjibelski2020] for genome assembly using target-enriched sequence data, GetOrganelle [@Jin2020] for chloroplast assembly using off-target reads from target-enriched sequence data, and Trinity [@Grabherr2011] for transcriptome assembly of RNA sequence data.  
+This tutorial covers different sequence assembly methods including SPAdes [@Prjibelski2020] for genome assembly using target-enriched sequence data, GetOrganelle [@Jin2020] for chloroplast assembly using off-target reads from target-enriched sequence data, and Trinity [@Grabherr2011] for transcriptome assembly of RNA sequence data.  
 
 ## Assembling genomes from target-enriched sequencing data
 
-SPAdes [@Prjibelski2020] is a versatile toolkit designed for assembly and analysis of sequencing data and was primarily developed for Illumina sequencing data.
+SPAdes [@Prjibelski2020] is a versatile toolkit designed for assembly and analysis of sequencing data, and was primarily developed for Illumina sequencing data.
 
 ### Installing SPAdes
 
@@ -170,7 +152,7 @@ Installation instructions can be found at https://github.com/ablab/spades.
 
 **INPUT**
 
-* *.tp.fastq, the trimmed sequence data
+* *.tp.fastq: the trimmed sequence data
 
 ```{bash echo = T, eval = F}
 #bash
@@ -225,7 +207,7 @@ conda install bioconda::spades
 
 **INPUT**
 
-* *.tp.fasta, trimmed RNA-sequence data
+* *.tp.fasta: trimmed RNA-sequence data
 
 ```{bash echo = T, eval = F}
 #bash
@@ -243,7 +225,7 @@ done
 
 ## Assembling chloroplast genomes from target-enriched sequencing data
 
-Organellar sequences may be extracted from off-target sequence reads and assembled using GetOrganelle (https://github.com/Kinggerm/GetOrganelle) [@Jin2020]. Often, there will not be enough off-target sequence data for complete organellar assembly. The integrity of complete chloroplast assemblies may be assessed using Bandage [@Wick2015], then annotated using GeSeq [@Tillich2017].
+Organellar sequences may be extracted from off-target sequence reads and assembled using GetOrganelle (https://github.com/Kinggerm/GetOrganelle) [@Jin2020]. Often, there will be insufficient off-target sequence data for complete organellar assembly. The integrity of complete chloroplast assemblies may be assessed using Bandage [@Wick2015], and then annotated using GeSeq [@Tillich2017].
 
 ### Installing GetOrganelle
 
@@ -266,7 +248,7 @@ conda activate getorganelle
 get_organelle_from_reads.py -1 forward.fq -2 reverse.fq -o plastome_output -R 15 -k 21,45,65,85,105 -F embplant_pt
 ```
 
-Other parameters may be adjusted to support the successs of a complete plastome assembly. I prefer to increase the number of rounds (-R), double the disentangle time limit (--disentangle-time-limit 7200), then possibly decrease the word size (-w) based on the default word size found in the log file. Refer to https://github.com/Kinggerm/GetOrganelle for more parameter adjustments. 
+Other parameters may be adjusted to support the success of a complete plastome assembly. We prefer to increase the number of rounds (-R), double the disentangle time limit (--disentangle-time-limit 7200), then possibly decrease the word size (-w) based on the default word size found in the log file. Refer to https://github.com/Kinggerm/GetOrganelle for more parameter adjustments. 
 
 **OUTPUT**
 
@@ -276,7 +258,7 @@ Other parameters may be adjusted to support the successs of a complete plastome 
 
 ### Installing Bandage
 
-Check integrity of plastome assembly with Bandage [@Wick2015] using the file "*.selected_graph.gfa" as input. Bandage can be downloaded as a GUI executable for Mac or Windows but can also be run command-line on Linux systems using the following code from https://github.com/rrwick/Bandage/wiki/Command-line.
+Check integrity of plastome assembly with Bandage [@Wick2015] using the file "*.selected_graph.gfa" as input. Bandage can be downloaded as a GUI executable for Mac or Windows but can also be run in command-line on Linux systems using the following code from https://github.com/rrwick/Bandage/wiki/Command-line.
 
 ```{bash echo = T, eval = F}
 #bash
@@ -304,13 +286,13 @@ done
 
 * visualizations may be exported in multiple formats
 
-```{r bandage, echo=FALSE, fig.cap="Bandage visualization of contig structure of plastome assembly for Amphoricarpus autariatus. A complete plastome assembly should show this structure representing the 4 quadripartite regions of the plastome: a large circle representing the large single copy region, a small circle representing the small single copy region, and and a connecting line representing the two inverted repeat regions.", out.width = '100%'}
+```{r bandage, echo=FALSE, fig.cap="Bandage visualization of contig structure of plastome assembly for Amphoricarpos autariatus. A complete plastome assembly should show this structure representing the 4 quadripartite regions of the plastome: a large circle representing the large single copy region, a small circle representing the small single copy region, and a connecting line representing the two inverted repeat regions.", out.width = '100%'}
 knitr::include_graphics("Images/Amphoricarpus_bandage.png")
 ```
 
 ### Running GeSeq
 
-GeSeq [@Tillich2017] is a web-based applicaion that was developed for the rapid and accurate annotation of organelle genomes, in particular chloroplast genomes. Complete circular plastome assemblies may be annotated using GeSeq [@Tillich2017] and visualized using OGDraw at https://chlorobox.mpimp-golm.mpg.de/geseq.html. 
+GeSeq [@Tillich2017] is a web-based application that was developed for the rapid and accurate annotation of organelle genomes, in particular chloroplast genomes. Complete circular plastome assemblies may be annotated using GeSeq [@Tillich2017] and visualized using OGDraw at https://chlorobox.mpimp-golm.mpg.de/geseq.html. 
 
 ```{r ogdraw, echo=FALSE, fig.cap="Annotated chloroplast of Amphoricarpos autariatus produced by OGDraw.", out.width = '100%'}
 knitr::include_graphics("Images/GeSeqJob-20240601-170716_Amphoricarpos_autariatus_OGDRAW.jpg")
@@ -321,7 +303,7 @@ knitr::include_graphics("Images/GeSeqJob-20240601-170716_Amphoricarpos_autariatu
 
 ## Identifying ultra-conserved elements from target-enriched data
 
-PHYLUCE [@Faircloth2016] is a software that determines orthology from targeted loci/genes (e.g., from target-enrichment data). It is considered ‘ultra-conserved’ compared to other orthology determination softwares (e.g., HybPiper) since it removes any loci that is considered paralogous.
+PHYLUCE [@Faircloth2016] is a software package that determines orthology from targeted loci (e.g., from target-enrichment data). It is considered ‘ultra-conserved’ compared to other orthology determination software programs (e.g., HybPiper [@Johnson2016]) since it removes any loci that are considered paralogous. If you have used HybPiper, you can skip down to the [Model Selection] section using the concatenated gene file output.
 
 ### Installing Phyluce
 
@@ -336,8 +318,8 @@ conda install bioconda::phyluce
 
 **INPUT**
 
-* contigs/*.fasta, folder containing all contig files (output from SPAdes)
-*	datasets.conf, a file containing a list of species used in the analysis. Species names should be separated by "_". When using this, you need to reference which species you want to refer to by indicating it with the ‘taxon-group’ flag.
+* contigs/*.fasta: folder containing all contig files (output from SPAdes)
+*	datasets.conf: a file containing a list of species used in the analysis. Species names should be separated by "_". When using this, the user needs to reference which species to refer to by indicating it with the ‘taxon-group’ flag.
 *	phyluce_cos1061_probes.fasta: the probe file with gene names and sequences from targeted genes. 
 
 NOTE: Make sure to change the file paths throughout and change the number of taxa to the appropriate number at each '--taxa' flag when needed.
@@ -353,9 +335,9 @@ mkdir ./log
 # Generate *.lastz files for each contig from SPAdes.
 python /home/USER/miniconda3/envs/phyluce/bin/phyluce_assembly_match_contigs_to_probes     --contigs ./contigs     --probes cos_probes.fasta     --output ./output     --log-path ./log
 
-#Resulting files are *.lastz files in the ‘output’ folder. These files only need to be made once and are only probe–not species–specific.
+#Resulting files are *.lastz files in the ‘output’ folder. These files only need to be made once and are only probe-specific and not species–specific.
 
-# Create empty output directory, in this case it is called ‘taxon-set-all’
+# Create empty output directory, in our case it is named ‘taxon-set-all’
 mkdir ./taxon-set-all/
 
 #create the initial list of loci for each taxon
@@ -372,7 +354,7 @@ for i in exploded-fastas/*.fasta;
 do
 python /PATH/TO/miniconda3/envs/phyluce/bin/phyluce_assembly_get_fasta_lengths --input $i --csv;
 done > fasta_lengths.csv
-#the resulting csv has summary stats on the FASTAS
+#the resulting csv file has summary stats on the FASTAS
 #the column headers are: samples,contigs,total bp,mean length,95 CI length,min length,max length,median length,contigs >1kb
 
 # Alignment without internal trimming BUT does edge trim 
@@ -403,7 +385,7 @@ python /PATH/TO/miniconda3/envs/phyluce/bin/phyluce_align_convert_one_align_to_a
 *	./Taxon_set_all/
 +	all.conf, logs which taxa and genes were recovered with PHYLUCE
 +	all.fasta,  all gene sequences that matched the probe set for each taxon as a multifasta file
-+	all.incomplete, lists all genes that did not match the probe set for each taxon
++	all.incomplete, lists all loci that did not match the probe set for each taxon
 +	mafft-nexus-trimmed/, folder containing all aligned sequences without internal trimming BUT does edge trim
 +	mafft-nexus-trimmed-clean/, folder similar to ‘mafft-nexus-trimmed/’ but removed the locus name from the alignment
 +	mafft-nexus-trimmed-clean-genes/, folder containing gene files that will be used for pseudo-coalescent analysis
@@ -411,25 +393,25 @@ python /PATH/TO/miniconda3/envs/phyluce/bin/phyluce_align_convert_one_align_to_a
 +	mafft-fasta/, folder similar to ‘mafft-nexus-trimmed-raxml/’ but has the files as phylip-relaxed instead of nexus
 
 (Optional) Extracting data from the sqlite database produced by PHYLUCE
-PHYLUCE produces a sqlite database that contains two tables: “matches” and “match_map”. “matches” contains which loci were recovered for each taxa, while “match_map” has the name of the contig that matches each loci in each taxa. We can use the following commands to save these tables as csv files.
+PHYLUCE produces a sqlite database that contains two tables: “matches” and “match_map”. “matches” contains which loci were recovered for each taxon, while “match_map” has the name of the contig that matches each locus in each taxon. We can use the following commands to save these tables as csv files.
 
-1 Nvigate to the PHYLUCE output/ folder. The sqlite file ( probe.matches.sqlite) should be there.
-2 Open the file:
+1. Navigate to the PHYLUCE output/ folder. The sqlite file ( probe.matches.sqlite) should be there.
+2. Open the file:
 sqlite3 probe.matches.sqlite
-3 "sqlite>" should be in the working line. 
-NOTE: With the code below, the "sqlite>" bit is the prompt, you don't need to type it down. Type one command at a time and hit enter.
+3. "sqlite>" should be in the working line. 
+NOTE: With the code below, the "sqlite>" bit is the prompt, you don't need to type it out. Type one command at a time and hit enter.
   + sqlite> .headers on  
   + sqlite> .mode csv
   + sqlite> .output matches.csv #creates the first file
   + sqlite> SELECT * FROM matches;  #populate the file with the contents of the matches table
-  +sqlite> .output match_map.csv #creates the second file
-  +sqlite> SELECT * FROM match_map; #populate the file with the contents of the match_map
-  +sqlite> .quit #exits sqlite
-4 Output: matches.csv and match_map.csv. These files can be downloaded to get more stats on your PHYLUCE run.
+  + sqlite> .output match_map.csv #creates the second file
+  + sqlite> SELECT * FROM match_map; #populate the file with the contents of the match_map
+  + sqlite> .quit #exits sqlite
+4. Output: matches.csv and match_map.csv. These files can be downloaded to get more stats on your PHYLUCE run.
 
 ## Model Selection
 
-These next few steps will detail how to run PartitionFinder [@Lanfear2016] to determine which evolutionary model best fits our data to then generate gene trees. 
+These next few steps will detail how to run PartitionFinder [@Lanfear2016] to determine which evolutionary model best fit our data used to then generate gene trees. 
 
 ### Installing PartitionFinder
 
@@ -442,7 +424,7 @@ Installation instructions can be found at www.robertlanfear.com/partitionfinder/
 * *.phylip, tree file (output from Phyluce)
 * *.charsets, character set file (output from Phyluce)
 
-Using the charsets file, create a configuration (.cfg) file with information about the matrix. You may use the following command to make this file. 
+Using the charsets file, create a configuration (.cfg) file with information about the matrix, using the following command to make this file. 
 
 ```{bash echo = T, eval = F}
 #bash
@@ -487,7 +469,7 @@ Using the newly made .cfg file, run the following code:
 
 ## Concatenated Phylogeny
 
-When analyzing target-enriched sequencing data for phylogenetic analyses, multiple approaches may be implemented. For a concatenated approach all gene sequences are combined into a single matrix. This method assumes that all trees share the same evolutionary history, and therefore may not always be ideal for ancient divergences where gene trees are highly divergent. This tutorial presents instructions for a concatenated phylogeny using RAxML [@Stamatakis2014], a maximum likelihood phylogenetic inference tool. Phylogenetic trees may be visualized by an array of tools, eg. FigTree (http://tree.bio.ed.ac.uk/software/figtree/).
+When analyzing target-enriched sequence data for phylogenetic analyses, multiple approaches may be implemented. For a concatenated approach all gene sequences are combined into a single matrix. This method assumes that all trees share the same evolutionary history, and therefore may not always be ideal for identifying ancient speciation events where gene trees are highly divergent. This tutorial presents instructions for a concatenated phylogeny using RAxML [@Stamatakis2014], a maximum likelihood phylogenetic inference tool. Phylogenetic trees may be visualized by an array of tools, eg. FigTree (http://tree.bio.ed.ac.uk/software/figtree/).
 
 ### Installing RAxML
 
@@ -514,25 +496,13 @@ Note: Change the -m function depending on the best fitting model (GTR model: GTR
 *RAxML_bestTree.out
 *RAxML_bipartitions.out
 
-### Installing FigTree
-
-Installation instructions can be found at https://evomics.org/resources/software/molecular-evolution-software/figtree/.
-
-**INPUT**
-
-* RAxML_bipartitionsBranchLabels.out, output from RAxML
-
-**OUTPUT**
-
-* visualizations may be exported in multiple formats
-
 ```{r concat_tree, echo=FALSE, fig.cap="Phylogenetic tree produced from RAxML analysis on a concatenated matrix visualized using FigTree.", out.width = '100%'}
 knitr::include_graphics("Images/concat.raxml.png")
 ```
 
 ## Coalescent-based Phylogeny
 
-In contrast to a concatenated approach, a coalescent phylogenetic approach analyzes individual gene tree, accounting for the fact that different genes may have different evolutionary histories. This method may be better suited for resolving phylogenetic relationships in the presence of incomplete lineage sorting and hybridization, but is more computationally demanding than concatenated methods. One method to generate a coalescent phylogeny is by using Astral-III [@Zhang2018] on a suite of RAxML [@Stamatakis2014] gene trees constructed under different models. Resulting phylogenetic trees may be visualized by an array of tools, eg. FigTree (http://tree.bio.ed.ac.uk/software/figtree/).
+In contrast to a concatenated approach, a coalescent phylogenetic approach analyzes individual gene trees, accounting for the high probability that different genes likely have different evolutionary histories. This method may be better suited for resolving phylogenetic relationships in the presence of incomplete lineage sorting and hybridization, but is more computationally demanding than concatenated methods. One method to generate a coalescent phylogeny is by using Astral-III [@Zhang2018] on a suite of RAxML [@Stamatakis2014] gene trees constructed under different evolutionary models. 
 
 ### Installing RAxML
 
@@ -540,14 +510,14 @@ Installation instructions can be found at https://cme.h-its.org/exelixis/web/sof
 
 ### Running RAxML for coalescent analyses
 
-When running RAxmL for a pseudo-coalescent (hereafter referred to as “ASTRAL”) analysis, you should separate the individual loci by their most appropriate model as indicated by the results of PartitionFinder and run each loci separately.
+When running RAxmL for a pseudo-coalescent (hereafter referred to as “ASTRAL”) analysis, individual loci should be analyzed separately using the most appropriate model as indicated in the results of PartitionFinder.
 
 **INPUT**
 
-* uce-*.nexus, individual loci file in nexus format (output from Phyluce)
-* analysis/best_scheme.txt, file denoting the best model for each loci (output from Phyluce)
+* uce-*.nexus: individual locus files in nexus format (output from Phyluce)
+* analysis/best_scheme.txt: file denoting the best model for each locus (output from Phyluce)
 
-To organize all loci files into new directories pertaining to each model type, you can use the following code. In this code, loci files (eg. uce-*.nexus) will be moved into folders labeled "batch_exports".
+To organize all loci files by model type into new directories, the following code can be utilized. In this code, loci files (eg. uce-*.nexus) will be moved into folders labeled "batch_exports".
 
 ```{bash echo = T, eval = F}
 #bash
@@ -612,7 +582,7 @@ for(i in 1:length(files)) {
 }
 ```
 
-Once all the gene files ARE in their appropriate model choice’s batch_export/ folder, the file type and ending will need to be changed from .nexus to .fasta. This can be doe using the tool ElConcatenero (https://github.com/ODiogoSilva/TriFusion) using the following code. 
+After all the gene files have been moved into their appropriate model choice batch_export/ folder, the file type and ending will need to be changed from .nexus to .fasta. This can be done using the tool ElConcatenero (https://github.com/ODiogoSilva/TriFusion) using the following code. 
 
 ```{bash echo = T, eval = F}
 #bash
@@ -635,8 +605,8 @@ done
 
 **OUTPUT**
 
-* /output/RAxML_bootstrap*, bootstrap files for each model type
-* /output/RAxML_bestTree*, best tree files for each model type
+* /output/RAxML_bootstrap*: bootstrap files for each model type
+* /output/RAxML_bestTree*: best tree files for each model type
 
 Output from these RAxML [@Stamatakis2014] analyses will be used as input for the Astral-III [@Zhang2018] analysis. 
 
@@ -651,7 +621,7 @@ Installation instructions can be found at https://github.com/smirarab/ASTRAL.
 * RAxML_bestTree*, tree files (output from RAxML)
 * RAxML_bootstrap*, bootstrap files (output from RAxML)
 
-After the output files are produced from RAxML, copy the RAxML_bestTree* and RAxML_bootstrap* files into their own folders. The file endings will then need to be changed and they will need to be concatenated. The following code may be used to prepare files for the ASTRAL analysis. 
+After the output files are produced from RAxML, copy the RAxML_bestTree* and RAxML_bootstrap* files into their own folders. The file endings will then need to be changed and concatenated. The following code may be used to prepare files for the ASTRAL analysis. 
 
 ```{bash echo = T, eval = F}
 #bash
@@ -685,7 +655,7 @@ cd Astral_try
 cp ../bestTree/concat_best.tre .
 ```
 
-(Optional) We have stopped doing bootstrap analyses since the creators of ASTRAL-III said that LPP support values are more reliable than bootstrap, but the code is provided if you would like to do it. If you are running a bootstrap analysis, you also need to make a bs-files file which designates where the RAxML_bootstrap*.tre files are (e.g., bootTree/).
+(Optional) We have discontinued running bootstrap analyses since the creators of ASTRAL-III stated that LPP support values are more reliable than bootstrap, however the code is provided if you would like to use it. For a bootstrap analysis, you also need to make a bs-files file which designates where the RAxML_bootstrap*.tre files are located (e.g., bootTree/).
 
 ```{bash echo = T, eval = F}
 #example bs_files
@@ -723,20 +693,8 @@ java -jar /PATH/TO/ASTRAL/astral.5.7.3.jar  -i concat_best.tre -b bs-files -o As
 
 **OUTPUT
 
-* *.log, log file
-* Astral.lpp.tre, final tree with LPP support values.
-
-### Installing FigTree
-
-Installation instructions can be found at https://evomics.org/resources/software/molecular-evolution-software/figtree/.
-
-**INPUT**
-
-* Astral.lpp.tre, output from ASTRAL-III
-
-**OUTPUT**
-
-* visualizations may be exported in multiple formats
+* *.log: log file
+* Astral.lpp.tre: final tree with LPP support values.
 
 ```{r astral_tree, echo=FALSE, fig.cap="Phylogenetic tree produced from ASTRAL-III analysis visualized using FigTree.", out.width = '100%'}
 knitr::include_graphics("Images/astral_tree.png")
@@ -760,7 +718,7 @@ conda install -c bioconda orthofinder
 
 **INPUT**
 
-* *.pep, peptide files
+* *.pep: peptide files
 
 ```{bash echo = T, eval = F}
 #bash
@@ -775,7 +733,7 @@ Refer to https://davidemms.github.io/orthofinder_tutorials/exploring-orthofinder
 
 ## Chloroplast Phylogeny
 
-Phylogenetic trees from chloroplast sequencing data can be generated in a number of different ways. This tutorial will describe a method for plastome phylogenetic reconstruction using target-enriched sequencing data. As mentioned above in the plastome assembly section, there will often not be enough off-target sequence data for complete organellar assembly.
+Phylogenetic trees from chloroplast sequence data can be generated in a number of different ways. This tutorial describes a method for plastome phylogenetic estimation using target-enriched sequencing data. As mentioned above in the plastome assembly section, there is often insufficient off-target sequence data for complete organellar assembly.
 
 ### Installing Bowtie2, Samtools, BCFtools, seqtk
 
@@ -792,11 +750,11 @@ conda install bioconda::seqtk
 
 **INPUT**
 
-* *.tp.fastq, the trimmed sequence data
+* *.tp.fastq: the trimmed sequence data
 
 ### Running Bowtie2, Samtools, BCFtools, seqtk
 
-This tutorial will describe a process of mapping off-target sequence reads to a reference plastome in order to create consensus sequences which may then be aligned and used as input for phylogenetic analyses.  
+This tutorial describes a process of mapping off-target sequence reads to a reference plastome in order to create consensus sequences which may then be aligned and used as input for phylogenetic analyses.  
 
 **INPUT**
 
@@ -812,7 +770,7 @@ conda activate mapping
 bowtie2-build reference_plastome.fasta reference_plastome
 ```
 
-After a reference database has been built, the paired end target-enriched sequence reads may be mapped on to the reference plastome. To do this in a loop with all reads with file endings "_1_tp.fastq" and "_2_tp.fastq", use the following code:
+With the resulting reference database, the paired-end target-enriched sequence reads may be mapped onto the reference plastome. To do this in a loop with all reads with file endings "_1_tp.fastq" and "_2_tp.fastq", use the following code:
 
 ```{bash echo = T, eval = F}
 #bash
@@ -883,7 +841,7 @@ Installation instructions can be found at https://mafft.cbrc.jp/alignment/softwa
 
 ### Running MAFFT
 
-Concatenate all sequences and align them using mafft. 
+Concatenate all sequences and align them using MAFFT. 
 
 ```{bash echo = T, eval = F}
 #bash
@@ -894,8 +852,7 @@ cat *.fasta > all_cns.fasta
 mafft all_cns.fasta > all_cns_aligned.fasta
 ```
 
-Phylogenetic analyses may be run on the aligned sequences in multiple ways. One user-friendly way is by usi IQTREE [@Minh2020]. Comprehensive instructions on how to run IQTREE can be found at http://www.iqtree.org/doc/iqtree-doc#beginners-tutorial. 
-
+Phylogenetic analyses may be run on the aligned sequences in multiple ways. One user-friendly way is by using IQTREE [@Minh2020]. Comprehensive instructions are provided at http://www.iqtree.org/doc/iqtree-doc#beginners-tutorial. 
 
 ### Installing IQTREE
 
@@ -910,7 +867,7 @@ conda install -c bioconda iqtree
 
 **INPUT**
 
-* all_cns_aligned.fasta
+* all_cns_aligned.fasta: matrix of the aligned sequences
 
 ```{bash echo = T, eval = F}
 #bash
@@ -925,33 +882,87 @@ iqtree -s all_cns_aligned.fasta -B 1000
 * *.phy.treefile: the ML tree
 * *.phy.log: log file 
 
+```{r cp_tree, echo=FALSE, fig.cap="Phylogenetic tree produced from RAxML analysis on a concatenated matrix visualized using FigTree.", out.width = '100%'}
+knitr::include_graphics("Images/basalAst_cp_mapped_tree.png")
+```
+
+## Visualizing phylogenetic trees
+
+Resulting phylogenetic trees may be visualized by an array of tools, like FigTree (http://tree.bio.ed.ac.uk/software/figtree/) or through R packages such as phytools [@Revell2012] and ape [@Paradis2019]. This tutorial describes how to compare and visualize phylogenetic trees to identify incongruent or divergent evolutionary histories using phytools and ape. 
+
 ### Installing FigTree
 
-Installation instructions can be found at https://evomics.org/resources/software/molecular-evolution-software/figtree/.
+Installation instructions are located at https://evomics.org/resources/software/molecular-evolution-software/figtree/.
 
 **INPUT**
 
-* *.phy.treefile: ML tree file from IQTREE
+* tree file
 
 **OUTPUT**
 
 * visualizations may be exported in multiple formats
 
-```{r cp_tree, echo=FALSE, fig.cap="Phylogenetic tree produced from RAxML analysis on a concatenated matrix visualized using FigTree.", out.width = '100%'}
-knitr::include_graphics("Images/basalAst_cp_mapped_tree.png")
+## Installing phytools, ape
+
+```{bash echo = T, eval = F}
+#R
+R
+install.packages("phytools")
+install.packages("ape")
 ```
+
+## Running phytools, ape
+
+**INPUT** 
+
+* two tree files that contain tips with the same names
+
+```{bash echo = T, eval = F}
+#R
+R
+library(phytools)
+library(ape)
+
+tree1 <- read.tree("concatenated.tre")
+tree2 <- read.tree("coalescent.tre")
+
+#root both trees to the outgroup
+tree1 <- root(tree1,"outgroup", resolve.root = T)
+tree2 <- root(tree2,"outgroup", resolve.root = T)
+
+#compare both trees
+obj<-cophylo(tree1, tree2, fn=function(x) abs(x),print=TRUE, use.edge.length = TRUE)
+
+#plot a tanglegram comparing both trees
+pdf("concat_v_coal_tree.pdf")
+plot(obj,link.type="curved",link.lwd=2,link.lty="solid",
+     link.col=make.transparent("blue",0.25),fsize=0.6)
+title(main= "Concatenated vs. Coalescent Nuclear Tree", cex.main= .75, line = -.79)
+dev.off()
+```
+
+For more detailed instructions on how to compare phylogenetic trees, refer to http://blog.phytools.org/2016/08/empirical-co-phylogenetic-cophylo.html. 
+
+**OUTPUT**
+
+* pdf of tree comparison
+
+```{r tanglegram, echo=FALSE, fig.cap="Comparison of concatenated and coalascent trees produced using phytools and ape in R", out.width = '100%'}
+knitr::include_graphics("Images/tanglegram.svg")
+```
+
 
 # Identifying phylogenetic discordance 
 
-Phylogenomic incongruence is constantly seen in phylogenomic studies and typically results from underlying gene tree discordance. Below are tutorials on how to investigate the extent of gene tree discordance among phylogenies using PhyParts (Smith et al., 2015), which summarizes how many gene trees agree/disagree with the final species topology, and Quartet Sampling (Pease et al., 2018), which uses quartets to investigate the cause of low support at each node.
+Phylogenomic incongruence is routinely observed in phylogenomics studies and typically results from underlying gene tree discordance. Below are tutorials on how to investigate the extent of gene tree discordance among phylogenies using PhyParts [@Smith2015], which summarizes how many gene trees agree/disagree with the final species topology, and for Quartet Sampling [@Pease2018], which uses quartets to investigate the cause of low support at each node.
 
 ## PhyParts
 
-PhyParts [@Smith2015], along with PhypartsPieCharts, are tools that indicate the percentage of concordant gene trees, percentage in the top alternative bipartition, other conflicting topologies, and uninformative genes as pie charts on the nodes of a species phylogeny. In doing so, you gain a better visualization of discordant nodes caused by gene tree conflict. To prepare the input data for PhyParts, Phyx [@Brown2017] can be used to root the species and gene trees produced from Astral-III [@Zhang2018].
+PhyParts [@Smith2015], along with PhypartsPieCharts, are tools that indicate the percentage of concordant gene trees, percentage in the top alternative bipartition, other conflicting topologies, and uninformative genes as pie charts on the nodes of a species phylogeny. This provides a better visualization of discordant nodes resulting from gene tree conflict. To prepare the input data for PhyParts, Phyx [@Brown2017] can be used to root the species and gene trees produced from Astral-III [@Zhang2018].
 
 ## Installing Phyx
 
-Isntallation instructions can be found at https://github.com/FePhyFoFum/phyx. 
+Isntallation instructions are located at https://github.com/FePhyFoFum/phyx. 
 
 ## Running Phyx
 
@@ -960,7 +971,7 @@ Isntallation instructions can be found at https://github.com/FePhyFoFum/phyx.
 * Astral_best.tre: species tree output from Astral-III
 * /astral_raxml/bestTree/*.tre: gene tree files output from Astral-III
 
-Phyx [@Brown2017] is a very helpful phylogenetic tool that has many functions. For the purposes of running PhyParts, we only need to use the ‘rerooting and unrooting tree’ function, pxrr. Designating the proper taxa/taxon as outgroups for rooting, the following code may be used:
+Phyx [@Brown2017] is a very helpful phylogenetic tool that has many functions. For the purposes of running PhyParts, only the ‘rerooting and unrooting tree’ function, pxrr, needs to be used. Designating the proper taxa/taxon as outgroups for rooting, the following code may be used:
 
 ```{bash echo = T, eval = F}
 #bash
@@ -975,8 +986,7 @@ do
 pxrr -t $t -g outgroup_taxon > $t.rooted.tre
 done
 
-#Not all gene trees may have your outgroup taxon, so the number of gene trees may decrease from what you originally started with. Make sure to remove those empty gene trees. A quick, one liner code you can run to do that is:
-
+#Not all gene trees may include your outgroup taxon, so the number of gene trees may decrease from the original starting point. The empty gene trees must be removed. A quick, one-liner code for this is:
 find . -maxdepth 1 -type f -empty -print -delete
 ```
 
@@ -1023,11 +1033,11 @@ java -jar /PATH/TO/phyparts/target/phyparts-0.0.1-SNAPSHOT-jar-with-dependencies
 * out.hist
 * out.node.key
 
-Detailed information on the ouput of PhyParts can be found at https://bitbucket.org/blackrim/phyparts/src/master/. 
+Detailed information on the output of PhyParts can be found at https://bitbucket.org/blackrim/phyparts/src/master/. 
 
 ### Running PhyPartsPieCharts
 
-The results of PhyParts are not very figure ready. Fortunately, Matt Johnson (Texas Tech University) has generated a visualization script, called ‘phypartspiecharts.py’, that creates an svg image that can be used in manuscripts. 
+To create figures for publication, Matt Johnson (Texas Tech University) generated a visualization script that can be used, ‘phypartspiecharts.py’, to produce svg images.
 
 **INPUT**
 
@@ -1054,20 +1064,19 @@ concon.tre > phyparts.concon.tre
 
 **OUTPUT**
 
-* *.svg, file containing your tree with pie charts at each node indicating:
-+ Blue: concordant
-+ Green: the top alternative bipartition
-+ Red: all other alternative bipartitions
-+ Black: uninformative for that node
+* *.svg: file containing your tree with pie charts at each node indicating:
+  + Blue: concordant
+  + Green: the top alternative bipartition
+  + Red: all other alternative bipartitions
+  + Black: uninformative for that node
 
-```{r phyparts, echo=FALSE, fig.cap="https://github.com/mossmatters/MJPythonNotebooks/blob/master/PhyParts_PieCharts.ipynb", out.width = '100%'}
-
-#knitr::include_graphics("Images/pies.svg")
+```{r phyparts, echo=FALSE, fig.cap="Phylogenetic discordance visualized using PhyParts", out.width = '100%'}
+knitr::include_graphics("Images/phyparts.pdf")
 ```
 
 ## Quartet Sampling
 
-Quartet Sampling (QS) [@Pease2018] is a quartet-based method that was designed to assess the confidence, consistency, and informativeness of internal tree relationships, and the reliability of each terminal branch. QS determines if a phylogeny has a lack of support due to not enough information, discordance from ILS or introgression, or misplaced or erroneous taxa. Three scores are calculated (QC, QD, QI) for each internal branch of the focal tree which together allows different interpretations of the branches, as well as a Quartet Fidelity (QF) score that reports how frequently a taxon is included in concordant topologies. QS efficiently synthesizes phylogenetic tests and offers more comprehensive and specific information on branch support than conventional measures (i.e., bootstrap).
+Quartet Sampling (QS) [@Pease2018] is a quartet-based method designed to assess the confidence, consistency, and informativeness of internal tree relationships, and the reliability of each terminal branch. QS determines if a phylogeny has a lack of support due to insufficient information, discordance from ILS or introgression, or misplaced or erroneous taxa. Three scores are calculated (QC, QD, QI) for each internal branch of the focal tree which together allows different interpretations of the branches, as well as a Quartet Fidelity (QF) score that reports how frequently a taxon is included in concordant topologies. QS efficiently synthesizes phylogenetic support tests and offers more comprehensive and specific information on branch support than conventional measures (i.e., bootstrap).
 
 ### Installing Quartet Sampling
 
@@ -1090,7 +1099,7 @@ git clone https://github.com/FePhyFoFum/quartetsampling.git
 * mafft-nexus-trimmed-raxml.phylip: alignment file (output from Phyluce)
 * Astral_best.tre: best tree file without support values (output from Astral-III)
 
-Quartet sampling may be run using the following code with the default parameter values. For more information on adjusting the parameters go to https://github.com/FePhyFoFum/quartetsampling/blob/master/quartetsampling.pdf.
+Quartet sampling may be run using the following code with the default parameter values. For more information on adjusting the parameters see https://github.com/FePhyFoFum/quartetsampling/blob/master/quartetsampling.pdf.
 
 ```{bash echo = T, eval = F}
 #bash
@@ -1109,30 +1118,22 @@ python /PATH/TO/quartetsampling/pysrc/quartet_sampling.py --tree /PATH/TO/Astral
 * RESULT.labeled.tre.qi
 * RESULT.node.scores.csv
 
-Each file has great information about the different scores generated by Quartet Sampling. The final tree file that shows all values (QC, QI, QD, and QF) is RESULT.labeled.tre.figtree. This tree file can be put into FigTree to visualize discordance in the tree.
+Each file contains useful information about the different scores generated by QS. The final tree file, RESULT.labeled.tre.figtree, provides all values (QC, QI, QD, and QF). This file can be put into FigTree to visualize discordance.
 
-### Installing FigTree
-
-Installation instructions can be found at https://evomics.org/resources/software/molecular-evolution-software/figtree/.
-
-**INPUT**
-
-* RESULT.labeled.tre.figtree: output from Quartet Sampling
-
-**OUTPUT**
-
-* visualizations may be exported in multiple formats
-
-```{r qs_tree, echo=FALSE, fig.cap="Phylogenetic tree produced from RAxML analysis on a concatenated matrix visualized using FigTree.", out.width = '100%'}
+```{r qs_tree, echo=FALSE, fig.cap="Quartet Sampling results of ML concatenated tree. The Quartet Concordance (QC), Quartet Differential (QD), and Quartet Informativeness (QI) scores are found at each node as QC/QD/QI.", out.width = '100%'}
 #PAIGE add qs example image
-#knitr::include_graphics("Images/qs_tree.png")
+knitr::include_graphics("Images/qs.pdf")
 ```
+
 
 # Investigating Ancient Hybridization
 
+Phylogenetic trees represent evolutionary relationships as a branching structure, however, in reality, evolutionary processes are more complex, including processes such as hybridization. Unlike trees, phylogenetic networks can model reticulation by incorporating nodes representing gene flow or hybridization events and may offer a more accurate representation of evolutionary histories. To investigate ancient hybridization, this tutorial will provide instructions for using PhyloNetworks [@Solis-Lemus2017], a Julia package developed to facilitate the inference of networks from genetic data, manipulation, visualization, and analysis of network features.
+
+
 ## Phylogenetic networks
 
-PhyloNetworks is computationally very intense. Given this, it is often suggested to subset your species and gene trees into smaller trees and run those individually if you have a large tree, 
+PhyloNetworks [@Solis-Lemus2017] is computationally very intense. Given this, it is often suggested to subset your species and gene trees into smaller trees and run those individually if you have a large tree. For more detailed information on running and visualizing phylogenetic networks see https://juliaphylo.github.io/PhyloNetworks.jl/stable/. 
 
 ### Install PhyloNetworks
 
@@ -1153,9 +1154,9 @@ Pkg.add("Plots")
 
 **INPUT** 
 
-* Astral_lpp.tre: species tree (in this tutorial this is the output from Astral)
+* Astral_lpp.tre: species tree (output from Astral)
 * concat_best.tre: concatenated gene tree matrix (output from Astral)
-* bs-files, folder with all bootstrap files (output from Astral)
+* bs-files: folder with all bootstrap files (output from Astral)
 
 ### Running PhyloNetworks
 
@@ -1214,12 +1215,13 @@ R"plot"(x=0:5, y=scores, type="b", xlab="number of hybridizations h", ylab="netw
 R"dev.off"();
 ```
 
-After plotting the log likelihood scores, you can determine the optimal number of hybridizations by identifying the lowest p-value. If your data plateaus, then you want to choose the first value at the plateau.
+After plotting the log likelihood scores, the optimal number of hybridizations can be estimated by identifying the lowest p-value. If the data plateaus, then choose the first value at the plateau.
 
-Once you have decided on the best number of hybridizations without bootstraps, you will then run PhyloNetworks with bootstraps. This is the computationally limiting step and can take days to weeks to months to finish.  
+After identifying the best number of hybridizations without bootstraps, PhyloNetworks can be run with bootstraps. This step is computationally limiting step and can take days to weeks to months to finish.  
 
 ```{bash echo = T, eval = F}
 #julia
+julia
 
 using PhyloNetworks
 using PhyloPlots
@@ -1242,24 +1244,50 @@ The final phylonetwork can be visualized using:
 #julia
 julia
 
-using PhyloNetworks
-using PhyloPlots
-using CSV
-using DataFrames
-using StatsModels
-using Gadfly
-using RCall
-using Plots
+using PhyloNetworks, PhyloPlots, RCall
 
-#load your gene tree matrix and species tree
+#read in network and bootstrap files
 net2 = readTopology("net2.out")
-bootTrees = readBootstrapTrees("bs-files")
-bootnet2 = bootsnaq(net2, bootTrees, hmax=2, nrep=100, runs=10, filename="bootsnaq2_raxmlboot", seed=2345)
+bootnet2 = readMultiTopology("bootsnaq2_raxmlboot.out")
+
+#visualize the network with edge and node labels
+imagefilename = "phylonetwork_edges_nodes.pdf"
+R"pdf"(imagefilename, width=8, height=6)
+plot(net2, showedgenumber=true, shownodenumber=true); 
+R"dev.off()"
+
+#root the network on the edge leading to the outgroup (edge=3)
+rootonedge!(net2, 3) 
+
+#visualize the rooted network with edge and node labels
+imagefilename = "phylonetwork_edges_nodes_rooted.pdf"
+R"pdf"(imagefilename, width=8, height=6)
+plot(net2, showedgenumber=true, shownodenumber=true); 
+R"dev.off()"
+
+#rotate the branches so that hybrid edges do not cross, (rotate on node 11 and -5)
+rotate!(net2, 11)
+rotate!(net2, -5)
+
+#visualize the rooted, rotated network with hybrid edge values
+imagefilename = "phylonetwork_rooted_rotated.pdf"
+R"pdf"(imagefilename, width=16, height=8)
+plot(net2, showgamma=true); 
+R"mtext"("Phylonetwork Net2", line=-1, cex =2);
+R"dev.off()"
+
+#add bootstrap support
+BSe_tree_net2, tree1 = treeEdgesBootstrap(bootnet2, net2)
+
+imagefilename = "net2_bs.pdf"
+R"pdf"(imagefilename, width=16, height=8)
+plot(net2, edgelabel = BSe_tree_net2, showgamma=true, edgecolor="black");
+R"mtext"("Phylonetwork Net2", line=-1, cex =2);
+R"dev.off()"
 ```
 
-```{r phylonetworks, echo=FALSE, fig.cap="Phylogenetic tree produced from RAxML analysis on a concatenated matrix visualized using FigTree.", out.width = '100%'}
-#PAIGE add qs example image
-#knitr::include_graphics("Images/qs_tree.png")
+```{r phylonetworks, echo=FALSE, fig.cap="Phylonetwork", out.width = '100%'}
+knitr::include_graphics("Images/phylonetwork.pdf")
 ```
 
 
@@ -1269,12 +1297,11 @@ Mutiple methods may be used to infer whole genome duplication events in the evol
 
 ## WGDv2
 
-WGDv2 [@Chen2024] is a package that can be used to infer and date ancient whole-genome duplication (WGD) events. This tutorial will describe using wgd v2 exclusively to generate Ks plots to determine the evolutionary age of WGD events using transcriptomic data which are first translated to coding sequences using TransDecoder (https://github.com/TransDecoder/TransDecoder).  
+WGDv2 [@Chen2024] is a package used to infer and place dates on ancient whole-genome duplication (WGD) events. This tutorial describes using wgd v2 exclusively to generate Ks plots to estimate the evolutionary age of WGD events using transcriptome data that have first been translated into coding sequences using TransDecoder (https://github.com/TransDecoder/TransDecoder).  
 
 ### Installing TransDecoder
 
 Installation instructions can be found at https://github.com/TransDecoder/TransDecoder. Additionally, it can be installed using Singularity. 
-
 
 ```{bash echo = T, eval = F}
 #bash
@@ -1308,7 +1335,7 @@ TransDecoder.Predict -t assembled_transctipts.fasta --output_dir output
 
 ### Installing WGDv2
 
-The wgdV2 repository can be cloned from github then a conda environment can be created.
+The wgdV2 repository can be cloned from github to create a conda environment.
 
 ```{bash echo = T, eval = F}
 #bash
@@ -1326,8 +1353,6 @@ conda install bioconda::mcl #future dependencies
 ```
 
 ### Running WGDv2
-
-To produce Ks plots from out transcriptomic data, we followed "Pipeline 3: Construction of age distribution and ELMM analysis from GitHub" (https://github.com/heche-psb/wgd). Given this, we will be running three commands–‘dmd’, ‘ksd’, and ‘viz’–on the *.cds files generated from TransDecoder with the transcriptome data.
 
 **INPUT**
 
@@ -1358,9 +1383,10 @@ wgd viz -d wgd_ksd/transcripts.transdecoder.cds.tsv.ks.tsv -o wgd_ELMM
   + elmm_BIC_*.tsv.ks.tsv_node_averaged.pdf/svg
   + elmm_BIC_*.tsv.ks.tsv_weighted.pdf/svg
 
-```{r ksplot, echo=FALSE, fig.cap="Phylogenetic tree produced from RAxML analysis on a concatenated matrix visualized using FigTree.", out.width = '100%'}
-knitr::include_graphics("Images/aci_ksplot.png")
+```{r ksplot, echo=FALSE, fig.cap="Ks plot for Schlechtendalia luzulifolia produced using wgdV2", out.width = '100%'}
+knitr::include_graphics("Images/ksplot.pdf")
 ```
+
 # References
 
 <div id="refs"></div>
@@ -1374,5 +1400,4 @@ library("knitcitations")
 cleanbib()
 options("citation_format" = "pandoc")
 read.bibtex(file = "packages.bib")
-
 ``` 
