@@ -7,16 +7,16 @@ Phylogenomic studies increasingly reveal the pervasiveness of conflicting evolut
 
 Given the complexity of these bioinformatic approaches, the following tutorial was developed to guide researchers through these methodological processes, making it applicable to other study systems. This tutorial serves as a template for researchers aiming to investigate the complex evolutionary processes that influence the diversity of life. Researchers may contact moore.erika.r@gmail.com or pllestad@memphis.edu regarding questions in methodology. This pipeline implements code in multiple languages, mainly bash, R, python, and julia, and often uses conda as a way to quickly and cleanly install packages on a HPC.
 
-Please refer to the following [R Markdown](https://erika-r-moore.github.io/Ellestad_etal_2025_APPS_Hybridizations/) to access the tutorial. File and images for the tutorial can be found in the folders above. Please reference the README.md for further information.
+Access the tutorial website [here](https://erika-r-moore.github.io/Ellestad_etal_2025_APPS_Hybridizations/). Corresponding input and output files and images can be found in the Example_files folder above. Please reference the README.md in Example_files for file type information.
 
 
 
 # Data Availability
-Raw sequence read data can be found in the following BioProjects: [PRJNA994483](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA994483), [PRJNA636629](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA636629), [PRJNA540287](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA540287), and [PRJEB4922](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB4922).
+Raw sequence data are available through the National Center for Biotechnology Information (NCBI) Sequent Read Archive (SRA) and GeneBank portals. Previously published transcriptome data are in BioProjects [PRJNA994483](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA994483), [PRJNA636629](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA636629), and [PRJEB4922](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB4922). Newly sequenced transcriptomes are deposited at NCBI SRA under BioProject [PRJNA1246973](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1246973/). The two newly sequenced Hyb-Seq data are uploaded to NCBI SRA under BioProject [PRJNA1246973](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1246973/), with the remaining taxa found in BioProject [PRJNA540287](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA540287). Complete plastomes are uploaded to NCBI, under BioProject [PRJNA1246973](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1246973/).
 
 
 # Caveats
-All scripts are provided as is and are not guaranteed to work. If you have any issues with the scripts or need clarification, don't hesitate to reach out via email (moore.erika.r@gmail.com or pllestad@memphis.edu) or submit a GitHub issue.
+All scripts are provided as is and are not guaranteed to work. If you have any issues with the scripts or need clarification, don't hesitate to reach out via email (moore.erika.r@gmail.com or pllestad@memphis.edu) or submit a GitHub issue. We are happy to help!
 
 
 # Citation
