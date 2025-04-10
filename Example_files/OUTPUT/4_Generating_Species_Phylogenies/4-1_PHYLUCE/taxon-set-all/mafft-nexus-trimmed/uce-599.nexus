@@ -1,0 +1,67 @@
+#NEXUS
+begin data;
+dimensions ntax=3 nchar=1035;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-599_Gongylolepis_benthamania' GTGACAATGATACTACCATTAACCGGTAAGCAATACTCCGAAAAGGTGTCTGAAAATTGCGTTGCGATTT
+'uce-599_Hyalis_argentea'          ??????????????????????????????????????????????????????????????????????
+'uce-599_Nastanthus_patagonicus'   GTGACAATGATACTTCCATTAACTGGAAAGCAATACACGGAAAAAGTGTCTGAAAATTGCGTTGCGATTT
+
+'uce-599_Gongylolepis_benthamania' GGAAAGCACTTGGGATCTATGAAGATGCAGATGCCATAGCCATCGACAGGTTTATTGAGGTTTTCAAGGA
+'uce-599_Hyalis_argentea'          ??????????????????????????????????????????????????????????????????????
+'uce-599_Nastanthus_patagonicus'   GGAAAAGAATTGGGATCTACACAGATGCCGAGGCCATCGCCATTGACAAATTTGTCGAGGTTTTCAAAGA
+
+'uce-599_Gongylolepis_benthamania' TGAGAACTTCCCACCAGGCTCCTCTATTCTCTTCACAATATCACCTGTTGGATCACTGACGGTTAGTACC
+'uce-599_Hyalis_argentea'          ?????????????????????????????????????????????????????????????????ATTTT
+'uce-599_Nastanthus_patagonicus'   CCAAAACTTCCCACCAGGCTCCTCTATTCTTTTCACCATCTCTCCCCTTGGATCACTAACGGTTAGTTTC
+
+'uce-599_Gongylolepis_benthamania' TCTTCCAATCAGTTTTCAAATAATCTGGAATGTCAGCTTAATAAAACGAAGATACACATTGAGTTTTGAG
+'uce-599_Hyalis_argentea'          A---------------------------------------------------------------------
+'uce-599_Nastanthus_patagonicus'   T---------------------------------------------------------------------
+
+'uce-599_Gongylolepis_benthamania' GTCAACTCCACCTATCACATTTCAGTTTTCGAACTGATTTGGATATTGCTAAGAATTTAACGGCAGCCTA
+'uce-599_Hyalis_argentea'          ----------------------------------------------------------------------
+'uce-599_Nastanthus_patagonicus'   ----------------------------------------------------------------------
+
+'uce-599_Gongylolepis_benthamania' TTCTATTTCTAATACCTGCGTATATACGCAGGTAGCCAATTTTTCACAAGTGTCTCAAAGATTCGTATCA
+'uce-599_Hyalis_argentea'          ----------------------------------------------------------------------
+'uce-599_Nastanthus_patagonicus'   ----------------------------------------------------------------------
+
+'uce-599_Gongylolepis_benthamania' ACTTTATGGTTGAAAATAGCTCAGTCCCATGTGCTGAGTTCTGTATTTTCCATCTTAGTCTGAGCGTTCT
+'uce-599_Hyalis_argentea'          -------------------------------------------------------------------TCA
+'uce-599_Nastanthus_patagonicus'   ----------------------------------TACGTCTTGCATTCTTC----------------TCT
+
+'uce-599_Gongylolepis_benthamania' TTTACTGTAACGTGTTTAGCTTGAATGATATGGCATACGTCCCAAACAATAATACTTTTAAGGGTCGTGG
+'uce-599_Hyalis_argentea'          TTTTT-----------------------------------------------------TAAGGGAGATGG
+'uce-599_Nastanthus_patagonicus'   TTTAT----------------------GTTTGATATATTCTCTAAATAAAACTA----------------
+
+'uce-599_Gongylolepis_benthamania' GTTTGAACCTTTTACCGATTCAGGTGCAGTTGTGAGCTATCTTTTGTCTATGTTTAAATACAGATCAGCT
+'uce-599_Hyalis_argentea'          ATTTGAATCTTTTACCAGTTC----------GCGTTCTGCTCTCCATGTTTATTTACAAATAGATCAGCT
+'uce-599_Nastanthus_patagonicus'   ----AAACTTTTTACC------------------------------------------------------
+
+'uce-599_Gongylolepis_benthamania' TCTCCAAAGATGGTACTGTACCCAAA---GTTGCGACTGCTGTGATAGAAAACGAAAAATTGGGACAAGC
+'uce-599_Hyalis_argentea'          TCTCAAAAGATAGCACCGTGCCGGAAGCTGCTGCGACTGCTGTGATAGAGAACGAAAAACTGGGACAAGC
+'uce-599_Nastanthus_patagonicus'   -----------------------------------------------TAAAAC-----------------
+
+'uce-599_Gongylolepis_benthamania' AATACTTGAGTCGATGATTGGGAAGCATGGTGTTTCCCCAGGAGCGAAACAAAGTTTGGCATCAAGAATT
+'uce-599_Hyalis_argentea'          GATACTCGAGTCGATGATCGGGAAACATGGTGTTTCCCCGGGAGCGAAACAAAGTTTGGCATCAAGAGTG
+'uce-599_Nastanthus_patagonicus'   --------------TGATTTGTAAATATAGGGTTTTTCT--------AACGGATGCTCATGTTAAAAGGT
+
+'uce-599_Gongylolepis_benthamania' GCAGATTTAATAGAACAGTTTGACGATAAAGCTGTTGGGCAAGAAGCAGCCAT-----------------
+'uce-599_Hyalis_argentea'          TCAGATTTAATGAAACAGTTTGGTG------------GGCAGGTTGAAGCCATTCCAGACAATTGTGCAT
+'uce-599_Nastanthus_patagonicus'   ACTGAT----TAGACTGATTTGAT----------------------------------------------
+
+'uce-599_Gongylolepis_benthamania' --CAAGACAATTGGTAGTGTTCAACTGGAACAGGAAGCCATTTAGGCAGCGCAGGAAGGTGGTTTGTAAG
+'uce-599_Hyalis_argentea'          GACAAAGCTATTGCGAGTGTCGAACTCGAACAGGCACC---TCCGGAAACGCAAAAAGG-----------
+'uce-599_Nastanthus_patagonicus'   --------------------------------------------------------AGATTGTTT-----
+
+'uce-599_Gongylolepis_benthamania' GGGTAAATTGGGAAGTTTAAACGAAGGGCTAACAATAGGAATTTCAAGGGTGAAAGAGTATGACATAAAT
+'uce-599_Hyalis_argentea'          -----------------------------GTAAATAAGGAATTTCATTGGGAAACAGGATAAAATAAAAG
+'uce-599_Nastanthus_patagonicus'   ---------------------------TTTAAAAATATACACAACTTGAATAAAAATGGTTGATTGGACC
+
+'uce-599_Gongylolepis_benthamania' AATTG-------------------TGTTCCGCTCGATTTCTATTTAAATAAATAT
+'uce-599_Hyalis_argentea'          AATCGTCCACGCGTGTGTTCCTCATTTTCTGCTTGATATCTAATCAAATAAATAT
+'uce-599_Nastanthus_patagonicus'   GGTTG-------------------TTTTCC-----------------ATAAATGT
+
+;
+end;

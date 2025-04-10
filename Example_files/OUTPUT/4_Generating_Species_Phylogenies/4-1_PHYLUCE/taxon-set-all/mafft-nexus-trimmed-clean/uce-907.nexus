@@ -1,0 +1,133 @@
+#NEXUS
+begin data;
+dimensions ntax=5 nchar=1421;
+format datatype=dna missing=? gap=- interleave;
+matrix
+Barnadesia_arborea           ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania     TCAGCTGGGAGTCCAACTTCGGCTACTAAACCAAAAAGGCGGAATAACAATGTAATTGGGGCAACTAGCG
+Hyalis_argentea              TCAGTTGGGAGTCCAACTTCAGGTACTAAACCAAAAAGTGGTGATAACAATCTGATTGGCGCAACTAGTG
+Scaveola_tomentosa           TCAGCTGGAAGTCCAACTTCAGCTACTAAACCGAAAGTACGAGAAAACCACGTGATGGCGGCTAACAGTG
+Schlechtendalia_luzulaefolia ??????????????????????????????????????????????????????????????????????
+
+Barnadesia_arborea           ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania     A------CGATGAACAATCAGACGACGACGACACAGAGATTGAAGCTGGTCAATGCGTACAGAGCACTGA
+Hyalis_argentea              A------TGATGAACAATCAGACGATGACGATACAGAAATTGAAGCAGGTCAATGTGTACAGAGCACTGA
+Scaveola_tomentosa           GTTCGTCCCATGAACAATCAGATGATGATGACTTGGACATTGAAGCTGGTCAATGTGAACAGAGCACTGA
+Schlechtendalia_luzulaefolia ??????????????????????????????????????????????????????????????????????
+
+Barnadesia_arborea           ???????????????????????????????????????????????????????????????AGGAAGC
+Gongylolepis_benthamania     CCAGATTGATGTTAAACGGATTAAAAGGTA------------AGAGTTTCATGAAATAATGAAAAGAAGG
+Hyalis_argentea              CCAGATCGATGTCAAACGGATTAAGAGGTATGAATTTCATCTAGAGTTTCACGAAGTTATGAAAGGAAGG
+Scaveola_tomentosa           CCAGATCGATGTTAAGCGTATTAAGAGGTA--------AGCTCGAGTTCTAACAGTTGCACGAAGGAGGC
+Schlechtendalia_luzulaefolia ??????????????????????????????????????????????????????????????????????
+
+Barnadesia_arborea           TTCG---CCTATCCTACT-TGAATATCA--TCGGTTTTATTTCAGGATGGTCTCAAACCGAGAGTCTGCA
+Gongylolepis_benthamania     TTAG---CTGATCCTACT-TTAATATGC--TCGGTATGGTTTCAGGATGGTCTCAAACAGGGAGTCTGCT
+Hyalis_argentea              TTTG---TCAATCCTGCT-TTAATATGC--TTGGTGGGATTGCAGGATGGTCTCAAACAGGGAGTCTGCC
+Scaveola_tomentosa           TCTACATCTTATCCTACT-TTAATATTTTGTCGGTATGATTTCAGGATGGTCTCAAACAGGGAGTCTGCA
+Schlechtendalia_luzulaefolia ??????????????????????????????????????????????????????????????????????
+
+Barnadesia_arborea           AGACGCTCTAGGCGAAGAAAACAAGCTCATTTAACAGATCTCGAGCAACAAGTATGTATTTATTTAGA--
+Gongylolepis_benthamania     AGGCGCTCAAGAAAAAGAAAACAAGCACATTTAACAGATCTTGAGCAACAAGTACGTATTTGCTAACAAT
+Hyalis_argentea              AGGCGCTCAAGAAAAAGAAAACAAGCACAATTAACGGAACTTGAGCAGCAAGTACGTA-TTACTAACAAT
+Scaveola_tomentosa           AGACGCTCAAGAAGAAGAAAACAAGCACATTTAGCAGATCTTGAGCTACAAGTACGTG------------
+Schlechtendalia_luzulaefolia ??????????????????????????????????????????????????????????????CCTAGA--
+
+Barnadesia_arborea           --------------------------CATTAGCTCTGTGACA----------------------------
+Gongylolepis_benthamania     GTCGATCTACTTCCTTCCTCAGATTTTCTTAACAATGTCAGA----------------------------
+Hyalis_argentea              GTCAATCTACTTTCATCCTCCAATTTTCTTAACAATGTTGAATAAATATAACTTGACAGTAAATGGGGTT
+Scaveola_tomentosa           ----------------------------------------------------------------------
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              TTATGATAATTGCAGTTTAGACTCTCACGTTATGGCTATTTGCCAAAAGGTCGCCTTAGAAATCTTGATA
+Scaveola_tomentosa           ----------------------------------------------------------------------
+Schlechtendalia_luzulaefolia --------------------------------------------------------------------TA
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              GACGATTTCATTTCCTTTACTAATTTATATATAGGATGGTCAATGTCATATTCCTTATATGTGTGGTAGT
+Scaveola_tomentosa           ----------------------------------------------------------------------
+Schlechtendalia_luzulaefolia GA--------------------------------------------------------------------
+
+Barnadesia_arborea           -------------------------------------------------------------------ACA
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              TCTCTCTCAAGATTCTCTAAGTTCACAAACACCATAACATTTATTAGGAGGAACGAATTGTGATTCCATA
+Scaveola_tomentosa           ----------------------------------------------------------------------
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           AGAATTTGTAAATGAAGGT---------------------------------------------------
+Gongylolepis_benthamania     -----------ATGAAAGC---------------------------------------------------
+Hyalis_argentea              AAAACACATATATGAGAATTGTAATTTGATCATCTAAACGATTCGGTAACCATATTGTCTTCATCAAACA
+Scaveola_tomentosa           ------------TGGAATT---------------------------------------------------
+Schlechtendalia_luzulaefolia -----------ATGGAAGTTGTACGATAATCCTTTGTTCGAGTTGATAGTGATAATAAAAGCAT------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              CTAAATCACCTTTGCTTCAAGTAAGTTATTCTATTCAATTTATGCATCATATGCGGTAGTTGATCCTAAT
+Scaveola_tomentosa           ----------------------------------------------------------------------
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           --TCCATGCGA------------------AGCTTTTGTAGTTTTGTAAGTTTCAATTAACGGAAGCTCTC
+Gongylolepis_benthamania     -----------------------------AATGAGGACAGGTTCGGAAACTCAAACTGAGA-------TC
+Hyalis_argentea              TATTCATGTTAAAAACAAAATGATTTAAGAGCAAGGACAGGTTTGGAAACACAAACTGAAA-------CC
+Scaveola_tomentosa           --CTTGTGTTATGTTC-------------------------TCTGAATATCTTGACTGACCCAAGCA-TC
+Schlechtendalia_luzulaefolia --TTCCTCTTAGGA---------------AGCTTTTGTATTTTTGTGAGTTTCTGCTAACACAATAA-TG
+
+Barnadesia_arborea           TCTTTCTCAGGTTGAACAACTGCGAGGCGAGTACTCAACCTTGTTCAAGCAACTCACAGATGCTAGTCAA
+Gongylolepis_benthamania     TCTTTTTCAGGTCGAACAACTGCGAGCAGAGTACTCAACTTTGTTCAAACAACTCACAGACGCTAGCCAA
+Hyalis_argentea              TCTTTCTCAGGTCGAACAACTGCGAGCAGAGTACTCAACTTTGTTCAAGCAACTCACAAGCGCTAGCCAA
+Scaveola_tomentosa           TCATCCTCAGGTTGAACAACTGCGGGGAGAGTACTCAACTTTGCTCAAGGAACTCACGGATGCTAGCCAA
+Schlechtendalia_luzulaefolia TCTTTCTCAGGTTGAACAACTTCGCACAGAGTACTCAACTTTGTTCAAGCAACTCACGGATGCTAGTCAA
+
+Barnadesia_arborea           CAATTTAAAGAAGCTTCGACCAACAATCGAGTGCTCAAGTCGGACGTCGAAGCTTTGAGAGCCAAGGTAT
+Gongylolepis_benthamania     CAATTTAAAGATGCTTCGACCAACAATCGAGTACTCAAGTCTAATGTGGAAGCCTTGAGAGCTAAGGTAT
+Hyalis_argentea              CAATTCAAAGATGCTTCAACCAACAATCGAGTGCTCAAGTCAGATGTGGAAGCCTTGAGAGCCAAGGTAT
+Scaveola_tomentosa           CAATTTAAAGATTCCACGACCAACAACCGAGTTCTCAAATCAGATGTGGAAGCTTTGAGAGCCAAGGTAT
+Schlechtendalia_luzulaefolia CAATTCAAAGATGCTTCAACAAACAATCGAGTGCTCAAGTCGGACGTGGAAGCTTTGAGAGCCAAGGTAT
+
+Barnadesia_arborea           CTTGTTTTCC-ATAAACATGAAATCAACAAGTTCGG----------------------------------
+Gongylolepis_benthamania     CTTGTTTTCCTTTAACCATGAACTTAAGAAGTTGGGGCAAATATTCAAAGATCCCTTTCATGCTAGGCTG
+Hyalis_argentea              CTTGTTATCC-TGAACCATGAAATTAACATGTTCAG---------------------TTGTTCTACGCTG
+Scaveola_tomentosa           CTTGTTATTC-TTAACCGAGTGCTTAAGGTTCTCCC----------------------------------
+Schlechtendalia_luzulaefolia CTTGTTTTGC--TAATCATGAAATTAAGAAGTTTGA--------TCTAATAGAATTTATATTCTAGACTA
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Gongylolepis_benthamania     ATAAGATTCGTGT-------------------ATATTCCATTTATCTCCATTCTTCGTCTTTTGGGCCAG
+Hyalis_argentea              ATAAGGTTCTGTTG-------------ATAGCATATGCCATTTATATCCGTTCTTCATCTTGTGAGTTAA
+Scaveola_tomentosa           ---------------------------------TAGCCCATTTGACT-----------------------
+Schlechtendalia_luzulaefolia AGAATTTTTCTTTCTCATGCATAAAACACCCCAGGGTCCATTTGTCT----------------AGGACA-
+
+Barnadesia_arborea           ---TTTAATCCA--------------ATCACCACGT??????????????????????????????????
+Gongylolepis_benthamania     CGTTTTTATGTA--------------ACTGTCACGTGTTCATTTATTCTTT---CCATATGAATAAGATA
+Hyalis_argentea              CATCTTTATATAAGTAAACGAAACCCACTATCACATCTTCATTTGTTTATCATACCATGCAAATGGGACC
+Scaveola_tomentosa           --------------------------ATTGTTACCT----------------------------------
+Schlechtendalia_luzulaefolia ---TCTTATTTG----------GCATTTCATTTCAT----------------------------------
+
+Barnadesia_arborea           ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania     GTCCCTTCTATAACCCACCTTAGTATTACATTCGTCCAAAGTCTGATGCATCAGTAGTAATATGATCACA
+Hyalis_argentea              ------------------------------------------------------TGGTGGTATGATCGTA
+Scaveola_tomentosa           ----------------------------------------------------------------------
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania     CCGTAGATAGTCCGTTTTATATCTAAATAGTTAGAGATATCATTCTACCAAAGCCTTAAAATGCTAGAGA
+Hyalis_argentea              CCCTAGA------------------------------------------------------------TGG
+Scaveola_tomentosa           ----------------------------------------------------------------------
+Schlechtendalia_luzulaefolia -------------------------------------------------------------------GGG
+
+Barnadesia_arborea           ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania     TCCATGATTTGGTGAACCAATGTTACTAAAAGAAT-ATGTTCTTCGAATATAGGTGAAGCTGGCTGAAGA
+Hyalis_argentea              TCTATAATTTGGCGAATCAATGTTACTTAAAGAACTTTGTCGTTCGATCGTAGGTGAAGCTGGCTGAAGA
+Scaveola_tomentosa           ---------------------GGTACTATAAGGGT-GTGTATTTCGGTTGTAGGTGAAGCTGGCAGAAGA
+Schlechtendalia_luzulaefolia TCCA------G???????????????????????????????????????????????????????????
+
+Barnadesia_arborea           ?????????????????????
+Gongylolepis_benthamania     TATGGTCACTAGGGGCTCGTT
+Hyalis_argentea              CATGGTTACTAGGGGCTCGTT
+Scaveola_tomentosa           TATGGTTGCTAGAGGCTCGCT
+Schlechtendalia_luzulaefolia ?????????????????????
+
+;
+end;

@@ -1,0 +1,152 @@
+#NEXUS
+begin data;
+dimensions ntax=4 nchar=2019;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-614_Barnadesia_arborea'       AA--ATCTATTACAGGTATTTAAATGCCATTCAAACAAATGCTCCCCATCTCTTGCGTTACCTTGCTACT
+'uce-614_Chuquiraga_sp'            ??????????????????????????????????????????????????????????????????????
+'uce-614_Gongylolepis_benthamania' AAATGTCGCTTACAGGTATTTAAATGCCATTCAAACAAATGCTCCCCATCTTCTGCGGTACCTTGCTACT
+'uce-614_Hyalis_argentea'          AATTATCTCTTACAGGTATTTAAATGCCATACAAACAAATGCTCCCCATCTCCTGCGTTACCTTGCTACT
+
+'uce-614_Barnadesia_arborea'       GCATTCATTGTCAACAAGAAAAGAAGGCCTCAGTTCAAAGAGTTCATTAAAGTCATTCAGCAAGAGCAGC
+'uce-614_Chuquiraga_sp'            ??????????????????????????ATATTAGTTCTAGGGACTATTTGAA-------------------
+'uce-614_Gongylolepis_benthamania' GCATTCATTGTAAACAAGAAGAGAAGGCCTCAGTTCAAAGAGTTCATTAAAGTTATTCAGCAAGAGCAGC
+'uce-614_Hyalis_argentea'          GCATTCATTGTCAACAAGAAAAGAAGGCCTCAGTTCAAGGAGTTCATTAAAGTTATCCAGCAAGAGCAGC
+
+'uce-614_Barnadesia_arborea'       GCTCCTTCGCCGATCCAATTACCGAGTTTTTGGCCTGCGTGTACGTCAATTTTGACTTTGACGGGGCTCA
+'uce-614_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-614_Gongylolepis_benthamania' AGTCCTTCGCAGATCCAATAACGGAGTTTTTGGCCTGTGTTTACGTCAATTTTGACTTTGATGGGGCTCA
+'uce-614_Hyalis_argentea'          AGTCCTTTGCAGATCCAATTACAGAGTTTTTGGCCTGTGTCTACGTCAATTTTGACTTTGATGGGGCTCA
+
+'uce-614_Barnadesia_arborea'       AAAGAAGATGAAAGAGTGTGAGGAGGTAAGCCGACGGCTCGTTATTTTTTTGTGCTCACTTGGTCCCAAA
+'uce-614_Chuquiraga_sp'            --------------------AAAAGCTAAATAGTTCTATGGCTATCTGTCTATA----------------
+'uce-614_Gongylolepis_benthamania' AAAGAAAATGAAAGAGTGTGAGGAGGTAAGCTGCTTTTTGTTCCTTTTTTTATATATATTT---------
+'uce-614_Hyalis_argentea'          AAAGAAAATGAAAGAGTGTGAAGAGGTAAGCTGCTTTTCGTTCTTTTATTTTTTATTGCCT---------
+
+'uce-614_Barnadesia_arborea'       AACAAAAGAAGGCCACATTTGAATTTTTGTTTGTCAAATGGGTCGCTCGTTTGCAACAAAATTGACAAAA
+'uce-614_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-614_Gongylolepis_benthamania' ----------------------------------------------------------------------
+'uce-614_Hyalis_argentea'          ----------------------------------------------------------------------
+
+'uce-614_Barnadesia_arborea'       ATATAATGTATTTGTGTGTAAAAGTTGTTAACTACCTTTAATTTATAAAACCTTTTAGACTGAAAACATG
+'uce-614_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-614_Gongylolepis_benthamania' TTATTATGTATATACATGGAATAATTTATGTTTA------------------------------------
+'uce-614_Hyalis_argentea'          ATTATGTATGTATGTATGTATGTATATATATATAT-----------------------------------
+
+'uce-614_Barnadesia_arborea'       TCCGTTGACCGAAAACACAAAGAAGTCGAGTTTGAAATTGGATTTGTGAATTATTAGGTTTGACTTTGTA
+'uce-614_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-614_Gongylolepis_benthamania' -----------------------------------------------AAATAATCAGATTT---------
+'uce-614_Hyalis_argentea'          -----------------------------------------ATATACAAACTATCAGATTT---------
+
+'uce-614_Barnadesia_arborea'       AAGTCAAAACTAGACTTACTACTTTTATGGAGGGGCAAGCAATATCTCTTATGTTTAAAATATCAGGAAA
+'uce-614_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-614_Gongylolepis_benthamania' ------------------------------------------------TTGTGTT---------------
+'uce-614_Hyalis_argentea'          ------------------------------------------------TTGTGTT---------------
+
+'uce-614_Barnadesia_arborea'       TTTTGTGGCCGACCAGGATGTTATCGTGCGTTATAATGTAATGTAATTCTTTTCCGAACGTAAATATTTT
+'uce-614_Chuquiraga_sp'            ----------------------------------------------ATCTTTTTTGTATATGAACA----
+'uce-614_Gongylolepis_benthamania' -----CGATTTAGAAGCACATTGTTGCCTATCATAGTGTTGTG---ATTCTTTTTGAATCTGAATA----
+'uce-614_Hyalis_argentea'          -----TGGTTTATACGCACATGATTGGGTATAATAATGCTGTG---ATTCTTTTTGAATCTGAATATTTT
+
+'uce-614_Barnadesia_arborea'       AAATACAGGTGATACTAAACGATCCGTTTCTGGGAAAACGAGTTGAAGAAGGCAACTATACGGCCGTGCC
+'uce-614_Chuquiraga_sp'            --------------------------------------------------------TAACCATTTGTAAC
+'uce-614_Gongylolepis_benthamania' -CATACAGGTGATACTAAATGACCCGTTTCTTGGCAAACGAGTTGAAGAAAGCAACTATACGGTTGTGCC
+'uce-614_Hyalis_argentea'          ACATACAGGTAATACTGAATGACCCGTTTCTTGGCAAACGAGTTGAAGAAAGCAACTATACGGTTGTGCC
+
+'uce-614_Barnadesia_arborea'       ATTGAAGGACGAGTTTCTTGAAAATGCGCGACTCTTCATCTTCGAGACCTACTGCAGAATACATGAGCGC
+'uce-614_Chuquiraga_sp'            ATAAAAAGTAAAACTT------------------------------------------------------
+'uce-614_Gongylolepis_benthamania' ATTGAAGGATGAGTTTCTTGAGAATGCTCGTCTTTTTATCTTTGAGACCTACTGCAGAATACATGAGCGC
+'uce-614_Hyalis_argentea'          ATTGAAGGATGAGTTTCTTGAGAATGCTCGTCTTTTTATCTTTGAGACTTACTGCAGGATACATGAGCGC
+
+'uce-614_Barnadesia_arborea'       ATCGACATGGGGTACGATTTCCTTCAAGTCATATTTCCCATGCCACTATGCTTTGAAAATCCCGTTTTCT
+'uce-614_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-614_Gongylolepis_benthamania' ATTGACATGGGGTACGGACTCT----AATTATATTGCACATGCTATTAT-TTTTAGAAATTATGTTTTCT
+'uce-614_Hyalis_argentea'          ATAGACATGGGGTATGGACTC-----------------------------------------TGTTTTTT
+
+'uce-614_Barnadesia_arborea'       T-----------------TCGTTTGCGCGTC---------------------------------------
+'uce-614_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-614_Gongylolepis_benthamania' TTTTTTATTGGGGAATTATCGCTTAGACCCCAACATTGTAGATTTGTAGGGGAATAGGAAGCAAGGGTGC
+'uce-614_Hyalis_argentea'          TATTTCTTTGGGGAATTATCACTTAAGACCC---------------------------------------
+
+'uce-614_Barnadesia_arborea'       ----------------------------------------------------------------------
+'uce-614_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-614_Gongylolepis_benthamania' TTCTACCCTTTGCTGATTCCCCGTATCACGTGCTTTGGGGTGTTTCCTTCAGGGATGCAGATTTGATCAT
+'uce-614_Hyalis_argentea'          ----------------------------------------------------------------------
+
+'uce-614_Barnadesia_arborea'       ----------------------------------------------------------------------
+'uce-614_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-614_Gongylolepis_benthamania' TTTGCTGGATTGTTGACCGTGAACTTACAGGGATGAGGAAATATGCTTGTTTTTTTTAAAGAAAATGGAG
+'uce-614_Hyalis_argentea'          ----------------------------------------------------------------------
+
+'uce-614_Barnadesia_arborea'       ----------------------------------------------------------------------
+'uce-614_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-614_Gongylolepis_benthamania' ATATGAAAATTGTCAAACTTCTTCATTTGTCGTATTGGTACATAATTTAAAAAAATTGTTTGACTATTTG
+'uce-614_Hyalis_argentea'          ----------------------------------------------------------------------
+
+'uce-614_Barnadesia_arborea'       ----------------------------------------------------------------------
+'uce-614_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-614_Gongylolepis_benthamania' TCATATATCTAAAGTACCCTTGAATAAAAGACAAACTAAAGGAATCATGTGGAGTGTGGACCCAATTAGT
+'uce-614_Hyalis_argentea'          ---------------------------------------------------------------------T
+
+'uce-614_Barnadesia_arborea'       ----------------------------------------------------------------------
+'uce-614_Chuquiraga_sp'            ------------------------------------------------------GGGTTATTTAAAAAAT
+'uce-614_Gongylolepis_benthamania' ACCGTCAATTTATTTATAAAGATGATAATGGGTAAGTAAGTAATTTAAATTTGAAAACTTTTTACAGAAT
+'uce-614_Hyalis_argentea'          GACATCTCTTTATTTGTAATGATGATAATAGGCAAATATGTAATTTAGATTTGAAAACTTCCCAGAAAAG
+
+'uce-614_Barnadesia_arborea'       ----------------------------------------------------------------------
+'uce-614_Chuquiraga_sp'            AAAAAAG---------------------------------------------------------------
+'uce-614_Gongylolepis_benthamania' GAAATGGTACAATTTTAGTGGGACATTTGAGTAAGGAAAGCATTGCAAATTTTCAGGGACAGAGTGAGTA
+'uce-614_Hyalis_argentea'          GAAAATG-ATCCTTTTCATGTGACACCCTCGAAAGGAAAGCGTTGCAA----TGCAGGACGAAGCAAGTA
+
+'uce-614_Barnadesia_arborea'       ----------------------------------------------------------------------
+'uce-614_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-614_Gongylolepis_benthamania' T-AAATTTAGAAATTAAGCCTAAAAAATTAAGTCTTG-----TGTCCATGACTAGAGACTACTTACCAAT
+'uce-614_Hyalis_argentea'          TAAAATGTAGAAATTAGGCCTAAAATGTTAAGTCTTATCACTTATGGCTGACTAGAGACTTCTGTCCAAC
+
+'uce-614_Barnadesia_arborea'       ---AACATCGAAAGTAAAAACGTGTTTTTCTAC-------------------------------------
+'uce-614_Chuquiraga_sp'            ------------ATCAAAAGTTCATTTTTC----------------------------------------
+'uce-614_Gongylolepis_benthamania' CATAACCTCTGAAATGAGAACTCATTTGCCCCTCAGAAGTCAAATGCATACTCTTTGTGGGAGTAGTATG
+'uce-614_Hyalis_argentea'          CACAACCTCTGCAAAAACAACTCATTTGTCTATCTGAATTCAAATGTGTAATCGTTTAAGGTGTATTATG
+
+'uce-614_Barnadesia_arborea'       ------------------------AATCTTTTTATCT--------------TACCTCCCAGGGTGCTTGC
+'uce-614_Chuquiraga_sp'            ---------------------GTGAACCTTTTTATTG--------------TATTTTGCAGGGTGCTTGC
+'uce-614_Gongylolepis_benthamania' TTTTAGGGGGACTGAAAAATTGTGAATCGTTTTATCATCTGCTGGTTTAATTTTGTTGCAGGGTGCTTGC
+'uce-614_Hyalis_argentea'          TGTTAGTGTGGCTGGGAAATTATGCATCATTTTGTCATCGGCTGGTTTAATTTCATTGCAGGGTGCTTGC
+
+'uce-614_Barnadesia_arborea'       CGAGAAACTAAATCTGAACTACGAGGATGCCGAAAGGTGGATTCTGAATCTTATCCGAACGTCAAAGCTA
+'uce-614_Chuquiraga_sp'            TGAGAAACTAAATCTAAATTACGAGGACGCCGAAAAGTGGATTCTGAATCTTATCCGAACCTTAAAGCTA
+'uce-614_Gongylolepis_benthamania' TGAGAAACTAAACCTAAATTATGAGGATGCTGAAAGGTGGATTTTGAATCTCATCCGAACCTCAAAGCTA
+'uce-614_Hyalis_argentea'          TGAGAAACTAAACCTAAATTATGAAGATGCTGAGAGGTGGATTCTGAATCTCATCCGAACCTCAAAGCTA
+
+'uce-614_Barnadesia_arborea'       GACGCGAAAATCGACACCAAAACCGGAACTGTCGTAATGGAACCCATTCAGCCGAACGTGTAAGTC-ACG
+'uce-614_Chuquiraga_sp'            GATGCTAAAATCGACACCAAGACCGGAACCGTTGTAATGGAACCCATTCAGCCC-ATTTGTAAGTCACCA
+'uce-614_Gongylolepis_benthamania' GATGCTAGAATTGACACCCAAACCGGAACTGTTGTAATGGAACCCAATCATCCCAATGTGTAAGT--AGA
+'uce-614_Hyalis_argentea'          GATGCTAGAATCGACACCCAAAGTGGAACCGTTGTAATGGAACCCAATCATCCCAATGTGTAAGT--ACA
+
+'uce-614_Barnadesia_arborea'       AAAACACGCCTCAAAACTCTCCACGACAACTATGCTTACAGGTTTTAAACCAATAC--------------
+'uce-614_Chuquiraga_sp'            AAACCACATTT???????????????????????????????????????????????????????????
+'uce-614_Gongylolepis_benthamania' AAAATATATTTTTTGATTGT--TCCTCAACGATGCCAATAGTTTCT-AATTTATGCCCTACTGGGTTTTG
+'uce-614_Hyalis_argentea'          AAAATATATTTCG-GGTTCT--ACCACAGTGATGCATATGGTTTGTAAAGTTATGCCCTACTGAACTTTA
+
+'uce-614_Barnadesia_arborea'       ----------------------------------------------------------------------
+'uce-614_Chuquiraga_sp'            ??????????????????????????????????????????????????????????????????????
+'uce-614_Gongylolepis_benthamania' TTTGAGTGGTTGAAACTTC-----AACCCTAAGGCCCTGTGTTCTAATCCCATACTTGTATATTGCCCAG
+'uce-614_Hyalis_argentea'          TTCAAGTCGGAACTAGTTCATGATAACTTTGAGATTACGAGTTCCAATTCCATGCGTA----------AG
+
+'uce-614_Barnadesia_arborea'       -------------------------------------------------GTTCATGTTACCTTATTACGC
+'uce-614_Chuquiraga_sp'            ??????????????????????????????????????????????????????????????????????
+'uce-614_Gongylolepis_benthamania' AGGTGTATC-AATAGATGGGCAGCAAAAGTTCAATCTAGATTCACA---GTTGACTTTATCTTATTACGT
+'uce-614_Hyalis_argentea'          GGGTGCATCTAACATGAGGGCAACAAAAGTTGAATCCAGATTTACACCTTTTGACTTCATCTTATTACGT
+
+'uce-614_Barnadesia_arborea'       TTTCCTCGATCTTTT-----TACAGGTACGAGCAACTTATTGACCACACGAAGTCACTCTCGGGGCGTAC
+'uce-614_Chuquiraga_sp'            ??????????????????????????????????????????????????????????????????????
+'uce-614_Gongylolepis_benthamania' GTTATGTCATCTCTTTCTGATACAGGTATGAGCAACTTATTGACCACACTAAAGGGCTCTCGGCACGCAC
+'uce-614_Hyalis_argentea'          GTTATCTTTCTCTCT----GCACAGGTATGAGCAACTTATTGACCACACGAAAGGACTCTCAGCACGCAC
+
+'uce-614_Barnadesia_arborea'       TTACAAGTTAGTGACTCAAGTCTTGGAACACGCTCAGGGACAAGTCGCTCGATAGTTCT
+'uce-614_Chuquiraga_sp'            ???????????????????????????????????????????????????????????
+'uce-614_Gongylolepis_benthamania' TTACAAGTTAGTTAGTCAGCTCTTGGAACATGCTCAGGCACAAGCTGCTCGATGATTTT
+'uce-614_Hyalis_argentea'          TTACAAGTTAGTTAGTCAGCTCTTGGAACACGCTCAGGCACAAGCCGCTCGATGATTCT
+
+;
+end;

@@ -1,0 +1,168 @@
+#NEXUS
+begin data;
+dimensions ntax=6 nchar=1604;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-350_Chuquiraga_sp'            ????????????????????????GTAAGGCAGGTGAGTGAAGAGACTGCAGCGGTCATAGAGGATTGGT
+'uce-350_Famatinanthus_sp'         ATGTTACAGAGGTTAAGGGGTACTGTGAGGCAGGTGAGTGAAGAGACAGCAGCAGTGATAGAGGATTGGT
+'uce-350_Fulcaldea_stuessyi'       ???????TGAGGTTGAGGGGTAGTGTGAGGCAGGTGAGTGAAGAGACGGCGGCATTGATAGAGGATTGGT
+'uce-350_Gongylolepis_benthamania' ATGTTACAGAGGTTAAGGGGTACCGTGAGGCAGGTGAGCGAAGATACAGCAGCAGTGATTGAGGATTGGT
+'uce-350_Hyalis_argentea'          ATTTTACAGAGGTTAAGGAGTACTGTGAGGCAGGTGAGTGAAGATACAGCGGCAGTGATGGAGGATTGGT
+'uce-350_Scaveola_tomentosa'       ATGTTACAGAGGTTAAGAGCTAGTGTGAGGCAGGTGAGCGAAGAGACAGCAGCTGTTATAGAGGATTGGT
+
+'uce-350_Chuquiraga_sp'            TTAGGTCGGATGCTGCTGCTGGTGTTGGGGAGGTGAATTGGGATGTGGGGAAGGTGAGAGAAGGGGTTGT
+'uce-350_Famatinanthus_sp'         TCAGGTCGGATAGTGCTGCGAGTGTCGGGGAGGTGAATTGGGATGTGGGGAAGGTGAGTGAAGGGGTTTT
+'uce-350_Fulcaldea_stuessyi'       TTAGGTCGGATGCTGCTGCGAGTGTTGGGGAGGTGAATTGGGATGTGGGGAAGGTGAGAGAAGGGGTTTT
+'uce-350_Gongylolepis_benthamania' TCAGGTCGGATAGTGCTGCGAGTGTTGGGGAGGTGAATTGGGATGTGGGGAAGGTTAGAGAATCTGTTCT
+'uce-350_Hyalis_argentea'          TCGGGTCGGATAGTGCTGCAGGTGTTGGGGTGGTGAATTGGGATGTGACAAAGGTTAGAGAAGCTGTTGT
+'uce-350_Scaveola_tomentosa'       TTAGGTCGGAGAATGCTGCAACTGTTGGACAGGTGAATTGGGATGTGAGGAAGGTGAGAGAAGGGGTTTT
+
+'uce-350_Chuquiraga_sp'            GAAAGGAGGGGGTGGGTGGCATGGTAAAGGGTGGCTAGGAAGTGGGAAATGGCAAGTGGTGAGGACCCAG
+'uce-350_Famatinanthus_sp'         GAAAGGAGGGGGTGGGTGGCATGGGCAGGGGTGGCTGGGGAGTGGGAAATGGCAAGTGGTGAGGACAGAG
+'uce-350_Fulcaldea_stuessyi'       GAAAGGAGGGGGTGGGTGGCATGGTAAAGGGTGGCTGGGGAGTGGGAAATGGCGAGTGGTGAGGACGGAG
+'uce-350_Gongylolepis_benthamania' GAAAGGAGGGGGTGGGTGGCACGGGCAAGGGTGGCTGGGGAGTGGGAAATGGCGAGTGGTGAGGACAAAC
+'uce-350_Hyalis_argentea'          GAAAGGTGGGGGTGGGTGGCATGGGCAAGGGTGGCTGGGGAGTGGCAAATGGCAAGTGGTGAGGACGGAG
+'uce-350_Scaveola_tomentosa'       GAATGGAGGGGGTGGGTGGCATGGGCAAGGGTGGCTGGGAAGTGGGAAATGGCAAGTGGTGAGAACAGAG
+
+'uce-350_Chuquiraga_sp'            ATGGATGAAATGGGTGTTTGTCAATCGTGTGGCGAAAAGCTTGTTAGTATTGATATTGATCCTTTGGAAA
+'uce-350_Famatinanthus_sp'         ATGGATGAGACAGGAGTTTGCCAATCGTGTGGCGAAAAGCTTGTTAGTGTTGATATTGATCCTTTGGAAA
+'uce-350_Fulcaldea_stuessyi'       ATGGATGAGACAGGTGTTTGTCAAGCGTGTGGAGAAAAGCTTGTTAGTGTTGATATTGATCCTTTGGAAA
+'uce-350_Gongylolepis_benthamania' ATGGATGAGACTGGTGTTTGCCAATCGTGTGGCGAACGGCTTGTATGTGTTGATATTGATCCTTTGGAAA
+'uce-350_Hyalis_argentea'          ATGGATGAGAGGGGAGCTTGCCAATCGTGTGGCGAAGAGCTTGTTAGTGTCGATATTGATCCTGTGGAAA
+'uce-350_Scaveola_tomentosa'       ATGGATGGGACAGGTGTTTGCCAATCCTGTGGTGAAAAGCTTGTTAGTATCGATATTGATCCTCTGGAAA
+
+'uce-350_Chuquiraga_sp'            CCGAAAACTTTGCTACTTCTTTGAGTACTTTGGCTTGTCAAAGAGAGACTAGGGCCGATTTTATGCAGTT
+'uce-350_Famatinanthus_sp'         CCGAAAACTTTGCTAGTTCTTTGAGTACTTTGGCTTGTCAAAGGGAGACAAGGGCTGATTTTTTGGGGTT
+'uce-350_Fulcaldea_stuessyi'       CCGAAAACTTTGCTAGTTCTTTGAGTACTTTGGCTTGTCAAAGAGAGACTAGGGCTGATTTTATGCAGTT
+'uce-350_Gongylolepis_benthamania' CCGAAAACTTCGCTAGTTCTTTGAGTACTTTGGCTTGCCAAAGAGAGACAAGGGCCGATTTTTTGCAGTT
+'uce-350_Hyalis_argentea'          CCGAAAGGTTTGCTAGTTCTTTGAGTACCTTGGCTTGCCAAAGAGAGACAAGGGCTGATTTTTTGCAGTT
+'uce-350_Scaveola_tomentosa'       CTGAAAACTTTGCTTCTTCTTTGAGTACATTGGCTTTCCAAAAAGAGGCAAGGTCCAATTTTTTGAATTT
+
+'uce-350_Chuquiraga_sp'            TCAGGTATGC----------CCACTAC-TTGTACTTTT-AACATCTCCCGAATGAGTCATGACCCTTATT
+'uce-350_Famatinanthus_sp'         TCAGGTATGA----------TCACAGCTTTCTAGCTTTCAAGAGCTATTGA-------ATGACCATTACT
+'uce-350_Fulcaldea_stuessyi'       TCAGGTATGG----------TCACAGCTTTCTAGTTTT-AAGAACTCTCAAATGAGTAATGACTATTATT
+'uce-350_Gongylolepis_benthamania' TCAGGTATGA-------TCGTCACGGCTTTCTTGTTTTCGAGAGCTTTTGAGTTTTGAATGATTATAATT
+'uce-350_Hyalis_argentea'          TCAGGTATGA----------TCACTAC-TTCTAGTTTTCAAGAATTCTTGA-------ATGACTAGTCTT
+'uce-350_Scaveola_tomentosa'       TCAGGTAATGATTAAGTTAGAGTCAGCTTTCTAGTTTCTA--GACCATTGA----------ATGAGACTG
+
+'uce-350_Chuquiraga_sp'            GATTTATGCTTGTT---ATGTTTTTTGGCTTAGTTGGTTTTGTTCA------------------------
+'uce-350_Famatinanthus_sp'         CATTTTCGCTTGTT---ATG-TTTTTGAATTAGTTGGTCTCGTGCAATTAAGTTAACTTATATTGCTATT
+'uce-350_Fulcaldea_stuessyi'       GATTTATGCTTGTT---ATG-CTTTTGAATTAGGTGGTTTCGTTCAATTAAAGTAACTTATGCTGCAACC
+'uce-350_Gongylolepis_benthamania' CATTTTCACTTGTT---ATG--TGTCGAATTGGTTGGTCTCGTTCATCCTGACTTATTT-----------
+'uce-350_Hyalis_argentea'          TGTTTTCACTTGCT---ATG-TTTTTGAATTCGTTGGTCTCGTTCGACCCAATTAACTT-----GCTATT
+'uce-350_Scaveola_tomentosa'       CATCTATGTTTGTTTACATG-TTTTCAGATATATGGTCTTTGTGCAATGATTTTAATTTTTACTTCAAAT
+
+'uce-350_Chuquiraga_sp'            -----GTATGCAACC----AAAACATCAATT---------------------------------------
+'uce-350_Famatinanthus_sp'         GACCGGTATGCAATAACCAAAAACATCAACT---------------------------------------
+'uce-350_Fulcaldea_stuessyi'       AACCATTATGCAATAACAGAAAACATCAATT---------------------------------------
+'uce-350_Gongylolepis_benthamania' ----------------------------------------------------------------------
+'uce-350_Hyalis_argentea'          GACC-ATATGCAATAACCAAACACATCAACTTTTTCCAAAGCAAAATCGAGAGATAAAGAAATGGTATCG
+'uce-350_Scaveola_tomentosa'       TGTCTTTATGTAACAGTCAAGAAATTTAATT---------------------------------------
+
+'uce-350_Chuquiraga_sp'            -----------------------TGTTTGTCCTTGTCATTC-----------TGACTATTT---------
+'uce-350_Famatinanthus_sp'         ----------------------------------------------------------------------
+'uce-350_Fulcaldea_stuessyi'       -----------------------TATCTGTCGTTGCCGTTC-----------TGACTATTT---------
+'uce-350_Gongylolepis_benthamania' ----------------------------------------------------------------------
+'uce-350_Hyalis_argentea'          GGCTAGTGACAATTTTGTTAAATTTTTTGTGGTTAACATACATAATTAGGATCGACTACTGCGTATCATG
+'uce-350_Scaveola_tomentosa'       ---------------------ATGACTTGTGGGTTGCGTGACC--------ACATTTATTTTAGGT----
+
+'uce-350_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-350_Famatinanthus_sp'         ----------------------------------------------------------------------
+'uce-350_Fulcaldea_stuessyi'       ----------------------------------------------------------------------
+'uce-350_Gongylolepis_benthamania' ----------------------------------------------------------------------
+'uce-350_Hyalis_argentea'          TATATATGTTAAGTAGGAAAATTTATTTGAAGACGAAGTGGATTTG----GTATTTGATGAAGATGACAT
+'uce-350_Scaveola_tomentosa'       --TACATAGTTTGTAGGCAATATATCATGAAGGTAGGGTTAAGGTGGACAGGATTTCACAAAGACTAGAT
+
+'uce-350_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-350_Famatinanthus_sp'         ----------------------------------------------------------------------
+'uce-350_Fulcaldea_stuessyi'       ----------------------------------------------------------------------
+'uce-350_Gongylolepis_benthamania' ----------------------------------------------------------------------
+'uce-350_Hyalis_argentea'          GGTTGAATGTACTTTGAGATTA-----------TCAAAATACAATCCTTAGTATATGTGTGTTTGATGGA
+'uce-350_Scaveola_tomentosa'       TCAGGTAAGGAAATGGACATCAGGCTATTTAAGTTGAATTACAATCTTGA-----------TATGCTGAG
+
+'uce-350_Chuquiraga_sp'            ------------------------------------------------TGGTAAGTGAACTCA-------
+'uce-350_Famatinanthus_sp'         ------------------------------------------------TACTCAACGAATTCA-------
+'uce-350_Fulcaldea_stuessyi'       ------------------------------------------------TGGTAAGTGGACTCA-------
+'uce-350_Gongylolepis_benthamania' ------------------------------------------------TAGTAAGCAAATTCA-------
+'uce-350_Hyalis_argentea'          ATCACACTACATCTCTTCTCTTTGTGTTGTTATGGTGTTTGA------TAATCAGAGAATTTAAGATAGA
+'uce-350_Scaveola_tomentosa'       AGTGCATTGC--------------TGATGTTATTGGCTTTAAATGGCATCATTAGGAAATTTAAG-----
+
+'uce-350_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-350_Famatinanthus_sp'         ----------------------------------------------------------------------
+'uce-350_Fulcaldea_stuessyi'       ----------------------------------------------------------------------
+'uce-350_Gongylolepis_benthamania' ----------------------------------------------------------------------
+'uce-350_Hyalis_argentea'          AAACTTTCACACATATAAGGAATATGACATTGA-ACGCCCTATATATAGGTCAATAAAGGGCCTAAAATC
+'uce-350_Scaveola_tomentosa'       -------------CATGAGAGGCTTGATGGTGGTGCGCTGCCTGTCAAGAATCAGAAAGGTTGTAAAAT-
+
+'uce-350_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-350_Famatinanthus_sp'         ---------GAGTGCTATATG-------------------------------------------------
+'uce-350_Fulcaldea_stuessyi'       ----------------------------------------------------------------------
+'uce-350_Gongylolepis_benthamania' ----------------------------------------------------------------------
+'uce-350_Hyalis_argentea'          GTCCATCAGGAATTCCATATGGAA--CCTTTGGTAAATCGCCATAATATGGGAGAGTAAACTGTAATTAC
+'uce-350_Scaveola_tomentosa'       ----ATCGTCATTTAAGCATGATAGCCTTCCCTTAAAGTATCATGACATGACATGCATAACTGCACATGA
+
+'uce-350_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-350_Famatinanthus_sp'         ----------------------------------------------------------------------
+'uce-350_Fulcaldea_stuessyi'       ----------------------------------------------------------------------
+'uce-350_Gongylolepis_benthamania' ----------------------------------------------------------------------
+'uce-350_Hyalis_argentea'          CATAAAACTGTATTTACGTTAGTGAAGTTGTATTTAATGATTATGATTAATAAATGGTTAAATCCATATT
+'uce-350_Scaveola_tomentosa'       AATAATACCGT-TTAACAGTAATATAGT--TATTTACAGTTTTACATAGTCATTTGGCCAAATTGCTA--
+
+'uce-350_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-350_Famatinanthus_sp'         ----------------------------------------------------------------------
+'uce-350_Fulcaldea_stuessyi'       ----------------------------------------------------------------------
+'uce-350_Gongylolepis_benthamania' ----------------------------------------------------------------------
+'uce-350_Hyalis_argentea'          ATTAAGTATATTTCTTACAAATTTTTCTAAGACAAAACAAGAAAGTAGAGTGATTATATCAATCAAGCAA
+'uce-350_Scaveola_tomentosa'       ----------------------TCTTCTCTGGTTTATGAATAAATTGTAATTATCACTTTGATTAA----
+
+'uce-350_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-350_Famatinanthus_sp'         ----------------------------------------------------------------------
+'uce-350_Fulcaldea_stuessyi'       ----------------------------------------------------------------------
+'uce-350_Gongylolepis_benthamania' ----------------------------------------------------------------------
+'uce-350_Hyalis_argentea'          ACTCTCCAAGCATCCGTCATACCATAATGTCCATGAGTTGGGGCCGGTTGAACAACATATTCAAAAGAAC
+'uce-350_Scaveola_tomentosa'       ----------------------------------------------------------------------
+
+'uce-350_Chuquiraga_sp'            -------------------------------------------------TGCAGGAATGGCTGCAAAAGC
+'uce-350_Famatinanthus_sp'         ----------------------------------------------------------------------
+'uce-350_Fulcaldea_stuessyi'       -------------------------------------------------TGCAGGAATGGCTTCAAAAGC
+'uce-350_Gongylolepis_benthamania' -------------------------------------------------TGTAGGAATGGCTTGAAAGGC
+'uce-350_Hyalis_argentea'          CTGAGCATTTGTTGGTGATCTTGGTGCTAACTTCACAATGCAAAACGCATGCAGGAATGGGTTCAAAAGC
+'uce-350_Scaveola_tomentosa'       ----------TTTAGTAAGT----------------------AAACTTGTGCAGGAATGGCTTCAAAAGC
+
+'uce-350_Chuquiraga_sp'            ATGGTCCATTCGATGCAGTTGTAGATGGTGCGAATGTGGGTCAC??????????????????????????
+'uce-350_Famatinanthus_sp'         ------------------------------------------------------ACCTCTTCTATTTCAA
+'uce-350_Fulcaldea_stuessyi'       ATGGTCCATTTGATGCAGTTGTAGATGGTGCAAATGTGGGTCATATTAAGCAGAACTATTTCAACTTTAA
+'uce-350_Gongylolepis_benthamania' ATGGTCCATTTGATGCAGTTATAGATGGTGCAAATGTGGGTCATATCAAGCAGAATTGTTTCAACTTTAA
+'uce-350_Hyalis_argentea'          ATGGGCCGTTTGATGCGGTTATAGATGGTGCAAACGTAGGTCATATCAAGCAGAATTGTTTCAACTTCAA
+'uce-350_Scaveola_tomentosa'       ATGGTCCATTTGATGCAGTCATAGATGGTGCTAATGTCGGTCATCTTTTCCATAACTTTTTCAGTTTTGA
+
+'uce-350_Chuquiraga_sp'            ??????????????????????????????????????????????????????????????????????
+'uce-350_Famatinanthus_sp'         TCACA---------------------------AAGTTGGTATTTG?????????????????????????
+'uce-350_Fulcaldea_stuessyi'       TCAGGTAAA---AATTTGGAAACACTCAAAATAAGCCTGTGTTTG-----------CATTATCATAAACA
+'uce-350_Gongylolepis_benthamania' TCAGGTG----------------------AATAAGCATGTACTGGACAGGC---TGCTTTATCGTAAGCA
+'uce-350_Hyalis_argentea'          TCAGGTGAAATGAGACAGAAGGCGCTTAAAATAAGCCTGTACTTGAC-----------------------
+'uce-350_Scaveola_tomentosa'       TCAGGTAAA---TATTGGAT---------AGAAGACTTATACCTACCCTTCCCTTAAATTATCATAGACA
+
+'uce-350_Chuquiraga_sp'            ??????????????????????????????????????????????????????????????????????
+'uce-350_Famatinanthus_sp'         ??????????????????????????????????????????????????????????????????????
+'uce-350_Fulcaldea_stuessyi'       CATCTGACAACATTCACAAATTACGCTCATAATAATTCCATTTTGTTGTAGCTTAAATATGCAGTGAACT
+'uce-350_Gongylolepis_benthamania' CAACTGATAACATTCATGAATTGTATTCATAATAGTCTCAATTTTTTGTAGCTTAAATCTGCAGTGAACT
+'uce-350_Hyalis_argentea'          --------AACGTGCACAGATTGTACTCACAATAGTCTCG-TTTTTTGTAGCTTAAAAATGCGGTGAACT
+'uce-350_Scaveola_tomentosa'       T-------GACATGCA-GAACTGCACACATAATAACTTCATTTTCTTATAGCTTAAATTGGTGGTGAACT
+
+'uce-350_Chuquiraga_sp'            ??????????????????????????????????????????????????????????????????????
+'uce-350_Famatinanthus_sp'         ??????????????????????????????????????????????????????????????????????
+'uce-350_Fulcaldea_stuessyi'       CATCACGTAAACTGAGTTCATCAAATAGATTACCGCTTATTGTTCTGCATAGGAGCCGTGTCAAAGGCGG
+'uce-350_Gongylolepis_benthamania' CATCACGGAAACTGAGCCCATCAAATAGATTACCGCTTATTGTTCTGCATAGGAGCCGTGTCAACGGTGG
+'uce-350_Hyalis_argentea'          CATCACGCAAACTGAGTCCAATGAATAGATTACCTCTTATTGTTCTGCATAAGAACCGTGTCAAAGGTCG
+'uce-350_Scaveola_tomentosa'       CATCACGTAAACTGAGTCCATCTGGTAGATTGCCGCTTGTTATTCTGCACAGGAGCCGTGTCAAAGGTGG
+
+'uce-350_Chuquiraga_sp'            ????????????????????????????????????????????????????????????????
+'uce-350_Famatinanthus_sp'         ????????????????????????????????????????????????????????????????
+'uce-350_Fulcaldea_stuessyi'       GCCCGCGGAGATTCCGAACAATAAAAAGTTGTTGCAGTATTGGAAAGAGTCTGGGGCACTTTAT
+'uce-350_Gongylolepis_benthamania' GCCTGCCGGAATTCCGAAGAATAGATCGTTGTTGCAGTATTGGAAAGAGTCTAGGGCACTTTAT
+'uce-350_Hyalis_argentea'          GCAGGCTGATATTCCAAAGAACAGATCGTTGCTGCAGTATTGGAAAGAGTCCGGGGCACTTTAT
+'uce-350_Scaveola_tomentosa'       TCCTGCTGAGATTCCGAAGAATAAAAGAATGCTGCAATATTGGAAAGATTCTGGGGCACTTTAT
+
+;
+end;

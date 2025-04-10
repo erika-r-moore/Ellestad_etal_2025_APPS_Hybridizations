@@ -1,0 +1,102 @@
+#NEXUS
+begin data;
+dimensions ntax=4 nchar=1303;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-39_Famatinanthus_sp'         TGCGTTTAAGAAAACTA-------------------------------TCCCATAAGCC-----------
+'uce-39_Gongylolepis_benthamania' TGCATGTAAGAAAACTA-------------------------------GCTCATGAGTC-----------
+'uce-39_Hyalis_argentea'          TGCATGTAAGAAAACTA-------------------------------ACCCATGAGCC-----------
+'uce-39_Scaveola_tomentosa'       ??????????????????????????????????????????????????????????????????????
+
+'uce-39_Famatinanthus_sp'         -----CATGCAGGTCAGAGGTTCTATTGTCAAACGGAAAACTTCCGTTGCTAATTCAAATTTAGCAATTT
+'uce-39_Gongylolepis_benthamania' -----CATGCCGGTCGGAGGCTCTATTGTCAAATGGAAAACTTTTCTTGATAATTCAAGTTTGGCAATTT
+'uce-39_Hyalis_argentea'          -----GACACAGATAAGAGACTCAATTGTCAGACTAAAAGCTTTCTGTGCTAATTCAATTGTAGCCATTT
+'uce-39_Scaveola_tomentosa'       ??????????????????????????????????????????????????????????????????????
+
+'uce-39_Famatinanthus_sp'         GAACCTCCTTCCATATCGTAAAGGACTTTTTAGGCAGTTAAGTCTAGCTGGTGCTAGAGATGTTCAAATA
+'uce-39_Gongylolepis_benthamania' GAACCCCCTTCTTTGTTGTAAAGGACTTTGTAGG-AGTTAAGTCTATCTAGCATTAGAGATGGTCAAATA
+'uce-39_Hyalis_argentea'          GAACCACCTTCCATGGTGT-----------------------------TAGCGATGGCGATGGTTAAATA
+'uce-39_Scaveola_tomentosa'       ??????????????????????????????????????????????????????????????ATCCAATG
+
+'uce-39_Famatinanthus_sp'         CCCAAAGG--------------ATTTAATACTTGCTTACACCGATGAAATGATAA-----TTCATAATTG
+'uce-39_Gongylolepis_benthamania' CCTAAAAGTAAAAGTATTTAACGGTTAATACTTGTTTACACCTTTGAAATTATAAGATCTTTCCTAATTA
+'uce-39_Hyalis_argentea'          CTTAAAAG------------GGATTTTGTACTTGTTTA-ACTGCTGAAATTGCAAGCGCATTCATAATCG
+'uce-39_Scaveola_tomentosa'       CCTAAAAG-------------GATTGAAGACTTG----------TAGACTTTAAAGAGAATTCATCATTG
+
+'uce-39_Famatinanthus_sp'         TGTGTAT-------ATTGTGAATGTCAGCATGGAAGAAGCAAAGAAGAACATGTATGCTTTTAGCACGAC
+'uce-39_Gongylolepis_benthamania' TGCTTGTGCATATGATTGTGAATGTCAGCATGGAAGAAGCAAAGAAAAACATGTACGCATTTAGCACGAC
+'uce-39_Hyalis_argentea'          TGTAT---------ACTGTGAATGTCAGCATGGAAGAAGCAAAGAAGAACATGTATGCTTTTAGCACGAC
+'uce-39_Scaveola_tomentosa'       TTTC----------ATGGTATATGTCAGCATGGAAGAAGCAAAGAAGAACATGTATGCTTTCAGCACGAC
+
+'uce-39_Famatinanthus_sp'         CACATACACCGGATTCCAGTGCACAGTATCTGAAGAAACATCTGAAAAATTCAAGGGTAAGTGACTAT--
+'uce-39_Gongylolepis_benthamania' CACATACACTGGATTCCAGTGCACAGTATCTGAAGAAACATCTGAAAAATTCAAGGGTATGTGAATAT--
+'uce-39_Hyalis_argentea'          CACATACACTGGATTCCAGTGCACAGTATCTGAAGAAACATCTGAAAAATTCAAGGGTAAGCGACGCT--
+'uce-39_Scaveola_tomentosa'       TACATACACTGGGTTTCAGTGCACTGTATCTGAAGAAACATCTGAAAAATTCAAGGGTACGTGACTATGT
+
+'uce-39_Famatinanthus_sp'         --------ACCGATCAGTCATCAACTTTGACAAGTCGGATTGAAAACACTTATATCTAATTGCATACCTG
+'uce-39_Gongylolepis_benthamania' --------AACAATTCATCATCAACT-------------TTGAAAAAGCTTTGATCTAATTGTGTACCCG
+'uce-39_Hyalis_argentea'          --------ATCAATCTGTCATCGACTTTGATAAGTCGG-ATGAAAATGCTTATATCTAATTGCGTGCCTG
+'uce-39_Scaveola_tomentosa'       ATTCCATAACTAGACAGCCATCAGCTTTTAC-AGTCAGATTTCAAGAGCTTATTTTGAATTGTATGCTTG
+
+'uce-39_Famatinanthus_sp'         CTTCTT---AT-TTTGCAGGACTGCCCGGAGTTCTTTGGGTTTTGCCCGATTCATACATAGATGTGAAGA
+'uce-39_Gongylolepis_benthamania' CTTCTT---AT-TTTGTAGGACTGCCCGGTGTTCTTTGGGTTTTGCCCGATTCATATATAGATGTGAAGA
+'uce-39_Hyalis_argentea'          CTTCAT---ATCTCCCTAGGACTGCCTGGAGTTCTTTGGGTGTTGCCTGATTCATACATAGATGTGAAGA
+'uce-39_Scaveola_tomentosa'       CATCTTTCAAT-TTTGTAGGGCTGCCTGGAGTTCTTTGGGTTCTGCCAGATTCATATATAGATGTTAAAA
+
+'uce-39_Famatinanthus_sp'         ATAAGGACTATGGAGGTGATTTATTTAATTTTTCTTTTCATTTTATATATGAAATTTCATTTATATGAGC
+'uce-39_Gongylolepis_benthamania' ATAAAGATTACGGAGGTAATTTGTTTTAATTTTCTTTT-AATCCATATATCTGTTTTCATTTATA-----
+'uce-39_Hyalis_argentea'          ATAAGGACTACGGAGGTGACTTGTTTTAACATTCTTTT-CTTTTGTATATT-------------------
+'uce-39_Scaveola_tomentosa'       ATAAAGACTATGGAGGTGGTTTGTTTTATTTGATATTT-AATTTTTGTTTC-------------------
+
+'uce-39_Famatinanthus_sp'         AATAAAACTAACCTATGGGAGCAGGTTATTGAGCATCACATTTTAAAATTTCTTATGCGGTTAATACTTT
+'uce-39_Gongylolepis_benthamania' -----------------------------TGACCATCAGTTTTTAAAATTTATTTTGGGGTAGATGCTTT
+'uce-39_Hyalis_argentea'          ------------------------GTAAATGAGCCTTGTGTTTTGAAACTTCTTGTGGGATTGATACTTC
+'uce-39_Scaveola_tomentosa'       -----------------------------------------------------------------ATATT
+
+'uce-39_Famatinanthus_sp'         TATT-TTAGTCTAC-CCTAACTAGTTGAGATAAAAGACTCGTATATTGATGCTTACCGATGTAATTCATT
+'uce-39_Gongylolepis_benthamania' CATT-TTTGTATGC-TCCAACTAGTT--------------GTTTATTTATGCTTAGCATTGTCATTCATT
+'uce-39_Hyalis_argentea'          GATTGTTAGTCTATATACAACTACTT--------------GTATATTGATGCTTGCTACTGTCG-GCATT
+'uce-39_Scaveola_tomentosa'       TATT-----------ACCAACTA-----------------GTATACTGAT-CCTATGTTTGTCATTCATT
+
+'uce-39_Famatinanthus_sp'         TTAGGTGATAAGTATGTCAACGGGGAAATAATTCCTTGTCAGTATCCTACTTATCAGCCAAAGCCACGCA
+'uce-39_Gongylolepis_benthamania' TTAGGTGATAAGTATGTCAATGGAGAAATAATTCCTTGCCAGTATCCTACTTATCAGCCAAAGCCTCGCA
+'uce-39_Hyalis_argentea'          TTAGGTGATAAGTATGTCAATGGAGAAATAATTCCTTGCCAGTATCCTACTTATCAGCCAAAGTCACGTG
+'uce-39_Scaveola_tomentosa'       ATAGGTGATAAGTATGTCAATGGAGAAATAATTCCTTGCCAGTACCCTACTTATCAACCAA---CACGCA
+
+'uce-39_Famatinanthus_sp'         AGCAATCCAAATACGAGAGTAAAAGGTACGTAAGACAGAGGGATGGACCTCCTCCCGAGCAGAGAAGACC
+'uce-39_Gongylolepis_benthamania' AGCAATCCAAATACGAGAGTAAAAGGTATGTAAGACAGAGAGATGGACCTCCACCAGAGCAGAGAAGACC
+'uce-39_Hyalis_argentea'          GGCAATCCAAATACGAGAGTAAAAGGTACGTACGACAGAGAGATGGACCTCCT---GCACAGAGAAGATC
+'uce-39_Scaveola_tomentosa'       AGCAAACCAAATATGAGAGTAAGAAGTATGTAAGACCGAAAGATGGACGTTCT---GAGTGGAAAAGACC
+
+'uce-39_Famatinanthus_sp'         GAAGCAAGAGGCTGCTTCTTCAGAATCACCCTCCACGTGATATAAACGGATGCACACATCATGGTAACTC
+'uce-39_Gongylolepis_benthamania' AAAGCAAGAGGCTGCTTCTTCAGAATCACCCTCCACGTGATATAAATGGATGCACACGTCATGGTAACTC
+'uce-39_Hyalis_argentea'          AAAGCAAGAGGCTGCTTCTTCAGAATCACCCTCTACATGATACGATCAGATGCACTTATCATGGTAACTC
+'uce-39_Scaveola_tomentosa'       AAAGCAAGAGGCAGTTCCTTCAGAATCATCCTCCACCTGATATACATCAAGTAAACATCTTTATTAGTGT
+
+'uce-39_Famatinanthus_sp'         TTGCCCTCCTTTTCTACTTGTTC-----------------------------------------------
+'uce-39_Gongylolepis_benthamania' TTGCCCTCCTATTCTACTCGTTCCACGTGATATAAATGGACTC-------AAGAGACTACCACATTTTGA
+'uce-39_Hyalis_argentea'          TTGCCGTCCTTCTTTCTTCCTCGCGTGAGTAGATACTCGAGTCGTCAGAAGAAGTACTTCCCTTTTTCGA
+'uce-39_Scaveola_tomentosa'       TTCCCATCTCTCTCTCTCTATCTCTC--------------------------------------------
+
+'uce-39_Famatinanthus_sp'         -----------------------------CTATTCCTAA-------------------------------
+'uce-39_Gongylolepis_benthamania' AGACTGCTT-------AATGACACAATTGCTGATCTTAGCT-----------------------------
+'uce-39_Hyalis_argentea'          ATTTCATTTCCAAATGAACTTTCCTGTTGATAACCCTAGCTAGAATGAAATACAATATTTGATGTGGCAC
+'uce-39_Scaveola_tomentosa'       ------------------TCTCTCTCTCTCTCTCCCTCTCT-----------------------------
+
+'uce-39_Famatinanthus_sp'         ----------------------------------------------------------------------
+'uce-39_Gongylolepis_benthamania' ----------------------------------------------------------------------
+'uce-39_Hyalis_argentea'          ATGGTTTAACGAGGGCGTTTGGCTATTTGTCAAATATCTAAAATGTACATGACATGCCCAATGCTACCAA
+'uce-39_Scaveola_tomentosa'       ----------------------------------------------------------------------
+
+'uce-39_Famatinanthus_sp'         ----------------------------------------------------------------------
+'uce-39_Gongylolepis_benthamania' ----------------------------------------------------------------------
+'uce-39_Hyalis_argentea'          TGTTTTTGTGGTGATTATGAATGGTTAAAAGGGTATATCGAGACCTTACCCTAAATGGAAAATGTTACGG
+'uce-39_Scaveola_tomentosa'       ----------------------------------------------------------------------
+
+'uce-39_Famatinanthus_sp'         -------------------ATACTCGAGCAT---TCTTCAGGC
+'uce-39_Gongylolepis_benthamania' ----------------CCTATACACTATGCT---TCTGCAGGC
+'uce-39_Hyalis_argentea'          GAGACTACCACATGTTCTTATACGCCATGCTTGTTCTGCAGGC
+'uce-39_Scaveola_tomentosa'       --------------TCTTTTTCCCCTATTCC????????????
+
+;
+end;

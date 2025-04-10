@@ -1,0 +1,115 @@
+
+GetOrganelle v1.7.7.0
+
+get_organelle_from_reads.py assembles organelle genomes from genome skimming data.
+Find updates in https://github.com/Kinggerm/GetOrganelle and see README.md for more information.
+
+Python 3.8.18 (default, Sep 11 2023, 13:40:15)  [GCC 11.2.0]
+PLATFORM: Linux karen.memphis.edu 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64 x86_64
+PYTHON LIBS: GetOrganelleLib 1.7.7.0; numpy 1.24.3; sympy 1.11.1; scipy 1.10.1
+DEPENDENCIES: Bowtie2 2.4.1; SPAdes 3.13.1; Blast 2.5.0
+GETORG_PATH=/home/pllestad/.GetOrganelle
+SEED  DB: embplant_pt 0.0.1; embplant_mt 0.0.1
+LABEL DB: embplant_pt 0.0.1; embplant_mt 0.0.1
+WORKING DIR: /home/pllestad/basal_Asteraceae/trimmed_seqs/basal_Asteraceae_project
+/home/pllestad/miniconda3/envs/getorganelle/bin/get_organelle_from_reads.py -1 Barnadesia_arborea_1_tp.fastq -2 Barnadesia_arborea_2_tp.fastq -o /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/ -R 75 --disentangle-time-limit 7200 -k 21,45,65,85,105 -F embplant_pt
+
+2024-05-31 03:38:22,145 - INFO: Pre-reading fastq ...
+2024-05-31 03:38:22,145 - INFO: Estimating reads to use ... (to use all reads, set '--reduce-reads-for-coverage inf --max-reads inf')
+2024-05-31 03:38:22,246 - INFO: Estimating reads to use finished.
+2024-05-31 03:38:23,213 - INFO: Counting read qualities ...
+2024-05-31 03:38:23,306 - INFO: Identified quality encoding format = Sanger
+2024-05-31 03:38:23,306 - INFO: Phred offset = 33
+2024-05-31 03:38:23,307 - INFO: Trimming bases with qualities (0.00%): 33..33  !
+2024-05-31 03:38:23,341 - INFO: Mean error rate = 0.0013
+2024-05-31 03:38:23,341 - INFO: Counting read lengths ...
+2024-05-31 03:38:23,956 - INFO: Mean = 98.3 bp, maximum = 101 bp.
+2024-05-31 03:38:23,956 - INFO: Reads used = 408180+408180
+2024-05-31 03:38:23,956 - INFO: Pre-reading fastq finished.
+
+2024-05-31 03:38:23,956 - INFO: Making seed reads ...
+2024-05-31 03:38:23,957 - INFO: Seed bowtie2 index existed!
+2024-05-31 03:38:23,957 - INFO: Mapping reads to seed bowtie2 index ...
+2024-05-31 03:38:32,244 - INFO: Mapping finished.
+2024-05-31 03:38:32,244 - INFO: Seed reads made: /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/seed/embplant_pt.initial.fq (165076 bytes)
+2024-05-31 03:38:32,244 - INFO: Making seed reads finished.
+
+2024-05-31 03:38:32,244 - INFO: Checking seed reads and parameters ...
+2024-05-31 03:38:32,244 - INFO: The automatically-estimated parameter(s) do not ensure the best choice(s).
+2024-05-31 03:38:32,244 - INFO: If the result graph is not a circular organelle genome, 
+2024-05-31 03:38:32,244 - INFO:   you could adjust the value(s) of '-w'/'-R' for another new run.
+2024-05-31 03:38:33,169 - INFO: Pre-assembling mapped reads ...
+2024-05-31 03:38:35,355 - INFO: Pre-assembling mapped reads finished.
+2024-05-31 03:38:35,356 - INFO: Estimated embplant_pt-hitting base-coverage = 6.40
+2024-05-31 03:38:35,503 - WARNING: Guessing that you are using too few data for assembling embplant_pt!
+2024-05-31 03:38:35,503 - WARNING: GetOrganelle is still trying ...
+2024-05-31 03:38:35,504 - INFO: Estimated word size(s): 49
+2024-05-31 03:38:35,504 - INFO: Setting '-w 49'
+2024-05-31 03:38:35,504 - INFO: Setting '--max-extending-len inf'
+2024-05-31 03:38:35,517 - INFO: Checking seed reads and parameters finished.
+
+2024-05-31 03:38:35,517 - INFO: Making read index ...
+2024-05-31 03:38:39,506 - INFO: 653287 candidates in all 816360 reads
+2024-05-31 03:38:39,506 - INFO: Pre-grouping reads ...
+2024-05-31 03:38:39,506 - INFO: Setting '--pre-w 49'
+2024-05-31 03:38:39,553 - INFO: 106389/106389 used/duplicated
+2024-05-31 03:38:45,533 - INFO: 7819 groups made.
+2024-05-31 03:38:45,617 - INFO: Making read index finished.
+
+2024-05-31 03:38:45,617 - INFO: Extending ...
+2024-05-31 03:38:45,617 - INFO: Adding initial words ...
+2024-05-31 03:38:45,630 - INFO: AW 32498
+2024-05-31 03:38:47,460 - INFO: Round 1: 653287/653287 AI 697 AW 35402
+2024-05-31 03:38:50,121 - INFO: Round 2: 653287/653287 AI 67648 AW 978618
+2024-05-31 03:38:53,283 - INFO: Round 3: 653287/653287 AI 140857 AW 1742792
+2024-05-31 03:38:55,596 - INFO: Round 4: 653287/653287 AI 156911 AW 1950276
+2024-05-31 03:38:57,709 - INFO: Round 5: 653287/653287 AI 160551 AW 2014932
+2024-05-31 03:38:59,795 - INFO: Round 6: 653287/653287 AI 161889 AW 2041518
+2024-05-31 03:39:01,852 - INFO: Round 7: 653287/653287 AI 162420 AW 2052210
+2024-05-31 03:39:03,922 - INFO: Round 8: 653287/653287 AI 163107 AW 2059102
+2024-05-31 03:39:05,968 - INFO: Round 9: 653287/653287 AI 163249 AW 2061076
+2024-05-31 03:39:08,014 - INFO: Round 10: 653287/653287 AI 163308 AW 2061942
+2024-05-31 03:39:10,068 - INFO: Round 11: 653287/653287 AI 163435 AW 2063634
+2024-05-31 03:39:12,120 - INFO: Round 12: 653287/653287 AI 163461 AW 2063994
+2024-05-31 03:39:14,175 - INFO: Round 13: 653287/653287 AI 163466 AW 2064110
+2024-05-31 03:39:16,233 - INFO: Round 14: 653287/653287 AI 163466 AW 2064110
+2024-05-31 03:39:16,234 - INFO: No more reads found and terminated ...
+2024-05-31 03:39:17,302 - INFO: Extending finished.
+
+2024-05-31 03:39:17,331 - INFO: Separating extended fastq file ... 
+2024-05-31 03:39:17,688 - INFO: Setting '-k 21,45,65,85'
+2024-05-31 03:39:17,688 - INFO: Assembling using SPAdes ...
+2024-05-31 03:39:17,704 - INFO: spades.py -t 1  --phred-offset 33 -1 /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/extended_1_paired.fq -2 /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/extended_2_paired.fq --s1 /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/extended_1_unpaired.fq --s2 /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/extended_2_unpaired.fq -k 21,45,65,85 -o /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/extended_spades
+2024-05-31 03:40:57,565 - INFO: Insert size = 190.106, deviation = 81.0951, left quantile = 106, right quantile = 310
+2024-05-31 03:40:57,566 - INFO: Assembling finished.
+
+2024-05-31 03:40:58,626 - INFO: Slimming /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/extended_spades/K85/assembly_graph.fastg finished!
+2024-05-31 03:40:58,626 - INFO: Slimming assembly graphs finished.
+
+2024-05-31 03:40:58,626 - INFO: Extracting embplant_pt from the assemblies ...
+2024-05-31 03:40:58,627 - INFO: Disentangling /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/extended_spades/K85/assembly_graph.fastg.extend-embplant_pt-embplant_mt.fastg as a circular genome ... 
+2024-05-31 03:40:58,710 - INFO: Disentangling failed: 'Multiple isolated embplant_pt components detected! Broken or contamination?'
+2024-05-31 03:40:58,710 - INFO: Scaffolding disconnected contigs using SPAdes scaffolds ... 
+2024-05-31 03:40:58,710 - WARNING: Assembly based on scaffolding may not be as accurate as the ones directly exported from the assembly graph.
+2024-05-31 03:40:58,710 - INFO: Disentangling /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/extended_spades/K85/assembly_graph.fastg.extend-embplant_pt-embplant_mt.fastg as a circular genome ... 
+2024-05-31 03:40:58,710 - INFO: Disentangling failed: 'No new connections.'
+2024-05-31 03:40:58,710 - INFO: Disentangling /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/extended_spades/K85/assembly_graph.fastg.extend-embplant_pt-embplant_mt.fastg as a/an embplant_pt-insufficient graph ... 
+2024-05-31 03:40:58,816 - INFO: Average embplant_pt coverage = 1.5
+2024-05-31 03:40:58,816 - INFO: Average embplant_pt base-coverage = 10.5
+2024-05-31 03:40:58,816 - INFO: Writing output ...
+2024-05-31 03:40:58,817 - INFO: Writing PATH1 of embplant_pt scaffold(s) to /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/embplant_pt.K85.scaffolds.graph1.1.path_sequence.fasta
+2024-05-31 03:40:58,817 - INFO: Writing GRAPH to /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/embplant_pt.K85.contigs.graph1.selected_graph.gfa
+2024-05-31 03:40:58,817 - INFO: Result status of embplant_pt: 6 scaffold(s)
+2024-05-31 03:40:58,848 - INFO: Writing output finished.
+2024-05-31 03:40:58,849 - INFO: Please ...
+2024-05-31 03:40:58,849 - INFO: load the graph file 'assembly_graph.fastg.extend-embplant_pt-embplant_mt.fastg' in K85
+2024-05-31 03:40:58,849 - INFO: load the CSV file 'assembly_graph.fastg.extend-embplant_pt-embplant_mt.csv' in K85
+2024-05-31 03:40:58,849 - INFO: visualize and confirm the incomplete result in Bandage.
+2024-05-31 03:40:58,849 - INFO: If the result is nearly complete, 
+2024-05-31 03:40:58,849 - INFO: you can also adjust the arguments according to https://github.com/Kinggerm/GetOrganelle/wiki/FAQ#what-should-i-do-with-incomplete-resultbroken-assembly-graph
+2024-05-31 03:40:58,849 - INFO: If you have questions for us, please provide us with the get_org.log.txt file and the post-slimming graph in the format you like!
+2024-05-31 03:40:58,849 - INFO: Extracting embplant_pt from the assemblies finished.
+
+
+Total cost 157.53 s
+Thank you!

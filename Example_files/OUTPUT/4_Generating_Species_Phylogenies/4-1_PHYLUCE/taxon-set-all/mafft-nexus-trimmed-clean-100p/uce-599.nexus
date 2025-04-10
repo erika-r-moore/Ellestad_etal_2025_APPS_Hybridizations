@@ -1,0 +1,67 @@
+#NEXUS
+begin data;
+dimensions ntax=3 nchar=1035;
+format datatype=dna missing=? gap=- interleave;
+matrix
+Gongylolepis_benthamania GTGACAATGATACTACCATTAACCGGTAAGCAATACTCCGAAAAGGTGTCTGAAAATTGCGTTGCGATTT
+Hyalis_argentea          ??????????????????????????????????????????????????????????????????????
+Nastanthus_patagonicus   GTGACAATGATACTTCCATTAACTGGAAAGCAATACACGGAAAAAGTGTCTGAAAATTGCGTTGCGATTT
+
+Gongylolepis_benthamania GGAAAGCACTTGGGATCTATGAAGATGCAGATGCCATAGCCATCGACAGGTTTATTGAGGTTTTCAAGGA
+Hyalis_argentea          ??????????????????????????????????????????????????????????????????????
+Nastanthus_patagonicus   GGAAAAGAATTGGGATCTACACAGATGCCGAGGCCATCGCCATTGACAAATTTGTCGAGGTTTTCAAAGA
+
+Gongylolepis_benthamania TGAGAACTTCCCACCAGGCTCCTCTATTCTCTTCACAATATCACCTGTTGGATCACTGACGGTTAGTACC
+Hyalis_argentea          ?????????????????????????????????????????????????????????????????ATTTT
+Nastanthus_patagonicus   CCAAAACTTCCCACCAGGCTCCTCTATTCTTTTCACCATCTCTCCCCTTGGATCACTAACGGTTAGTTTC
+
+Gongylolepis_benthamania TCTTCCAATCAGTTTTCAAATAATCTGGAATGTCAGCTTAATAAAACGAAGATACACATTGAGTTTTGAG
+Hyalis_argentea          A---------------------------------------------------------------------
+Nastanthus_patagonicus   T---------------------------------------------------------------------
+
+Gongylolepis_benthamania GTCAACTCCACCTATCACATTTCAGTTTTCGAACTGATTTGGATATTGCTAAGAATTTAACGGCAGCCTA
+Hyalis_argentea          ----------------------------------------------------------------------
+Nastanthus_patagonicus   ----------------------------------------------------------------------
+
+Gongylolepis_benthamania TTCTATTTCTAATACCTGCGTATATACGCAGGTAGCCAATTTTTCACAAGTGTCTCAAAGATTCGTATCA
+Hyalis_argentea          ----------------------------------------------------------------------
+Nastanthus_patagonicus   ----------------------------------------------------------------------
+
+Gongylolepis_benthamania ACTTTATGGTTGAAAATAGCTCAGTCCCATGTGCTGAGTTCTGTATTTTCCATCTTAGTCTGAGCGTTCT
+Hyalis_argentea          -------------------------------------------------------------------TCA
+Nastanthus_patagonicus   ----------------------------------TACGTCTTGCATTCTTC----------------TCT
+
+Gongylolepis_benthamania TTTACTGTAACGTGTTTAGCTTGAATGATATGGCATACGTCCCAAACAATAATACTTTTAAGGGTCGTGG
+Hyalis_argentea          TTTTT-----------------------------------------------------TAAGGGAGATGG
+Nastanthus_patagonicus   TTTAT----------------------GTTTGATATATTCTCTAAATAAAACTA----------------
+
+Gongylolepis_benthamania GTTTGAACCTTTTACCGATTCAGGTGCAGTTGTGAGCTATCTTTTGTCTATGTTTAAATACAGATCAGCT
+Hyalis_argentea          ATTTGAATCTTTTACCAGTTC----------GCGTTCTGCTCTCCATGTTTATTTACAAATAGATCAGCT
+Nastanthus_patagonicus   ----AAACTTTTTACC------------------------------------------------------
+
+Gongylolepis_benthamania TCTCCAAAGATGGTACTGTACCCAAA---GTTGCGACTGCTGTGATAGAAAACGAAAAATTGGGACAAGC
+Hyalis_argentea          TCTCAAAAGATAGCACCGTGCCGGAAGCTGCTGCGACTGCTGTGATAGAGAACGAAAAACTGGGACAAGC
+Nastanthus_patagonicus   -----------------------------------------------TAAAAC-----------------
+
+Gongylolepis_benthamania AATACTTGAGTCGATGATTGGGAAGCATGGTGTTTCCCCAGGAGCGAAACAAAGTTTGGCATCAAGAATT
+Hyalis_argentea          GATACTCGAGTCGATGATCGGGAAACATGGTGTTTCCCCGGGAGCGAAACAAAGTTTGGCATCAAGAGTG
+Nastanthus_patagonicus   --------------TGATTTGTAAATATAGGGTTTTTCT--------AACGGATGCTCATGTTAAAAGGT
+
+Gongylolepis_benthamania GCAGATTTAATAGAACAGTTTGACGATAAAGCTGTTGGGCAAGAAGCAGCCAT-----------------
+Hyalis_argentea          TCAGATTTAATGAAACAGTTTGGTG------------GGCAGGTTGAAGCCATTCCAGACAATTGTGCAT
+Nastanthus_patagonicus   ACTGAT----TAGACTGATTTGAT----------------------------------------------
+
+Gongylolepis_benthamania --CAAGACAATTGGTAGTGTTCAACTGGAACAGGAAGCCATTTAGGCAGCGCAGGAAGGTGGTTTGTAAG
+Hyalis_argentea          GACAAAGCTATTGCGAGTGTCGAACTCGAACAGGCACC---TCCGGAAACGCAAAAAGG-----------
+Nastanthus_patagonicus   --------------------------------------------------------AGATTGTTT-----
+
+Gongylolepis_benthamania GGGTAAATTGGGAAGTTTAAACGAAGGGCTAACAATAGGAATTTCAAGGGTGAAAGAGTATGACATAAAT
+Hyalis_argentea          -----------------------------GTAAATAAGGAATTTCATTGGGAAACAGGATAAAATAAAAG
+Nastanthus_patagonicus   ---------------------------TTTAAAAATATACACAACTTGAATAAAAATGGTTGATTGGACC
+
+Gongylolepis_benthamania AATTG-------------------TGTTCCGCTCGATTTCTATTTAAATAAATAT
+Hyalis_argentea          AATCGTCCACGCGTGTGTTCCTCATTTTCTGCTTGATATCTAATCAAATAAATAT
+Nastanthus_patagonicus   GGTTG-------------------TTTTCC-----------------ATAAATGT
+
+;
+end;

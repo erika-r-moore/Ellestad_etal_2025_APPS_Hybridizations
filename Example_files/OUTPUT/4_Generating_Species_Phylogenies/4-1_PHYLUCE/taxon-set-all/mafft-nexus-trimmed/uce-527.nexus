@@ -1,0 +1,71 @@
+#NEXUS
+begin data;
+dimensions ntax=3 nchar=1075;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-527_Barnadesia_arborea' TCAAGAGGAGGAAATGAGAGACTGTACGATGGCCGTACGGGCGAAATGGTCAAATCCCTCATTTTCATGG
+'uce-527_Fulcaldea_stuessyi' ??????????????????????????????????????????????????????????????????????
+'uce-527_Scaveola_tomentosa' TCAAGATGGGGAAACGAGAGAGTATACAATGGCCGGACTGGGGAAATGGTCAATTCCCTCGTCTTCATGG
+
+'uce-527_Barnadesia_arborea' GCCCCACGTTCTACCAAAGGCTGGTCCACATGTCCGAAGACAAAGTCAAGTTCCGAAACACGGGTCCCGT
+'uce-527_Fulcaldea_stuessyi' ??????????????????????????????????????????????????????????????????????
+'uce-527_Scaveola_tomentosa' GCCCCACGTTTTACCAGAGGCTGGTTCACATGTCCGAAGACAAAGTCAAGTTCCGTAATACGGGACCCGT
+
+'uce-527_Barnadesia_arborea' CCACCCGCTCACCCGACAACCGGTGGCGGACCGTAAGCGGTTCGGGGGGATCAAGTTCGGGGAGATGGAG
+'uce-527_Fulcaldea_stuessyi' ????????????????????????????????????????????????????????????????????AG
+'uce-527_Scaveola_tomentosa' ACACCCTCTAACCCGACAACCAGTTGCGGATCGGAAGCGCTTTGGTGGGATCAAGTTTGGTGAGATGGAG
+
+'uce-527_Barnadesia_arborea' CGTGACTGCCTCATAGCCCACGGTGCCTCGGCCAACCTGCACGAGCGTCTCTTCACGCTCAGTGACTCGT
+'uce-527_Fulcaldea_stuessyi' CGCGACTGCCTCATAGCCCATGGAGCGTCAGCTAACCTTCACGAACGTCTTTTCACTCTCAGTGACTGCT
+'uce-527_Scaveola_tomentosa' CGAGACTGCCTCATAGCCCATGGAGCTTCAGCCAATCTGCACGAGCGTCTCTTCACACTCAGTGACTGCT
+
+'uce-527_Barnadesia_arborea' CCGAGATGCACGTGTGCTGCAAATGCAAGGGAATGGCGA-------------------------------
+'uce-527_Fulcaldea_stuessyi' CAGAGATGCATGTCTGCAGAAGGTGCAAGAGAATGGCGAGTGTCAGCTAACCTTCACCAGCCTTCCTTTA
+'uce-527_Scaveola_tomentosa' CCGAGATGCATGTATGCAAAGAGTGCAAGAGGATGGCAG-------------------------------
+
+'uce-527_Barnadesia_arborea' ----------------------------------------------------------------------
+'uce-527_Fulcaldea_stuessyi' ACATGATCCCTGCTGGTGCTAAACCTTTTCAATCTTGTTTTCAATGGGGGATGTAATGCAATGATTCCTC
+'uce-527_Scaveola_tomentosa' ----------------------------------------------------------------------
+
+'uce-527_Barnadesia_arborea' ----------------------------------------------------------------------
+'uce-527_Fulcaldea_stuessyi' TCAATTGAATAGACAGACACTTGCTTCATAGGACTCACTTGAATCGTCTCGGATGTAATAACAGTACGGT
+'uce-527_Scaveola_tomentosa' ----------------------------------------------------------------------
+
+'uce-527_Barnadesia_arborea' ----------------------------------------------------------------------
+'uce-527_Fulcaldea_stuessyi' TAGTGGATGTAAATTGCTGGGGTGTGACTGTTCAAACAATATGAATGCACGCAACGAATTTGACAACTGT
+'uce-527_Scaveola_tomentosa' ----------------------------------------------------------------------
+
+'uce-527_Barnadesia_arborea' ----------------------------------------------------------------------
+'uce-527_Fulcaldea_stuessyi' GACAGCTTATTGAAAGTTCCTCAGGCTCACGGCAACCGCACTGGTAACAAACTGGTAATGCTGGTGGTCT
+'uce-527_Scaveola_tomentosa' ----------------------------------------------------------------------
+
+'uce-527_Barnadesia_arborea' ----------------------------------------------------------------------
+'uce-527_Fulcaldea_stuessyi' TCTTTCATGTTTCCCAAAATAATTCCAAGGCTCACTAATTTCAATATCATTTTGGTGATTTTCTGAGTGT
+'uce-527_Scaveola_tomentosa' ----------------------------------------------------------------------
+
+'uce-527_Barnadesia_arborea' ----------------------------------------------------------------------
+'uce-527_Fulcaldea_stuessyi' TTGTAACCTTCGTCTGATTCTAAAGACGATAACTCGTTATATGTATTTTTATGTATCAGCCTGCGATTTC
+'uce-527_Scaveola_tomentosa' ----------------------------------------------------------------------
+
+'uce-527_Barnadesia_arborea' ----------------------------------------------------------------------
+'uce-527_Fulcaldea_stuessyi' TTCTAGAAACCGTCATTTGCACAAACTGTGGAGAACTTGTTTGCGTTATCCTTCTTGGTGAAAGATGGTC
+'uce-527_Scaveola_tomentosa' ----------------------------------------------------------------------
+
+'uce-527_Barnadesia_arborea' --------------------------------------------------ACGTGATCCAGAGGTCGATC
+'uce-527_Fulcaldea_stuessyi' GGTTTTTAATATTATCATTCAACACGTGACCCAAATCGATTTCGGAGAACGTGTAATCCAGAGGTCGGTC
+'uce-527_Scaveola_tomentosa' --------------------------------------------------GCGTGATTCAGAGATCAGTC
+
+'uce-527_Barnadesia_arborea' CCCGGGGGTAACAAGGTTCGCGGGCCCTACTGTCGGATCTGCGATTCGATGGAAGATGTGATCAAGGTTA
+'uce-527_Fulcaldea_stuessyi' TCGGGTGGGCATAAGATCCGTGGGCCCTATTGTCGGATCTGTGACTCCATGGAAGATGTGATTAAGGTAA
+'uce-527_Scaveola_tomentosa' CCTGGGGGCCACAAGATTCGGGGACCCTATTGTCGCATTTGTGACTCGGCTGAAAACGTGATCAAGGTGA
+
+'uce-527_Barnadesia_arborea' ATGTGCCTTATGGGGCCAAATTGCTCACTCAAGAGCTCTTTAGTATGGGCATTTCTCTCAAGTTTGATAC
+'uce-527_Fulcaldea_stuessyi' G?????????????????????????????????????????????????????????????????????
+'uce-527_Scaveola_tomentosa' ATGTGCCATACGGGGCCAAATTACTCACTCAAGAGCTTTTTAGCATGGGTATTTCCCTGAAGTTCGAAGT
+
+'uce-527_Barnadesia_arborea' CGAGTTATGTTAACTCAGTTGTGTA
+'uce-527_Fulcaldea_stuessyi' ?????????????????????????
+'uce-527_Scaveola_tomentosa' CGAGTTATGCTAACGGACTAGTTTA
+
+;
+end;

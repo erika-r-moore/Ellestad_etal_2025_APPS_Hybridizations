@@ -1,0 +1,97 @@
+#NEXUS
+begin data;
+dimensions ntax=5 nchar=1014;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-37_Famatinanthus_sp'             GGGACTACTAGAGCTTACTTGGACGGAATGCAGTAAG-------TTTGATCTCTTTGTAA----------
+'uce-37_Gongylolepis_benthamania'     GGGACGACTAGAGCTTACTTGGACGGAATGCAGTAAG-------TCTGATCCCTATGTAA----------
+'uce-37_Hyalis_argentea'              GGCACGACGAGAGCTTACTTGGACGGAATGCAGTATG----TTTTTTTATCTTTCCGTTG----------
+'uce-37_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-37_Schlechtendalia_luzulaefolia' ??????????????????????????????????????????????????????????????????????
+
+'uce-37_Famatinanthus_sp'             -----CTACGAATCTTTAGTTCAC----------------------------------------------
+'uce-37_Gongylolepis_benthamania'     -----CTTCAGATTTTTAGTTCTCGATCAAAAATTATTGCGTGATTCAC------TTCAAGATTATCCTT
+'uce-37_Hyalis_argentea'              -----CTTCAAATCTTTCGTTCTTGATCGGAAACCATTGCTTGATTCACCGAGATTTCAAAGTCACCCAT
+'uce-37_Scaveola_tomentosa'           ????????????????????????GTT---------TTTCATGATTTACCTGCACTT---------TCTT
+'uce-37_Schlechtendalia_luzulaefolia' ??????????????????????????????????????????????????????????????????????
+
+'uce-37_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-37_Gongylolepis_benthamania'     GGAAAT-CATTGTTTTTCATGCCAAAAGATGGGA------------------------------------
+'uce-37_Hyalis_argentea'              CAAAACATGCCCTTTTTCAATCCCGAAAATGGGAAATCCATGAACGAATGCTTCAAAATTTCAAGATCCT
+'uce-37_Scaveola_tomentosa'           GTATTTGTATTTTCCTTTACTTCATAA-------------------------------------------
+'uce-37_Schlechtendalia_luzulaefolia' ??????????????????????????????????????????????????????????????????????
+
+'uce-37_Famatinanthus_sp'             -------------------------------------------------------ACAAAACACTT--CA
+'uce-37_Gongylolepis_benthamania'     ---------------------------------------TAGTTCTTGATCCAAAACCAAACACTT--CA
+'uce-37_Hyalis_argentea'              TGAGGGTATTGTTGGGAATTTGATGAAATGTCGAATCGTTAGTTCTTGATCCAAAACCGAACACTTAAAA
+'uce-37_Scaveola_tomentosa'           ---------------------------------------GAATCGCTGATTACTAATCAAAGCTTT--GT
+'uce-37_Schlechtendalia_luzulaefolia' ??????????????????????????????????????????????????????????????????????
+
+'uce-37_Famatinanthus_sp'             AGATTTCAAAATTATCCATCAAAATTCGACGTTTTTCAGGCCAGAAGATGGGAAATCCATGAAACCCATA
+'uce-37_Gongylolepis_benthamania'     AGATTTCAAAATAATC-----------GTTGTTTTTCAGGCCAGAAGATGGGAAATCCATGAAACCCGTA
+'uce-37_Hyalis_argentea'              AGATTTCAAGATTATTCACGGGAATAGTTTGTTTTCCAGGCCAGAAGACGGGAAATCCATGAAACCCGTA
+'uce-37_Scaveola_tomentosa'           GATTCTAAAAGTTATCCGTAAATTCATTTTCTTTTTCAGGCCTGAGGATGGAAAATCAATGAAACCCGTA
+'uce-37_Schlechtendalia_luzulaefolia' ?????????????????????????????????????????????????TGGAAATCCATGAAACCCATA
+
+'uce-37_Famatinanthus_sp'             TGTCTTCTCCAGTTATTGCGTGTAGGAGTCATCGTTTACGATTGGCTCGACATCTCTTTCCTGAAATCTT
+'uce-37_Gongylolepis_benthamania'     TGTCTTCTCCAGTTATTGCGCTTGGGAGTTATCGTTTATGATTGGCTCGACATTCCTTTCCTGAAATCTT
+'uce-37_Hyalis_argentea'              TGTCTTCTCCAGTTATTGCGTGTCGGCGTTATCATCTACGATTGGCTCGACATTCCGGTCCTGAAATCTT
+'uce-37_Scaveola_tomentosa'           TGTCTTCTCCAAGTGCTGCGTGTAGGAGTAATTATTTATGACTGGCTTGACATTCCTATTCTAAAATCTT
+'uce-37_Schlechtendalia_luzulaefolia' TGTCTTTTGCAACTGTTACGTGTTGGAGTGATCATTTACGATTGGCTTGACATCCCTGTTTTGAAATCTT
+
+'uce-37_Famatinanthus_sp'             ATTACAATTTCGGGTTCGATCATTATAACATGTCATGGAAGAAATCTGGTGTTTGGGGACTTGTTGATTG
+'uce-37_Gongylolepis_benthamania'     ATTACAATTTCGGGTTTGATCATTACAATATGTCGTGGAAGAAAGCTGGCATTTGGGGAATTGTCGATTG
+'uce-37_Hyalis_argentea'              ATTACAATTTCGGGTTCGATCATTACAATATGTCGTGGAAGAGAGCCGGTGTTTGGGGACTTGTCGATTG
+'uce-37_Scaveola_tomentosa'           ATTACAATTTCGGGTTTGATCATTACAACATCTCCTGGAGGAAAAATGGGCTCCGGGGACTTGTTGATTG
+'uce-37_Schlechtendalia_luzulaefolia' ATTACAACTTTGGATTTGACCACTACAATATGTCATGGAGGAAAATGGGTGTTTGGGGACTTGTTGATTG
+
+'uce-37_Famatinanthus_sp'             TCTTCTTGGAAACTCTGGCCCTTTTGCTTCTGGTGATTGGATCCTTCCCGATCTAACGATCCAGGGATCG
+'uce-37_Gongylolepis_benthamania'     TCTTGTTGGGAACTCTGGCCCTTTTGCTTCTGGCGATTGGATCCTTCCTGATCTAACGATCCAGGGATCG
+'uce-37_Hyalis_argentea'              TCTTCTCGGAAATTCCGGCCCTTTTGCTTCCGGTGATTGGATCCTTCCCGATCTAACGATCCAGGGATCG
+'uce-37_Scaveola_tomentosa'           CCTTCTTGGAAATTCTGGTCCTTTTGTGTCTGGTGATTGGATCCTTCCTGATCTTACGATCCAAGGATCA
+'uce-37_Schlechtendalia_luzulaefolia' CCTCGTTGGAAATTCAGGTCCTTTTGCCTCCGGGGATTGGATACTTCCTGACCTCACAATCCAAGGGTCG
+
+'uce-37_Famatinanthus_sp'             TTAAGGCTCAACAACCATCTAAACACGTTTCCTAGTACGTATTACTTTAGTTATGCGACAAAACGTACCA
+'uce-37_Gongylolepis_benthamania'     TTACGTCTCAACAGCCATCTAAACACGTTTCCTAGCACATACTACTTTAGTTACGCGACAAAACGTACAA
+'uce-37_Hyalis_argentea'              TTACGTCTCAACAGCCATCTAAACACGTTTCCGAGCACGTACTACTTTAGTTATGCCACGAAACGGACTC
+'uce-37_Scaveola_tomentosa'           TTACGTCTTAACAGCCATCTAAACACGTTTCCTCATACGTACTGCTTTAGCTATGCAACAAAACGTACTA
+'uce-37_Schlechtendalia_luzulaefolia' ATACGTCTCAACAGCCATATACAGACATTCCCCAACACATACTATTTTAGCTATGCGACTAAACGTACTA
+
+'uce-37_Famatinanthus_sp'             GGAAAATCATGGGTTTTACTGTCCCGTCCAATGTACTAGGAATCCACCCATTGCTTTTCATCAGAGTCTT
+'uce-37_Gongylolepis_benthamania'     GGAACATCATGGGGTTTACCGTCCCATCGAACATACTAGGAATCCACCCGTTGCTTTTCATAAGAGTCTT
+'uce-37_Hyalis_argentea'              GGAAGATCATGGGTTTCACCGTCCCTTCGAATGTGCTTGGGATCCACCCGTTGCTTTTCATCAGAGTCTT
+'uce-37_Scaveola_tomentosa'           AGAAAATTATGGGTGTTACGGTACCTTCGGGTGTACTAGGGATCCATCCTTTGCTCTTCATTAGAGTCTT
+'uce-37_Schlechtendalia_luzulaefolia' GGAAATTCTTGGGCTTCACTGTACCTTCGGGTATACTAGGAATCCACCCTTTGCTTTTCATCAGAGTATT
+
+'uce-37_Famatinanthus_sp'             GCAGATGAGTCAATGGAGGCACCCGCCCGACGCTTCTCCCCCTTTCAAGGGCTACAGGTCGGTTGA----
+'uce-37_Gongylolepis_benthamania'     GCAGATGAGCCAATGGAGGCACCCCCCGGACGTCTCACCCCCTTTCAAGGGCTACAGGTTGGTTGA----
+'uce-37_Hyalis_argentea'              GCAGATGAGCCAATGGAGGCACCCGCCCGACGTCTCCCCACCTTTCAAGGGCTACAGGTTGGTTGA----
+'uce-37_Scaveola_tomentosa'           GCAAATGTGCCAATGGAGGCATCCTCCTGATGCCTCTCCCCCCTTTAAGGGCTACAGGTTAGTTCG----
+'uce-37_Schlechtendalia_luzulaefolia' GCAAATGAGCCAATGGAGGCATCCCCCTGATGCTTCTCCCCCCTTCAAGGGCTACAGGTAGATTGCGTAA
+
+'uce-37_Famatinanthus_sp'             -----------TCTTCGATGAGATGTGCAACAT-----------------------------TCGTGCTT
+'uce-37_Gongylolepis_benthamania'     -----------TATTCGATAAAACGTGCAACTT-----------------------------TAGTGCTT
+'uce-37_Hyalis_argentea'              -----------GTCTTGACAAAAAACGTGCGGT--------------------------ATTTCGTGGTT
+'uce-37_Scaveola_tomentosa'           ---TGTATCACTTTTTAATACTAAGTTGATATT----------------GCATAATATGGGTCTTCATTA
+'uce-37_Schlechtendalia_luzulaefolia' ATATCAATAATCTTGTAAAGTCAAGAGTACACTCTTTTATGGGACCGAAGGAGTATATGGGTTCATGTTT
+
+'uce-37_Famatinanthus_sp'             GATTCTGTATGTTCATGTTAGAAATTGGATTTTCAGGGACGAAGATTGGTGGGATAACGATGGCGCGCTA
+'uce-37_Gongylolepis_benthamania'     GATTTTGTATGTTCATGTTGGAAACTGGATTTTCAGGGACGAAGATTGGTGGGATAACGATGGCGCGCTA
+'uce-37_Hyalis_argentea'              GATTTGTTATGCTCATGGTACAAGTCCGATTTGCAGGGATGAAGATTGGTGGGATAACGATGGCGCGCTA
+'uce-37_Scaveola_tomentosa'           AGTCGCTCATGCTTCATGTTAAACTGAAATTTTCAGGGATGAAGACTGGTGGGACAACGATGGTGCATTA
+'uce-37_Schlechtendalia_luzulaefolia' ATT--------------------------TTTTCAGGGACGAAGATTGGTGGGATAA?????????????
+
+'uce-37_Famatinanthus_sp'             AACACTGTGTCTATGACACACCCTCGTCTCCCAGTTGAA???????????????????????????????
+'uce-37_Gongylolepis_benthamania'     AACACCGTGTCTATGACACACCCTCGTCTCCCAGTTGAACACCCTAGTCGATTTGTGCTTACAGATTCCG
+'uce-37_Hyalis_argentea'              AATACCGTGTCTATGACACACCCTCGTCTCCCAGTTGAACACCCGAGTCGATTTGTTGTTGAAGATTCCG
+'uce-37_Scaveola_tomentosa'           AACACCATTTCTATGACCCACCCTCGTTTTCCTATTGAACACCCAAGTCGATTTGTGGTTAAAGATTCTG
+'uce-37_Schlechtendalia_luzulaefolia' ??????????????????????????????????????????????????????????????????????
+
+'uce-37_Famatinanthus_sp'             ??????????????????????????????????
+'uce-37_Gongylolepis_benthamania'     AATGCCAGCCGTTGCAGCCGGGCATTTGGTATGT
+'uce-37_Hyalis_argentea'              AATGCCAGCCCTTGCAACCGGGCATTTGGTATGT
+'uce-37_Scaveola_tomentosa'           AGTGCCAGCCCTTGCAACCAGGCATCTGGTATGT
+'uce-37_Schlechtendalia_luzulaefolia' ??????????????????????????????????
+
+;
+end;

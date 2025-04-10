@@ -1,0 +1,14 @@
+2024-09-25 12:41:40,822 - phyluce_align_remove_locus_name_from_files - INFO - ====== Starting phyluce_align_remove_locus_name_from_files ======
+2024-09-25 12:41:40,822 - phyluce_align_remove_locus_name_from_files - INFO - Version: 1.7.1
+2024-09-25 12:41:40,822 - phyluce_align_remove_locus_name_from_files - INFO - Commit: None
+2024-09-25 12:41:40,822 - phyluce_align_remove_locus_name_from_files - INFO - Argument --alignments: /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/mafft-nexus-trimmed
+2024-09-25 12:41:40,822 - phyluce_align_remove_locus_name_from_files - INFO - Argument --cores: 1
+2024-09-25 12:41:40,822 - phyluce_align_remove_locus_name_from_files - INFO - Argument --input_format: nexus
+2024-09-25 12:41:40,822 - phyluce_align_remove_locus_name_from_files - INFO - Argument --log_path: /project/ermoore3/basalAsteraceae/barnadesioideae/log
+2024-09-25 12:41:40,822 - phyluce_align_remove_locus_name_from_files - INFO - Argument --output: /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/mafft-nexus-trimmed-clean
+2024-09-25 12:41:40,822 - phyluce_align_remove_locus_name_from_files - INFO - Argument --output_format: nexus
+2024-09-25 12:41:40,822 - phyluce_align_remove_locus_name_from_files - INFO - Argument --taxa: None
+2024-09-25 12:41:40,822 - phyluce_align_remove_locus_name_from_files - INFO - Argument --verbosity: INFO
+2024-09-25 12:41:40,822 - phyluce_align_remove_locus_name_from_files - INFO - Getting alignment files
+2024-09-25 12:41:42,409 - phyluce_align_remove_locus_name_from_files - INFO - Taxon names in alignments: Hyalis_argentea,Schlechtendalia_luzulaefolia,Scaveola_tomentosa,Famatinanthus_sp,Fulcaldea_stuessyi,Barnadesia_arborea,Chuquiraga_sp,Gongylolepis_benthamania,Nastanthus_patagonicus
+2024-09-25 12:41:42,409 - phyluce_align_remove_locus_name_from_files - INFO - ====== Completed phyluce_align_remove_locus_name_from_files =====

@@ -1,0 +1,71 @@
+#NEXUS
+begin data;
+dimensions ntax=3 nchar=1075;
+format datatype=dna missing=? gap=- interleave;
+matrix
+Barnadesia_arborea TCAAGAGGAGGAAATGAGAGACTGTACGATGGCCGTACGGGCGAAATGGTCAAATCCCTCATTTTCATGG
+Fulcaldea_stuessyi ??????????????????????????????????????????????????????????????????????
+Scaveola_tomentosa TCAAGATGGGGAAACGAGAGAGTATACAATGGCCGGACTGGGGAAATGGTCAATTCCCTCGTCTTCATGG
+
+Barnadesia_arborea GCCCCACGTTCTACCAAAGGCTGGTCCACATGTCCGAAGACAAAGTCAAGTTCCGAAACACGGGTCCCGT
+Fulcaldea_stuessyi ??????????????????????????????????????????????????????????????????????
+Scaveola_tomentosa GCCCCACGTTTTACCAGAGGCTGGTTCACATGTCCGAAGACAAAGTCAAGTTCCGTAATACGGGACCCGT
+
+Barnadesia_arborea CCACCCGCTCACCCGACAACCGGTGGCGGACCGTAAGCGGTTCGGGGGGATCAAGTTCGGGGAGATGGAG
+Fulcaldea_stuessyi ????????????????????????????????????????????????????????????????????AG
+Scaveola_tomentosa ACACCCTCTAACCCGACAACCAGTTGCGGATCGGAAGCGCTTTGGTGGGATCAAGTTTGGTGAGATGGAG
+
+Barnadesia_arborea CGTGACTGCCTCATAGCCCACGGTGCCTCGGCCAACCTGCACGAGCGTCTCTTCACGCTCAGTGACTCGT
+Fulcaldea_stuessyi CGCGACTGCCTCATAGCCCATGGAGCGTCAGCTAACCTTCACGAACGTCTTTTCACTCTCAGTGACTGCT
+Scaveola_tomentosa CGAGACTGCCTCATAGCCCATGGAGCTTCAGCCAATCTGCACGAGCGTCTCTTCACACTCAGTGACTGCT
+
+Barnadesia_arborea CCGAGATGCACGTGTGCTGCAAATGCAAGGGAATGGCGA-------------------------------
+Fulcaldea_stuessyi CAGAGATGCATGTCTGCAGAAGGTGCAAGAGAATGGCGAGTGTCAGCTAACCTTCACCAGCCTTCCTTTA
+Scaveola_tomentosa CCGAGATGCATGTATGCAAAGAGTGCAAGAGGATGGCAG-------------------------------
+
+Barnadesia_arborea ----------------------------------------------------------------------
+Fulcaldea_stuessyi ACATGATCCCTGCTGGTGCTAAACCTTTTCAATCTTGTTTTCAATGGGGGATGTAATGCAATGATTCCTC
+Scaveola_tomentosa ----------------------------------------------------------------------
+
+Barnadesia_arborea ----------------------------------------------------------------------
+Fulcaldea_stuessyi TCAATTGAATAGACAGACACTTGCTTCATAGGACTCACTTGAATCGTCTCGGATGTAATAACAGTACGGT
+Scaveola_tomentosa ----------------------------------------------------------------------
+
+Barnadesia_arborea ----------------------------------------------------------------------
+Fulcaldea_stuessyi TAGTGGATGTAAATTGCTGGGGTGTGACTGTTCAAACAATATGAATGCACGCAACGAATTTGACAACTGT
+Scaveola_tomentosa ----------------------------------------------------------------------
+
+Barnadesia_arborea ----------------------------------------------------------------------
+Fulcaldea_stuessyi GACAGCTTATTGAAAGTTCCTCAGGCTCACGGCAACCGCACTGGTAACAAACTGGTAATGCTGGTGGTCT
+Scaveola_tomentosa ----------------------------------------------------------------------
+
+Barnadesia_arborea ----------------------------------------------------------------------
+Fulcaldea_stuessyi TCTTTCATGTTTCCCAAAATAATTCCAAGGCTCACTAATTTCAATATCATTTTGGTGATTTTCTGAGTGT
+Scaveola_tomentosa ----------------------------------------------------------------------
+
+Barnadesia_arborea ----------------------------------------------------------------------
+Fulcaldea_stuessyi TTGTAACCTTCGTCTGATTCTAAAGACGATAACTCGTTATATGTATTTTTATGTATCAGCCTGCGATTTC
+Scaveola_tomentosa ----------------------------------------------------------------------
+
+Barnadesia_arborea ----------------------------------------------------------------------
+Fulcaldea_stuessyi TTCTAGAAACCGTCATTTGCACAAACTGTGGAGAACTTGTTTGCGTTATCCTTCTTGGTGAAAGATGGTC
+Scaveola_tomentosa ----------------------------------------------------------------------
+
+Barnadesia_arborea --------------------------------------------------ACGTGATCCAGAGGTCGATC
+Fulcaldea_stuessyi GGTTTTTAATATTATCATTCAACACGTGACCCAAATCGATTTCGGAGAACGTGTAATCCAGAGGTCGGTC
+Scaveola_tomentosa --------------------------------------------------GCGTGATTCAGAGATCAGTC
+
+Barnadesia_arborea CCCGGGGGTAACAAGGTTCGCGGGCCCTACTGTCGGATCTGCGATTCGATGGAAGATGTGATCAAGGTTA
+Fulcaldea_stuessyi TCGGGTGGGCATAAGATCCGTGGGCCCTATTGTCGGATCTGTGACTCCATGGAAGATGTGATTAAGGTAA
+Scaveola_tomentosa CCTGGGGGCCACAAGATTCGGGGACCCTATTGTCGCATTTGTGACTCGGCTGAAAACGTGATCAAGGTGA
+
+Barnadesia_arborea ATGTGCCTTATGGGGCCAAATTGCTCACTCAAGAGCTCTTTAGTATGGGCATTTCTCTCAAGTTTGATAC
+Fulcaldea_stuessyi G?????????????????????????????????????????????????????????????????????
+Scaveola_tomentosa ATGTGCCATACGGGGCCAAATTACTCACTCAAGAGCTTTTTAGCATGGGTATTTCCCTGAAGTTCGAAGT
+
+Barnadesia_arborea CGAGTTATGTTAACTCAGTTGTGTA
+Fulcaldea_stuessyi ?????????????????????????
+Scaveola_tomentosa CGAGTTATGCTAACGGACTAGTTTA
+
+;
+end;

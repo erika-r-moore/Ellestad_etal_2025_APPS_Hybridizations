@@ -1,0 +1,107 @@
+#NEXUS
+begin data;
+dimensions ntax=4 nchar=1374;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-68_Fulcaldea_stuessyi'           ??????????????????????????????????????????????????????????????????????
+'uce-68_Gongylolepis_benthamania'     TAATACCCTCAATCATCGTAGGCGGCGGCCGTGTCGGAAGAGCCCTACAAGACATGGGGAACGGCGATGA
+'uce-68_Hyalis_argentea'              TCATACCCTCAATCATCGTAGGCGGTGGCCGTGTCGGCAAAGCCCTACAAGACATGGGCAACGGCGAGGA
+'uce-68_Schlechtendalia_luzulaefolia' TAATACCTTCAATCATCGTAGGCGGGGGTCGCGTCGGAAAAGCCCTACAAGACATGGGCAGCGGCCAAGA
+
+'uce-68_Fulcaldea_stuessyi'           ??????????????????????????????????????????????????????????????????????
+'uce-68_Gongylolepis_benthamania'     TTTGATTGTGAAGAGGGGCGAGCCTGTGCCGATTGATTTCCCAGGCCCGATATTGGTGTGCACCAGGAAC
+'uce-68_Hyalis_argentea'              TTTTCTGGTGAAGAGGGGCGAACCTGTGCCGATTGATTTCCCAGGCCCGATATTGGTGTGCACCAGGAAC
+'uce-68_Schlechtendalia_luzulaefolia' TTTGCTGGTGAAAAGAGGCGAATCCGTGCCCATTGATTTCCCAGGTCCCATATTGGTCTGCACCAGGAAC
+
+'uce-68_Fulcaldea_stuessyi'           ??????????????????????????????????????????????????????????????????????
+'uce-68_Gongylolepis_benthamania'     GATGATCTAGATGCCGTCCTTCAGTCCACTCCTCAGTCCCGTTGGAGCGGTACGA---------------
+'uce-68_Hyalis_argentea'              GATGATCTGGATGCCGTCCTTCAGTCCACTCCTCAGTCCCGTTGGAGCGGTACGG---------------
+'uce-68_Schlechtendalia_luzulaefolia' GATGACCTTGATGCTGTTCTTCACTCAACCCCTCAGACCCGTTGGAGCGGTACGAATCACTGCCCTAGTA
+
+'uce-68_Fulcaldea_stuessyi'           ??????????????????????????????????????????????????????????????????????
+'uce-68_Gongylolepis_benthamania'     -----------------------TACTTACAACTTATCC---------------CCACCACGATATCAT-
+'uce-68_Hyalis_argentea'              -----------------------TACTTATAACTTACAC---------------CCACCACGACATCATT
+'uce-68_Schlechtendalia_luzulaefolia' TTCATTCAGTTTCTTTTATGTTTTGTTTATAGTTTGCATATTTCAACTCATTCACAAACACGACGCTACT
+
+'uce-68_Fulcaldea_stuessyi'           ??????????????????????????????????????????????????????????????????????
+'uce-68_Gongylolepis_benthamania'     ---GATTTGTGCTTACGAAATCTGAAGTTGTAGTTTATGGAATC--ATAAGGTGTAATTGCGCATTTCAA
+'uce-68_Hyalis_argentea'              CAAGCTTTGTGCATTAGAAATCTGAA---GTAGTTCATGGAATCGTATATGGTGCAATTGTGAATTTCAA
+'uce-68_Schlechtendalia_luzulaefolia' TTTGATTCTTGTA----------------ATCGTATATGGGTTTATGTATGG-GCAATTGAGCTGTATAT
+
+'uce-68_Fulcaldea_stuessyi'           ??????????????????????????????????????????????????????????????????????
+'uce-68_Gongylolepis_benthamania'     TTGATGCCATGGGGGGGTTGAGTGAACATCCAATAACAATGAATTTTGCTGTACGCTTCTCACACAGACA
+'uce-68_Hyalis_argentea'              TTGAT----------GGTTAAAC-------------TAGTGAATTGGG----------------------
+'uce-68_Schlechtendalia_luzulaefolia' CTCTCTCC-------GGTTGTGGGAAGTGCCCACATAAATTTACCTCGCCCAATACTCTGGAGGTCAATT
+
+'uce-68_Fulcaldea_stuessyi'           ??????????????????????????????????????????????????????????????????????
+'uce-68_Gongylolepis_benthamania'     AACATGTTTTTTGCTGCACTTTTCTCCTAGTCGTTGGGCCTAGGTCTCCATTCTTTCAGCCAGACACAAG
+'uce-68_Hyalis_argentea'              ----------------------------------------------------ATTTTAACCAGTCATTGT
+'uce-68_Schlechtendalia_luzulaefolia' ATCATGCCCACAGCC--------------AATGTGGAAGACTTGTTTCGAATTCTCCAACCATATAACAG
+
+'uce-68_Fulcaldea_stuessyi'           ??????????????????????????????????????????????????????????????????????
+'uce-68_Gongylolepis_benthamania'     AAGCCCGACAATGGCT--------GGTCCTAAGAATTGTTTGCACGGGATGAGATACACACAAACATGTT
+'uce-68_Hyalis_argentea'              ATTCCTGA----------------------------------------AGAAAATGAAAACAACCA----
+'uce-68_Schlechtendalia_luzulaefolia' TATCACCAAAAAAATTCCAGCATGAGATTCAGAATCAATATGTAT---ATGATTTCCAGGCAAATGTGT-
+
+'uce-68_Fulcaldea_stuessyi'           ??????????????????????????????????????????????????????????????????????
+'uce-68_Gongylolepis_benthamania'     GACGGCAGTTTCTATAACTATTTGGC------------------------GAAACTTGATAACCATATTA
+'uce-68_Hyalis_argentea'              -----CCATTTGTACCACCATTGGAC------------------------ACCATGTATGAGTCCTTTTG
+'uce-68_Schlechtendalia_luzulaefolia' -----TAGTTTCTTCTCTTGTGGGATCTAGCCCTGAACCTGTGGGCTGCGACCATGGAGTCTCTCTCTGG
+
+'uce-68_Fulcaldea_stuessyi'           ??????????????????????????????????????????????????????????????????????
+'uce-68_Gongylolepis_benthamania'     AACTAA---AGGGGATTGCGAACTCTACTTGCTAAAT---TATAT--------------------AAAAA
+'uce-68_Hyalis_argentea'              AATTGATACAAAGGAT--------------------------------------------------GACA
+'uce-68_Schlechtendalia_luzulaefolia' CGCTGA--GATGGAGTTGC-------ACTTGCCAAATGAATATATTGTTTCATTTCCATTGTGTCCCACT
+
+'uce-68_Fulcaldea_stuessyi'           ??????????????ATTCTGATA---TGTTGATGTTTGTATGTG---TTAAAGATGGA------------
+'uce-68_Gongylolepis_benthamania'     GCTAAAGAAGGTCGATTCTAAC----------CATTTACTTGTA---GTTTCGTTGAAACAAAACTATTA
+'uce-68_Hyalis_argentea'              GCACAGGAGGTTTAATTCTGATC---TGATGATGGTTTTTAGTT---GTTTAGATGAA------------
+'uce-68_Schlechtendalia_luzulaefolia' CCCCATAAAAGAAGAGTCTAATGATGTGTTGATGATTGTATGTGTGTGTTAAGATGTA------------
+
+'uce-68_Fulcaldea_stuessyi'           -------TCTTAACAATCTAGCAGATTTGGTTTTTTTCCAGAATGGGATGCTGGAGCCATGGTTCCAGAG
+'uce-68_Gongylolepis_benthamania'     GAAATTGTCATAACAATCTAGCAGATTTGGTCTTTTTCCAGAACGGGATGCTGGAGCCATGGTTTCAAAG
+'uce-68_Hyalis_argentea'              -------TCGTAACAATCTTGCAGATTTGGTTTTTTTCCAGAACGGGATGCTGGAGCCATGGTTCCAAAG
+'uce-68_Schlechtendalia_luzulaefolia' -------AGTTAACAATCTAGCAGATTTGGTGTTTTTCCAGAATGGGATGCTGGAGCCATGGTTCCAGAG
+
+'uce-68_Fulcaldea_stuessyi'           TAACGGTCTAGGTGATGCCGACCAGGTCTTGGCGTATTTTGCCGTTTCCAAGCTTGGTGAACCTCCTGTT
+'uce-68_Gongylolepis_benthamania'     TAAAGGTCTAGGTGACGCTGACCAAGTGTTGGCATATTTTGCCGTTTCCAAGCTTGGGGAACTTCCTGTC
+'uce-68_Hyalis_argentea'              TAAAGGTCTAGGTGATGCAGACCAAGTGTTGGCATATTTTGCAGTTTCCAAGCTTGGGGAACCTCCTGTG
+'uce-68_Schlechtendalia_luzulaefolia' TAATGGTCTAGGTGATGCCAACCAAGTGCTGGCATATTTTGCTGTCTCCAAGCTTGGTGAACCTCCTGTT
+
+'uce-68_Fulcaldea_stuessyi'           GATGGTATAACCGATACTAATCCTGAGGGATTAACTGCTGCTTTCGGCAAATGGGGTTCTGCTGTGGCTG
+'uce-68_Gongylolepis_benthamania'     GATGGTATAACCGATACTAATCCCGAGGGACTGACTGCTGCTTTTGGCAAATGGGGTTCTGCTGTGGCTG
+'uce-68_Hyalis_argentea'              GATGGTATAACCGATACTAATCCTGAGGGATTGACTGCTGCTTTCGGCAAATGGGGTTCTGCTGTGGCTG
+'uce-68_Schlechtendalia_luzulaefolia' GATGGTATCACCGACACTAATCCTGAAGGACTAACTGCTGCTTTTGGAAAATGGGCTCCTGCTGTTGCTG
+
+'uce-68_Fulcaldea_stuessyi'           CTAGGTTGCAGGCTGGAGGTCTTTCTTGCAAGGTAAATG--ATGTTCAATTTTCAG---------TCTTG
+'uce-68_Gongylolepis_benthamania'     CTAGGTTACATGCTGGAGGCCTTTCTTGCAAGGTAAATG--ATGTTTCATTTGCAGTCTTTTAACTCTTA
+'uce-68_Hyalis_argentea'              CTAGGTTACATGCTGGAGGCCTTTCTTGCAAGGTGAATGATATGTTTCATTTGCAG---------TCCTA
+'uce-68_Schlechtendalia_luzulaefolia' CTAGGTTACAGGCTGGAGGCCTTTCTTGCAAGGTCAACA--ATATTCAACCTTCAG---------TCTTA
+
+'uce-68_Fulcaldea_stuessyi'           ATTTTGTGACAGTACTTACAAAGAGGG-AAACGTAAAACAGAAACAAACGGCACTTTGCTTGGAACTTTA
+'uce-68_Gongylolepis_benthamania'     ATTTTGTGCCAGTACTTAAAACTAGGGTAAAAGCAAAAG--ACACAAACTGCATTTT-CTTGGAAGTCTA
+'uce-68_Hyalis_argentea'              ATTTCGAGCCACCACTTAAAACTAGGGTAAGAGCTAAAC--AAACAAACTGCATTTT-CTTGGATGTTTA
+'uce-68_Schlechtendalia_luzulaefolia' ATTTTATGACACTACTTAAGAGGAGGTTAAAAGTACACCAAACAAAATCTTGATTTTTCTTGCAAGTTTA
+
+'uce-68_Fulcaldea_stuessyi'           TGATCATCTGGATTTTAGCATAGAATCTTT---GTTTTGTTTTTTTGTAGGAGTTGCATGGTTTGATATT
+'uce-68_Gongylolepis_benthamania'     TGTTCGGCTGAATTTAAGTATCAGATCTTCT--GGGTTCTTTCTTTCTTGGAGTTGCATGGTGCAAGATT
+'uce-68_Hyalis_argentea'              TGATCGGCTGGATCTTAGTATCAGATCTTCTAGCTTTTCTTTCTTTGCTGGAGTTGCATGGTATGAGATT
+'uce-68_Schlechtendalia_luzulaefolia' T--CCGGCTTTTATAAAGTTCCCATGTTTTT--CTCCTTTTTCCATGTTGGAGTTACATGGTTTGAGATT
+
+'uce-68_Fulcaldea_stuessyi'           TATCCTCCATTACCAGTAACATAAGT---GCCA?????????????????????????????????????
+'uce-68_Gongylolepis_benthamania'     TATCCTCCAGCACTAGCAACGCAAGT---GAAATTGTAACCACAATTGTTGTGATTTTGACTTGAAATAC
+'uce-68_Hyalis_argentea'              TACCCTCTAATGCTAGTAACTCAAGT---CAAATTGTAACAAGAATTGTTG--GTTTTGACTCGAATTAC
+'uce-68_Schlechtendalia_luzulaefolia' TCTCCTCCATCTCCTGTAACACAAGTCAAAAAATTGTAACAACAA--------ACTATGACTTAAGATGT
+
+'uce-68_Fulcaldea_stuessyi'           ??????????????????????????????????????????????????????????????????????
+'uce-68_Gongylolepis_benthamania'     CTTGATTAAAGTTTTAATTCTGTAAGAAAAC-------------TATATGGAAATCAGGTCCTCAAGAAA
+'uce-68_Hyalis_argentea'              CATAGTTAAAACTCAGATTCCGTAAGAAAACTCAAGTCTCTCAAAATATAATGCTTAGGTTCTAGAGAAA
+'uce-68_Schlechtendalia_luzulaefolia' CATAGATGAAGGTCTAATCCTGTAAAGAAA--------------AACATGGAAAACAGGTTCTAGAGAAG
+
+'uce-68_Fulcaldea_stuessyi'           ????????????????????????????????????????????
+'uce-68_Gongylolepis_benthamania'     GAACCCTTTCAGAAGCAAATGCTAGAGAAGCTTATATGGATAGC
+'uce-68_Hyalis_argentea'              GAACCCTTCCAGAAGCAAATGCTAGAGAAGCTTATATGGATAGC
+'uce-68_Schlechtendalia_luzulaefolia' GAACCTTTTCAGAAGCAAATGCTAGAGAAGCTTATATGGATAGC
+
+;
+end;

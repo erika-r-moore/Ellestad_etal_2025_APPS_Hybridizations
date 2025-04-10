@@ -1,0 +1,95 @@
+#NEXUS
+begin data;
+dimensions ntax=3 nchar=1479;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-342_Hyalis_argentea'              TTCCGTTTTAAAAGTTCGGATAAAGGGTGCTGTCATTATGTAAGTTTGTATTGAATAAAGGGTAGAACTG
+'uce-342_Scaveola_tomentosa'           TACCAGTAAGAAATCCAAAACAAAATGTTGTTTGGTTATTCATGCT--TTTTGAATAAGA----------
+'uce-342_Schlechtendalia_luzulaefolia' ???TAGTGACGAAAACACAAACCATGATTGTT------TTCATGCC--GCTCGAAGA-------------
+
+'uce-342_Hyalis_argentea'              TCGAAAACAC------TTGAGCTTACCGTAGTATTTGCTTGCAGGGGAGCAATTGGGCAGCCGCGATTGT
+'uce-342_Scaveola_tomentosa'           -TGAATGCATCTTTTGCTTGCCTTACTGAATTTTTTTCTTTCAGGGGTGCAATTGGACAGCCACGATTAT
+'uce-342_Schlechtendalia_luzulaefolia' ------GCGCAGTTTGTTATATGCATATATTTATTTACTTTCAGGGGTGCAATTGGGCAGCCGCGGTTAT
+
+'uce-342_Hyalis_argentea'              TGGTCCCCGTTGCCTTGGTCATGGTCTATAACCGGTGGAACGGGTAAGCTTTTCCTTGCAGTGAATAGAA
+'uce-342_Scaveola_tomentosa'           TGGTCCCTGTTGCCTTGGTCATGATCTATAACCGGTGGAATGGGTAAGCTTTTTTGC-------------
+'uce-342_Schlechtendalia_luzulaefolia' TAGTCCCCGTCGCCTTAGTCATGATCTATAACCGTTGGAACGGGTAAGCTTGTTT---------------
+
+'uce-342_Hyalis_argentea'              ACTATTGTCATTTCAACATAAACCCTATTAAGGGTATTTTAGTCATTTGACTTCTAGTAAGCAGTATG-A
+'uce-342_Scaveola_tomentosa'           ------------------TAAAC-----------TGCTTTCACTATTTCACTAATCTTCAGGAATACTCT
+'uce-342_Schlechtendalia_luzulaefolia' ------------------------------------CTTTTTCTTTTTTCCTTTTCTTGGATGAAGGT--
+
+'uce-342_Hyalis_argentea'              AACGTTGT----AATTTTATGTTGCATTTAGTATGAGATAATCACACTGGAAA-TGAAATACACCATCAT
+'uce-342_Scaveola_tomentosa'           ATTGTTACTCCAAATTTCATAATCCACTTG---------TGTCTTCTTAGAGAGTGTACTGTTCCAT--T
+'uce-342_Schlechtendalia_luzulaefolia' ------------------GTTATACATTGG---------AAACATGTCGAAAA-----------------
+
+'uce-342_Hyalis_argentea'              GATGGAATGGAAAAAAAACAT---------------ATGTTTAGTTGGCCGATGGGAATAGAATGAACTA
+'uce-342_Scaveola_tomentosa'           TAAGAAAGAAAAAAAAAGTATCTGGATTTCAAAGCCATCCTTAGT---ACCATTCGAGTGGAACA-----
+'uce-342_Schlechtendalia_luzulaefolia' TCAGAAACACAAAAAAAGT---------------------------------------------------
+
+'uce-342_Hyalis_argentea'              TTTATTAAGGAATATGATTTTTTCAAAGAGAATGTTTTTTTTATTCCATCAAGGAATGAAATGAAAATTA
+'uce-342_Scaveola_tomentosa'           -TTGTTATGAAATTCTGTTGATAACACAAAATTGTCCTATTAAT------AATAATTGCAGTGAAGGTTT
+'uce-342_Schlechtendalia_luzulaefolia' --------------------------CAAAGTTG------------------------------------
+
+'uce-342_Hyalis_argentea'              CTATATGTGTTATTAAATAATTAATTTTTAATTATACATTTCTCCCTATTTTTATATCTCTAAAAAATTT
+'uce-342_Scaveola_tomentosa'           TCCGATATCATATTA-----------------------------------------------------TT
+'uce-342_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-342_Hyalis_argentea'              CTAAACTTTTTAATTTAACGATACTTTATAAATTTCTAAAAAGGCTTAATAATATGTTTTATCA-----A
+'uce-342_Scaveola_tomentosa'           CCCAACATGTTCCATTAATCACA------GCAGTTTTGAAATTGAATATTAACGCGTGATGTTACGAGGA
+'uce-342_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-342_Hyalis_argentea'              CAATTGCTATATTTGAAATATTTTTTGTCTAAAAACCTATGTTTTTTTTATATAAACGTGGATATATTTT
+'uce-342_Scaveola_tomentosa'           AAGTTGAGGGATCTG----ATCTTTTGT-----------GATTTTTCTTATAGA---------------C
+'uce-342_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-342_Hyalis_argentea'              GTCATTATTATGTATATTTAATTCAATTACTGCATACCAAATATCATATTTCAATGATTTATTCCATTCA
+'uce-342_Scaveola_tomentosa'           ATCTAAGACTTGCACATTTGGTGGTTCTGCTGCATGGTAATGGTCAAATTTTCGTTATCTTTATCATTCA
+'uce-342_Schlechtendalia_luzulaefolia' GTTCTAAATTTTGACATTTTGTGG----------------------------------------------
+
+'uce-342_Hyalis_argentea'              G-----------------ACATGCCAATCAAATATAA--TAATAGAATAGAATAAACGATTTCATTCCTT
+'uce-342_Scaveola_tomentosa'           GTTAGTGATTAGTGACTTATTCGCTAGTTCACCCTAGATCACCCAAGGAGACTAGTAAAGATGGTTCTTT
+'uce-342_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-342_Hyalis_argentea'              TACTCATTTCATTCTATCTCTCACTCCATTATCTTTTTATTCCATTTCGTCCAACCAAATGCATCATTTG
+'uce-342_Scaveola_tomentosa'           CATCTGTGGCAATTCATCTTTAATATTGTCA--TTCTTGTGCCATTACTTC---------------TTCT
+'uce-342_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-342_Hyalis_argentea'              TTGGATGTTTGCTGCATAAATCATGCGGTGTGTTATATTTTAATTTTCC---------------------
+'uce-342_Scaveola_tomentosa'           TTTCATACTGGCTGTTTAGCTTGTTTAGTGCAAGGTAATTGTATCTTCCATTTACGTGACAAGAAGAATT
+'uce-342_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-342_Hyalis_argentea'              ----GCTCTGCAGGATCGTGGTTCCTGAATACGGATTGATGCACCTAGAGTTAATTCCTATGCTAGTTGG
+'uce-342_Scaveola_tomentosa'           TCCATTTATGCAGGATCCTAGTCCCTGATTACGGATTCATGCATCTAGAGTTGATACCAATGCTAGTAGG
+'uce-342_Schlechtendalia_luzulaefolia' ----TCGGTGCAGGATCGTAGTTCCAGAATATGGGTTGATGCATCTGGAGTTGATACCGATGCTAGTGGG
+
+'uce-342_Hyalis_argentea'              ATTTTTCACATACAAGATTGCCACTTTCGCCCAAACAATCGAAGACGCAATTGTCGTGGTCGGTAATGAT
+'uce-342_Scaveola_tomentosa'           ATTTTTCACTTACAAGATTGCCACCTTTACCCAAGCAATTGAGGAGGCAATTACAGTATCCAGGAACGAT
+'uce-342_Schlechtendalia_luzulaefolia' ATTTTTCACATACAAGATTGCAACCTTCACCCAAGCGATCGAGGAGGCCATTACAGTCGTGGGCAACGAT
+
+'uce-342_Hyalis_argentea'              GCTCGACTCGACTAGGAGTCCAGGCCTACACGAACCAAGCCATTTTATGTAACATTTGGTCAGAGCTAAT
+'uce-342_Scaveola_tomentosa'           GCTAAACTTGAGTAGGACTCTAACTCATTGCG----AAGCCGTTCTTTTCTGGAG---------------
+'uce-342_Schlechtendalia_luzulaefolia' GCTCAAGTCGAGTAGGAC------------------GGGCTATATTTGGCTGTAC----ACATAGGATAA
+
+'uce-342_Hyalis_argentea'              GGGAACTGGGTGCACCGTCACCGACACTTGGCCAGAGCCAACGGAAT-------CTGGTTCTCTGTTTGA
+'uce-342_Scaveola_tomentosa'           ------TTGATTC-------------TCTTGGAATTGCGAGTCCAGTTTTCTAACTGCTGTTATCCTC--
+'uce-342_Schlechtendalia_luzulaefolia' AATGATTTGGTTCACCCTTAACGCAAGCTCGAAGTTGCAGACCCATT--------GGCTGCTATTTCT--
+
+'uce-342_Hyalis_argentea'              GACACCTCCAGGCTAAACCAAGACAGTTGAACTGAACCGATTTACCGATATGATATTATGG-------GC
+'uce-342_Scaveola_tomentosa'           ----TCTCCAG--TAGAAAATCATCATCCAA--AGACGCATCCTCTGGTATAACATCAT-----------
+'uce-342_Schlechtendalia_luzulaefolia' ----TCCCCAA---------------------------GGTTTACTGACTTGGTATTGTATTTAGTAAAG
+
+'uce-342_Hyalis_argentea'              CAGTGTAATGGGGGAGGCTTTCGT-----TGAATGTATAGTGCACA--TTGCACAACTGACGGTTCGTAC
+'uce-342_Scaveola_tomentosa'           -CATGCTAGGGTAAACATTTTCAT--GATTGAATTTATAGTAGAAACTTTACTCAATTGAGGTTTCTTTG
+'uce-342_Schlechtendalia_luzulaefolia' ACATGGCAAGTCTGATACTGTAATTGGGATGAATGTATAGTGCACA-ATTAGGGTACCAAAGTTATGAGG
+
+'uce-342_Hyalis_argentea'              AACTATCTATG---------CATATGTTA?????????????????????????????????????????
+'uce-342_Scaveola_tomentosa'           TACCCTGTATAGTTAAAAACCATATTTTAGGTCCGTGTTTAAAAACGCGATCATATA-TAATGTAGTCTT
+'uce-342_Schlechtendalia_luzulaefolia' TAAAAGGTTTG----------ATCTATTGA--------CAAAATACATGGATAGATACCACTGTCATCT-
+
+'uce-342_Hyalis_argentea'              ?????????
+'uce-342_Scaveola_tomentosa'           GGCCTTGTA
+'uce-342_Schlechtendalia_luzulaefolia' ---CTTGTA
+
+;
+end;

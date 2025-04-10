@@ -1,0 +1,97 @@
+#NEXUS
+begin data;
+dimensions ntax=5 nchar=1050;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-582_Barnadesia_arborea'           ????????????????????????????????????????????????????????????????CGAGCG
+'uce-582_Gongylolepis_benthamania'     TATCATGCCGGAGACA-----TGGCTGCAGCGATTATGCAGCAGCACAAGGAACTTATTATAAATGAACG
+'uce-582_Hyalis_argentea'              TATCATGCCGGAGACA-----TGGCTGCCGCCATCATGCAGCAGCACAAGGAGCTTATTATAAACGAACG
+'uce-582_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-582_Schlechtendalia_luzulaefolia' TATCATGCCGGAGACA-----TGGCTGCAGCCATTATGCAGCAGCACAAGGAACTAATTATAAACGAACG
+
+'uce-582_Barnadesia_arborea'           GTGCCTCGGTCTCGACCACCCCGACACGGCTCACAGGTACCCTGTCTTTCGTTCACTTC-----------
+'uce-582_Gongylolepis_benthamania'     GTGCCTTGGCCTCGATCACCCTGACACAGCTCACAGGTGCCTTTTTTTGCATTTGCTTCTTAGCCTCTGT
+'uce-582_Hyalis_argentea'              GTGCCTTGGTCTTGACCACCCTGACACGGCTCACAGGTGCCGATTCTTGCGTTTTGCTT-----------
+'uce-582_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-582_Schlechtendalia_luzulaefolia' GTGCCTTGGTCTCGATCACCCCGACACTGCTCACAGGTA-----TTTTGCGAGGGCCAC-----------
+
+'uce-582_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-582_Gongylolepis_benthamania'     ACATCAGATTTTTCTTATAATGGCATTCACTTGTCATGTGATTACGAAAAGATAATCCACAATTTTACTT
+'uce-582_Hyalis_argentea'              ----------------ATAATGGCATGTGCATGTCGTGTGATTATGACCG--------------------
+'uce-582_Scaveola_tomentosa'           ?????????????TGTGAAATGGC------------------------------------CATTTAAATT
+'uce-582_Schlechtendalia_luzulaefolia' -------------------------------------------------------------ATTAGACTT
+
+'uce-582_Barnadesia_arborea'           ---------------------------------------------------ATTTCGACTTTTCTTGTTC
+'uce-582_Gongylolepis_benthamania'     GGCAATTGATTTTCCAAATTTTGGCCGTTCTCTCTAGTTTTTGCATAGAGTGCATCAACTTTTATGGTCC
+'uce-582_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-582_Scaveola_tomentosa'           GGC-------------------------------------------------------------------
+'uce-582_Schlechtendalia_luzulaefolia' GGC-------------------------------------------------------------------
+
+'uce-582_Barnadesia_arborea'           TTTGTGTCACATGGTATTA--GGTTTTGGTCTCATTT------------GTAATTGAC----TACAGCTA
+'uce-582_Gongylolepis_benthamania'     TTCGGGTTATATAATAGAAGTGGTTTTCATCTCAATTGTTTATGTATGCGTAACTGTCT-TTTGCAGCTA
+'uce-582_Hyalis_argentea'              -------------------------------------------------ATGATCGTCTTTTTGCAGCTA
+'uce-582_Scaveola_tomentosa'           -----------------------TCTAAATCTTATTG---------TACGTGTCTGCAA-TTTACAGTTA
+'uce-582_Schlechtendalia_luzulaefolia' -----------TCGTGTTAAGGGTTTCTGTCTCACTAATTTATATATGCGTAATTATCA-TGTGCAGCTA
+
+'uce-582_Barnadesia_arborea'           CGGAAACATGGCCCTTTTCTATCACGGGCTCAACCAATCCGACCTCGCACTGCGCCACATGTCCCGAGCC
+'uce-582_Gongylolepis_benthamania'     CGGAAATATGGCCTTGTTCTATCATGGACTTAACCAATCGGAACTTGCGTTGAGGCACATGTCCCGTGCA
+'uce-582_Hyalis_argentea'              TGGAAACATGGCCCTTTTCTATCACGGGCTCAACCAATCGGAACTTGCGTTGCGGCACATGTCCCGCGCG
+'uce-582_Scaveola_tomentosa'           TGGGAACATGGCCCTATTCTATCATGGGCTTAAACGTTCAGAACTTGCATTGCGTCACATGTCACGTGCG
+'uce-582_Schlechtendalia_luzulaefolia' CGGAAACATGGCCCTTTTCTATCACGGGCTCAATCAATCGGACCTTGCGCTCCGGCACATGTCTCGTGCC
+
+'uce-582_Barnadesia_arborea'           CTGCTCCTATTAAGCCTGTCATCCGGCCCCGATCACCCTGATGTGGCTGCTACTTACATAAATGTTGCGA
+'uce-582_Gongylolepis_benthamania'     TTGCTCCTATTAAGCTTGTCGTCTGGCCCAGATCATCCTGATGTTGCTGCAACTTACATTAATGTTGCAA
+'uce-582_Hyalis_argentea'              CTGCTCTTGTTGAGCTTGTCGTCTGGCCCGGACCATCCGGATGTTGCGGCAACGTACATAAACGTTGCGA
+'uce-582_Scaveola_tomentosa'           CTGCTCCTATTAAGCTTGTCATCCGGCCCGGATCATCCTGATGTTGCTGCAACTTATATAAACGTAGCAA
+'uce-582_Schlechtendalia_luzulaefolia' CTGCTCCTATTAAGCTTATCGTCCGGCCCCGATCACCCTGATGTGGCTGCGACTTACATAAATGTTGCGA
+
+'uce-582_Barnadesia_arborea'           TGATGTATCAAGACATTGGAAAGATGAACACGGCTCTCCGTTATTTGCAAGAAGCGTTGAAAAAAAACGA
+'uce-582_Gongylolepis_benthamania'     TGATGTATCAAGACATTGGAAAGATGAACACTGCTCTTCGTTATTTACAAGAAGCATTGAAAAAGAATGA
+'uce-582_Hyalis_argentea'              TGATGTATCAAGACATCGGGAAGATGAACACGGCTCTTCGTTATTTACAAGAAGCATTGAAGAAGAACGA
+'uce-582_Scaveola_tomentosa'           TGATGTATCAAGACATCGGAAATATGAATACGTCTCTTCGTTATCTGCAAGAAGCACTGAAAAAGAACGA
+'uce-582_Schlechtendalia_luzulaefolia' TGATGTACCAGGACATAGGAAAGATGAACACGGCTCTTCGTTATTTGCAAGAAGCTTTGAAGAAGAACGA
+
+'uce-582_Barnadesia_arborea'           GAGGCTTTTGGGAGAGGAACATATCCAAACTGCCGTGTGCTTTCACGCTCTTGCGATAGCATTCAACTGT
+'uce-582_Gongylolepis_benthamania'     GAGGCTTTTGGGAGAGGAACATATCCAAACTGCTGTGTGCTATCATGCGCTTGCAATCGCATTCAATTGT
+'uce-582_Hyalis_argentea'              GCGGCTTTTGGGGGAGGAACACATCCAAACCGCCGTGTGCTACCACGCACTCGCAATCGCGTTCAACTGT
+'uce-582_Scaveola_tomentosa'           GAGGCTTTTGGGAGAAGAACATATCCAAACTGCTGTGTGCTATCATGCACTGGCTATTGCATTCAACTGT
+'uce-582_Schlechtendalia_luzulaefolia' GAGGCTTTTGGGAGAGGAACATATTCAGACCGCTGTCTGCTATCACGCACTTGCTATTGCATTCAACTGC
+
+'uce-582_Barnadesia_arborea'           GTTGGAGCCTACAAACTTTCTTATCAGGCATGGTC-----------------------------------
+'uce-582_Gongylolepis_benthamania'     GTCGGGGCCTACAAGCTTTCTCATCAGGCACGAGTTTTTAGC----------------------------
+'uce-582_Hyalis_argentea'              GTCGGAGCCTACAAGCTTTCTCATCAGGCATGAGTTTCTCT-----------------------------
+'uce-582_Scaveola_tomentosa'           GTCGGAGCCTACAAGCTATCTCACCAGGCATGATTTATTACTATCTCAAGCTTCAAAAATGAAACAAGTA
+'uce-582_Schlechtendalia_luzulaefolia' GTCGGAGCCTACAAGCTTTCTCATCAGGCATGAGTCT---------------------------------
+
+'uce-582_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-582_Gongylolepis_benthamania'     ----------------------TACCATTTTCTGTTCTTCTGTTCATTC------AAGGCTATATTATTG
+'uce-582_Hyalis_argentea'              ----------------------TACCATCCTCCATTTCTTTACTCAGT------------TATATTTAGA
+'uce-582_Scaveola_tomentosa'           TTAATGTTGTGGTTGGTATTGATGACATCAGTTCTTTCGTCTTACAGCATGAAAAAAGGACATATGATAT
+'uce-582_Schlechtendalia_luzulaefolia' ------------------------CCTCTTTTTATTTATTTTTTTAC-----------------------
+
+'uce-582_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-582_Gongylolepis_benthamania'     AGTGATTAATT-----------------------------------------------------------
+'uce-582_Hyalis_argentea'              AGTGGTAAAACGGAAGGGTTGAAATGGGTAATCTAGAA------------------TGGATCGAAATT--
+'uce-582_Scaveola_tomentosa'           ACTTGTTAAGC----AGCTCGGAGAGGAGGATCCAAGGACTTGTGATTCACAGAACTGGATGAAAACTTT
+'uce-582_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-582_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-582_Gongylolepis_benthamania'     ---------------------------------TCAAATTA-------TCGTACTTGACTTTTTGTTGTA
+'uce-582_Hyalis_argentea'              --GGATATGG----------------------GTCTGGTCGGGTTGGCTGTCGGTTTTCTTTTTTGTCCG
+'uce-582_Scaveola_tomentosa'           TAAGATACGGGAGGTACAGGTAGAAAAAGCGTTTCAAATTTTCT----TTGTTAATGCCTTTCCGTTGTA
+'uce-582_Schlechtendalia_luzulaefolia' -----------------------------------------------------CTTTTTTTCCTTGTGCA
+
+'uce-582_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-582_Gongylolepis_benthamania'     GACA---------------ACCCATCGTTCTTCAAAAA--------------------------------
+'uce-582_Hyalis_argentea'              ACTT---------------TTTTTATATTCTTTGTAATCAACAAACATATTAACCACGATTATGAAAAAC
+'uce-582_Scaveola_tomentosa'           ACTGTAGTCCTCATCTAATTTTTGTTATTTATGACAACAGATGAATGC-----CCAAAAGCAGAAAGGAC
+'uce-582_Schlechtendalia_luzulaefolia' GTCG---------------CTCCTCCGTCCATAAAAAAGGTCAT--------------------------
+
+'uce-582_Barnadesia_arborea'           -----------------------GAAACTGGAATCTTT-----TTTGGGACATATAGTATTGTTATGAGT
+'uce-582_Gongylolepis_benthamania'     ---------------TATTCGAAAAAACTACACTTTTTAATAATTTTGGGCAAATTGTGGAAATGTAAAT
+'uce-582_Hyalis_argentea'              ATTACAATAACGACCCATTTGATGGGATTGATCATATTTGCGCTTATGAACTTTTCAAAAGATAACAAAA
+'uce-582_Scaveola_tomentosa'           AAGCTCTAAATGCAGTGTCCGCTCAAACAGCAATTAATA--TCTTAAAGGTATGTTACACGATAATGACT
+'uce-582_Schlechtendalia_luzulaefolia' ------------CTTGATTTTACAAAGTCAAACATAGT---ATTTCTGGAACTCAAGTGTGATGCTGATT
+
+;
+end;

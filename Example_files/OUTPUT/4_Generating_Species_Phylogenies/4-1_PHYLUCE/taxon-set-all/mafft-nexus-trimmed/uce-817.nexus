@@ -1,0 +1,295 @@
+#NEXUS
+begin data;
+dimensions ntax=8 nchar=2237;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-817_Barnadesia_arborea'           TCAGATTCCCATGA-TGGCACCACACAGACTGAACCTT--------------------------------
+'uce-817_Chuquiraga_sp'                TCAGATCCATATGA-TGGCAGCAAAAAGTGCGAACCTC--------------------------------
+'uce-817_Famatinanthus_sp'             TCAGATCCCCATGA-TGGAAGCACAGAGAGTGGACTTT--------------------------------
+'uce-817_Gongylolepis_benthamania'     TCAGATCTTCATGATTGGCAGCACATGGAGTGAACCTT--------------------------------
+'uce-817_Hyalis_argentea'              TCAGATCCCCATGA-TGGCAGCAAAAAGAATGACTCCT--------------------------------
+'uce-817_Nastanthus_patagonicus'       TCAGATCCCCATGA-TGGCAGTTCAATGAATGAACCTT--------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' TTAGATCCCCAAGA-TGGAAGCAGAAAGAGTGAAGGTTT-------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' --------------------------------------------------------------------GG
+
+'uce-817_Barnadesia_arborea'           TGGAACCGGTTAATTTAG----------------------------------------------------
+'uce-817_Chuquiraga_sp'                TGGAACCTGTTAATGTAG----------------------------------------------------
+'uce-817_Famatinanthus_sp'             CAGAACCTGTTCAATTAG----------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     CAGAATCTCTTGAATTTG----------------------------------------------------
+'uce-817_Hyalis_argentea'              CAGAGCCTGTTCAACCAG----------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       CAGAGCCTGTTGACTTAG----------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' AAGCAGCAATAAATGCAG----------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ---GGATGGCTTCAGCTGGTGACA----------------------------------------------
+'uce-817_Chuquiraga_sp'                ---GGA---------CTGGCGAAG----------------------------------------------
+'uce-817_Famatinanthus_sp'             ---AGACGGTTTTGGCTGGTGACG----------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ---AATCAGTTTT-GTTGGTGACA----------------------------------------------
+'uce-817_Hyalis_argentea'              ---AGACGGTTTTGGCGGGTGACC----------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ---AGACTGTTTTGTCTGGTGATC----------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ---GAAAGGCTTCAGGTGGTGAA-----------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ----------------------------------------------------------------------
+'uce-817_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-817_Famatinanthus_sp'             ----------------------------------------------------------------------
+'uce-817_Gongylolepis_benthamania'     ----------------------------------------------------------------------
+'uce-817_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-817_Nastanthus_patagonicus'       ----------------------------------------------------------------------
+'uce-817_Scaveola_tomentosa'           ??????????????????????????????????????????????????????????????????????
+'uce-817_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-817_Barnadesia_arborea'           ---------------------------CAAAACATCAACCCTCTGTGGACACAGTTGAAGCCAAAAAAGT
+'uce-817_Chuquiraga_sp'                ---------------------------TAAAACCTCAATCTGCT------ACCTCTAAAGACAAGACAGT
+'uce-817_Famatinanthus_sp'             ---------------------------GAAAACATCAATCCTCTACAGACTCAGTTCAACCCAACGAAGT
+'uce-817_Gongylolepis_benthamania'     ---------------------------TAGAACTTCAATTCTCTACAGACACAGTTCAAGCCAAGAAAGT
+'uce-817_Hyalis_argentea'              ---------------------------CAACATATCATTCCTCCACAGACACACTTCACGACAATAAAGC
+'uce-817_Nastanthus_patagonicus'       ---------------------------GAAAAAATGAATCCTCTACAGAAACAGTTGAAGTCAACAAAGT
+'uce-817_Scaveola_tomentosa'           ???????????????????????????GGAAACACCAATCCTCTACAGAAACGGTTCAAGCAAGAAAAAT
+'uce-817_Schlechtendalia_luzulaefolia' -----------------------------------------------------GTAGAAGGCAAGAAAGT
+
+'uce-817_Barnadesia_arborea'           TGATAATGTCAAA-------------------------------------GCGATTGTGGATCCTGCAGA
+'uce-817_Chuquiraga_sp'                TGAGAG----------------------------------------------------------TGCAGA
+'uce-817_Famatinanthus_sp'             TGACACGGGCGAA-------AATGAGAATGCAAGACAGAGTGTAGATCCTGCAGATAGGGATTCTGGTGA
+'uce-817_Gongylolepis_benthamania'     TGACATACATGAATCATGATAATGAGAATGTCAAACAGTGTGTGAATCCAGCACATAGGGATTCTGGAGA
+'uce-817_Hyalis_argentea'              GGACACTGTTGAGCCA-------AAAAACGTCAGACAGAGCGTAGATCCTGCAGATAGGGATTCGGGTGA
+'uce-817_Nastanthus_patagonicus'       TGACTTTAGGGAC-------AATGAAAAAGTCAAACAGAGTGAGGATCCTTTAGACGGGGATTTTGGTGA
+'uce-817_Scaveola_tomentosa'           TGATACCGGTGAT-------AGTCAAATTATCAAACAGAGTGTAGATCCTGCAGATAAGGATTCTGGTGA
+'uce-817_Schlechtendalia_luzulaefolia' TGATGGTGGAGGT-------------------------------------------------------GA
+
+'uce-817_Barnadesia_arborea'           TGTGAACATGGAGGCTTCTATCTCAGCCGATGACGTAATGCGCGCTGGAGGCTTTGGCGCCAGAGACGAC
+'uce-817_Chuquiraga_sp'                TGTGAACATGGAGGCCTTGGTTTCAGCGGATGATGTATTGCGGGCTGGAGGGTTTGGGGCTAGAGATGAC
+'uce-817_Famatinanthus_sp'             TGTAAACATGGAGGCGTCTATCTCAGCCGATGATGTAATCCGGGCTGGAGGCTTTGGTGCTAGAGATGAC
+'uce-817_Gongylolepis_benthamania'     TGCAACCATTGAGGCTTTTGTATCAGCT--TG-------------------CTTTGGCGCTATAGATGAC
+'uce-817_Hyalis_argentea'              CGTAAATATGGAGGCTTCTATCTCAGCCGATGACGTGATGCGGGCTGGAGGCTTTGGTGCTAGAGATGAC
+'uce-817_Nastanthus_patagonicus'       TGTAAACATGGAGGCTTCGATCTCAGCCGATGATTTTATGAGGGCAGGAGGCTTTGGTGCTAGAGATGAC
+'uce-817_Scaveola_tomentosa'           TGTGAATATGGAGGCTTCAATCTCAGCTGACGATGTAATGCGGGCAGGAGGCTTTGGCGCTAGAGATGAC
+'uce-817_Schlechtendalia_luzulaefolia' CGTAAATATGGAGGCGTCTATCTCAGCTGAAGACGTACTGCGGGCCGGAGGGTTCGGGGCGAGAGATGAT
+
+'uce-817_Barnadesia_arborea'           ATTAGCAGTTTTCTTCCTGTTGCGAGCGACTCCACCGACTTTGAAGCATCTCTACGTGATGCCCGAGACT
+'uce-817_Chuquiraga_sp'                ATTAGTAGTTTTATTCCAGTTGCAAGCGACTCCACCGACTTTGAAGCTTCTCTACGTGACGCTCGAGACT
+'uce-817_Famatinanthus_sp'             ATAAGTAGTTTTCTTCCTGTTGCAAGTGATTCCACTGACTTTGAAGCTTCTCTACGTGATGCCCGAGACT
+'uce-817_Gongylolepis_benthamania'     ATAAGTAGTTTTCTT---GTTGCAAGTGACTCCA---ACTTTGAAGCTTCTCTACATTATGCCAGAGACT
+'uce-817_Hyalis_argentea'              ATAAGTACTTTTCTTCCTGTTGCAAGTGATTCCACCGATTTTGAAGCTTCTCTACGTGATGCCCGAGACT
+'uce-817_Nastanthus_patagonicus'       ATCAGCAGTTTTCTTCCTGTTGCAAGTGACTCCACTGATTTTGAAGCTTCATTACGTGATGCCCGAGACT
+'uce-817_Scaveola_tomentosa'           ATAAGCAGTTTTCTTCCTGTTGCAAGCGACTCCACTGATTTTGAAGCTTCTCTACTCGATGCTCGAGACT
+'uce-817_Schlechtendalia_luzulaefolia' ATAAGTAATTTCCTTCCTGTTGCAAGCGATTCGACGGACTATGAAGCTTCTTTACGTGACGCCCGAGGCT
+
+'uce-817_Barnadesia_arborea'           ATGAAGAGCCACAAAAAGATATCTGCAGACCAGGCCTTGGCTGGAAAGACGTGAGAAAGTAAGACCC
+'uce-817_Chuquiraga_sp'                ATGAAGAGCCCCAAACAAATATCTGCAGACC????????????????????????????????????
+'uce-817_Famatinanthus_sp'             ATGAAGAGCCGCAGAAAGATATCTGCAGACCAGGGCTAGGC-------------AAGAGTAAGACTA
+'uce-817_Gongylolepis_benthamania'     ATGGAGAACCGCAAAAAATTATCTGATAACCAGGCCTTGGCTGGAAAGAAGCGAGGGGGTAAGATTA
+'uce-817_Hyalis_argentea'              ATGAAGAGCCGCAAACGGATATCTGCAGACCAGGGCTAGGCTGGAAAGATCTGAAAGAGTGAGATTA
+'uce-817_Nastanthus_patagonicus'       ACGAAGAGCCACAAAAAGATATCAGCAGGCCAGGCCTTGGCTGGAAAGATACGACAGAGTAAGATT?
+'uce-817_Scaveola_tomentosa'           ATGAGGAGCCACAGAATAATATCTGCAGACCAGGCCTTGGGTGGAAAGATGTTAGAGATTAAGATGA
+'uce-817_Schlechtendalia_luzulaefolia' ATGAGGAGCCGCAGAAAGATGTATGCAGGCCAGGCCTCGGCTGGAAAGAC---AAAGACTAAAAAAA
+
+;
+end;

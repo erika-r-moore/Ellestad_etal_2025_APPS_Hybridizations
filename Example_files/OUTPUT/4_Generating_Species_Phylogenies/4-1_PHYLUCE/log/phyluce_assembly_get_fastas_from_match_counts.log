@@ -1,0 +1,51 @@
+2024-09-25 12:38:04,114 - phyluce_assembly_get_fastas_from_match_counts - INFO - ===== Starting phyluce_assembly_get_fastas_from_match_counts ====
+2024-09-25 12:38:04,114 - phyluce_assembly_get_fastas_from_match_counts - INFO - Version: 1.7.1
+2024-09-25 12:38:04,114 - phyluce_assembly_get_fastas_from_match_counts - INFO - Commit: None
+2024-09-25 12:38:04,114 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --contigs: /project/ermoore3/basalAsteraceae/barnadesioideae/contigs
+2024-09-25 12:38:04,114 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --extend_locus_contigs: None
+2024-09-25 12:38:04,114 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --extend_locus_db: None
+2024-09-25 12:38:04,114 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --incomplete_matrix: /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/all.incomplete
+2024-09-25 12:38:04,114 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --locus_db: /project/ermoore3/basalAsteraceae/barnadesioideae/output/probe.matches.sqlite
+2024-09-25 12:38:04,114 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --log_path: /project/ermoore3/basalAsteraceae/barnadesioideae/log
+2024-09-25 12:38:04,114 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --match_count_output: /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/all.conf
+2024-09-25 12:38:04,114 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --output: /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/all.fasta
+2024-09-25 12:38:04,114 - phyluce_assembly_get_fastas_from_match_counts - INFO - Argument --verbosity: INFO
+2024-09-25 12:38:04,117 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 9 taxa in the match-count-config file named all.conf
+2024-09-25 12:38:04,117 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 915 UCE loci in an INCOMPLETE matrix
+2024-09-25 12:38:04,140 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------Getting UCE loci for Barnadesia_arborea-------------
+2024-09-25 12:38:04,223 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 388 UCE loci for Barnadesia_arborea
+2024-09-25 12:38:04,223 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for Barnadesia_arborea
+2024-09-25 12:38:05,059 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/all.incomplete
+2024-09-25 12:38:05,059 - phyluce_assembly_get_fastas_from_match_counts - INFO - ----------------Getting UCE loci for Chuquiraga_sp---------------
+2024-09-25 12:38:05,101 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 208 UCE loci for Chuquiraga_sp
+2024-09-25 12:38:05,101 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for Chuquiraga_sp
+2024-09-25 12:38:05,707 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/all.incomplete
+2024-09-25 12:38:05,708 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------------Getting UCE loci for Famatinanthus_sp--------------
+2024-09-25 12:38:05,761 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 264 UCE loci for Famatinanthus_sp
+2024-09-25 12:38:05,761 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for Famatinanthus_sp
+2024-09-25 12:38:08,753 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/all.incomplete
+2024-09-25 12:38:08,753 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------Getting UCE loci for Fulcaldea_stuessyi-------------
+2024-09-25 12:38:08,830 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 398 UCE loci for Fulcaldea_stuessyi
+2024-09-25 12:38:08,830 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for Fulcaldea_stuessyi
+2024-09-25 12:38:13,436 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/all.incomplete
+2024-09-25 12:38:13,437 - phyluce_assembly_get_fastas_from_match_counts - INFO - ----------Getting UCE loci for Gongylolepis_benthamania----------
+2024-09-25 12:38:13,508 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 368 UCE loci for Gongylolepis_benthamania
+2024-09-25 12:38:13,508 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for Gongylolepis_benthamania
+2024-09-25 12:38:15,496 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/all.incomplete
+2024-09-25 12:38:15,496 - phyluce_assembly_get_fastas_from_match_counts - INFO - ---------------Getting UCE loci for Hyalis_argentea--------------
+2024-09-25 12:38:15,573 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 402 UCE loci for Hyalis_argentea
+2024-09-25 12:38:15,574 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for Hyalis_argentea
+2024-09-25 12:38:17,483 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/all.incomplete
+2024-09-25 12:38:17,483 - phyluce_assembly_get_fastas_from_match_counts - INFO - -----------Getting UCE loci for Nastanthus_patagonicus-----------
+2024-09-25 12:38:17,555 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 368 UCE loci for Nastanthus_patagonicus
+2024-09-25 12:38:17,555 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for Nastanthus_patagonicus
+2024-09-25 12:38:19,795 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/all.incomplete
+2024-09-25 12:38:19,999 - phyluce_assembly_get_fastas_from_match_counts - INFO - -------------Getting UCE loci for Scaveola_tomentosa-------------
+2024-09-25 12:38:20,102 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 532 UCE loci for Scaveola_tomentosa
+2024-09-25 12:38:20,102 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for Scaveola_tomentosa
+2024-09-25 12:38:25,902 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/all.incomplete
+2024-09-25 12:38:25,904 - phyluce_assembly_get_fastas_from_match_counts - INFO - --------Getting UCE loci for Schlechtendalia_luzulaefolia--------
+2024-09-25 12:38:25,968 - phyluce_assembly_get_fastas_from_match_counts - INFO - There are 325 UCE loci for Schlechtendalia_luzulaefolia
+2024-09-25 12:38:25,968 - phyluce_assembly_get_fastas_from_match_counts - INFO - Parsing and renaming contigs for Schlechtendalia_luzulaefolia
+2024-09-25 12:38:28,243 - phyluce_assembly_get_fastas_from_match_counts - INFO - Writing missing locus information to /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/all.incomplete
+2024-09-25 12:38:28,263 - phyluce_assembly_get_fastas_from_match_counts - INFO - ==== Completed phyluce_assembly_get_fastas_from_match_counts ====

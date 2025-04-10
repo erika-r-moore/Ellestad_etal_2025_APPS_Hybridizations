@@ -1,0 +1,473 @@
+Subset | Best Model | # sites    | subset id                        | Partition names                                                                                     
+1      | GTR+G      | 1690       | f418a89694bb831b6eab65d42a4296a3 | uce-638, uce-654, uce-100                                                                           
+2      | GTR+G      | 904        | c68779e1e3fd298d41db8c7dfda2a152 | uce-1000                                                                                            
+3      | GTR        | 842        | 4b74283f43a96b404cc5865ab06122f2 | uce-1001                                                                                            
+4      | GTR+G      | 461        | f955b3a336e9045a931e7f8c66439038 | uce-1004                                                                                            
+5      | GTR+G      | 703        | 0fbf11b0a248c92cb1c3bd462f3eb843 | uce-1005                                                                                            
+6      | GTR+G      | 473        | 428288be0d1171f6ef90e2d9de0b41fe | uce-1008                                                                                            
+7      | GTR+G      | 1262       | 39c02aaa0fdf090411204a3ba069478e | uce-90, uce-1009, uce-92                                                                            
+8      | GTR+G      | 1275       | 073e65a76a63c5bd16bc9b82fda2a58f | uce-877, uce-1015                                                                                   
+9      | GTR+G      | 1455       | 61777b2deaf0528171ea934330ad310a | uce-1018, uce-903, uce-888                                                                          
+10     | GTR+I+G    | 360        | ca78c71740d6114d46b3f3a7b7d38bbb | uce-102                                                                                             
+11     | GTR+G      | 584        | 29c8dafcddf8df19c94ae91d442fe1d5 | uce-1026                                                                                            
+12     | GTR+G      | 694        | 5d8494131e75d6f4b778802dbd3c00bf | uce-1027                                                                                            
+13     | GTR+I+G    | 668        | 3124e38dec2d215dd9deb53603713e59 | uce-1028                                                                                            
+14     | GTR+G      | 588        | a691dcbde4220b53a119abfdd2d6fb0a | uce-1029                                                                                            
+15     | GTR+G      | 356        | 40812ae2ab377a143689736d97f62c77 | uce-1033                                                                                            
+16     | GTR+I+G    | 694        | abae9021b646e59c62a557a6324f928b | uce-1034                                                                                            
+17     | GTR+G      | 420        | 5aa0a79071ffc02da17e10917f19a90c | uce-1035                                                                                            
+18     | GTR+I+G    | 555        | 9d21d2e40c707d9e6ee1568c3bee4521 | uce-1037                                                                                            
+19     | GTR+G      | 133        | 57aea08a62a866f42d673adb5c8c49ce | uce-1038                                                                                            
+20     | GTR        | 653        | 37bc3330f5ec9b61ef7a70b6b69b6539 | uce-104                                                                                             
+21     | GTR+G      | 820        | 6650bb325bd1c53c41b02fac8a8660a2 | uce-1040                                                                                            
+22     | GTR+G      | 660        | 3ef95ccfeaaa049405fa32cd30e54c16 | uce-1041                                                                                            
+23     | GTR+G      | 724        | 389c64610de00d5dea208819351087c2 | uce-1046, uce-395                                                                                   
+24     | GTR+G      | 372        | 91d15697c1d46916520c540ac7ae678d | uce-1047                                                                                            
+25     | GTR+G      | 821        | 74b883dbffd1f3a1a002dcbde26d50ed | uce-1049                                                                                            
+26     | GTR+G      | 1261       | e11c77dfcf55755f5c41a595f6421132 | uce-105, uce-768, uce-506                                                                           
+27     | GTR+I+G    | 1657       | a93678c5b1b7cb46acec60a2c221de40 | uce-1054, uce-109, uce-14                                                                           
+28     | GTR+G      | 694        | 55abf90d809dbf0ba5d17a4ab382c720 | uce-1055                                                                                            
+29     | GTR+G      | 169        | 64bd86114031de1dca0d572998e06bca | uce-1056                                                                                            
+30     | GTR+G      | 718        | 9316fe37e4eeb5e2015d71048a9a74cf | uce-106                                                                                             
+31     | GTR+G      | 545        | 0413a8af78e0aae6023329b701fb3587 | uce-11                                                                                              
+32     | GTR+G      | 2025       | 56f02e6de04b5ea4848f34993c5ac949 | uce-111, uce-341                                                                                    
+33     | GTR+I+G    | 2439       | fe46fd660f9be432fa48e6f91f64d420 | uce-112, uce-969                                                                                    
+34     | GTR+G      | 332        | 0fa915322a6d6353154b3190bb1ed1dd | uce-113                                                                                             
+35     | GTR+I+G    | 331        | c88553d2d28abed01c9cf137fb7bbf4c | uce-114                                                                                             
+36     | GTR+G      | 659        | d5629e1535bc180cc114c031764d58e1 | uce-115                                                                                             
+37     | GTR+I+G    | 551        | b99a72fa0013a6832c5c3ad260fb24b1 | uce-116                                                                                             
+38     | GTR+G      | 364        | 3719165cdd35fe85cbbe69441936a518 | uce-118                                                                                             
+39     | GTR        | 634        | 0e5c77589fe756724e6a52f6ab96b69a | uce-119                                                                                             
+40     | GTR+G      | 466        | 984ecbbd850e81f0d04cbbcaf9cf3b3a | uce-779, uce-12                                                                                     
+41     | GTR+G      | 1101       | f78bcd780d3d462ab5e562d14a4aed26 | uce-299, uce-126                                                                                    
+42     | GTR+G      | 461        | 43e824c66a074fa3a1675db88e765d0b | uce-127                                                                                             
+43     | GTR+G      | 309        | 051247aa2775f8cddf45d30299b8e307 | uce-128                                                                                             
+44     | GTR+G      | 1757       | 5e932a9bda74f982e7e2332c1bddbe3d | uce-503, uce-708, uce-130                                                                           
+45     | GTR+I+G    | 470        | e29250946f8551f175a192bd5dd869bb | uce-135                                                                                             
+46     | GTR+G      | 464        | 7fbe48fb4dda55991e5cc3c69105369e | uce-136                                                                                             
+47     | GTR+I+G    | 904        | 5afbdb804e70156bb404ba4f92cd6ef2 | uce-137                                                                                             
+48     | GTR+G      | 739        | b7ec2f268ef0c3a37898692827745d2a | uce-141                                                                                             
+49     | GTR+G      | 805        | ce9feb0ae78e43d83ef72760b21190e6 | uce-142                                                                                             
+50     | GTR+G      | 667        | 0d7f2d1115db132824cb3733bc0413d0 | uce-143                                                                                             
+51     | GTR+G      | 642        | 9fffaaa5589cc3a1986c77a163049377 | uce-144                                                                                             
+52     | GTR+G      | 435        | f3b9b11d8ace21a288b5266ccb90f4a8 | uce-146                                                                                             
+53     | GTR+G      | 1902       | 987d46e4d66ff1121d1d3e6c19cce615 | uce-329, uce-147, uce-277                                                                           
+54     | GTR+G      | 569        | 894a636c9e02bcc859c9fa9ff35a3abf | uce-149                                                                                             
+55     | GTR+G      | 966        | acef8b7fbbe5424dcb5fd3282e481664 | uce-15, uce-449                                                                                     
+56     | GTR+G      | 487        | d0ebaff4b29a87533ec9cc7c27f55eea | uce-151                                                                                             
+57     | GTR+I+G    | 871        | 0f813ba7ea0ca2978db6b5ad6e30092c | uce-557, uce-152                                                                                    
+58     | GTR+G      | 745        | 3b6bfb7c6e45596ea54bc9cf85fb02b3 | uce-153                                                                                             
+59     | GTR+G      | 340        | b7561066967fcf1e4b05e473326b722c | uce-155                                                                                             
+60     | GTR+G      | 672        | 7c38be0bde14fe7d8733f16341831709 | uce-641, uce-157                                                                                    
+61     | GTR+G      | 815        | 78e1038748373ab01108ee219ef296b0 | uce-161                                                                                             
+62     | GTR+G      | 854        | 232de8bd4d5634cd3901d4aff16c66df | uce-162                                                                                             
+63     | GTR        | 587        | dc3684a9cca063f030b57729c38f4578 | uce-163                                                                                             
+64     | GTR+I+G    | 972        | 4468ddbc6bb888fd8e858f60d6018c95 | uce-165                                                                                             
+65     | GTR+G      | 340        | 94976733ab2e4ea646dfa49e0b3ad45c | uce-167                                                                                             
+66     | GTR+G      | 512        | 3c550f23dfd7daf9ed9ba42984a35186 | uce-168                                                                                             
+67     | GTR+G      | 499        | b233432711558ceab810223dae1b014f | uce-170                                                                                             
+68     | GTR+I+G    | 406        | c0c84f830210a75c0aab5bb8e64ffc66 | uce-173                                                                                             
+69     | GTR+G      | 513        | e73c64869cd24f0f5bae03ba07e8ed3a | uce-175                                                                                             
+70     | GTR+G      | 761        | dd7b4ce3e29936fff28fa7acb3b79b6f | uce-179                                                                                             
+71     | GTR+G      | 1690       | 9599f294456e7ba2f838cfc627d8721c | uce-180, uce-247, uce-606                                                                           
+72     | GTR+G      | 595        | 061716c993f17f7d6ac47ea0b54840e0 | uce-181                                                                                             
+73     | GTR        | 443        | fab622938820e1a60cad4000b35dfd3c | uce-182                                                                                             
+74     | GTR+I+G    | 738        | 8b8805bb9d10f53b44810275fdeb68e6 | uce-183                                                                                             
+75     | GTR+G      | 619        | dd7e0eeb0e9b85bd55b81150cdc39609 | uce-826, uce-186                                                                                    
+76     | GTR+G      | 482        | ee257a337b05fd3cd194f36e553e3003 | uce-189                                                                                             
+77     | GTR+G      | 217        | 39e037e6bade72a12a5b46ada978cf23 | uce-19                                                                                              
+78     | GTR+G      | 999        | e043a3bacbdc145bc013ba03f2987900 | uce-61, uce-191                                                                                     
+79     | GTR        | 1016       | 488b44b5192e197fe8b92df64b38e196 | uce-197                                                                                             
+80     | GTR+G      | 1280       | 63c7368e13973af44396575458698bdb | uce-198                                                                                             
+81     | GTR+G      | 1657       | ca37616c2ac1759591ec657305c69ee3 | uce-199, uce-436, uce-553                                                                           
+82     | GTR+I+G    | 423        | 450fdf1d1f641af5ba51b99e000d7f8c | uce-20                                                                                              
+83     | GTR+G      | 715        | 6ff1fc1da5895de78b39c7baf6c199c5 | uce-200                                                                                             
+84     | GTR+G      | 732        | f2626cc77246b1aa4b151eec0f44c047 | uce-205                                                                                             
+85     | GTR+G      | 369        | cbac949c4bbd73281c5ff27ee0c4c6fd | uce-207                                                                                             
+86     | GTR        | 259        | db7ebc959bddc3c098155480333202a2 | uce-208                                                                                             
+87     | GTR+I+G    | 1527       | 088e0754f6e64305039a900b529ecbcb | uce-209                                                                                             
+88     | GTR+G      | 1250       | e8b72c21075cf75ac6cfff654ffc2e7c | uce-21                                                                                              
+89     | GTR+G      | 456        | 25fbc99029e245db4b0b6bfdba33f686 | uce-211                                                                                             
+90     | GTR        | 469        | b19e9d98d9d40e8e1c61f977dc07c70e | uce-212                                                                                             
+91     | GTR+G      | 642        | 48f58cc6c58100edff583b7b4809124f | uce-213                                                                                             
+92     | GTR+I+G    | 1146       | e5ce1d1e70913bb464bca8deca4fe61a | uce-214                                                                                             
+93     | GTR+G      | 2085       | 8fd5a19788633219693684f434513e37 | uce-215, uce-252                                                                                    
+94     | GTR        | 612        | 35682f5dcc9a547b318193d9d692d608 | uce-217                                                                                             
+95     | GTR+G      | 349        | b9e12ded5c4c182f5e32defa56016f81 | uce-218                                                                                             
+96     | GTR+I+G    | 1676       | a5be2982c867f7460c38e9cd00a2dd63 | uce-22                                                                                              
+97     | GTR+G      | 900        | 25e0022800802fcec7fcf7134f35f5ac | uce-220, uce-909                                                                                    
+98     | GTR+G      | 391        | 4084202e99d224c02ab05b0dc0c37ca8 | uce-221                                                                                             
+99     | GTR+G      | 480        | 114305b2e564b7d1095ff594661f1445 | uce-225                                                                                             
+100    | GTR+I+G    | 949        | 89888534b52e58cf88742d30e9689878 | uce-226                                                                                             
+101    | GTR+G      | 2433       | a869a9f0cb058159da025ebe63708979 | uce-783, uce-415, uce-227, uce-31                                                                   
+102    | GTR+G      | 599        | ca32a5dd78a18c48817ffd8948fe9850 | uce-228                                                                                             
+103    | GTR        | 555        | 9418b14d2c0a9246d7502f9732f7fd20 | uce-229                                                                                             
+104    | GTR        | 329        | 7235a4425885367aaf79187d6f85fb5d | uce-23                                                                                              
+105    | GTR        | 599        | 0055ed2bd685d7f09bc5aaff72a27227 | uce-234                                                                                             
+106    | GTR+I+G    | 1020       | 5d68c8cb7e12bd76cb8a9587c5e8e09d | uce-235, uce-423                                                                                    
+107    | GTR+G      | 1575       | 51424bab0588731dc9362215e5b97682 | uce-236, uce-904                                                                                    
+108    | GTR        | 1821       | 8127d2359a5a7e55cc7e43496741cf48 | uce-237                                                                                             
+109    | GTR+G      | 358        | 414f377f18aa2e04a8961ff3602a5811 | uce-238                                                                                             
+110    | GTR+I+G    | 327        | a9e31fccee5486c15c92dbe27df5a7be | uce-239                                                                                             
+111    | GTR+G      | 1866       | 0cacf871c61b2f157646baf8453c165c | uce-241                                                                                             
+112    | GTR+G      | 1308       | afdff4da02ecf84bd8b28b913763e291 | uce-242                                                                                             
+113    | GTR        | 526        | f6358c7ae3d415333af5cff2de7ba54c | uce-245                                                                                             
+114    | GTR+G      | 1197       | 3f5e1377471ab56bef02e4a20a5aafc6 | uce-894, uce-249                                                                                    
+115    | GTR        | 341        | c13e6645785a35a186f69301282cd2fa | uce-25                                                                                              
+116    | GTR+G      | 457        | e12b8a44bdef4cb3b15bdf1b7f19d683 | uce-250                                                                                             
+117    | GTR+G      | 328        | 058c4a8865e115237ca6837827eb2e53 | uce-251                                                                                             
+118    | GTR+G      | 670        | 7c88b9e12e279a5c0cb2e79982b8a134 | uce-253                                                                                             
+119    | GTR+G      | 900        | faff54336d16ba689dd4733ef0113a76 | uce-255                                                                                             
+120    | GTR        | 466        | 0eff799d87d05f3b1a64a66cb31b8eff | uce-257                                                                                             
+121    | GTR+G      | 353        | 6b83995a13984e440fd947bb9618ad19 | uce-258                                                                                             
+122    | GTR+G      | 514        | 6a4d38e158b7d434fa688dc37942de75 | uce-259                                                                                             
+123    | GTR        | 264        | 64fbe4b4a960432a2694d9ca52357bb2 | uce-260                                                                                             
+124    | GTR+G      | 686        | e212caac184e2b074bab5c24b13e6eee | uce-261                                                                                             
+125    | GTR+I+G    | 286        | 8b7381ede1a47459edacf0aeb16a01cb | uce-263                                                                                             
+126    | GTR+G      | 563        | 8e086e6829d054802d1bca517604386f | uce-264                                                                                             
+127    | GTR+G      | 562        | f229be30f5cf3cb790a39b2ff7dcc4b9 | uce-267                                                                                             
+128    | GTR+G      | 994        | 18738ee15c8b10f7effc4d73de4ee2fe | uce-268                                                                                             
+129    | GTR+G      | 585        | 04514e5917173b6119d86c13632737d5 | uce-269                                                                                             
+130    | GTR+G      | 368        | e4daee4db6ae67619736ddb645fc3db9 | uce-270                                                                                             
+131    | GTR+G      | 442        | 78941a02b427b22a9d51a1fef3341946 | uce-272                                                                                             
+132    | GTR+G      | 849        | 97fb9f02944764c8d7e3168d4d9efbdd | uce-273                                                                                             
+133    | GTR+G      | 449        | 09f36fd776ff6352e199dfdf146bacb9 | uce-274                                                                                             
+134    | GTR+I+G    | 479        | badf0a7f4a370f837bf3428f050ca921 | uce-280                                                                                             
+135    | GTR+G      | 928        | 5160ee7552e53e3af02c6846af550cf4 | uce-284                                                                                             
+136    | GTR+G      | 1469       | 2961a72a9bc7c2487b3c283e510ab62e | uce-287                                                                                             
+137    | GTR+I+G    | 749        | 10a60381c6bc9c6e51b1f6ad5127cb0c | uce-288, uce-399                                                                                    
+138    | GTR+G      | 657        | 70bb27812f2dc8e87edfe6a4bc0f73ee | uce-289                                                                                             
+139    | GTR        | 1531       | aef1fd1e610079bddb0ccd9b5b928f3a | uce-29                                                                                              
+140    | GTR+G      | 1136       | 0beaa968cb6075e914b0a46fe6303e12 | uce-368, uce-290                                                                                    
+141    | GTR+G      | 1204       | 6161e256566e1bfdde46158116a7ea58 | uce-291, uce-636                                                                                    
+142    | GTR        | 1306       | 2e30206d3cf8f26c12e890bf4f2c92f9 | uce-294                                                                                             
+143    | GTR+G      | 1028       | c3220c981f80c60b3ed12a09aa0d9229 | uce-295, uce-684                                                                                    
+144    | GTR+G      | 314        | cdcbb7b534e9d358a8c1c55a04d5842d | uce-297                                                                                             
+145    | GTR+G      | 255        | 9efe22a38ca779554a67f5568fabb98d | uce-30                                                                                              
+146    | GTR+G      | 918        | c69563fc72163e2d91bbe9442f3bb359 | uce-300                                                                                             
+147    | GTR+G      | 644        | e069dcadec09038f599dad294e3ca7b6 | uce-303                                                                                             
+148    | GTR+I+G    | 677        | cbb0a52e69448a123cf66591a63f3f67 | uce-304                                                                                             
+149    | GTR+G      | 569        | 8e4ea4ff54cab0125003ac6ebd572612 | uce-306                                                                                             
+150    | GTR        | 343        | 81544fece9e416f82f1d7bf1d334e143 | uce-309                                                                                             
+151    | GTR+G      | 362        | 82cc1ba5bf4d4a7f02943503a54a5779 | uce-313                                                                                             
+152    | GTR+G      | 1010       | 3597868ef24abb8fb4493a17589142b1 | uce-706, uce-314                                                                                    
+153    | GTR+G      | 1049       | 7846347c3871f4bff9d83b35b9e7da3d | uce-317, uce-843, uce-750                                                                           
+154    | GTR+G      | 395        | fbda5c421faa279d17ed78a26049fdb9 | uce-32                                                                                              
+155    | GTR+I+G    | 995        | 052f368e513b2f0ac4052b6c5987ca83 | uce-320                                                                                             
+156    | GTR        | 446        | 096d76f9672cf9b05ab409e35ae29633 | uce-322                                                                                             
+157    | GTR+G      | 559        | 095dc14a352b1d6a7522e6dc068ca925 | uce-323                                                                                             
+158    | GTR+G      | 513        | 3887b6a24f1547b078b305153819b9b1 | uce-324                                                                                             
+159    | GTR+G      | 703        | 6e0fa16cc57862b93028ec0da19d26c6 | uce-551, uce-326                                                                                    
+160    | GTR+G      | 462        | 3f4822db168f1caafe11909a40e02ce5 | uce-327                                                                                             
+161    | GTR+G      | 648        | dba37f5152a68b9da31ae22d9afa2b7f | uce-338                                                                                             
+162    | GTR+G      | 468        | e7be5dae64a4f0ee5cc9170d18263742 | uce-339                                                                                             
+163    | GTR+I+G    | 683        | a678a455613c66202ad6fe4768ea1b56 | uce-581, uce-340                                                                                    
+164    | GTR+G      | 1479       | 3887710e4f4db00d9c0599e95f44da96 | uce-342                                                                                             
+165    | GTR+G      | 608        | b2d41f5eff2ba1c44a2c611f4eab8b37 | uce-343                                                                                             
+166    | GTR+G      | 1427       | 5e1056c3912d58b2ca3b2275d4dbc64a | uce-345                                                                                             
+167    | GTR        | 782        | 6bf4b8bcc2d131323e2cf9ca01bf2540 | uce-347                                                                                             
+168    | GTR+G      | 378        | 614211ea1eddda7a9f46e322cef4a863 | uce-35                                                                                              
+169    | GTR+G      | 1604       | cf9471bdfa0248e86a5eeb79fa68c476 | uce-350                                                                                             
+170    | GTR+G      | 645        | e98e326a33d7b1e460875a1f8fec8daa | uce-458, uce-352                                                                                    
+171    | GTR+G      | 1145       | b6d160e51b3c0bd098f4ef7d57ac949e | uce-961, uce-354                                                                                    
+172    | GTR+I+G    | 459        | ef57355bd052a248485dadd2cc1138d6 | uce-357                                                                                             
+173    | GTR+G      | 717        | 889e2161da9afff435bd4d9837b147e5 | uce-358                                                                                             
+174    | GTR        | 1065       | 0e30cfd4bbe08bece32d537133432129 | uce-359                                                                                             
+175    | GTR+G      | 350        | fd4867d6f7d970b158d7443624841a8c | uce-360                                                                                             
+176    | GTR+G      | 322        | 3ed3489efd44e0b458370d1f416bf598 | uce-361                                                                                             
+177    | GTR+G      | 670        | 025743aecfa6831aac31537b114444ad | uce-364                                                                                             
+178    | GTR+G      | 372        | 13213c08650162b91ed480dbefbe784a | uce-365                                                                                             
+179    | GTR+G      | 1014       | 996fa7ca01e8cda387925b83038b26c6 | uce-37                                                                                              
+180    | GTR        | 438        | 8547905d1f0cb3613053b3ba19e4d568 | uce-371                                                                                             
+181    | GTR+G      | 597        | 034a3947eb94e660654c9c8bfdf7cdb3 | uce-372                                                                                             
+182    | GTR+G      | 343        | ceab2836cc1b4a0b4208faba9daa33ea | uce-375                                                                                             
+183    | GTR+G      | 607        | 53681568cb562394ae2a2e0a6104bf2c | uce-376                                                                                             
+184    | GTR+G      | 451        | 908e35641e9604997cc4cc9081ef701b | uce-378                                                                                             
+185    | GTR+G      | 626        | 0ba6dd5dcd3e8b8962ce770d18520d3b | uce-38                                                                                              
+186    | GTR+G      | 2007       | b848b9e768cf050d6ac6ca4e9ce72588 | uce-383, uce-959                                                                                    
+187    | GTR+G      | 504        | 3c236d233955f6105386236cdf0a8aad | uce-384                                                                                             
+188    | GTR+I+G    | 610        | 67904b4836e3e45875a6edf2745d06d1 | uce-387                                                                                             
+189    | GTR+G      | 469        | c769679579769d1e90d1fc5435388758 | uce-388                                                                                             
+190    | GTR+G      | 1303       | ea8249eaf948fb5343561df135263c39 | uce-39                                                                                              
+191    | GTR+G      | 1010       | 5133e5b826985744079460bc0dd384ac | uce-390, uce-474                                                                                    
+192    | GTR+G      | 803        | 9fb5f163c664ebaf374b3bf7a29549cf | uce-393, uce-914                                                                                    
+193    | GTR+G      | 510        | 7fc6de043b45cecdeae16be5952eca6c | uce-394                                                                                             
+194    | GTR        | 708        | 54cb5b9bd68547a5e1ddb1e20cd752e7 | uce-396                                                                                             
+195    | GTR+I+G    | 562        | a7cbec708d4cc147f8539c7bf67a8fe2 | uce-398                                                                                             
+196    | GTR+G      | 377        | dbca4c09e755a5501532041eb6885273 | uce-4                                                                                               
+197    | GTR+G      | 487        | 1ca32f49a78b87a312f23ddfcf632836 | uce-406                                                                                             
+198    | GTR        | 887        | 7088b637f8d6887c06b2a0f3d82088c0 | uce-409                                                                                             
+199    | GTR        | 336        | 77e9f4ad8a89e5f56032084f83565705 | uce-410                                                                                             
+200    | GTR+G      | 1655       | a4962e2e26ef0f6f9478f609e94cb39c | uce-412, uce-691, uce-467                                                                           
+201    | GTR+G      | 444        | f8d2bbd7fbae1fa9fc558c970bcebfbc | uce-413                                                                                             
+202    | GTR+G      | 749        | 92f3e5e1413eac736d35eb3d41633c87 | uce-422                                                                                             
+203    | GTR+G      | 760        | e3f80f2d8e9dc50061c4f0f0226ff6b1 | uce-960, uce-426                                                                                    
+204    | GTR+G      | 1563       | e63fd1f2f09d856af83c7ce865a951bf | uce-428                                                                                             
+205    | GTR+G      | 1476       | f6bdfab089586e40e8fe1de6ec65fdea | uce-434, uce-965, uce-769                                                                           
+206    | GTR+G      | 1081       | c7a0c1394363dc5ee72d8c14a843fa7e | uce-435                                                                                             
+207    | GTR+G      | 3278       | 42bbc4341e8e52f3511919f3d7a718ce | uce-688, uce-437, uce-919                                                                           
+208    | GTR        | 392        | 659be98647cac26c47e63a8e9bbbe77a | uce-438                                                                                             
+209    | GTR        | 409        | b4f02d16c37c609e8715a11bf1c056e9 | uce-440                                                                                             
+210    | GTR+G      | 471        | 46415e94697d275e83d550a71de2e553 | uce-441                                                                                             
+211    | GTR+G      | 1063       | 4437396d5473d288d149cbbd4c368d92 | uce-442                                                                                             
+212    | GTR+I+G    | 943        | 1b2f8809e53d43a9d9dd3427df3f726a | uce-444                                                                                             
+213    | GTR+I+G    | 1001       | 591629d64144324a03d21257b8c76c1a | uce-446                                                                                             
+214    | GTR+G      | 862        | 45e2239e9ed2994f23234607e71cc2a3 | uce-45                                                                                              
+215    | GTR+G      | 760        | 637531c561e3eda3297d6d22bf87ca5b | uce-450                                                                                             
+216    | GTR+G      | 464        | 5d034046428543d3b4fd90e23cca6358 | uce-452                                                                                             
+217    | GTR+G      | 436        | 46b655977b20637f92b33e01b8175faa | uce-457                                                                                             
+218    | GTR+G      | 499        | 0291b197cb53c436646cc2e9fd26af82 | uce-459                                                                                             
+219    | GTR+G      | 710        | 001077b61de1ee78e13b13dcf183d80f | uce-464                                                                                             
+220    | GTR+G      | 927        | ddfbcf2f9375273f54c3a2cf2644d0c0 | uce-468                                                                                             
+221    | GTR+G      | 718        | 7b60c87188c1e143f67c5a08001c8fe6 | uce-47                                                                                              
+222    | GTR+G      | 325        | 95757cca930992fb936dd489908ed566 | uce-471                                                                                             
+223    | GTR+I+G    | 1010       | 123236290730e4715ba387e6eaeff8e8 | uce-476                                                                                             
+224    | GTR+G      | 839        | f7ea83ee033e5d037eb1af587c7cfd2d | uce-967, uce-48                                                                                     
+225    | GTR+G      | 642        | a91c49a3d2d5445aebadcda78f6d607f | uce-481                                                                                             
+226    | GTR+G      | 670        | 4052a294488c836faf191fdcef2da015 | uce-484                                                                                             
+227    | GTR+I+G    | 562        | 24b95e7ee28369bd80196ea7d277df67 | uce-485                                                                                             
+228    | GTR+G      | 927        | 1066989f042cfc74e46ab1f952c504cc | uce-488                                                                                             
+229    | GTR+G      | 479        | 87ded20909cc9a24f7af7e14bb3e02be | uce-491                                                                                             
+230    | GTR+G      | 714        | b639995fabdb6e520d9a3a77b194e79a | uce-493                                                                                             
+231    | GTR+I+G    | 346        | db5808b568b449da0a0ad88cf2dd93fd | uce-494                                                                                             
+232    | GTR+G      | 616        | 6758bff9789ffa6def39eb31ec3b5ea7 | uce-497                                                                                             
+233    | GTR+G      | 714        | ec28cf4a9ee7d4fbe6ee68324e16e2d1 | uce-498                                                                                             
+234    | GTR        | 305        | 7babc16baad8fe8acafe4fbdca6d47ec | uce-50                                                                                              
+235    | GTR+G      | 613        | bcb1f8838a240b86d9f874c2f94c5de5 | uce-501                                                                                             
+236    | GTR+G      | 361        | 691380017347a27115648b7b7d03b573 | uce-505                                                                                             
+237    | GTR+G      | 545        | 3a779f069dd88d487d1cf9afd83b6c1c | uce-507                                                                                             
+238    | GTR+G      | 488        | 55b4bd949f520da7403e17f809b586e9 | uce-508                                                                                             
+239    | GTR+G      | 731        | 62e069bbc8a9ce36fb287de6aa1202c7 | uce-509                                                                                             
+240    | GTR+G      | 337        | e741cef8a55b2934bb20641b8e0e27ba | uce-51                                                                                              
+241    | GTR+G      | 532        | 0f08c8662a8b3dbd7d72d63895fcb988 | uce-510                                                                                             
+242    | GTR+I+G    | 618        | d303224dc43b6f378592b13ea1525498 | uce-511                                                                                             
+243    | GTR+G      | 476        | d7194a1d8723393616044fa1363b124d | uce-512                                                                                             
+244    | GTR+G      | 163        | bed336b55ee10faad65dac757526ee82 | uce-513                                                                                             
+245    | GTR+G      | 1518       | e946b77523ebc6508054d3c2f36f056c | uce-514, uce-976                                                                                    
+246    | GTR+I+G    | 1365       | 97756d5acb1f5325cca9e2be53e23a52 | uce-595, uce-516                                                                                    
+247    | GTR+G      | 1916       | f61b8059120d8cb73ad43a0ecd94b815 | uce-833, uce-822, uce-517                                                                           
+248    | GTR+G      | 439        | a5a7dfc586a742814bf7fcc8ce275ce0 | uce-519                                                                                             
+249    | GTR+G      | 433        | 06145249f360034131756dc5f6ea709c | uce-52                                                                                              
+250    | GTR+G      | 453        | f392137e6bfe5e827bff94c668b4478a | uce-522                                                                                             
+251    | GTR+G      | 502        | 6589110ccf548c080b6706e87c4a92ba | uce-523                                                                                             
+252    | GTR+G      | 466        | 2665724c76ce2af69aa89474dd46ba40 | uce-524                                                                                             
+253    | GTR+G      | 495        | bb6b58b19c53ee9870d3f6c02962ed06 | uce-526                                                                                             
+254    | GTR+I+G    | 1075       | 928c3c2375672044b359670cf0a5d1a4 | uce-527                                                                                             
+255    | GTR+G      | 386        | c6995695a1f2f33cb2c0cf0510665bec | uce-528                                                                                             
+256    | GTR+G      | 312        | 85da1fa2735eb6efef290796cbd52f6c | uce-531                                                                                             
+257    | GTR+G      | 429        | 16bb4a2cd79594b3ef0cf71cc83590b6 | uce-532                                                                                             
+258    | GTR+G      | 360        | fbe820aed4360da61b76e267a1f95f9e | uce-539                                                                                             
+259    | GTR+G      | 834        | 62bb898844ba8efb3c5ebc47a97a0cfe | uce-542                                                                                             
+260    | GTR+G      | 650        | edc01d6d67660888ada75b0a9d3d5710 | uce-544                                                                                             
+261    | GTR+G      | 547        | b1a8b5a70b3db606fbbe06aebe5e0c15 | uce-811, uce-545                                                                                    
+262    | GTR+G      | 310        | a93a7260884e36a22a9f8736deac6900 | uce-547                                                                                             
+263    | GTR+G      | 903        | 533dd3e8df4a40b643bc3e4f7c2a67be | uce-548                                                                                             
+264    | GTR+G      | 808        | 2274f7e564ef6eba5a257bdc35ab2fbf | uce-549                                                                                             
+265    | GTR+G      | 577        | fecb43aec73723783885877fa12d9842 | uce-555                                                                                             
+266    | GTR+I+G    | 1729       | dc848e561ffd9813ec7e8be464ece44f | uce-558, uce-973                                                                                    
+267    | GTR+G      | 1091       | ca9189287cb68caa9cb190627cdeac83 | uce-56, uce-73                                                                                      
+268    | GTR+G      | 574        | d021cdd50f1f99e04f679abf59bd01ba | uce-562                                                                                             
+269    | GTR+G      | 454        | 8e8102637e421c8cd3a3bdcfb92c701e | uce-563                                                                                             
+270    | GTR+G      | 781        | 84567e3571c02d0398d78a6ae251f246 | uce-564                                                                                             
+271    | GTR+I+G    | 569        | 7a4202f31f719a8e606140c4789a9b22 | uce-565                                                                                             
+272    | GTR+I+G    | 405        | bf1e37e77a8b07fa79843b4a74b05b04 | uce-566                                                                                             
+273    | GTR+G      | 641        | 0f61d0528e535d938f1e40a4f756b8b2 | uce-567                                                                                             
+274    | GTR        | 783        | a260fbb07c17fa513a19af278899c51b | uce-572                                                                                             
+275    | GTR+G      | 1418       | 8ee1e76365bbeec18048e710871abfa5 | uce-573, uce-784                                                                                    
+276    | GTR+G      | 1104       | c888c29e4dba47e60bf32068cf4ef9e1 | uce-574                                                                                             
+277    | GTR        | 533        | 414a32c63933eb45b956c7addedeff04 | uce-576                                                                                             
+278    | GTR+G      | 586        | dda32d18d4c40766db417d422026d30c | uce-58                                                                                              
+279    | GTR+G      | 1050       | ed66d3e36f0466f1feea5a37baedef94 | uce-582                                                                                             
+280    | GTR+G      | 584        | ea707e90b556f3d9a9269ef0e409247c | uce-583                                                                                             
+281    | GTR        | 406        | 552b56ad09e18c270f78f41768670ae3 | uce-585                                                                                             
+282    | GTR+G      | 499        | 22e39e41a680a0918dbae1c13d3a1902 | uce-590                                                                                             
+283    | GTR+G      | 504        | f19ced2d25e03ea8095d9cc4a4e14d05 | uce-591                                                                                             
+284    | GTR+G      | 869        | 11be044dc9f0fe2541d40b72bb38c9c1 | uce-593                                                                                             
+285    | GTR+G      | 512        | e4cb27879b6831b83b9ab66b9102518d | uce-596                                                                                             
+286    | GTR+G      | 604        | 63899f8041bead56335be4a1cf503b2c | uce-597                                                                                             
+287    | GTR+I+G    | 625        | 19de22d7596d7b4a3c84ba0d658aef4e | uce-598                                                                                             
+288    | GTR        | 1035       | 95342bbe5b66122c7ae471c718cda756 | uce-599                                                                                             
+289    | GTR+G      | 299        | 385cfbbbf396ffbfa6cc3562b6708100 | uce-60                                                                                              
+290    | GTR+G      | 651        | f3d15412f5132a7ffdfe6b2d53917ba3 | uce-600                                                                                             
+291    | GTR+G      | 473        | c0d234245d7da93c4d1fc6cd8c29455e | uce-601                                                                                             
+292    | GTR+I+G    | 413        | cd69a5ccbebd04d13429e7d70d6ded7c | uce-603                                                                                             
+293    | GTR+G      | 690        | 0490c19cf1d87a7305534b80984352ca | uce-607                                                                                             
+294    | GTR+G      | 2812       | a0fa4452eb29c9f2b81b08b950b10e47 | uce-609, uce-817                                                                                    
+295    | GTR+G      | 453        | bed8751aa685cfc7b0f8f796d3236e76 | uce-610                                                                                             
+296    | GTR        | 758        | d2bad347efae8f97a60c8dfa22d7cf10 | uce-611                                                                                             
+297    | GTR+G      | 1139       | 44edf8cb72dd4652e16c679c1cc8a05b | uce-613                                                                                             
+298    | GTR+G      | 2019       | 5f79d1e4e4c0a9e799d6b1beab3252eb | uce-614                                                                                             
+299    | GTR+I+G    | 268        | 830adbe99a53aa394507e41b1e9b18fe | uce-617                                                                                             
+300    | GTR+G      | 371        | b07355298477cf91b03e24a0265e87ac | uce-62                                                                                              
+301    | GTR        | 505        | d04426c166413450f5f1edc66de7b894 | uce-620                                                                                             
+302    | GTR+G      | 609        | 45c9ad7598a9fcc55360910520880090 | uce-621                                                                                             
+303    | GTR        | 769        | 420577b2f2917f59ff30f3dc77520830 | uce-623                                                                                             
+304    | GTR        | 494        | 51e84abd632678ea0ddc43b6c8eca6fa | uce-624                                                                                             
+305    | GTR+G      | 1405       | af4e326d5939a67678c5928ec8aa5056 | uce-625                                                                                             
+306    | GTR        | 702        | acc91b0c306f887c77facbba7bee924a | uce-630                                                                                             
+307    | GTR+I+G    | 1013       | 6da0a6dcf9b3a5f8fbd020c0b983f79a | uce-633                                                                                             
+308    | GTR+G      | 642        | 8c58c76d0e6bd9d1f857bb37c9ce08bf | uce-635                                                                                             
+309    | GTR+G      | 814        | 475f375838b0a5151f7bd8d2c84440ad | uce-637, uce-687                                                                                    
+310    | GTR+G      | 984        | 5450b24491d6915ba9a8282ad563e9b5 | uce-639, uce-931                                                                                    
+311    | GTR        | 859        | 97d6161e33191e1f8a4eeeb3950bef2f | uce-64                                                                                              
+312    | GTR+I+G    | 603        | 5ab16c8bf70ab66c2da7ddef4aa0526a | uce-645                                                                                             
+313    | GTR+G      | 325        | 2e11a2311ed2f0953809325c9253179d | uce-648                                                                                             
+314    | GTR+G      | 344        | 195b8d95351d62c449c22d6ba6809ac9 | uce-649                                                                                             
+315    | GTR+G      | 659        | 1a4a5a408688c216c772b861f01f1232 | uce-65                                                                                              
+316    | GTR        | 927        | db9823bc95b75c7d9d95ae173aff3e01 | uce-651                                                                                             
+317    | GTR+G      | 597        | 96cd67ceed663d8f65e342fdb7e02bfa | uce-652                                                                                             
+318    | GTR+G      | 370        | b544570b6eebceb2723b05ace69c30a3 | uce-653                                                                                             
+319    | GTR+G      | 579        | 6bdec4147c8a1baeb4a060546953bb43 | uce-655                                                                                             
+320    | GTR+G      | 451        | 6ba82d7112ff28918d7d41f08f5955b5 | uce-658                                                                                             
+321    | GTR+G      | 745        | 3e4afd923acdd10b28dd63cc7227fc56 | uce-660                                                                                             
+322    | GTR+G      | 246        | b895b2e1afebf8fc7df3ddbc4eec9273 | uce-662                                                                                             
+323    | GTR+G      | 849        | bd213dddf86059153a03b9b023ec157d | uce-667                                                                                             
+324    | GTR+I+G    | 411        | a15a2e58c8effdd0649e8be72c6d9331 | uce-670                                                                                             
+325    | GTR+G      | 520        | 9846ea667f6fc7492fd30bf3fa273164 | uce-672                                                                                             
+326    | GTR+G      | 501        | ffba9cb0101ecc4317b43f0d64b0d910 | uce-674                                                                                             
+327    | GTR+G      | 901        | b2173965ccc2574fa627abcbd4af0a75 | uce-675                                                                                             
+328    | GTR+G      | 997        | fb84108d1b474482098c684d3bd15f17 | uce-676                                                                                             
+329    | GTR        | 745        | 097df59c16183890ba77ec33fb982c53 | uce-678                                                                                             
+330    | GTR+G      | 411        | c586a091347bf39747868b34af11e07d | uce-679                                                                                             
+331    | GTR+G      | 1374       | fce863c9a51f3026d22d306f16f7c479 | uce-68                                                                                              
+332    | GTR+G      | 309        | 14339d76a28706a1e59ac042b6872801 | uce-682                                                                                             
+333    | GTR+G      | 147        | bead2f4b2086086135ecaf183ee90d8d | uce-683                                                                                             
+334    | GTR+G      | 1029       | 5254174fe19d7664dcff10bb5840d968 | uce-69                                                                                              
+335    | GTR+G      | 794        | d8af9396cf37722baea5c1e18b4f4da9 | uce-690                                                                                             
+336    | GTR+G      | 709        | 30e1a64552423bedaffca57078cc1710 | uce-692                                                                                             
+337    | GTR+G      | 766        | 73a415385fc4bf50e8123e6ca4a8671e | uce-696, uce-98                                                                                     
+338    | GTR+G      | 1069       | 08445a9cb86f0e140357c00dc65da800 | uce-697                                                                                             
+339    | GTR+I+G    | 932        | 76e5604737ac60d05e03bf7f8ed828c1 | uce-70                                                                                              
+340    | GTR+G      | 589        | 9942112c8358967b41078e89b59d4243 | uce-702                                                                                             
+341    | GTR        | 500        | 663f9060e9bc111333f3e4e688589e97 | uce-710                                                                                             
+342    | GTR+G      | 602        | 57dacb1c409e511a126dd2568c03974f | uce-712                                                                                             
+343    | GTR+G      | 1068       | bf5019a214c0b16449ae8ca22d8f2893 | uce-716                                                                                             
+344    | GTR+G      | 511        | 2fa29780c678b84d1e71589aed54a05b | uce-717                                                                                             
+345    | GTR+G      | 634        | 6ac45f04ce53aaa30920b439091dcffc | uce-719                                                                                             
+346    | GTR+I+G    | 470        | 0cb19d2ec6d98d32f8f2a8b7d2618432 | uce-720                                                                                             
+347    | GTR+G      | 250        | 77efa9319fb7fca858b547fc321ac95d | uce-724                                                                                             
+348    | GTR        | 212        | 54a7d218f590e48bc1186e7a5ac9a830 | uce-726                                                                                             
+349    | GTR+G      | 846        | 042c60c0a4d8b081dae97472a341202a | uce-727                                                                                             
+350    | GTR+G      | 450        | 1101d93c71f1ab8c3be074e5ad785e4a | uce-731                                                                                             
+351    | GTR+G      | 842        | 3759be9d36b46d24be7f57605fe07514 | uce-733                                                                                             
+352    | GTR+G      | 663        | 64cbda8af29328e8eaa9d368872a1a45 | uce-735                                                                                             
+353    | GTR        | 869        | 8d6d470411f5a39e5813e230625c393f | uce-736                                                                                             
+354    | GTR+G      | 468        | 277d988e1402fae08ca402ba585460ca | uce-738                                                                                             
+355    | GTR+G      | 864        | 3805fde645b7231f22f3d3522b72b459 | uce-74                                                                                              
+356    | GTR+G      | 1265       | 7763c73678e7e6537ea8b9c2840b5228 | uce-741                                                                                             
+357    | GTR+G      | 1124       | 257e5a8c08319c74ecbcdfc780803bd7 | uce-743                                                                                             
+358    | GTR+G      | 999        | bc9da54d8b76aa01d93727da3daaa845 | uce-746, uce-991                                                                                    
+359    | GTR+G      | 425        | 643d99b77b4977954149aaa200ca416a | uce-748                                                                                             
+360    | GTR+G      | 910        | e7943da818fe42b9fba2883d5abb6dac | uce-749                                                                                             
+361    | GTR+G      | 711        | 829d10d5a770debb395888fdbb2f0975 | uce-75                                                                                              
+362    | GTR+G      | 326        | 10a9ac619666fe7c873ceea5336fa789 | uce-753                                                                                             
+363    | GTR+G      | 437        | 11cc68ed292b90c329b683d951fbf297 | uce-754                                                                                             
+364    | GTR        | 326        | 4aae073684b887c3790b72e600c7a1a5 | uce-755                                                                                             
+365    | GTR+G      | 711        | c988c6e240fbc88ad88e252162083ffe | uce-759                                                                                             
+366    | GTR+G      | 644        | f59b96d6b53d7923da5946a832fa0b64 | uce-760                                                                                             
+367    | GTR        | 395        | 34be8d89b760f487bbab6594bf6ff7d1 | uce-761                                                                                             
+368    | GTR+G      | 769        | 506338304e4226c1584a3562e8ad4f74 | uce-762, uce-934                                                                                    
+369    | GTR        | 960        | ce04909f047f5377c0b4bf5d8e8912e2 | uce-765                                                                                             
+370    | GTR+G      | 390        | dd83ccc007f993b88559d71bc4b123a2 | uce-766                                                                                             
+371    | GTR+G      | 883        | 97c5cffc54b8f4fef0133e3b17cd0cd0 | uce-767, uce-842                                                                                    
+372    | GTR+G      | 1240       | 05b6346ddcdac4d2ede4258c33a4026f | uce-770                                                                                             
+373    | GTR+G      | 374        | 0020f364670904d480e4adf47fd28ed0 | uce-771                                                                                             
+374    | GTR+G      | 790        | 85ea92e145b18f57f18cefa6dab803d6 | uce-776                                                                                             
+375    | GTR+G      | 688        | 1d280d8af79b7c6d755f23964711e0f0 | uce-78                                                                                              
+376    | GTR+G      | 1366       | 117dd3e9e161156bdd8c368128452bd4 | uce-830, uce-787                                                                                    
+377    | GTR+G      | 368        | afb36392a247070ce6ce753fab5c7e86 | uce-788                                                                                             
+378    | GTR+G      | 284        | 1161885f445ff1e47a1e852dc35b339a | uce-792                                                                                             
+379    | GTR+G      | 617        | 8b7327caa7a00bd92a13e170247c5f7d | uce-793                                                                                             
+380    | GTR+G      | 1676       | 8d1ebf871f43223f369f1535e0870a44 | uce-794                                                                                             
+381    | GTR+G      | 577        | 7c98c759784b20b876791d96f2b50ea9 | uce-797                                                                                             
+382    | GTR+G      | 504        | 1a5eee036f7a1679e2bfb54aa1cd6a15 | uce-798                                                                                             
+383    | GTR+G      | 999        | 6d03f276036c221b4d3848c151d601c6 | uce-80                                                                                              
+384    | GTR+I+G    | 629        | 74b7f52d8fd16257f5ffbf6fcab3e796 | uce-800                                                                                             
+385    | GTR+G      | 921        | 0f16782feb2661d4eae678cab57e10a2 | uce-803                                                                                             
+386    | GTR+G      | 595        | 0004e7189117e5a34d016d6c02d9a398 | uce-804                                                                                             
+387    | GTR        | 535        | a3340d52e7d10f80938ad68d3539f4e9 | uce-805                                                                                             
+388    | GTR+G      | 417        | 62e0f493965cbf8f7ce79e50d33a2540 | uce-807                                                                                             
+389    | GTR+G      | 216        | a58791a612534b05ec3700277fd93aac | uce-812                                                                                             
+390    | GTR+I+G    | 1285       | 896e4d804314879d7220cc166ecd2de1 | uce-816                                                                                             
+391    | GTR+G      | 709        | 2d953362ea4fe5cb4239d379cfd2e3e8 | uce-818                                                                                             
+392    | GTR+G      | 932        | 644c14395e4bc632d8bd439aaf9d7399 | uce-82, uce-837                                                                                     
+393    | GTR+I+G    | 187        | b6efa55a89c347c538b0911b27ef7e51 | uce-821                                                                                             
+394    | GTR+G      | 1140       | 7adc42ab057c3808f20cf313f8b70fbb | uce-823                                                                                             
+395    | GTR+G      | 657        | 260a17ea03f95ab9c634769f50676016 | uce-824                                                                                             
+396    | GTR+G      | 635        | 68bc4e0c93cacf827c0df8e6bf191667 | uce-829                                                                                             
+397    | GTR+G      | 511        | 6be68379079f1f306aa5c38421bfa2a1 | uce-83                                                                                              
+398    | GTR+G      | 650        | 44719b548dae283a59fc03ca295d2dc1 | uce-831                                                                                             
+399    | GTR+G      | 1035       | b27df2d665def9187531be8126ed9670 | uce-834, uce-939                                                                                    
+400    | GTR+I+G    | 263        | 21d6b32b4cebadaa3553a5a91f3d9fac | uce-835                                                                                             
+401    | GTR+I+G    | 866        | 52cd08a2ba6f0d9b3cdd1eccf06c6726 | uce-845                                                                                             
+402    | GTR+I+G    | 744        | 1ddc29a6869d1213f01a00739706bdb5 | uce-846                                                                                             
+403    | GTR+G      | 656        | 7bf804c341931fb7ced97c93af85cd37 | uce-848                                                                                             
+404    | GTR+G      | 594        | f281a09b4b55c1f10e5dca5dadb21dc6 | uce-849                                                                                             
+405    | GTR+G      | 528        | 7bcd0aedaf3fef919bccb08fba186a84 | uce-853                                                                                             
+406    | GTR+G      | 829        | fb242d8b55dab9c29a3763f3038423a9 | uce-855                                                                                             
+407    | GTR        | 451        | 0a007d15103faca9ec4c551ce283d7ae | uce-856                                                                                             
+408    | GTR+G      | 1063       | 85bbb4d9e4df224d576c46d833b6d295 | uce-857                                                                                             
+409    | GTR+G      | 383        | 48196f7a6560e33e3a607d8f48b31609 | uce-858                                                                                             
+410    | GTR+G      | 454        | 3eef350cc54a0bec26ebd4040f2c9404 | uce-859                                                                                             
+411    | GTR+G      | 550        | d929afc4ab2465e8428e4c83125960d5 | uce-896, uce-860                                                                                    
+412    | GTR+G      | 917        | 6bfb588128f83e133513f96b3266d97e | uce-861                                                                                             
+413    | GTR+G      | 332        | 793690be8cae64f99f6d131c722d1e78 | uce-863                                                                                             
+414    | GTR        | 521        | 3450713db592527c36eadbc81deb6d86 | uce-865                                                                                             
+415    | GTR+G      | 1250       | 73c0ad85c8168d53fcafec71a5c6b29c | uce-867                                                                                             
+416    | GTR+G      | 484        | b228139cfa4b00506793898e5d29ed9f | uce-87                                                                                              
+417    | GTR+I+G    | 489        | 24e6fbd8e65db48fb4634ec16427fa84 | uce-870                                                                                             
+418    | GTR+G      | 478        | 6549a6f926485656afd90bbc5da0b25a | uce-871                                                                                             
+419    | GTR+G      | 591        | 17a7527fd67477d741d20c664fc85680 | uce-872                                                                                             
+420    | GTR+G      | 1293       | 8eac5a845268deb2ac7ecd98d7c4c008 | uce-873                                                                                             
+421    | GTR+G      | 369        | 97f6fc0502c8b4544bfba8879bf7ec6c | uce-874                                                                                             
+422    | GTR+G      | 801        | 8c03c0b4a2de53e5949ff954352a694b | uce-875                                                                                             
+423    | GTR+G      | 343        | d2347fce0557ee23ca0ae1e48cd0386b | uce-876                                                                                             
+424    | GTR+G      | 1046       | d5e5471331b4a7a91e9b302669ef9d51 | uce-879                                                                                             
+425    | GTR+G      | 530        | 4a7802fc7736be1184714f819bbb2c0d | uce-88                                                                                              
+426    | GTR+G      | 369        | dbdfb3b1f1afafa2b4222bec0b9405aa | uce-880                                                                                             
+427    | GTR+G      | 531        | 94cc5e2594c91786379f95b8541f0fe3 | uce-881                                                                                             
+428    | GTR+G      | 402        | 4ffb08fc8ac934a42778954e0b68a0c2 | uce-883                                                                                             
+429    | GTR+G      | 406        | 290e9aab1571db92190721475844659c | uce-885                                                                                             
+430    | GTR        | 605        | d4f10557e2346f22705d29263b70ef6b | uce-889                                                                                             
+431    | GTR+G      | 341        | a277b41b651e73ecae55492fdab931e1 | uce-891                                                                                             
+432    | GTR+G      | 379        | 70be64012820e1805df0a3d4700a5a85 | uce-892                                                                                             
+433    | GTR+G      | 423        | 1a595810ecf6fb127baf7e05a0288553 | uce-893                                                                                             
+434    | GTR+G      | 218        | db84f8d488ff74605fb448d78273efb9 | uce-895                                                                                             
+435    | GTR+G      | 1134       | fdaf193d5c3f1af6ce44fe954f1e1bd8 | uce-899, uce-980                                                                                    
+436    | GTR+G      | 243        | 83770bc00f55ab0cc155cc5feada7887 | uce-9                                                                                               
+437    | GTR+G      | 1055       | c3fdffd354a7e28186327b5dc27b287f | uce-901                                                                                             
+438    | GTR+G      | 440        | a5c24deaa3aa630be4cec8cf4e0cfec4 | uce-902                                                                                             
+439    | GTR+G      | 548        | 3695484b8c60e22f61f78ee09fff49f3 | uce-905                                                                                             
+440    | GTR+I+G    | 729        | e8c08648cce7b5d6fda5f177a2f6c806 | uce-906                                                                                             
+441    | GTR+G      | 1421       | 30cf666aa0439de8713294e427b012d0 | uce-907                                                                                             
+442    | GTR+G      | 571        | 1dd2aea74ab6ff0115928ac9797cca2b | uce-908                                                                                             
+443    | GTR+I+G    | 377        | 3ed9f1bc5ff45d34a1d3650960960b9f | uce-91                                                                                              
+444    | GTR+G      | 584        | 3b7df1a2846efe41491442c4ffc2bfd0 | uce-913                                                                                             
+445    | GTR        | 1008       | eb091920a44050bc1384eebda18f3e0f | uce-918                                                                                             
+446    | GTR        | 742        | 8354d73373a0a548538c388cf1a1c52c | uce-935                                                                                             
+447    | GTR+G      | 392        | ad77e846fbafdfdd8113d918500d0a87 | uce-938                                                                                             
+448    | GTR+G      | 543        | 01a2788ee8331a1eeb3b9efd7a4ff8f4 | uce-94                                                                                              
+449    | GTR+I+G    | 846        | 79899d288fe26f46844737bdb403e6f4 | uce-940                                                                                             
+450    | GTR+G      | 261        | faec89cf8d3ad84535c21b8c15e00386 | uce-941                                                                                             
+451    | GTR        | 582        | 0823e1a19cb7e1641cb0d49dec266aa2 | uce-942                                                                                             
+452    | GTR        | 1474       | efd9e02f427fc0aab4e2311dc0508514 | uce-943                                                                                             
+453    | GTR        | 1299       | 8713ecb7a9addfcbd4521b5de6150fe8 | uce-945                                                                                             
+454    | GTR+G      | 887        | b8016d5a11b80913cb503367ba2c11a1 | uce-946                                                                                             
+455    | GTR+G      | 189        | c89f549cf2837af17e64932cdb413f6a | uce-947                                                                                             
+456    | GTR+G      | 669        | 0163a18ef5d984904a439caee72f0ffd | uce-948                                                                                             
+457    | GTR        | 516        | 45cb70ae8d78ead62a40dff8f9417f70 | uce-954                                                                                             
+458    | GTR+G      | 905        | a86a4004f5f2adf2e01c97bd372bb55b | uce-962                                                                                             
+459    | GTR+G      | 669        | 3235cc8acad953d21c0107541f447b7a | uce-963                                                                                             
+460    | GTR+G      | 423        | 27f9c1b4d74bc606643431b3ab20febe | uce-964                                                                                             
+461    | GTR        | 292        | 29051ab34f887de6493b798f9e653606 | uce-97                                                                                              
+462    | GTR+G      | 268        | c4b92a3f014eb1d649c3f68d82363116 | uce-974                                                                                             
+463    | GTR+G      | 2158       | 911905f15e408b3255f319495d5010b2 | uce-975                                                                                             
+464    | GTR        | 748        | b53b1b55cbb1d1f3f8047e2fb01bddc2 | uce-977                                                                                             
+465    | GTR+G      | 1004       | 6869f2bcd4c1fe90e81ca8f86b9f7dc9 | uce-978                                                                                             
+466    | GTR+G      | 994        | 897fb751cce77105fde881c4efcba3dd | uce-981                                                                                             
+467    | GTR+G      | 1709       | d9adfdf7b65157e1bbe6b320fbd6aa78 | uce-983                                                                                             
+468    | GTR+G      | 328        | 43809f87da057d0b86d6d3608dea8b59 | uce-984                                                                                             
+469    | GTR+G      | 675        | 50e5dcc48ee6e8fb433e37a66747071b | uce-985                                                                                             
+470    | GTR+G      | 765        | 84d16fa24385b75359f83dee7f14d375 | uce-993                                                                                             
+471    | GTR+I+G    | 476        | b2e3893c2be0abd7709ecd213189be03 | uce-994                                                                                             
+472    | GTR+G      | 658        | a55ecf8fe8b0614c340809c88d01da7e | uce-995                                                                                             

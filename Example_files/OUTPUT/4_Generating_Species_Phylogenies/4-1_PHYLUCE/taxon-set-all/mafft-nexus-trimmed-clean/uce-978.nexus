@@ -1,0 +1,82 @@
+#NEXUS
+begin data;
+dimensions ntax=4 nchar=1004;
+format datatype=dna missing=? gap=- interleave;
+matrix
+Barnadesia_arborea           ???????????????????????????????????????????????????????????????GCCGAAT
+Gongylolepis_benthamania     CAGATATTCTACTATGCACCAAAGGTGTCAGAGAGTTGGAAAGGACAGAAGCTCCTTTCGAGGGCTGAGT
+Hyalis_argentea              CAGATATTCTACTATGCGCCAAAGGTGTCCGAGAGTTGGAAAGGGCAGAAGCTTCTTTCTAGGGCGGAGT
+Schlechtendalia_luzulaefolia CAGATATTTTACTATGCTCCAAAGATGTCCGAGAGCTGGAAAGGGCAGAAGCTCCTTTCGAGGGCTGAGT
+
+Barnadesia_arborea           TTCATGTCGGGGCACACGTAACGAAGTTTTTACGGTTACAGATGCTTCCAA---CTTCTGATCGAACCAG
+Gongylolepis_benthamania     TTCATATCGGGGCACATGTGACAAAATTTTTACGGTTGCAGATGCTTCCAACTTCTTCTGATCGAACCAA
+Hyalis_argentea              TCCATGTCGGGGCACACGTGACCAAATTTTTACGACTGCAGATGCTTCCAA---CTTCTGATCGGACCAG
+Schlechtendalia_luzulaefolia TTCATGTCGGGGCCCACGTGACCAAATTTTTAAGGTTACAGATGCTCCCGA---CATCCGACCGAACCAG
+
+Barnadesia_arborea           TGCTGCTCCAGGCTCCGATAAGATAAACCGTTTTGCCCTTTTGTTTGGGACCCTCGACGGCAGCGTTGGG
+Gongylolepis_benthamania     TGCTGCTCCAAGCTCTGATAAGACGAACCGTTTTGCCCTTCTGTTTGGTACCCTGGACGGCAGCATTGGG
+Hyalis_argentea              TGCTGCTCCAGGCTCTGATAAGACAAACCGTTTCGCCCTTCTGTTTGGTACCCTGGATGGCAGCATCGGC
+Schlechtendalia_luzulaefolia CGCCACTCCAGGCTCCGATAAGACCAACCGTTTTGCCCTTTTGTTTGGCACACTTGACGGTAGTGTCGGG
+
+Barnadesia_arborea           TGTATCGCTCCTCTCGACGAACTCACATTTCGCAGACTACAGTCGCTGCAGAAAAAACTTGTTGACGATG
+Gongylolepis_benthamania     TGTATCGCACCTCTTGATGAACTAACATTTCGCAGACTTCAGTCACTGCAAAAGAAACTTGTCGATGCTG
+Hyalis_argentea              TGTGTTGCCCCTCTTGATGAACTAACGTTTCGCAGACTTCAGTCGCTGCAGAAAAAACTTGTAGACGCCG
+Schlechtendalia_luzulaefolia TGCATTGCACCTCTTGACGAACTAACTTTTCGCAGGCTTCAGTCGCTGCAGAAGAAACTCATTGATGCCG
+
+Barnadesia_arborea           TTCCTCATGTCGCTGGATTGAATCCAAGATCTTTCCGCCAGTTTCACTCAAACGGAAAGGCTCATAGGCC
+Gongylolepis_benthamania     TTTCTCATGTTGCTGGATTGAATCCAAGATCTTTCCGCCAGTTCCATTCAAACGGAAAGGCTCACCGGCC
+Hyalis_argentea              TTCCTCATGTTGCTGGATTGAACCCAAGATCTTTCCGCCAGTTCCATTCAAATGGAAAGGCTCACCGGCC
+Schlechtendalia_luzulaefolia TTTCTCATGTAGCTGGTTTGAACCCAAGATCTTTCCGCCAGTTCCGTTCAAATGGAAAGGCTCACCGGCC
+
+Barnadesia_arborea           TGGACCCGACAGCATCGTTGACTGTGAGCTGCTATGCCAGTAAGTATCT------------TTAAGCCCT
+Gongylolepis_benthamania     TGGACCTGACAGCATAGTTGACTGTGAGCTGCTGTGCCAGTAAGTATCT------------TTAAGCTCT
+Hyalis_argentea              TGGACCTGACAGCATTGTCGACTGTGAGCTACTGTGCCAGTAAGTATCC------------TCATCTCCT
+Schlechtendalia_luzulaefolia TGGACCCGACAGCATAGTCGACTGTGAGCTGCTTTGCCAGTAAGTATATGATAATTTTGACTTACAAATT
+
+Barnadesia_arborea           CTTTAC----------------------------------------------------------------
+Gongylolepis_benthamania     TCTTCCTTGCATATCTGATAACCTTAATCAGCTTTTTCCATGTTTTAATGGTAGTCTTACCTCTCTCTGG
+Hyalis_argentea              TCTTCCTTGCATATATGATAGCCTTGA-------------------------------------------
+Schlechtendalia_luzulaefolia TCATCCTTGAACTATTCTTAACCTTTA-------------------------------------------
+
+Barnadesia_arborea           -----------------------ATTTTTTCTCGGTCTTTCTGCTTTCGATTTTCCTGTTGT---CGAAG
+Gongylolepis_benthamania     TATTGTTGCATTTTTTTAATTCATTTTTGTTTCCCTTTATCGACTCTTGATTCTCTTACCATGAGCAAAA
+Hyalis_argentea              ----------------------------------------------------------------------
+Schlechtendalia_luzulaefolia ----------------------AATTTCATCCCCGGTCTTTTAATTTTGA---------------CAGAA
+
+Barnadesia_arborea           TATCGTGTTCAGCAATAA????????????????????????????????????????????????????
+Gongylolepis_benthamania     TATCGTGTTGGACAGCAGAAATAATTAAGATAACCAAGATACCAAGGCTGTCCGAAATGCTCAAATGGTC
+Hyalis_argentea              ----------------------------------------------------------------------
+Schlechtendalia_luzulaefolia TA--------------------------------------------------------------------
+
+Barnadesia_arborea           ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania     TTTGTATGCGTTGCATGCTATCTTGCTGAAAATATACACACCCTAGACTGTTTTCCCACGTTGCAACTTA
+Hyalis_argentea              ----------------------------------------------------------------------
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania     ATTTATAACAGAAAATCTCTCCAGGGTATGCATCTTTTGATACTTCCCTAAAGAATCGAGTTCCCAACAT
+Hyalis_argentea              ----------------------------------------------------------------------
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania     CTACAGTTTCATTGTGTAGCTTGGTTATTAGGCACAAGATTCACTCCCTCGAATTTGTTACTACATTACT
+Hyalis_argentea              ----------------------------------------------------------------------
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania     GGCCAAGCATTTTGCCACTTCCTATGAACTGCCAGATTGATACCCAAAACATGTTATGCATTTCTGGTAT
+Hyalis_argentea              ------------------------------------------------ACATCTTATGCATTTATGGTTT
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania     TTTTTGTGCAGCTATGATATGCTCCCCCATGAACACCAGCTTGAAATCGCTAATCAGATTGGGACCACAC
+Hyalis_argentea              TCTTTGTGCAGTTATGACATGCTGCCCTATGAACACCAGCTTGAAATCGCGAACCAGATTGGCACCACGC
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ????????????????????????
+Gongylolepis_benthamania     GTTCGCAGATCATTTCAAATTTGA
+Hyalis_argentea              GTTCGCAGATCATTTCAAATTTGA
+Schlechtendalia_luzulaefolia GACCCCAAATAACTTTAAATTACA
+
+;
+end;

@@ -1,0 +1,11 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:18.662    98M / 598M  WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 7
+ * 0:00:20.512    86M / 598M  WARN    General                 (simplification.cpp        : 517)   The determined erroneous connection coverage threshold may be determined improperly
+ * 0:00:17.891    63M / 935M  WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 10
+ * 0:00:17.892    63M / 935M  WARN    General                 (kmer_coverage_model.cpp   : 367)   Failed to determine erroneous kmer threshold. Threshold set to: 10
+ * 0:00:19.066    99M / 633M  WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 18
+ * 0:00:19.069    99M / 633M  WARN    General                 (kmer_coverage_model.cpp   : 367)   Failed to determine erroneous kmer threshold. Threshold set to: 18
+ * 0:00:06.154    94M / 609M  WARN    General                 (kmer_coverage_model.cpp   : 219)   Too many erroneous kmers, the estimates might be unreliable
+ * 0:00:03.141    95M / 237M  WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 6
+======= Warnings saved to /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/warnings.log

@@ -1,0 +1,15 @@
+2024-09-25 12:41:45,095 - phyluce_align_concatenate_alignments - INFO - ========= Starting phyluce_align_concatenate_alignments =========
+2024-09-25 12:41:45,095 - phyluce_align_concatenate_alignments - INFO - Version: 1.7.1
+2024-09-25 12:41:45,095 - phyluce_align_concatenate_alignments - INFO - Commit: None
+2024-09-25 12:41:45,095 - phyluce_align_concatenate_alignments - INFO - Argument --alignments: /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/mafft-nexus-trimmed-clean-100p
+2024-09-25 12:41:45,095 - phyluce_align_concatenate_alignments - INFO - Argument --input_format: nexus
+2024-09-25 12:41:45,095 - phyluce_align_concatenate_alignments - INFO - Argument --log_path: /project/ermoore3/basalAsteraceae/barnadesioideae/log
+2024-09-25 12:41:45,095 - phyluce_align_concatenate_alignments - INFO - Argument --nexus: False
+2024-09-25 12:41:45,095 - phyluce_align_concatenate_alignments - INFO - Argument --output: /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/mafft-nexus-trimmed-100p-raxml
+2024-09-25 12:41:45,095 - phyluce_align_concatenate_alignments - INFO - Argument --phylip: True
+2024-09-25 12:41:45,095 - phyluce_align_concatenate_alignments - INFO - Argument --verbosity: INFO
+2024-09-25 12:41:45,095 - phyluce_align_concatenate_alignments - INFO - Reading input alignments in NEXUS format
+2024-09-25 12:41:45,095 - phyluce_align_concatenate_alignments - INFO - Getting alignment files
+2024-09-25 12:41:46,200 - phyluce_align_concatenate_alignments - INFO - Concatenating files
+2024-09-25 12:41:46,346 - phyluce_align_concatenate_alignments - INFO - Writing concatenated alignment to PHYLIP format (with charsets)
+2024-09-25 12:41:46,348 - phyluce_align_concatenate_alignments - INFO - ========= Completed phyluce_align_concatenate_alignments ========

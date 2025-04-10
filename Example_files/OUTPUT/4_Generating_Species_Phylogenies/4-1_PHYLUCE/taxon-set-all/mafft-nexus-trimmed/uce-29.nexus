@@ -1,0 +1,95 @@
+#NEXUS
+begin data;
+dimensions ntax=3 nchar=1531;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-29_Famatinanthus_sp'         TCCTCTGTCCCATTAAAATTGCAACGCTTTCCTAATTTTGGGATGTTTTCATGTTAACTTACCTATTTGC
+'uce-29_Fulcaldea_stuessyi'       ??????????????????????????????????????????????????????????????????????
+'uce-29_Gongylolepis_benthamania' TCCACAGTCCCATGAAAATTGAAACACTTTCCT-TTTTAGGAATTTTTTCATATTGACTTGCGTATTTGC
+
+'uce-29_Famatinanthus_sp'         --------CCATATCATCATTACAAATAAATTGACTTTATTGATTTCCGTCCACAACAAGATTCCTCCAT
+'uce-29_Fulcaldea_stuessyi'       ??????????????????????????????????????????????????????????????????????
+'uce-29_Gongylolepis_benthamania' GTATTGAAACACATCATCTTTACATATAAACCGATATTATTAATTACAGTCCACAAC---ATTCCTCTAT
+
+'uce-29_Famatinanthus_sp'         GTTGTCTATATTGAAGGCTA-TTTAGATATTTGACAAATAGTCGAACAATATCATTAAACTATCTGCAAG
+'uce-29_Fulcaldea_stuessyi'       ????????????????????????????????GACAAGTTACCAAA------------------------
+'uce-29_Gongylolepis_benthamania' TTTGCTTGTATTGAAAGGTATTTTAGATATTTAATAAATAACAGTA------------------------
+
+'uce-29_Famatinanthus_sp'         TGGTAATTTTCATGGGACAGAGGAAGTACAACATATACTCTTTCTTTATATTTATCTTTTCGTTCTGTTT
+'uce-29_Fulcaldea_stuessyi'       -------------------------------------------TTTGATATTGTTATTTTTGTTTGCTAT
+'uce-29_Gongylolepis_benthamania' --GTAA-TTTCATGGGACGGAGGAGGTACAAGA-----TTCTTCTTTGCGTTGATCTTTTCGTTCTGTTT
+
+'uce-29_Famatinanthus_sp'         TTACTGGTTTATTGGCAATAGACGGATGCAGTTGATCCTAAAAGTAGGCATAAGGGGAAGCTTGAGACAG
+'uce-29_Fulcaldea_stuessyi'       -----------------ATAGATAGATGCAGTTGATCCAAAAAGCCGACACAAGGGGAAGCTTGAAACAG
+'uce-29_Gongylolepis_benthamania' TCGCTGGTCTATTGGTGATAGAGGGATGCCGTTGATCCTAAAAGTCGGCACAAAGGGAAGCTTGAGACAG
+
+'uce-29_Famatinanthus_sp'         AGGCCTTACTGGAGTCCAAGGGTGTTAATTACACTTCTATAAGGCCGGTTTATATCTATGGCCCGTTGAA
+'uce-29_Fulcaldea_stuessyi'       AAGCCTTATTAGAATCAAAGGGTGTTAACTACACTTCTATAAGGCCCGTTTATATTTATGGCCCGTTGAA
+'uce-29_Gongylolepis_benthamania' AGGACTTGCTGGAGTCCAAGGGTGTAAACTACACTTCTATAAGGCCAGTTTATATCTATGGCCCGTTGAA
+
+'uce-29_Famatinanthus_sp'         CTACAACCCTGTTGAAGAATGGTTTTTCCATCGGTTGAAAGCAGGTCGACCAATCCCAATTCCCAACTCA
+'uce-29_Fulcaldea_stuessyi'       CTACAACCCTGTCGAAGAGTGGTTTTTCCATAGGTTGAAAGCGGGCAGACC-CTCCCCATTCCCAACTCA
+'uce-29_Gongylolepis_benthamania' CTACAACCCTGTTGAAGAGTGGTTTTTCCATCGGTTGAAAGCAGGCCGACCAATCCCAATTCCCAACTCG
+
+'uce-29_Famatinanthus_sp'         GGCATACAAATAACCCAACTTGGTCATGTAAAGGTTAGTAATAATGCATCCCTCATACTTAGTTATTTGT
+'uce-29_Fulcaldea_stuessyi'       GGTTTGCAAGTAACCCAACTCGGTCATGTAAAGGTTTGTAAAAGTGTA----------------------
+'uce-29_Gongylolepis_benthamania' GGCTTGCAAATAACCCAACTTGGTCACGTGAAGGTTCATAATCATGCATCCCTAATGCTTAGTTGTTTGT
+
+'uce-29_Famatinanthus_sp'         TAGTATAATGAAATCTATGAGATGACCAACCTTTTGTTAATTCATAATGCAAGGCATATATTACTTTCAC
+'uce-29_Fulcaldea_stuessyi'       ----------------------------------------------------------------------
+'uce-29_Gongylolepis_benthamania' TAG-------------------------------------------------------------------
+
+'uce-29_Famatinanthus_sp'         AACCTTTAGAAGTGTGTACTGTGTTGACATGATAAATGCTCCCTTTGTTCCAAGAAGAAGGGAGTAAAGT
+'uce-29_Fulcaldea_stuessyi'       ----------------------------------------------------------------------
+'uce-29_Gongylolepis_benthamania' ---------------------------CACGATAAAGACTCCGATTTTTCCAAAAAATTAGGGGTGAAGT
+
+'uce-29_Famatinanthus_sp'         TTGACTTTTAAAATGCAACCTTTAAGCTTTAATTTGCTAAAAATTTAAC-ACCAAATTGCCAAATGTACT
+'uce-29_Fulcaldea_stuessyi'       ----------------------------------------------------------------------
+'uce-29_Gongylolepis_benthamania' TTGATTTCCGAGATGCAACCTTTTAGCTTTCATTTGCTAAAAACATAACAAACACATTGCCAAATGTCTT
+
+'uce-29_Famatinanthus_sp'         ACTTCCTCCGTCCAATAAAAATTGCGAT------------------------------------ATTTCC
+'uce-29_Fulcaldea_stuessyi'       ----------------------------------------------------------------------
+'uce-29_Gongylolepis_benthamania' GCTTACTTTGTCTGATAAAAACTGCAACGCGTTCCTTCTTGGGATGTCTCCCGAAAATTGCAAGACTTTC
+
+'uce-29_Famatinanthus_sp'         ATTTTTGGCAACTTTTTAAGTTAAAATTATTAATTTGTTCATTGTTATCAT--TATAAAAGGTTAATGAT
+'uce-29_Fulcaldea_stuessyi'       ----------------------------------------------------------------------
+'uce-29_Gongylolepis_benthamania' CTTTCCAACAACTTTTTATATTAAATATACCAATTTACCCATTGTTACCATGGCAAAAAAAATTGATGAT
+
+'uce-29_Famatinanthus_sp'         ATCGATTAGGGTCCACAAGATTTCCCTACTTAGTAATTATTGAAAGATATTCAAGTCATTTGACGAATAG
+'uce-29_Fulcaldea_stuessyi'       ----------------------------------------------------------------------
+'uce-29_Gongylolepis_benthamania' ATTGATTAGAGTCCACAATACTTCCCTACTTTGGCATTA--------------------TTGACGAGTAG
+
+'uce-29_Famatinanthus_sp'         TCAAACATTTCCCTTGAACATGTGCCTGGTCAAACTTTGCAATGTTCATGAG------------------
+'uce-29_Fulcaldea_stuessyi'       ----------------------------------------------------------------------
+'uce-29_Gongylolepis_benthamania' TCAAACATTTCCGCAAACTATGTGTCTGGTCGAACGCTACCATTTGCATGAGACGGAGGTAGTATCTATT
+
+'uce-29_Famatinanthus_sp'         ---------------------------------GATTCAGAGAATCCATAACGATTTTGAAGTTAAAAAG
+'uce-29_Fulcaldea_stuessyi'       -----------------------------------------------------------AAACTAATAAT
+'uce-29_Gongylolepis_benthamania' ATAAAGTTTGGTCTAGTAGAAACACTTCGTAAAGATTCGAAGAAGCCATAATGATTTAGAAGTTATAAAT
+
+'uce-29_Famatinanthus_sp'         TAGCTTGTTTGATCTCAAAAATCAAAGTATACCTGTTT-GTGGAACGGAGGGAGTAAGAAAGT-TGAGAA
+'uce-29_Fulcaldea_stuessyi'       TATTTTGTTTGACTTCAAAAGTCA--------------------------------------------AA
+'uce-29_Gongylolepis_benthamania' TGGCTTGTTCGATTTAAAAAGTCAAAATGTATGTCTTTCTTGGAACATGGTGAGTGAGAAAGTCTAAGAA
+
+'uce-29_Famatinanthus_sp'         CAATTTTGATGTTTGAATGTTGAGCAAATGCAGGATTTGGCTAAAGCTTTTATAAAGGTTCTGGGGAACG
+'uce-29_Fulcaldea_stuessyi'       CGGTCTTGATGAGTCAACGTTGACCAAATGCAGGATTTGGCTACAGCTTTTATAA???????????????
+'uce-29_Gongylolepis_benthamania' CGGTTTTGATGTGTTGACGTTGACC-AATGCAGGATCTGGCAAAAGCTTTCCTGAAGGTTCTAGGGAACG
+
+'uce-29_Famatinanthus_sp'         ACAAAGCAAGCAAGCAAGTGTTCAACATATCGGGAGAAAGATATGTTACCTTCGATGGACTAGCAAGAGC
+'uce-29_Fulcaldea_stuessyi'       ??????????????????????????????????????????????????????????????????????
+'uce-29_Gongylolepis_benthamania' AAAAAGCAAGCAAGCAAGTGTTCAACATATCAGGAGAAAAATATGTTACCTTCGATGGACTAGCAAGAGC
+
+'uce-29_Famatinanthus_sp'         ATGTGCTAAGGTAATTTTCCCTCTGATTATTAAAATTTAAAATCTGAAAATTTACCACATAAAATTACAA
+'uce-29_Fulcaldea_stuessyi'       ??????????????????????????????????????????????????????????????????????
+'uce-29_Gongylolepis_benthamania' ATGTGCTAAGGTAATTTTCCCTATAATGATTGAAATTCGGAATCCGAAAGTTCATAACATAAAATTACAA
+
+'uce-29_Famatinanthus_sp'         TCTACCCCTTGCAGGCTGGTGGATTCCCTGAGCCTGAGATCATTCACTACAATCCCAAGGAGTTCGATTT
+'uce-29_Fulcaldea_stuessyi'       ??????????????????????????????????????????????????????????????????????
+'uce-29_Gongylolepis_benthamania' TCAACTCCTTGCAGGCTGGTGGATTCCCTGAGCCCGAGATAATTCACTACAATCCCAAGGAGTTTGATTT
+
+'uce-29_Famatinanthus_sp'         TGGAAAAAAGAAAGCGTTTCCATTCCGTGACCAGGTAAATATGGACTTATGTTTTAGTTAC
+'uce-29_Fulcaldea_stuessyi'       ?????????????????????????????????????????????????????????????
+'uce-29_Gongylolepis_benthamania' TGGGAAAAAGAAGGCATTTCCGTTCCGTGACCAGGTAAATACGGACTTATGTTTAAGTTAC
+
+;
+end;

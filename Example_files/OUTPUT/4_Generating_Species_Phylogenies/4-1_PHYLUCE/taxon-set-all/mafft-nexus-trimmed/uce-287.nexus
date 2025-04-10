@@ -1,0 +1,112 @@
+#NEXUS
+begin data;
+dimensions ntax=4 nchar=1469;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-287_Chuquiraga_sp'          ??????????????????????????????????????????????????????????????????????
+'uce-287_Hyalis_argentea'        ACATAGTATGTCATATGCAGATATCTAAAGAACATGGTGGAATCATGAGATTCATACAAGTTTCTTGCTT
+'uce-287_Nastanthus_patagonicus' ACATAGTGTTCCATATGCAGCTATCCAAAGAACATGGTGGAATTATGAGGTTTATACAAATTTCTTGCTT
+'uce-287_Scaveola_tomentosa'     ACAGAGCATTCCTTATGCAGATATCGAAAGAACATGGTGGAATTATGAGATTCATACAAGTTTCGTGCTT
+
+'uce-287_Chuquiraga_sp'          ??????????????????????????????????????????????????????????????????????
+'uce-287_Hyalis_argentea'        AGGAGCCTCTCAATCATCTCCATCCAGAATGCTCAGAGCTAAAGCTGCTGCAGAGGAAGCTATTTTGCGT
+'uce-287_Nastanthus_patagonicus' AGGAGCCTCTCAATCATCTCCATCCAGAATGCTCAAAGCTAAAGCTGCCGCGGAGGAAGCTATCTTGCAT
+'uce-287_Scaveola_tomentosa'     AGGAGCCTCACAATCATCTCCATCTAAAATGCTTAGAGCTAAAGCTGCTGCTGAGGAAGCGATATTACAA
+
+'uce-287_Chuquiraga_sp'          ??????????????????????????????????????????????????????????????????????
+'uce-287_Hyalis_argentea'        GAACTGCCTGAGGTGATTCTCATATTTGATTTGTGGAATAATGACCTGACCCTTTTTTTCCATGACTCTA
+'uce-287_Nastanthus_patagonicus' CAAGTGCCTGAGGTGATTTGCATATGTAATTTGTGTAATTAAAG--------AATTTTTCCTTGA--CTG
+'uce-287_Scaveola_tomentosa'     GAATTGCCTGAGGTGAATAACATCTTAGATTTGCATAAGGAAAG------AAATTTCTTCTGTGA-----
+
+'uce-287_Chuquiraga_sp'          ??????????????????????????????????????????????????????????????????????
+'uce-287_Hyalis_argentea'        CTGGGTGGCTGAACTTCT----CTTTGGAGTTCTTTTCCATCTTCTAAGAGTTATAAGTACTCTGAATTT
+'uce-287_Nastanthus_patagonicus' CTGGTCAACTGAACTTGTGTAATTAAGGAATTTTTCATTAATTTAAGATGTTTTTAGATA----------
+'uce-287_Scaveola_tomentosa'     CTGGTTGAGTGAACTT------------------------------------------------------
+
+'uce-287_Chuquiraga_sp'          ??????????????????????????????????????????????????????????????????????
+'uce-287_Hyalis_argentea'        ACTAGATTTGCTATAATCAGGTTAAAATTTTTCCAAGTCTACAAGACTGTACTTCTATTATGCTTTAAGG
+'uce-287_Nastanthus_patagonicus' ----------GTAAAGTTATGATAAAAGTAAACAAACTCTAGA------TATCACCATAACAT----AAA
+'uce-287_Scaveola_tomentosa'     ----------------------------------------------------------------------
+
+'uce-287_Chuquiraga_sp'          ??????????????????????????????????????????????????????????????????????
+'uce-287_Hyalis_argentea'        TCTGTTGAGATGTACTTGCTTGTATGGACTAGTGGCGCTGGATAAAAACGAGGGATCATTGGCATTTCCA
+'uce-287_Nastanthus_patagonicus' TATGATGAGGTACTTTTTTGAAAAAAGGCAAATGGGGGAGG-----------------------------
+'uce-287_Scaveola_tomentosa'     ---------------------------------------------------------ACTGGTCTTTGCA
+
+'uce-287_Chuquiraga_sp'          ??????????????????????????????????????????????????????????????????????
+'uce-287_Hyalis_argentea'        TTAATTTAAGGCATTTTTAGCAGTTTTGCAAAGTATAGTCATCAAACATACTTGCACAACTTATCTTAGC
+'uce-287_Nastanthus_patagonicus' --------AAGTTTTTTGAACAAACT--CTAGATATCACCATCAA----------ATTAAACATTTCATC
+'uce-287_Scaveola_tomentosa'     TCAAATATAAGTTCTTTAACCAAACT------GTATGACAGTCTA------------AATCTATTAGACC
+
+'uce-287_Chuquiraga_sp'          ?????????TGAGACATTCG--TATCTATGCTTG-------------AACTATAAGCTTAGTAGTATTCT
+'uce-287_Hyalis_argentea'        AGACATATATGAGACATCTAG-TGCACATGCTTAAGCTAAGTGGTTAAACTATAAACCGAGCAGTATTCT
+'uce-287_Nastanthus_patagonicus' GTAAAATGATGAGACATTTAATTCCCCATGCTTAAACTAA----TTGAACTA-AAGATAGGTTGTATTCT
+'uce-287_Scaveola_tomentosa'     AAAAACAGATGTGAAAGCACGACAGAAATGCATAAAT-----------------------------TCTT
+
+'uce-287_Chuquiraga_sp'          ACAATAATTTAGAA------CTAATGGTTTGCTTGTCTTTAGGCCACGATACTGAGACCTGCTGTGATGG
+'uce-287_Hyalis_argentea'        GCAGTCACTAGGAA------CTAATAACTTGCTTGTCTTCAGGCCACGATATTGAGACCTGCAGTGATGA
+'uce-287_Nastanthus_patagonicus' TCGATCATTGAAAA------CTAACAATATCCTCGTTTTCAGGCCACAATCTTGAGACCTGCAGTGATGA
+'uce-287_Scaveola_tomentosa'     TGAACAATTGAGAATGACATCTAATAATTTGCTCATCTTTAGGCGACAATACTGAGACCTGCAGTGATGG
+
+'uce-287_Chuquiraga_sp'          TTGGTACAGAAGATCGGATTTTGAATCCATGGGCTCACTTCACAAAAAAATACAACTTTCTTCCGCTTGT
+'uce-287_Hyalis_argentea'        TAGGTACAGAAGATCGGATTTTGAATCCATGGGCTCAATTTGCAAAAAAATATAACTTCCTTCCACTTAT
+'uce-287_Nastanthus_patagonicus' TTGGTACAGAAGATCGAATTTTGAATCCATGGGCACACTTTGCAAAGAAATATAACTTTCTTCCACTTAT
+'uce-287_Scaveola_tomentosa'     TTGGAACAGAAGATCGGATTCTGAATGCATGGGCACAGTTCGTCAAAAAATATAACTTCCTTCCACTAGT
+
+'uce-287_Chuquiraga_sp'          TGGAAGTGGAACTACCAAGTATGACTTACTTTTCATCCCGTT--AACTTTTCAATTTAACTATTAAACAT
+'uce-287_Hyalis_argentea'        TGGGGATGGATCTACCAAGTATGACTTAATTCT-------------------------------AAATTT
+'uce-287_Nastanthus_patagonicus' AGGGGATGGTTCTATCAAGTATGGCTTTATTTTCGTCCCATCAAAATCTTTCATTTTAACT---CAATGT
+'uce-287_Scaveola_tomentosa'     TGGAGGTGGATCTACCAAGTATGGCTTAAATATGTTCCCACT--AAACTTTTCATTTGACTGTAACATGC
+
+'uce-287_Chuquiraga_sp'          GAATGGTATCAGCATTAACCTGTTGCTCTGTTTTTTTATTGG-------------------------GGG
+'uce-287_Hyalis_argentea'        AAATGTTAACAAATTAAA-----------GTTGATTAACTAT----------------------------
+'uce-287_Nastanthus_patagonicus' GAAAGCTACCAGCTTTATTGCATTGCTCCGATTATCTATTACTCGCCCCAAAAAAAGAGTCCAATTTTGA
+'uce-287_Scaveola_tomentosa'     GAAAGATACCAAC-----------------TTGTTTGATTGC----------------------------
+
+'uce-287_Chuquiraga_sp'          TTTTTCA-----------GTTATATACCAAAAACAGAAT--------ATATTTACA------------AA
+'uce-287_Hyalis_argentea'        -TTCTCA---------------------------------------------------------------
+'uce-287_Nastanthus_patagonicus' CTTTTCATGGCCAAACCTAGTATTTATCAACTCCAAAATTACCATTGTTGTTTTCATTTTTTAGCTCCAA
+'uce-287_Scaveola_tomentosa'     ----------------------------------------------------------------------
+
+'uce-287_Chuquiraga_sp'          ATATGTCC-------TGTGTATTGATATACAACTGATATACAGTAATATAAAATTGATATACAACTGATA
+'uce-287_Hyalis_argentea'        ----------------------------------------------------------------------
+'uce-287_Nastanthus_patagonicus' ATATGATTATTTCAATACGTTTTAGTATATAACATACTTAT-------CAATCTTTTTCAACAACCAAAA
+'uce-287_Scaveola_tomentosa'     ----------------------------------------------------------------------
+
+'uce-287_Chuquiraga_sp'          CACAATTTAACTATATTTTGTAATTATTTTTTATAAAGTGACTATGAGTGTAATTTT-------------
+'uce-287_Hyalis_argentea'        ----------------------------------------------------------------------
+'uce-287_Nastanthus_patagonicus' CCCAATTATGTCAAATTTGAAAATAA--------------ATTATATTTACAACTTTGACACTCAAAAAT
+'uce-287_Scaveola_tomentosa'     ----------------------------------------------------------------------
+
+'uce-287_Chuquiraga_sp'          ----------CCCTTTTTTTA-------------TTTGGAACTCTTGGTAAATATTTTTATTAAAAATTT
+'uce-287_Hyalis_argentea'        ---------------------------------------AACCCTTGGTAAATATTTGT-----------
+'uce-287_Nastanthus_patagonicus' CAAACGTGGACTCTTTTTTTGGGACGAATGGAGTATCATAAAACTTGGTCAATGCTTATATC-ACAATTT
+'uce-287_Scaveola_tomentosa'     ----------------------------------------------------------------AAATGG
+
+'uce-287_Chuquiraga_sp'          ATGTTTACAGAATTCAACCAGTGTATGTTGCCGACGTTGCTTCCGCTGTTGTTGCCGCCTTGAAAGATGA
+'uce-287_Hyalis_argentea'        -TGTTTACAGAATTCAACCTGTATATGTTGCTGATGTTGCCTCTGCTGTTGTTGCTGCCTTGAAAGACGA
+'uce-287_Nastanthus_patagonicus' TTTTTTCCAGGATTCAACCTGTTTATGTTGCTGATGTTGCTTCTGCTGTTATTGCGGCCTTGAAAGATGA
+'uce-287_Scaveola_tomentosa'     ATTTTTACAGAATCCAACCTGTGTATGTTGCTGATATCGCTTCTGCTGTTGTTGCGGCTTTGAAAGATGA
+
+'uce-287_Chuquiraga_sp'          CGGTAGCAGCATGGGAAAAGTGTATGAACTTGGTGGGCCAGATATCTATACTTTACGTCAATTGGTATCT
+'uce-287_Hyalis_argentea'        TGGTAGCAGCATGGGAAAGCTATATGAACTTGGTGGGCCAGATATCTATACAGTTCATGAATTGGTAATT
+'uce-287_Nastanthus_patagonicus' TGGTAGCAGCATGGGAAAAGTATATGAACTTGGTGGGCCAGATAT?????????????????????????
+'uce-287_Scaveola_tomentosa'     TGGTAGCAGCATGGGAAAAGTATATGAACTTGGTGGACCAGATATCTATACATTGCATCAACTGGTGATT
+
+'uce-287_Chuquiraga_sp'          TTTACCCTCTTTCT-------TGCTTCTATATTTCACTTCTGCAGCTTCCCATTCTCTCCTGTTT-----
+'uce-287_Hyalis_argentea'        CTGAGCTCTTTATTGTTTCTGTGTTATTATGTTATATTGCCACAACTTCCCATTCTGTTTTCTTCA----
+'uce-287_Nastanthus_patagonicus' ??????????????????????????????????????????????????????????????????????
+'uce-287_Scaveola_tomentosa'     CTTAGCTCTTTCT--------TGCTTCTGTGTTTCCCTGCTACAATTTCCCTATCTGCCCTTGTTAACTG
+
+'uce-287_Chuquiraga_sp'          ------------------GATTAAGTCG------------ATCATAATTTCTTTAATCTTTACCGTGTAG
+'uce-287_Hyalis_argentea'        ------------------AATTAAGTTGCTTATCATTTGAGGCCGAATTTCTTAAACCTTTGTTTCACAG
+'uce-287_Nastanthus_patagonicus' ??????????????????????????????????????????????????????????????????????
+'uce-287_Scaveola_tomentosa'     CCTTATTAACTGTTTGCTAACTAAGTTGCTTGTATGTTGAATCATAACTTGATC--TTGTTGCTCTGCAG
+
+'uce-287_Chuquiraga_sp'          GCTGAACTGATGTACGATATGATTCGTGAATGGCCTCATTACGTTAACGTTCCTTTCTCTATTGCTAAG
+'uce-287_Hyalis_argentea'        GCTGAACTTATGTATGACATGATTCGAGAATGGCCTCATTATGTTCATGTTCCTTTCCCTATTGCTAAG
+'uce-287_Nastanthus_patagonicus' ?????????????????????????????????????????????????????????????????????
+'uce-287_Scaveola_tomentosa'     GCAGAACTTATGTACGATATGATTCGGGAATGGCCTCGTTACGTTAATGTTCCTTTCCCCATAGCCAAG
+
+;
+end;

@@ -1,0 +1,7 @@
+- "left reads":
+  - "/home/ermoore3/backup/basalAsteraceae/spades/data/Barnadesia_arborea_1_tp.fastq"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/home/ermoore3/backup/basalAsteraceae/spades/data/Barnadesia_arborea_2_tp.fastq"
+  "type": "paired-end"

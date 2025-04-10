@@ -1,0 +1,121 @@
+#NEXUS
+begin data;
+dimensions ntax=5 nchar=1280;
+format datatype=dna missing=? gap=- interleave;
+matrix
+Chuquiraga_sp                TAGATAAACAACACAAAATTTAAGTT--TTACCACTCTTTCAAAATTGTTGTTTTGTTATATAACGTGTT
+Fulcaldea_stuessyi           TAAATAAATAACACAAAAATCAAAAT--TTATCACTCATTTAAAAATA-------------------ACT
+Gongylolepis_benthamania     TAAATAAGTCATAAATAAAAAAAACTAATTATAATTTATCCAAAAATGTTATCTTTA----------ATA
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia TGAATAAATAACATTACAACAAACG---TTATAGCTTCTTCCGGTTTT------------ATAACTTGGT
+
+Chuquiraga_sp                TGGTTTTA---ATCTTGTCAGGGTTGCGATGGTTCAGTGTTGCTCGATGGATCAGCAAGCGGACCAAGCG
+Fulcaldea_stuessyi           TGATTTTA---ATCTTGCTAGGGTTGCGATGGTTCAGTGTTGCTCGATGGCTCAGCAAGCGGACCAAGCG
+Gongylolepis_benthamania     TGATTTAA---ACTTTGCTAGGGTTGTGAAGGTTCGATACTGCTCGACGGTTCAGCGAGCGACCCAAGTG
+Scaveola_tomentosa           ???????G---ATCATTCTAGGGTTGCGATGGTTCGGTGTTGCTTGCTGGATCAGCAAGTGGACCGGGCG
+Schlechtendalia_luzulaefolia TGATTTTATATGTCTTGTTAGGGTTGTGATGGTTCAGTGTTGCTCGATGGGTCTGCAAGTGGACCAAGTG
+
+Chuquiraga_sp                AGAAGGATGCACCACCAAATTTGAGCTTGAGAGCTCAAGCATTTCAGATCGTCGAGGATCTTCGAAGACT
+Fulcaldea_stuessyi           AGAAGGATGCACCACCAAATTTGACCTTGAGAGCTCAAGCATTTAAGATCATTAATGATCTTCGTAAACT
+Gongylolepis_benthamania     AGCAGGCTGCGACACCAAACTTGACATTGAGAGCACAAGCATTTGCAATCATCGAAAATCTCCGTAGCCT
+Scaveola_tomentosa           AGCAGGAAGCACCACCAAACCTGACTCTGAGACCTCAGGCGTTCACAATTATTGAAAACATCCGTAGGCT
+Schlechtendalia_luzulaefolia AGAAAAGTGCACCACCAAATTTGAGCTTAAGAGCTGAAGCATTCCAAATCATTGAAAATCTTCGTAGTGT
+
+Chuquiraga_sp                TGTGCACAACGCTTGCAATCGAACCGTCTCTTGTGCTGACATCACTGCACTCGCTGCTCGTGATGCTGTT
+Fulcaldea_stuessyi           CGTCGACAATGCTTGCAATCGAACTGTCTCTTGTGCTGATCTAACCGCACTTGCTGCTCGTGACGCTGTT
+Gongylolepis_benthamania     CGTCGAGAATGCTTGCAAACGAACAGTCTCTTGTGCTGATCTAGTAGCTCTCGCTGCTCGCGATGCAGTG
+Scaveola_tomentosa           CGTCCATGCTAGTTGTAATCAAACCGTCTCTTGTGCCGATATAACTGCTCTTGCAGCTCGTGATGCAGTT
+Schlechtendalia_luzulaefolia TGTACAAAAAGCTTGCAATCAAACAGTTTCTTGTGCCGATCTCACTGCACTTGCTGCTCGTGATGCTGTT
+
+Chuquiraga_sp                TTCTTGGTAAAAAAA--------TCTAACTCATA------------------------------------
+Fulcaldea_stuessyi           TTCTTGGTAAAAAAAAGCATGTTTACGGTTTTTAC-----------------------------------
+Gongylolepis_benthamania     TTCTTGGTAAAAACATTAACTCTATTAGTGTATGTACGCATCAAGTGACATTAAAATTTACTAGAGACAG
+Scaveola_tomentosa           TTCTTGGTACAAAA--------------------------------------------------------
+Schlechtendalia_luzulaefolia TTCCTGGTAAAA----------------------------------------------------------
+
+Chuquiraga_sp                ----------------------------------------------------------------------
+Fulcaldea_stuessyi           ----------------------------------------------------------------------
+Gongylolepis_benthamania     CAAAATAGGGGGGTTGAGTAGGTTAAACGATGAGTCAAAATGGATGACGGATCAAAATTGACAACTTTTT
+Scaveola_tomentosa           ----------------------------------------------------------------------
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Chuquiraga_sp                ---------------------------------------------------ATCAATAGTCTGTTCTGTG
+Fulcaldea_stuessyi           ------------------------------------------------TACGTCAACATTGTGTCGCACG
+Gongylolepis_benthamania     TAAGATGAAACAAACAGGTTATCAGACAAATGGGTCGGGTCGGGCCAAAATATTAACTCTTTTTTGCTCA
+Scaveola_tomentosa           ------------------------------------------------CACGATGACATCCT--------
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Chuquiraga_sp                AGTTTACCTATA-----------------------------CTATTTACAGTTGTTAAGATA--------
+Fulcaldea_stuessyi           AGTTTACT------------------------------------TTTACATTTATTAAGGTAT-------
+Gongylolepis_benthamania     CTTTTTTTTTGAATTTCATAAATAAAAAATATATTACAAATAATTTTTTATTAATTAATAAACAATTATA
+Scaveola_tomentosa           ---CTATGTTTAGAT------------------------GAATAATTATATTTGTAAAGAAT--------
+Schlechtendalia_luzulaefolia ---TTTTGTCGGA---------------------------TGTATTTTCATTTAAAGGGGTA--------
+
+Chuquiraga_sp                -----------------------------------------AATATTAG---------------------
+Fulcaldea_stuessyi           ------------------------------------TATATTATATTAG---------------------
+Gongylolepis_benthamania     TCAAATCGTCGTCATTTGATATTAATTCATTGTTCAAATAACATATTAATTAATAACTCATTTGACCTAT
+Scaveola_tomentosa           -----------------------------------------CAAACTAAG--------------------
+Schlechtendalia_luzulaefolia ---------------------------------------------TTAG---------------------
+
+Chuquiraga_sp                ----------------------------------------------------------------------
+Fulcaldea_stuessyi           ----------------------------------------------------------------------
+Gongylolepis_benthamania     GATAATAATGTTTATTTAATGTTGTCGACCCATTTGACATATTACTTAATTTTACTTAACCCATTATGAC
+Scaveola_tomentosa           ----------------------------------------------------------------------
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Chuquiraga_sp                ----------------------------------------------------------------------
+Fulcaldea_stuessyi           ----------------------------------------------------------------------
+Gongylolepis_benthamania     CTAAATATTAAAAGTAATGGGTAAAATGGGTTAAGTTGGTCTCATATGGACCATTTTTGTCATTTCTAAA
+Scaveola_tomentosa           ----------------------------------------------------------------------
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Chuquiraga_sp                ----ACTAATGATTTATTTA-----TGGAAT---CGTAGTCGGGTGGTCCTAATTATAGCATACCCTTGG
+Fulcaldea_stuessyi           ----ACTAATGATTTATTTA-----TGACAC---TGTAGTCGGGTGGTCCTAATTATGGCATACCCTTGG
+Gongylolepis_benthamania     ATTTACTAATGATTTATTTACTTCTTGTCGT---TGTAGTCTGGCGGTCCTAACTACAACATACCCTTGG
+Scaveola_tomentosa           ---TACTAATGATTTATTTACTTGTTGACATTTGTGTAGTCCGGCGGTCCTAATTATAGCATACCCTTGG
+Schlechtendalia_luzulaefolia ----ACTAATTATTATTTTC----TTAACAT---TGTAGTCAGGTGGTCCTAACTATAGCATACCTTTGG
+
+Chuquiraga_sp                GAAGACGTGATGGGCGTACGTTTGCCACGAGAAACGCAACCCTAGCCAACCTTCCTCCACCAACAGCCAA
+Fulcaldea_stuessyi           GAAGACGCGACGGGCTTACCTTTGCCACAAGAAACGAGACCCTTGCCAACCTCCCTCCACCATCTTCCAA
+Gongylolepis_benthamania     GAAGACGTGATGGGCTTACTTTTGCCACGATAAACGTAACACTAGCCAACCTCCCTCCACCAACCGACAA
+Scaveola_tomentosa           GAAGGCGTGATGGGCTTAACTTTGCCACGAGAAACGCGACACTAGCCAACCTCCCTCCACCATCAGCCAA
+Schlechtendalia_luzulaefolia GAAGACGAGACGGGTTGACCTTTGCCACTGTAAACGCAACCCTAGCTAACCTTCCAGCACCAACATCCAA
+
+Chuquiraga_sp                TGCGACCATTATATTGAGCTC?????????????????????????????????????????????????
+Fulcaldea_stuessyi           CGCGACCGTTATATTGAACTCCCTCGCAACCAAAGGGTTCAACCCTACCGATGTTGTGTCCCTTTCTGGT
+Gongylolepis_benthamania     CGCGACTACCATATTGAATTCCCTTGCCACGAAAGGGTTTAATCCCACTGATGTAGTGGCACTCTCAGGC
+Scaveola_tomentosa           CACGACTACCCTATTGAATTCCCTTGCTACCAAAGGGTTCAACCCCACCGATGTTGTGGCCCTTTCTGGT
+Schlechtendalia_luzulaefolia TGCGACCATCATATTAAGCTCCCTTGCAACTAAAGGCTTCACCCCTACCGATGTTGTATCCCTTTCTGGT
+
+Chuquiraga_sp                ??????????????????????????????????????????????????????????????????????
+Fulcaldea_stuessyi           GGCCACACCATTGGGATAGCCCATTGTCCTGCCTTCTCCTCTCGCCTTTACCCAACCCGAGACCCATCCA
+Gongylolepis_benthamania     GCCCACACCATTGGGAGGGCTCATTGCCCCGCTTTTATCACTCGCATCTACCCAACCCGAGACCCAAGCA
+Scaveola_tomentosa           GGCCACACCATCGGAATATCCCATTGCAGTTCCTTCACTAGCCGACTCTATCCTACTCGAGACCCGACAA
+Schlechtendalia_luzulaefolia GGCCACACCATTGGACTAGCCCATTGCACTTCCTTCACCAACCGTCTTTATCCAACCCGAGACCCTAGCA
+
+Chuquiraga_sp                ??????????????????????????????????????????????????????????????????????
+Fulcaldea_stuessyi           TGGACCAAACGTTTTTCAACAACCTTAGAATC??????????????????????????????????????
+Gongylolepis_benthamania     TGGACCAAACCTTCTACAACAACCTAAGAATCATCTGCCCTACTACAGACTCCAACAACATCACTTCCAA
+Scaveola_tomentosa           TGGACCAAACCTTTTTCAACAACCTAAAAACCGTATGCCCTACCAACTCCTCCACCATCACCACTTTCAT
+Schlechtendalia_luzulaefolia TGGACCAAACCTTTTTCAACAACCTTAGAACCACATGTCCAACTGCAAACTCCACTAATACAACTGTCAA
+
+Chuquiraga_sp                ??????????????????????????????????????????????????????????????????????
+Fulcaldea_stuessyi           ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania     TGACATTCGGTCCCCAAATTTTTTCGACAACAAGTACTATGTTGACCTCTTGAACCGTGAAGGGCTTTTC
+Scaveola_tomentosa           GGACATAAGGTCGCCAAATGTGTTTGACAATAGGTATTACGTTGACCTTATGAACCGTCAGGGGCTTTTC
+Schlechtendalia_luzulaefolia TGACATTAGATCCCCAAATGTGTTTGATAATAGATATTATGTGGATCTCATGAACCGCCAAGGACTTTTC
+
+Chuquiraga_sp                ??????????????????????????????????????????????????????????????????????
+Fulcaldea_stuessyi           ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania     ACCTCAGACCAAGATTTGTACACGGATAGCAGGACTCGAGACATTGTCACGAGCTTTGCTATCAATCAAA
+Scaveola_tomentosa           ACTTCGGATCAGGACTTGTACACTGATAGCAGGACTCGAGGAATTGTCACAAACTTTGCTATTAACCAGA
+Schlechtendalia_luzulaefolia ACTTCAGATCAAGACTTGTACACAGATAATCGGACTCGAGGAATTGTCACCAACTTTGCGATTAATCAGA
+
+Chuquiraga_sp                ????????????????????
+Fulcaldea_stuessyi           ????????????????????
+Gongylolepis_benthamania     CATTGTTTTTTGAGAACTTT
+Scaveola_tomentosa           CATTGTTCTTCGAGAACTTT
+Schlechtendalia_luzulaefolia CATTGTTTTATGAGAACTTT
+
+;
+end;

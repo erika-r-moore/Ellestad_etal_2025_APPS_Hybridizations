@@ -1,0 +1,168 @@
+#NEXUS
+begin data;
+dimensions ntax=6 nchar=1604;
+format datatype=dna missing=? gap=- interleave;
+matrix
+Chuquiraga_sp            ????????????????????????GTAAGGCAGGTGAGTGAAGAGACTGCAGCGGTCATAGAGGATTGGT
+Famatinanthus_sp         ATGTTACAGAGGTTAAGGGGTACTGTGAGGCAGGTGAGTGAAGAGACAGCAGCAGTGATAGAGGATTGGT
+Fulcaldea_stuessyi       ???????TGAGGTTGAGGGGTAGTGTGAGGCAGGTGAGTGAAGAGACGGCGGCATTGATAGAGGATTGGT
+Gongylolepis_benthamania ATGTTACAGAGGTTAAGGGGTACCGTGAGGCAGGTGAGCGAAGATACAGCAGCAGTGATTGAGGATTGGT
+Hyalis_argentea          ATTTTACAGAGGTTAAGGAGTACTGTGAGGCAGGTGAGTGAAGATACAGCGGCAGTGATGGAGGATTGGT
+Scaveola_tomentosa       ATGTTACAGAGGTTAAGAGCTAGTGTGAGGCAGGTGAGCGAAGAGACAGCAGCTGTTATAGAGGATTGGT
+
+Chuquiraga_sp            TTAGGTCGGATGCTGCTGCTGGTGTTGGGGAGGTGAATTGGGATGTGGGGAAGGTGAGAGAAGGGGTTGT
+Famatinanthus_sp         TCAGGTCGGATAGTGCTGCGAGTGTCGGGGAGGTGAATTGGGATGTGGGGAAGGTGAGTGAAGGGGTTTT
+Fulcaldea_stuessyi       TTAGGTCGGATGCTGCTGCGAGTGTTGGGGAGGTGAATTGGGATGTGGGGAAGGTGAGAGAAGGGGTTTT
+Gongylolepis_benthamania TCAGGTCGGATAGTGCTGCGAGTGTTGGGGAGGTGAATTGGGATGTGGGGAAGGTTAGAGAATCTGTTCT
+Hyalis_argentea          TCGGGTCGGATAGTGCTGCAGGTGTTGGGGTGGTGAATTGGGATGTGACAAAGGTTAGAGAAGCTGTTGT
+Scaveola_tomentosa       TTAGGTCGGAGAATGCTGCAACTGTTGGACAGGTGAATTGGGATGTGAGGAAGGTGAGAGAAGGGGTTTT
+
+Chuquiraga_sp            GAAAGGAGGGGGTGGGTGGCATGGTAAAGGGTGGCTAGGAAGTGGGAAATGGCAAGTGGTGAGGACCCAG
+Famatinanthus_sp         GAAAGGAGGGGGTGGGTGGCATGGGCAGGGGTGGCTGGGGAGTGGGAAATGGCAAGTGGTGAGGACAGAG
+Fulcaldea_stuessyi       GAAAGGAGGGGGTGGGTGGCATGGTAAAGGGTGGCTGGGGAGTGGGAAATGGCGAGTGGTGAGGACGGAG
+Gongylolepis_benthamania GAAAGGAGGGGGTGGGTGGCACGGGCAAGGGTGGCTGGGGAGTGGGAAATGGCGAGTGGTGAGGACAAAC
+Hyalis_argentea          GAAAGGTGGGGGTGGGTGGCATGGGCAAGGGTGGCTGGGGAGTGGCAAATGGCAAGTGGTGAGGACGGAG
+Scaveola_tomentosa       GAATGGAGGGGGTGGGTGGCATGGGCAAGGGTGGCTGGGAAGTGGGAAATGGCAAGTGGTGAGAACAGAG
+
+Chuquiraga_sp            ATGGATGAAATGGGTGTTTGTCAATCGTGTGGCGAAAAGCTTGTTAGTATTGATATTGATCCTTTGGAAA
+Famatinanthus_sp         ATGGATGAGACAGGAGTTTGCCAATCGTGTGGCGAAAAGCTTGTTAGTGTTGATATTGATCCTTTGGAAA
+Fulcaldea_stuessyi       ATGGATGAGACAGGTGTTTGTCAAGCGTGTGGAGAAAAGCTTGTTAGTGTTGATATTGATCCTTTGGAAA
+Gongylolepis_benthamania ATGGATGAGACTGGTGTTTGCCAATCGTGTGGCGAACGGCTTGTATGTGTTGATATTGATCCTTTGGAAA
+Hyalis_argentea          ATGGATGAGAGGGGAGCTTGCCAATCGTGTGGCGAAGAGCTTGTTAGTGTCGATATTGATCCTGTGGAAA
+Scaveola_tomentosa       ATGGATGGGACAGGTGTTTGCCAATCCTGTGGTGAAAAGCTTGTTAGTATCGATATTGATCCTCTGGAAA
+
+Chuquiraga_sp            CCGAAAACTTTGCTACTTCTTTGAGTACTTTGGCTTGTCAAAGAGAGACTAGGGCCGATTTTATGCAGTT
+Famatinanthus_sp         CCGAAAACTTTGCTAGTTCTTTGAGTACTTTGGCTTGTCAAAGGGAGACAAGGGCTGATTTTTTGGGGTT
+Fulcaldea_stuessyi       CCGAAAACTTTGCTAGTTCTTTGAGTACTTTGGCTTGTCAAAGAGAGACTAGGGCTGATTTTATGCAGTT
+Gongylolepis_benthamania CCGAAAACTTCGCTAGTTCTTTGAGTACTTTGGCTTGCCAAAGAGAGACAAGGGCCGATTTTTTGCAGTT
+Hyalis_argentea          CCGAAAGGTTTGCTAGTTCTTTGAGTACCTTGGCTTGCCAAAGAGAGACAAGGGCTGATTTTTTGCAGTT
+Scaveola_tomentosa       CTGAAAACTTTGCTTCTTCTTTGAGTACATTGGCTTTCCAAAAAGAGGCAAGGTCCAATTTTTTGAATTT
+
+Chuquiraga_sp            TCAGGTATGC----------CCACTAC-TTGTACTTTT-AACATCTCCCGAATGAGTCATGACCCTTATT
+Famatinanthus_sp         TCAGGTATGA----------TCACAGCTTTCTAGCTTTCAAGAGCTATTGA-------ATGACCATTACT
+Fulcaldea_stuessyi       TCAGGTATGG----------TCACAGCTTTCTAGTTTT-AAGAACTCTCAAATGAGTAATGACTATTATT
+Gongylolepis_benthamania TCAGGTATGA-------TCGTCACGGCTTTCTTGTTTTCGAGAGCTTTTGAGTTTTGAATGATTATAATT
+Hyalis_argentea          TCAGGTATGA----------TCACTAC-TTCTAGTTTTCAAGAATTCTTGA-------ATGACTAGTCTT
+Scaveola_tomentosa       TCAGGTAATGATTAAGTTAGAGTCAGCTTTCTAGTTTCTA--GACCATTGA----------ATGAGACTG
+
+Chuquiraga_sp            GATTTATGCTTGTT---ATGTTTTTTGGCTTAGTTGGTTTTGTTCA------------------------
+Famatinanthus_sp         CATTTTCGCTTGTT---ATG-TTTTTGAATTAGTTGGTCTCGTGCAATTAAGTTAACTTATATTGCTATT
+Fulcaldea_stuessyi       GATTTATGCTTGTT---ATG-CTTTTGAATTAGGTGGTTTCGTTCAATTAAAGTAACTTATGCTGCAACC
+Gongylolepis_benthamania CATTTTCACTTGTT---ATG--TGTCGAATTGGTTGGTCTCGTTCATCCTGACTTATTT-----------
+Hyalis_argentea          TGTTTTCACTTGCT---ATG-TTTTTGAATTCGTTGGTCTCGTTCGACCCAATTAACTT-----GCTATT
+Scaveola_tomentosa       CATCTATGTTTGTTTACATG-TTTTCAGATATATGGTCTTTGTGCAATGATTTTAATTTTTACTTCAAAT
+
+Chuquiraga_sp            -----GTATGCAACC----AAAACATCAATT---------------------------------------
+Famatinanthus_sp         GACCGGTATGCAATAACCAAAAACATCAACT---------------------------------------
+Fulcaldea_stuessyi       AACCATTATGCAATAACAGAAAACATCAATT---------------------------------------
+Gongylolepis_benthamania ----------------------------------------------------------------------
+Hyalis_argentea          GACC-ATATGCAATAACCAAACACATCAACTTTTTCCAAAGCAAAATCGAGAGATAAAGAAATGGTATCG
+Scaveola_tomentosa       TGTCTTTATGTAACAGTCAAGAAATTTAATT---------------------------------------
+
+Chuquiraga_sp            -----------------------TGTTTGTCCTTGTCATTC-----------TGACTATTT---------
+Famatinanthus_sp         ----------------------------------------------------------------------
+Fulcaldea_stuessyi       -----------------------TATCTGTCGTTGCCGTTC-----------TGACTATTT---------
+Gongylolepis_benthamania ----------------------------------------------------------------------
+Hyalis_argentea          GGCTAGTGACAATTTTGTTAAATTTTTTGTGGTTAACATACATAATTAGGATCGACTACTGCGTATCATG
+Scaveola_tomentosa       ---------------------ATGACTTGTGGGTTGCGTGACC--------ACATTTATTTTAGGT----
+
+Chuquiraga_sp            ----------------------------------------------------------------------
+Famatinanthus_sp         ----------------------------------------------------------------------
+Fulcaldea_stuessyi       ----------------------------------------------------------------------
+Gongylolepis_benthamania ----------------------------------------------------------------------
+Hyalis_argentea          TATATATGTTAAGTAGGAAAATTTATTTGAAGACGAAGTGGATTTG----GTATTTGATGAAGATGACAT
+Scaveola_tomentosa       --TACATAGTTTGTAGGCAATATATCATGAAGGTAGGGTTAAGGTGGACAGGATTTCACAAAGACTAGAT
+
+Chuquiraga_sp            ----------------------------------------------------------------------
+Famatinanthus_sp         ----------------------------------------------------------------------
+Fulcaldea_stuessyi       ----------------------------------------------------------------------
+Gongylolepis_benthamania ----------------------------------------------------------------------
+Hyalis_argentea          GGTTGAATGTACTTTGAGATTA-----------TCAAAATACAATCCTTAGTATATGTGTGTTTGATGGA
+Scaveola_tomentosa       TCAGGTAAGGAAATGGACATCAGGCTATTTAAGTTGAATTACAATCTTGA-----------TATGCTGAG
+
+Chuquiraga_sp            ------------------------------------------------TGGTAAGTGAACTCA-------
+Famatinanthus_sp         ------------------------------------------------TACTCAACGAATTCA-------
+Fulcaldea_stuessyi       ------------------------------------------------TGGTAAGTGGACTCA-------
+Gongylolepis_benthamania ------------------------------------------------TAGTAAGCAAATTCA-------
+Hyalis_argentea          ATCACACTACATCTCTTCTCTTTGTGTTGTTATGGTGTTTGA------TAATCAGAGAATTTAAGATAGA
+Scaveola_tomentosa       AGTGCATTGC--------------TGATGTTATTGGCTTTAAATGGCATCATTAGGAAATTTAAG-----
+
+Chuquiraga_sp            ----------------------------------------------------------------------
+Famatinanthus_sp         ----------------------------------------------------------------------
+Fulcaldea_stuessyi       ----------------------------------------------------------------------
+Gongylolepis_benthamania ----------------------------------------------------------------------
+Hyalis_argentea          AAACTTTCACACATATAAGGAATATGACATTGA-ACGCCCTATATATAGGTCAATAAAGGGCCTAAAATC
+Scaveola_tomentosa       -------------CATGAGAGGCTTGATGGTGGTGCGCTGCCTGTCAAGAATCAGAAAGGTTGTAAAAT-
+
+Chuquiraga_sp            ----------------------------------------------------------------------
+Famatinanthus_sp         ---------GAGTGCTATATG-------------------------------------------------
+Fulcaldea_stuessyi       ----------------------------------------------------------------------
+Gongylolepis_benthamania ----------------------------------------------------------------------
+Hyalis_argentea          GTCCATCAGGAATTCCATATGGAA--CCTTTGGTAAATCGCCATAATATGGGAGAGTAAACTGTAATTAC
+Scaveola_tomentosa       ----ATCGTCATTTAAGCATGATAGCCTTCCCTTAAAGTATCATGACATGACATGCATAACTGCACATGA
+
+Chuquiraga_sp            ----------------------------------------------------------------------
+Famatinanthus_sp         ----------------------------------------------------------------------
+Fulcaldea_stuessyi       ----------------------------------------------------------------------
+Gongylolepis_benthamania ----------------------------------------------------------------------
+Hyalis_argentea          CATAAAACTGTATTTACGTTAGTGAAGTTGTATTTAATGATTATGATTAATAAATGGTTAAATCCATATT
+Scaveola_tomentosa       AATAATACCGT-TTAACAGTAATATAGT--TATTTACAGTTTTACATAGTCATTTGGCCAAATTGCTA--
+
+Chuquiraga_sp            ----------------------------------------------------------------------
+Famatinanthus_sp         ----------------------------------------------------------------------
+Fulcaldea_stuessyi       ----------------------------------------------------------------------
+Gongylolepis_benthamania ----------------------------------------------------------------------
+Hyalis_argentea          ATTAAGTATATTTCTTACAAATTTTTCTAAGACAAAACAAGAAAGTAGAGTGATTATATCAATCAAGCAA
+Scaveola_tomentosa       ----------------------TCTTCTCTGGTTTATGAATAAATTGTAATTATCACTTTGATTAA----
+
+Chuquiraga_sp            ----------------------------------------------------------------------
+Famatinanthus_sp         ----------------------------------------------------------------------
+Fulcaldea_stuessyi       ----------------------------------------------------------------------
+Gongylolepis_benthamania ----------------------------------------------------------------------
+Hyalis_argentea          ACTCTCCAAGCATCCGTCATACCATAATGTCCATGAGTTGGGGCCGGTTGAACAACATATTCAAAAGAAC
+Scaveola_tomentosa       ----------------------------------------------------------------------
+
+Chuquiraga_sp            -------------------------------------------------TGCAGGAATGGCTGCAAAAGC
+Famatinanthus_sp         ----------------------------------------------------------------------
+Fulcaldea_stuessyi       -------------------------------------------------TGCAGGAATGGCTTCAAAAGC
+Gongylolepis_benthamania -------------------------------------------------TGTAGGAATGGCTTGAAAGGC
+Hyalis_argentea          CTGAGCATTTGTTGGTGATCTTGGTGCTAACTTCACAATGCAAAACGCATGCAGGAATGGGTTCAAAAGC
+Scaveola_tomentosa       ----------TTTAGTAAGT----------------------AAACTTGTGCAGGAATGGCTTCAAAAGC
+
+Chuquiraga_sp            ATGGTCCATTCGATGCAGTTGTAGATGGTGCGAATGTGGGTCAC??????????????????????????
+Famatinanthus_sp         ------------------------------------------------------ACCTCTTCTATTTCAA
+Fulcaldea_stuessyi       ATGGTCCATTTGATGCAGTTGTAGATGGTGCAAATGTGGGTCATATTAAGCAGAACTATTTCAACTTTAA
+Gongylolepis_benthamania ATGGTCCATTTGATGCAGTTATAGATGGTGCAAATGTGGGTCATATCAAGCAGAATTGTTTCAACTTTAA
+Hyalis_argentea          ATGGGCCGTTTGATGCGGTTATAGATGGTGCAAACGTAGGTCATATCAAGCAGAATTGTTTCAACTTCAA
+Scaveola_tomentosa       ATGGTCCATTTGATGCAGTCATAGATGGTGCTAATGTCGGTCATCTTTTCCATAACTTTTTCAGTTTTGA
+
+Chuquiraga_sp            ??????????????????????????????????????????????????????????????????????
+Famatinanthus_sp         TCACA---------------------------AAGTTGGTATTTG?????????????????????????
+Fulcaldea_stuessyi       TCAGGTAAA---AATTTGGAAACACTCAAAATAAGCCTGTGTTTG-----------CATTATCATAAACA
+Gongylolepis_benthamania TCAGGTG----------------------AATAAGCATGTACTGGACAGGC---TGCTTTATCGTAAGCA
+Hyalis_argentea          TCAGGTGAAATGAGACAGAAGGCGCTTAAAATAAGCCTGTACTTGAC-----------------------
+Scaveola_tomentosa       TCAGGTAAA---TATTGGAT---------AGAAGACTTATACCTACCCTTCCCTTAAATTATCATAGACA
+
+Chuquiraga_sp            ??????????????????????????????????????????????????????????????????????
+Famatinanthus_sp         ??????????????????????????????????????????????????????????????????????
+Fulcaldea_stuessyi       CATCTGACAACATTCACAAATTACGCTCATAATAATTCCATTTTGTTGTAGCTTAAATATGCAGTGAACT
+Gongylolepis_benthamania CAACTGATAACATTCATGAATTGTATTCATAATAGTCTCAATTTTTTGTAGCTTAAATCTGCAGTGAACT
+Hyalis_argentea          --------AACGTGCACAGATTGTACTCACAATAGTCTCG-TTTTTTGTAGCTTAAAAATGCGGTGAACT
+Scaveola_tomentosa       T-------GACATGCA-GAACTGCACACATAATAACTTCATTTTCTTATAGCTTAAATTGGTGGTGAACT
+
+Chuquiraga_sp            ??????????????????????????????????????????????????????????????????????
+Famatinanthus_sp         ??????????????????????????????????????????????????????????????????????
+Fulcaldea_stuessyi       CATCACGTAAACTGAGTTCATCAAATAGATTACCGCTTATTGTTCTGCATAGGAGCCGTGTCAAAGGCGG
+Gongylolepis_benthamania CATCACGGAAACTGAGCCCATCAAATAGATTACCGCTTATTGTTCTGCATAGGAGCCGTGTCAACGGTGG
+Hyalis_argentea          CATCACGCAAACTGAGTCCAATGAATAGATTACCTCTTATTGTTCTGCATAAGAACCGTGTCAAAGGTCG
+Scaveola_tomentosa       CATCACGTAAACTGAGTCCATCTGGTAGATTGCCGCTTGTTATTCTGCACAGGAGCCGTGTCAAAGGTGG
+
+Chuquiraga_sp            ????????????????????????????????????????????????????????????????
+Famatinanthus_sp         ????????????????????????????????????????????????????????????????
+Fulcaldea_stuessyi       GCCCGCGGAGATTCCGAACAATAAAAAGTTGTTGCAGTATTGGAAAGAGTCTGGGGCACTTTAT
+Gongylolepis_benthamania GCCTGCCGGAATTCCGAAGAATAGATCGTTGTTGCAGTATTGGAAAGAGTCTAGGGCACTTTAT
+Hyalis_argentea          GCAGGCTGATATTCCAAAGAACAGATCGTTGCTGCAGTATTGGAAAGAGTCCGGGGCACTTTAT
+Scaveola_tomentosa       TCCTGCTGAGATTCCGAAGAATAAAAGAATGCTGCAATATTGGAAAGATTCTGGGGCACTTTAT
+
+;
+end;

@@ -1,0 +1,102 @@
+#NEXUS
+begin data;
+dimensions ntax=4 nchar=1306;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-294_Barnadesia_arborea'       ??????????????????????????????????????????????????????????????????????
+'uce-294_Chuquiraga_sp'            TAGGAGTGGGTACTACTTCGAGTGCGTTGGATGAAGACGGTGTGTTGGACATCGACACTACCATTTCCCT
+'uce-294_Gongylolepis_benthamania' TAGGAGTTGGTACGACTTCAAGTGCACTGGACAAAGATGGTGTTTTGGAAATCGACACTACCATTTCCTT
+'uce-294_Hyalis_argentea'          TAGGAGTTGGGACGACTGATAGTGCATTGGACAAAGATGGTGTTCTGGAGATCGACACTACCATATCCTT
+
+'uce-294_Barnadesia_arborea'       ??????????????????????????????????????????????????????????????????????
+'uce-294_Chuquiraga_sp'            CGAGACCACATGGCACGCCATGGAAGAGACCGTCTCGATGGGCTTGGTTCGAAGCATAGGCATCAGGTCC
+'uce-294_Gongylolepis_benthamania' GGAGACTACATGGCATGCCATGGAAGATACCATCTCCAAGGGCTTGGTTCGCAGCATTGGAATCAGGTTA
+'uce-294_Hyalis_argentea'          GGAGTCTACATGGCATGCTATGGAAGATACCGTCTCCATGGGCTTGGTTCGCAGCATTGGCATCAGGTTA
+
+'uce-294_Barnadesia_arborea'       ??????????????????????????????????????????????????????????????????????
+'uce-294_Chuquiraga_sp'            ATG-------------------------------------------------------------------
+'uce-294_Gongylolepis_benthamania' ATGCGTAAATATAGTGCCATTTTTAACCATCCATAGCAGTTTGACATTTGAGGTCAAACCTTTTACTTTT
+'uce-294_Hyalis_argentea'          ATGCTTAATTGCAATTGCCATTTTCACCATCTCTAGCAGTTTGCCATTTAAGGTCAAACCTTTTACTTTT
+
+'uce-294_Barnadesia_arborea'       ??????????????????????????????????????????????????????????????????????
+'uce-294_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-294_Gongylolepis_benthamania' CAAACTAAAAATCGATATGGTTTGATTTCAATTTTAACAC------------TTGTAGTTCACGACAT-A
+'uce-294_Hyalis_argentea'          GAAACCTAAAATTGAATGACTTTCAGTTCAACTTAAACTCCCAACATTTTGATTGTGGTTCACAACATAA
+
+'uce-294_Barnadesia_arborea'       ??????????????????????????????????????????????????????????????????????
+'uce-294_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-294_Gongylolepis_benthamania' TTATCAACTTCTGGATTTTTTGAACATTTTTTCATATGATCATATCAGTTGGGAAGTTTCTGATTAGCTT
+'uce-294_Hyalis_argentea'          CTATCAACTTC-----ATCTTGAATATTTGTTGAT---TTTAAATCAATTAGGAGATTTCTGATTAGCTT
+
+'uce-294_Barnadesia_arborea'       ?????????????????CGTTT------------------------------------------------
+'uce-294_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-294_Gongylolepis_benthamania' GTTAGACTTTAGAAAGTCATTTTGTATAGTTTGACTTTTAAGGTCAAACCTGGAACTTTTCAAACATAAA
+'uce-294_Hyalis_argentea'          GTTAGACTTTAAAAAGTCATCT----TAGTTTGACTTTTAGGGTCAAATGTA-----TTTCAAACCTAAA
+
+'uce-294_Barnadesia_arborea'       ----------------------------------------------------------------------
+'uce-294_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-294_Gongylolepis_benthamania' ATCAACATGGGTTTCATTTCAATTTTAGTACCCAATATGATTGTTTATGGTTCTCAACATAAGTATCAAC
+'uce-294_Hyalis_argentea'          CTCTATGTGGGTTTCATTTCAATTTTAACGCCCATCATGATTCTTTG-----------------------
+
+'uce-294_Barnadesia_arborea'       ----------------------------------------------------------------------
+'uce-294_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-294_Gongylolepis_benthamania' TTTATCTTGAAAATTTGAAGATTTCATATCAATTGCGAAGTTGAGGATTAGTTTGTTTAAAAGCCATCTT
+'uce-294_Hyalis_argentea'          ---------------TATGGACAGCATACCAATCG-----------------------------------
+
+'uce-294_Barnadesia_arborea'       ----------------------------------------------------------------------
+'uce-294_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-294_Gongylolepis_benthamania' GTAGGTAGTTTGACTTTTAAGGTCAAACCATTTACTTTTCAAAATTAAAATCAATACGAATCCCATTTCA
+'uce-294_Hyalis_argentea'          ----------------------------------------------------------------------
+
+'uce-294_Barnadesia_arborea'       ----------------------------------------------------------------------
+'uce-294_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-294_Gongylolepis_benthamania' ATTTTAAAACCCAGCACTTTCTCTGTAGCGCACAGCATAACCTTTTTCCTTGAAATTTTACCGGCTTTTG
+'uce-294_Hyalis_argentea'          ----------------------------------------TTTTTTTCCTTGGAACCTTATAGAC-TTTG
+
+'uce-294_Barnadesia_arborea'       -----------------------------------TTCAAAAATT-------------------------
+'uce-294_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-294_Gongylolepis_benthamania' TATCAATTTGGTGGCTGATGAGTAGTTTGTTTGACTCCAAAAGTCAACTTGTACCTCTTTTTGAAACGAA
+'uce-294_Hyalis_argentea'          TATCAGTTTGAAAGTTGAAGATTAGTTTGTTTG--ATCAAAAGTCAGCTTATAGCTCTTCTTGAAATGAA
+
+'uce-294_Barnadesia_arborea'       ------------------------------------------TGCAGCAACTATGACCTTTTCTTGACCA
+'uce-294_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-294_Gongylolepis_benthamania' GGGAATGCTATTTCCCAGATGACTAACTTTTTTTGATATTTATGCAGCAATTACGACATTTTCTTGACCA
+'uce-294_Hyalis_argentea'          GGGAGTATGAACTCCTGGGTGACTAAC-TTTTATGAAATTTATGCAGCAATTACGATATTTTCTTGACCA
+
+'uce-294_Barnadesia_arborea'       GAGATTCCTTGGCTTACGCCAAGGTGAAGCCTGCTGTGAATCAAATTGAAACACACCCTTACTTCCAGCG
+'uce-294_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-294_Gongylolepis_benthamania' GAGATTGCTTGGCTTACTCAAAAATCAAGCCTGCTGTAAATCAGATTGAAACACATCCTTACTTCCAGCG
+'uce-294_Hyalis_argentea'          GAGATTGCTTGGCTTACTCAAAAATCAAGCCTGCTGTAAATCAGATTGAAACACATCCTTACTTCCAGCG
+
+'uce-294_Barnadesia_arborea'       TGAGTCTCTTGTTAAATTCTGTCAAAAACATGGAATCGTGGTCACAGCCCACACACCGCTCGGAGGCTCT
+'uce-294_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-294_Gongylolepis_benthamania' CGAGTCCCTCATTAAGTTCTGCCAGAAGCACGGAGTTGCTGTCACGGCCCACACCCCACTCGGAGGTTCT
+'uce-294_Hyalis_argentea'          TGAATCTCTTGTTAAGTTCTGCCAGAAGCACGGAATTGCTGTCACGGCCCACACCCCGCTTGGAGGTTCT
+
+'uce-294_Barnadesia_arborea'       GTGGCTAATACAGAATGGTTCGGTTCAGTTTCTTGCTTGGACGATCCTGTTATCAAAGTTAGTTTATCAT
+'uce-294_Chuquiraga_sp'            --------------------------AGTTTTTCGATTG-------------------------------
+'uce-294_Gongylolepis_benthamania' GTGGCTAATACGGAATGGTTTGGTTCAGTTTCTTGCTTGGATGATCCAGCTCTCAAAGTAAGTTTGCCCT
+'uce-294_Hyalis_argentea'          GTGGCTAATACAGAGTGGTTTGGTTCGGTTTCTTGCTTGGATGATCCAGCTCTCAAAGTAAGTTTCCCTT
+
+'uce-294_Barnadesia_arborea'       TTACACTTCCCATTGTAGCTTCAAA-----------------------------------TAACTTTTTT
+'uce-294_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-294_Gongylolepis_benthamania' TTATATCCTCCATTTTGACTTTTGAGGTCGAATGAACAAAAGTCAACATAAAAATTATTGTGAATTTTTT
+'uce-294_Hyalis_argentea'          TAGCTCCC-----TTTGATTTTTGAGGTCGAATGAGCATATTTCAACATAAATATTAATATGAACCATTT
+
+'uce-294_Barnadesia_arborea'       GCGCTGT---------------------------------------------------------------
+'uce-294_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-294_Gongylolepis_benthamania' AAAGTTTTCGAACAAGCTTTTTTAACCAGTAATCTTAGCAACCGATACTGCAAATAGAAATATGTGAGTT
+'uce-294_Hyalis_argentea'          ACA-------------------------------------------------------------------
+
+'uce-294_Barnadesia_arborea'       ----------CCTTTTCATTCTTATACTCTATTTTGAC--------------------------------
+'uce-294_Chuquiraga_sp'            ----------------------------------------------------------------------
+'uce-294_Gongylolepis_benthamania' AAATTTGTAACTAATTCCTTATCAATTTTTACTTAAAG-ATATTATCTGGTTGACCTGGAAAGTCAAAGA
+'uce-294_Hyalis_argentea'          --------------------------CTTTACTTAAAACATATTATTTGATCGACTTCGGAAGTCAAAGA
+
+'uce-294_Barnadesia_arborea'       --------------------------TTGAGGTCAACCACACTAAT
+'uce-294_Chuquiraga_sp'            -----------CCATTAGTTTGACTTTTGTGGTCAAACCTTTTAGT
+'uce-294_Gongylolepis_benthamania' TTCTAAAGAAATTATAGGGTTGACCTTTGAGGTCAAACATTTTAAT
+'uce-294_Hyalis_argentea'          TTTCAAAGAAAGTATAGGGTTGCCCTTGGAGGTCAAAGATTCTATT
+
+;
+end;

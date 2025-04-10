@@ -1,0 +1,95 @@
+#NEXUS
+begin data;
+dimensions ntax=3 nchar=1531;
+format datatype=dna missing=? gap=- interleave;
+matrix
+Famatinanthus_sp         TCCTCTGTCCCATTAAAATTGCAACGCTTTCCTAATTTTGGGATGTTTTCATGTTAACTTACCTATTTGC
+Fulcaldea_stuessyi       ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania TCCACAGTCCCATGAAAATTGAAACACTTTCCT-TTTTAGGAATTTTTTCATATTGACTTGCGTATTTGC
+
+Famatinanthus_sp         --------CCATATCATCATTACAAATAAATTGACTTTATTGATTTCCGTCCACAACAAGATTCCTCCAT
+Fulcaldea_stuessyi       ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania GTATTGAAACACATCATCTTTACATATAAACCGATATTATTAATTACAGTCCACAAC---ATTCCTCTAT
+
+Famatinanthus_sp         GTTGTCTATATTGAAGGCTA-TTTAGATATTTGACAAATAGTCGAACAATATCATTAAACTATCTGCAAG
+Fulcaldea_stuessyi       ????????????????????????????????GACAAGTTACCAAA------------------------
+Gongylolepis_benthamania TTTGCTTGTATTGAAAGGTATTTTAGATATTTAATAAATAACAGTA------------------------
+
+Famatinanthus_sp         TGGTAATTTTCATGGGACAGAGGAAGTACAACATATACTCTTTCTTTATATTTATCTTTTCGTTCTGTTT
+Fulcaldea_stuessyi       -------------------------------------------TTTGATATTGTTATTTTTGTTTGCTAT
+Gongylolepis_benthamania --GTAA-TTTCATGGGACGGAGGAGGTACAAGA-----TTCTTCTTTGCGTTGATCTTTTCGTTCTGTTT
+
+Famatinanthus_sp         TTACTGGTTTATTGGCAATAGACGGATGCAGTTGATCCTAAAAGTAGGCATAAGGGGAAGCTTGAGACAG
+Fulcaldea_stuessyi       -----------------ATAGATAGATGCAGTTGATCCAAAAAGCCGACACAAGGGGAAGCTTGAAACAG
+Gongylolepis_benthamania TCGCTGGTCTATTGGTGATAGAGGGATGCCGTTGATCCTAAAAGTCGGCACAAAGGGAAGCTTGAGACAG
+
+Famatinanthus_sp         AGGCCTTACTGGAGTCCAAGGGTGTTAATTACACTTCTATAAGGCCGGTTTATATCTATGGCCCGTTGAA
+Fulcaldea_stuessyi       AAGCCTTATTAGAATCAAAGGGTGTTAACTACACTTCTATAAGGCCCGTTTATATTTATGGCCCGTTGAA
+Gongylolepis_benthamania AGGACTTGCTGGAGTCCAAGGGTGTAAACTACACTTCTATAAGGCCAGTTTATATCTATGGCCCGTTGAA
+
+Famatinanthus_sp         CTACAACCCTGTTGAAGAATGGTTTTTCCATCGGTTGAAAGCAGGTCGACCAATCCCAATTCCCAACTCA
+Fulcaldea_stuessyi       CTACAACCCTGTCGAAGAGTGGTTTTTCCATAGGTTGAAAGCGGGCAGACC-CTCCCCATTCCCAACTCA
+Gongylolepis_benthamania CTACAACCCTGTTGAAGAGTGGTTTTTCCATCGGTTGAAAGCAGGCCGACCAATCCCAATTCCCAACTCG
+
+Famatinanthus_sp         GGCATACAAATAACCCAACTTGGTCATGTAAAGGTTAGTAATAATGCATCCCTCATACTTAGTTATTTGT
+Fulcaldea_stuessyi       GGTTTGCAAGTAACCCAACTCGGTCATGTAAAGGTTTGTAAAAGTGTA----------------------
+Gongylolepis_benthamania GGCTTGCAAATAACCCAACTTGGTCACGTGAAGGTTCATAATCATGCATCCCTAATGCTTAGTTGTTTGT
+
+Famatinanthus_sp         TAGTATAATGAAATCTATGAGATGACCAACCTTTTGTTAATTCATAATGCAAGGCATATATTACTTTCAC
+Fulcaldea_stuessyi       ----------------------------------------------------------------------
+Gongylolepis_benthamania TAG-------------------------------------------------------------------
+
+Famatinanthus_sp         AACCTTTAGAAGTGTGTACTGTGTTGACATGATAAATGCTCCCTTTGTTCCAAGAAGAAGGGAGTAAAGT
+Fulcaldea_stuessyi       ----------------------------------------------------------------------
+Gongylolepis_benthamania ---------------------------CACGATAAAGACTCCGATTTTTCCAAAAAATTAGGGGTGAAGT
+
+Famatinanthus_sp         TTGACTTTTAAAATGCAACCTTTAAGCTTTAATTTGCTAAAAATTTAAC-ACCAAATTGCCAAATGTACT
+Fulcaldea_stuessyi       ----------------------------------------------------------------------
+Gongylolepis_benthamania TTGATTTCCGAGATGCAACCTTTTAGCTTTCATTTGCTAAAAACATAACAAACACATTGCCAAATGTCTT
+
+Famatinanthus_sp         ACTTCCTCCGTCCAATAAAAATTGCGAT------------------------------------ATTTCC
+Fulcaldea_stuessyi       ----------------------------------------------------------------------
+Gongylolepis_benthamania GCTTACTTTGTCTGATAAAAACTGCAACGCGTTCCTTCTTGGGATGTCTCCCGAAAATTGCAAGACTTTC
+
+Famatinanthus_sp         ATTTTTGGCAACTTTTTAAGTTAAAATTATTAATTTGTTCATTGTTATCAT--TATAAAAGGTTAATGAT
+Fulcaldea_stuessyi       ----------------------------------------------------------------------
+Gongylolepis_benthamania CTTTCCAACAACTTTTTATATTAAATATACCAATTTACCCATTGTTACCATGGCAAAAAAAATTGATGAT
+
+Famatinanthus_sp         ATCGATTAGGGTCCACAAGATTTCCCTACTTAGTAATTATTGAAAGATATTCAAGTCATTTGACGAATAG
+Fulcaldea_stuessyi       ----------------------------------------------------------------------
+Gongylolepis_benthamania ATTGATTAGAGTCCACAATACTTCCCTACTTTGGCATTA--------------------TTGACGAGTAG
+
+Famatinanthus_sp         TCAAACATTTCCCTTGAACATGTGCCTGGTCAAACTTTGCAATGTTCATGAG------------------
+Fulcaldea_stuessyi       ----------------------------------------------------------------------
+Gongylolepis_benthamania TCAAACATTTCCGCAAACTATGTGTCTGGTCGAACGCTACCATTTGCATGAGACGGAGGTAGTATCTATT
+
+Famatinanthus_sp         ---------------------------------GATTCAGAGAATCCATAACGATTTTGAAGTTAAAAAG
+Fulcaldea_stuessyi       -----------------------------------------------------------AAACTAATAAT
+Gongylolepis_benthamania ATAAAGTTTGGTCTAGTAGAAACACTTCGTAAAGATTCGAAGAAGCCATAATGATTTAGAAGTTATAAAT
+
+Famatinanthus_sp         TAGCTTGTTTGATCTCAAAAATCAAAGTATACCTGTTT-GTGGAACGGAGGGAGTAAGAAAGT-TGAGAA
+Fulcaldea_stuessyi       TATTTTGTTTGACTTCAAAAGTCA--------------------------------------------AA
+Gongylolepis_benthamania TGGCTTGTTCGATTTAAAAAGTCAAAATGTATGTCTTTCTTGGAACATGGTGAGTGAGAAAGTCTAAGAA
+
+Famatinanthus_sp         CAATTTTGATGTTTGAATGTTGAGCAAATGCAGGATTTGGCTAAAGCTTTTATAAAGGTTCTGGGGAACG
+Fulcaldea_stuessyi       CGGTCTTGATGAGTCAACGTTGACCAAATGCAGGATTTGGCTACAGCTTTTATAA???????????????
+Gongylolepis_benthamania CGGTTTTGATGTGTTGACGTTGACC-AATGCAGGATCTGGCAAAAGCTTTCCTGAAGGTTCTAGGGAACG
+
+Famatinanthus_sp         ACAAAGCAAGCAAGCAAGTGTTCAACATATCGGGAGAAAGATATGTTACCTTCGATGGACTAGCAAGAGC
+Fulcaldea_stuessyi       ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania AAAAAGCAAGCAAGCAAGTGTTCAACATATCAGGAGAAAAATATGTTACCTTCGATGGACTAGCAAGAGC
+
+Famatinanthus_sp         ATGTGCTAAGGTAATTTTCCCTCTGATTATTAAAATTTAAAATCTGAAAATTTACCACATAAAATTACAA
+Fulcaldea_stuessyi       ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania ATGTGCTAAGGTAATTTTCCCTATAATGATTGAAATTCGGAATCCGAAAGTTCATAACATAAAATTACAA
+
+Famatinanthus_sp         TCTACCCCTTGCAGGCTGGTGGATTCCCTGAGCCTGAGATCATTCACTACAATCCCAAGGAGTTCGATTT
+Fulcaldea_stuessyi       ??????????????????????????????????????????????????????????????????????
+Gongylolepis_benthamania TCAACTCCTTGCAGGCTGGTGGATTCCCTGAGCCCGAGATAATTCACTACAATCCCAAGGAGTTTGATTT
+
+Famatinanthus_sp         TGGAAAAAAGAAAGCGTTTCCATTCCGTGACCAGGTAAATATGGACTTATGTTTTAGTTAC
+Fulcaldea_stuessyi       ?????????????????????????????????????????????????????????????
+Gongylolepis_benthamania TGGGAAAAAGAAGGCATTTCCGTTCCGTGACCAGGTAAATACGGACTTATGTTTAAGTTAC
+
+;
+end;

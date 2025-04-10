@@ -1,0 +1,20 @@
+2024-05-31 03:40:58,284 - INFO: Slimming file 1/1: /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/extended_spades/K85/assembly_graph.fastg
+2024-05-31 03:40:58,302 - INFO: Parsing input finished.
+2024-05-31 03:40:58,304 - INFO: Preparing fasta file finished.
+2024-05-31 03:40:58,304 - INFO: Executing BLAST to /home/pllestad/.GetOrganelle/LabelDatabase/embplant_pt ...
+2024-05-31 03:40:58,304 - INFO: Executing BLAST ...
+2024-05-31 03:40:58,457 - INFO: Executing BLAST finished.
+2024-05-31 03:40:58,457 - INFO: Executing BLAST to /home/pllestad/.GetOrganelle/LabelDatabase/embplant_pt finished.
+2024-05-31 03:40:58,458 - INFO: Parsing blast result finished.
+2024-05-31 03:40:58,458 - INFO: Executing BLAST to /home/pllestad/.GetOrganelle/LabelDatabase/embplant_mt ...
+2024-05-31 03:40:58,458 - INFO: Executing BLAST ...
+2024-05-31 03:40:58,547 - INFO: Executing BLAST finished.
+2024-05-31 03:40:58,547 - INFO: Executing BLAST to /home/pllestad/.GetOrganelle/LabelDatabase/embplant_mt finished.
+2024-05-31 03:40:58,547 - INFO: Parsing blast result finished.
+2024-05-31 03:40:58,547 - INFO: No enough coverage information found.
+2024-05-31 03:40:58,547 - INFO: Mapping names ...
+2024-05-31 03:40:58,556 - INFO: Mapping names finished.
+2024-05-31 03:40:58,556 - INFO: Generating slimmed file to /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/extended_spades/K85/assembly_graph.fastg.extend-embplant_pt-embplant_mt.fastg
+2024-05-31 03:40:58,556 - INFO: Generating notation table to /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/extended_spades/K85/assembly_graph.fastg.extend-embplant_pt-embplant_mt.csv
+2024-05-31 03:40:58,556 - INFO: Slimming file 1/1: /home/pllestad/basal_Asteraceae/GetOrganelle_output/final/Barnadesia_arborea_plastome/extended_spades/K85/assembly_graph.fastg finished!
+

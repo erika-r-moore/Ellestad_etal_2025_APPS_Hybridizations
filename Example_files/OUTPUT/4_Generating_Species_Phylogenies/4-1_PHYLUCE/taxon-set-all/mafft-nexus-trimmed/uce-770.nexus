@@ -1,0 +1,115 @@
+#NEXUS
+begin data;
+dimensions ntax=5 nchar=1240;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-770_Famatinanthus_sp'         ???????CAGGTTTCATCGCAGACCTACAGTTTAGATGCAAATCTTTGTCTTCTTCGCCTCTATCAGGTA
+'uce-770_Gongylolepis_benthamania' TTAAATTCAGGTTTCATCGCAGACCTACAGTTTAGATGCAAACCTTTGTCTTCTTCGTCTCTATCAGGTA
+'uce-770_Hyalis_argentea'          TTGGATTCAGGTTTCATCGCAGACGTACAGTTTAGATGCAAACCTTTGTCTTCTTCGCCTCTATCAGGTA
+'uce-770_Nastanthus_patagonicus'   ??????????????????????????????????????????????????????????????????????
+'uce-770_Scaveola_tomentosa'       TTTGATTCAGGTTTCATCACAAACATACAGTTTAGATGCAAACCTTTGCCTTCTACGCCTCTATCAGGTT
+
+'uce-770_Famatinanthus_sp'         ATTTCA--TTTTTAGTTTGCATCTCATACTTTTATCTTACCGTTGCATGAAATCTTCTTTGGCAGTTTAT
+'uce-770_Gongylolepis_benthamania' ATTTAA--TTTTTAGTTTACCTCTCATATTTTTTCCTTGCCATTGTATGAAATCTTCTTCAACTCTTTAT
+'uce-770_Hyalis_argentea'          ATTTCA--TTTCTAGTTTGCGGTTCAATGTTTTTAC------------------------AGCAATTTAT
+'uce-770_Nastanthus_patagonicus'   ??????????????????????????????????????????????????????????????????????
+'uce-770_Scaveola_tomentosa'       AGCTCAATCTCCCAGTTTATCTCTTCTAATTGACAT----------------------------ATCCCA
+
+'uce-770_Famatinanthus_sp'         TCTTTTGATAATTAGTGGATAGTTTTGCTTGCTTTGTATATCATTTGTACTCTATC-------------A
+'uce-770_Gongylolepis_benthamania' TCTTT-----AACAGTGTATACTTTTGCTTGGTTTGTAAATCATTTGTTCTCTATC-------------C
+'uce-770_Hyalis_argentea'          TCTTC-----TATAGTTAATACT-TTGTTTGCTTTGTCTTTTGCCT------------------------
+'uce-770_Nastanthus_patagonicus'   ??????????????????????????????????????????????????????????????????????
+'uce-770_Scaveola_tomentosa'       CCTTT---GAGATACCATAAGTTTTTCTTAAATGGTGCTGCCATATGAATTGT-----------------
+
+'uce-770_Famatinanthus_sp'         TGTTACTGTTTACACAGTTTGAGCCTGAGAGGATGAGCACTCAGATTGTTGCCCGCATTTTGATCAAGGT
+'uce-770_Gongylolepis_benthamania' TGTTACTATTTATGCAGTTTGAGCCTGAGAGGATGAGCACTCAGATTGTTGCCCGCATTTTGATCAAGGT
+'uce-770_Hyalis_argentea'          TGTTACTATTTACACAGTTTGAGCCTGAGAGGATGAGTACTCAGATTGTTGCCCGCATTTTGATCAAGGT
+'uce-770_Nastanthus_patagonicus'   ???TTCCTTTTACACAGTTTGAGCCTGAGAGGATGAGCACTCAAATTGTTGTCCGTATTCTGATCAAGGT
+'uce-770_Scaveola_tomentosa'       --TTACTATTTATGCAGTTTGAGCCTGAGAGGATGAGCACTCAGATTGTTGCCCGCATTTTGATCAAGGT
+
+'uce-770_Famatinanthus_sp'         CTGTATGTGCTAATATGTGTGTGTGTGCATGCACGTGTG-----------GTCGTAGTATTTGAGGTATT
+'uce-770_Gongylolepis_benthamania' CTGTATGTGCTAATAAATGTGTGTGTGCATGCACATGTG-----------ATATTAGTATTTGACTTATC
+'uce-770_Hyalis_argentea'          CTGTACGTGCTAATATATGTTTGTACGCATGCACATGCACATGCACATGTGGGATGGTATTTGAAGTATC
+'uce-770_Nastanthus_patagonicus'   CTGCACGTGCTATTTCATATATGTATATA-----------------------------------------
+'uce-770_Scaveola_tomentosa'       TTGTACATGATTATGTATCAGTGATTTCATGCACGC----------------------------------
+
+'uce-770_Famatinanthus_sp'         CCACGTGATGAATCTTGCTTATGGAAGAGGCCTCCCCACACACAAGTAGGGCCCATTCAGGGGACTTAAT
+'uce-770_Gongylolepis_benthamania' TTACATGATGAATCTTGCTTATTGGAGGGGCCTCCCCACACACGAGTAGAGACCATTCGGGGGACTTACA
+'uce-770_Hyalis_argentea'          CCACGTGGTGAATCTTGCTTATGCGGGAGGTCTCCCCACACACAAGTAGGGACCACCACGGAGTTAACAT
+'uce-770_Nastanthus_patagonicus'   ----------------------------------------------------------------------
+'uce-770_Scaveola_tomentosa'       ----------------------------------------------------------------------
+
+'uce-770_Famatinanthus_sp'         GGGGC-----TTGTGTCTAGGGAGATCTCTTCCTTAAACACTACTTATCACCTAGGATACCTCAAATCCT
+'uce-770_Gongylolepis_benthamania' AGGGC---------------------------CTTAAACACCACTTATCATGTAGGATTCCTCAAATCCT
+'uce-770_Hyalis_argentea'          AGGGCTTGTGTTGTGTCTTGGGTGACCTTTTCCTTAGGCACTGCTAATCATGTGGGATACTTCAGCTTCT
+'uce-770_Nastanthus_patagonicus'   ----------------------------------------------------------------------
+'uce-770_Scaveola_tomentosa'       ----------------------------------------------------------------------
+
+'uce-770_Famatinanthus_sp'         GTTTT-TTATATATACA-GGGCAGTAGTATTTGAGGTAT--TGCACACAATGAATAATGCTCATGGAAGA
+'uce-770_Gongylolepis_benthamania' GTTTTCTTATATGCACAGGGACAATAG-ATTTCATGTAT--CCCACACAATGAATAATGCGCAAGCAAGA
+'uce-770_Hyalis_argentea'          GTTTTCTTATATATACACGGGCTGTAGTATTGGAGGTATCCCCCACACAATGAATAATGCTCATGAAAGA
+'uce-770_Nastanthus_patagonicus'   ------TTATATGTTTA-----------------------------------------------------
+'uce-770_Scaveola_tomentosa'       ----------------------------------------------------------------------
+
+'uce-770_Famatinanthus_sp'         AGCCTCCCCAGACATAGCTTGCAAGGCCCACTGAGTGGACCTACAAGGTGCTTGTGTGTGGGGAAGCCTC
+'uce-770_Gongylolepis_benthamania' AGCCTCCCTGTACATAGCATGTAAGTTGCACCTTGGGGACCAACAAGGGGCTTATGTGTGGGGAAGCATC
+'uce-770_Hyalis_argentea'          AGCCTCCCTTGACATAGCATTTAAG-CCCATTATGGGGACCAACAAGTGGCTTCTGTGT-GGGAAGTCTC
+'uce-770_Nastanthus_patagonicus'   ----------------------------------------------------------------------
+'uce-770_Scaveola_tomentosa'       ----------------------------------------------------------------------
+
+'uce-770_Famatinanthus_sp'         TACCTAAAGCGCCATTTATCATGCGAGGTGCCTCAAATAGTATTTTCCAATATACACTCACATGTTTGCG
+'uce-770_Gongylolepis_benthamania' TACTCAAAGCGCTATTTATCATGCGAAATACCTCAAATAGTTTTTTTAAATATACACTCACATGTGAACA
+'uce-770_Hyalis_argentea'          TACCCGAATTGCTGTTTGTTGTGGTAGATACCTCAAAGTGTTTCC----AATTACACTCACATGTGCTCG
+'uce-770_Nastanthus_patagonicus'   -------------------------------------------------------------TAGCGCACA
+'uce-770_Scaveola_tomentosa'       ----------------------------------------------------------------------
+
+'uce-770_Famatinanthus_sp'         TAGCCATGCGTAAAGTTTCACAGTTTTCTTTTCTCATGTTCTGTATCTGAACCCCTACATCCCACTCCTT
+'uce-770_Gongylolepis_benthamania' TAGCCAAGCGTAAAGCTTCACAATTT--TTTTCTCATGTTCTACGACTGAACACCTATGTCCCACTTC-T
+'uce-770_Hyalis_argentea'          TAGCGATGCGTAAAGTTCCACAATTTTGTCCTCTGATTTTCTGTATCTGAACCCATATATCCCACCCTTT
+'uce-770_Nastanthus_patagonicus'   TATTCATGCATGTGGCTCAACATTTTTATTTGCTAATGCTCTGTATTTCAAC-------TCCCACTTCTT
+'uce-770_Scaveola_tomentosa'       ---CTATGTATAAAATTTCTTATTT---TTTGCTCATGTTGTGTCCCCTGCC-------TCCCACACCTT
+
+'uce-770_Famatinanthus_sp'         AATCTTCTATATAGGCTCTTATGGCAATGCCTGCTCCAGATTTCAGCTTATGTCTCTTTTTGATTCCAGA
+'uce-770_Gongylolepis_benthamania' AATCTTCTATGTAGGCTCTTATGGCAATGCCTGCCCCAGATTTCAGCTTATGTCTCTTTTTGATTCCAGA
+'uce-770_Hyalis_argentea'          AATCTTTGATGTAGGCTCTCATGGCAATGCCTGCCCCAGATTTCAGCTTATGTCTGTTTTTGATTCCAGA
+'uce-770_Nastanthus_patagonicus'   ATTCTTCTAAACAGGCTCTTATGGCAATGCCTGCCCCAGATTTCAGCCTATGTCTCTTTTTGATTCCAGA
+'uce-770_Scaveola_tomentosa'       GATCTTCTCTACAGGCTCTGATGGCAATGCCTGCTCCAGATTTCAGCCTGTGTCTCTTTTTGATTCCAGA
+
+'uce-770_Famatinanthus_sp'         AAGAGTGGTACTTTTCTCAT-GTCTCTTATATTTTGTAGATGGTCTTT--TTGTGGTATACTGTTGATTG
+'uce-770_Gongylolepis_benthamania' AAGAGTGGTACTTTTCTCATGGTCTCTTATATTTTGTAGATGGTCTTTGATTGTGGCATGCTGTTGATTG
+'uce-770_Hyalis_argentea'          AAGAGTGGTACTTTTCTCATGGTCTCTTATAATTTGTAGATGGTCTTTGATTGTGGCATAATGTCAGT--
+'uce-770_Nastanthus_patagonicus'   GAGAGTGGTACTGTTCTTGAGGTCTCTTGTAATTTCAAGATGTTATTT-CTTGTGGTACAC---------
+'uce-770_Scaveola_tomentosa'       AAGAGTGGTACT-CTCTGATTGTATCTTATATTTTTGAGAT?????????????????????????????
+
+'uce-770_Famatinanthus_sp'         TTTATTTATTTTTTTGCCTGGATGTTGGGACATAATTTT-------GGCCTAATGCGTTATATTTTTCTT
+'uce-770_Gongylolepis_benthamania' TTTTTTTACTTTTTTGCCTGAATATTGAGACTTAATCTT-------GGATTAATGTGTTATATTTTTCTT
+'uce-770_Hyalis_argentea'          TTATTTAGTTTTTCTGCCTGAATGTCAAGACATAATTTT------GGGTTTAACGTGTTGTGTTTT----
+'uce-770_Nastanthus_patagonicus'   -----------ATTTACCTTAATGTTGAGACAC-------------------------------------
+'uce-770_Scaveola_tomentosa'       ??????????????????????????????????????????????????????????????????????
+
+'uce-770_Famatinanthus_sp'         ATGTTTGTTATTCAATTGTCAGCAAATGGATGAACAATTCAAGACTCTTATAGTTCTCTCCCACTATTTG
+'uce-770_Gongylolepis_benthamania' ATGTTTGTTATTCGATTGACAGCAAATGGATGAACAATTTAAGACTCTTATAGTTCTCTCCCACTATTTG
+'uce-770_Hyalis_argentea'          -----TCCTATTTGATCCTCAGCAAATGGACGAACAGTTCAAGACTCTTATAGTTCTCTCCCACTATCTG
+'uce-770_Nastanthus_patagonicus'   -----TCTTGTGTGATTGACAGCAAATGGAAGAACAATTCAAGACTCTTATAGTTCTCTCTCACTATTTG
+'uce-770_Scaveola_tomentosa'       ??????????????????????????????????????????????????????????????????????
+
+'uce-770_Famatinanthus_sp'         GAGGTACGTTTTTGTGTTTAGTAATTGGATTATTATAGGTCTTCAAGACTCTTATAGTCCT---CTATTG
+'uce-770_Gongylolepis_benthamania' GAGGTACGTTTTTGTGTTTAACAATTGGATTATCTTTGGTTTTCAAGACTCTTTTAGTCCTTAACTGCTG
+'uce-770_Hyalis_argentea'          GAGGTAAATTTTTGTATTTAATAATTGGATTTTCATAGTTCTTCAAGACTCTTCTAGTCCTTAACTGCTG
+'uce-770_Nastanthus_patagonicus'   GAGGTATATTTTTTTGTT-----------ATAACATATTTATTCAAGACTCCTGTAGTTCTTCTATGCTT
+'uce-770_Scaveola_tomentosa'       ??????????????????????????????????????????????????????????????????????
+
+'uce-770_Famatinanthus_sp'         CTGCCTTCTGTTTTCGCATGTGTCTTG------------------GGCTA-TTTGGGAGTGTGCTTTGAG
+'uce-770_Gongylolepis_benthamania' CTACCTTCTGCTTTTGTGTGTGTCTTC------------------CTCTAGTCTAGGAATGTGCTGTGGG
+'uce-770_Hyalis_argentea'          CTGCCTTCTCCTTTTG--TGTGTCTGT------------------TGCTAGTCTATGTATGTGCTTTGAG
+'uce-770_Nastanthus_patagonicus'   TTGCCTATTGCTTTGCT-TGTGTCTGTGTGTTTGTGTTGTCTTAGGGCTAGTTTAGTACTGTGCTT????
+'uce-770_Scaveola_tomentosa'       ??????????????????????????????????????????????????????????????????????
+
+'uce-770_Famatinanthus_sp'         ACTGAAGTAGTTCTT-GGGGTAGAAATTATGTTTGTATTTGCATCTAGTA
+'uce-770_Gongylolepis_benthamania' GCCCATATCGTTTTTGGGGGTAGGAACTATGTTTGTATTTGCATCTTGTA
+'uce-770_Hyalis_argentea'          ACCGGAATCATTTTC-AGGATAGAAATTATGTTTGTATATGAATCTAGTA
+'uce-770_Nastanthus_patagonicus'   ??????????????????????????????????????????????????
+'uce-770_Scaveola_tomentosa'       ??????????????????????????????????????????????????
+
+;
+end;

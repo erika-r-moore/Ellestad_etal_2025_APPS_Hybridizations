@@ -1,0 +1,23 @@
+
+================== ASTRAL ===================== 
+
+This is ASTRAL version 5.7.3
+Gene trees are treated as unrooted
+421 trees read from concat_best.tre
+Scoring Astral_best.tre
+Scoring: 1 trees
+Number of taxa: 9 (9 species)
+Taxa: [Schlechtendalia_luzulaefolia, Scaveola_tomentosa, Gongylolepis_benthamania, Hyalis_argentea, Famatinanthus_sp, Barnadesia_arborea, Nastanthus_patagonicus, Fulcaldea_stuessyi, Chuquiraga_sp]
+Taxon occupancy: {Chuquiraga_sp=95, Scaveola_tomentosa=319, Famatinanthus_sp=228, Nastanthus_patagonicus=230, Schlechtendalia_luzulaefolia=259, Fulcaldea_stuessyi=256, Hyalis_argentea=317, Barnadesia_arborea=300, Gongylolepis_benthamania=313}
+Number of gene trees: 421
+416 trees have missing taxa
+Using tree-based weight calculation.
+Using polytree-based weight calculation.
+Polytree max score: 6969
+Polytree building time: 0.066 seconds.
+Number of quartet trees in the gene trees: 6969
+Final quartet score is: 5429
+Final normalized quartet score is: 0.7790213803989094
+(Schlechtendalia_luzulaefolia,((Fulcaldea_stuessyi,(Barnadesia_arborea,Chuquiraga_sp)0.71:0.11870675761072086)1:0.22792596119442465,((Famatinanthus_sp,(Gongylolepis_benthamania,Hyalis_argentea)1:0.8909014978693353)1:1.4950182800401461,(Nastanthus_patagonicus,Scaveola_tomentosa)1:0.19813943303634055)1:1.1064554661291353));
+Weight calculation took 0.006611958 secs
+ASTRAL finished in 0.521 secs

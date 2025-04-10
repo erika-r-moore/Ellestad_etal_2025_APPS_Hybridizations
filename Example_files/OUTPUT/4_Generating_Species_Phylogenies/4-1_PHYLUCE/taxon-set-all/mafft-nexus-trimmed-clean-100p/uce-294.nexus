@@ -1,0 +1,102 @@
+#NEXUS
+begin data;
+dimensions ntax=4 nchar=1306;
+format datatype=dna missing=? gap=- interleave;
+matrix
+Barnadesia_arborea       ??????????????????????????????????????????????????????????????????????
+Chuquiraga_sp            TAGGAGTGGGTACTACTTCGAGTGCGTTGGATGAAGACGGTGTGTTGGACATCGACACTACCATTTCCCT
+Gongylolepis_benthamania TAGGAGTTGGTACGACTTCAAGTGCACTGGACAAAGATGGTGTTTTGGAAATCGACACTACCATTTCCTT
+Hyalis_argentea          TAGGAGTTGGGACGACTGATAGTGCATTGGACAAAGATGGTGTTCTGGAGATCGACACTACCATATCCTT
+
+Barnadesia_arborea       ??????????????????????????????????????????????????????????????????????
+Chuquiraga_sp            CGAGACCACATGGCACGCCATGGAAGAGACCGTCTCGATGGGCTTGGTTCGAAGCATAGGCATCAGGTCC
+Gongylolepis_benthamania GGAGACTACATGGCATGCCATGGAAGATACCATCTCCAAGGGCTTGGTTCGCAGCATTGGAATCAGGTTA
+Hyalis_argentea          GGAGTCTACATGGCATGCTATGGAAGATACCGTCTCCATGGGCTTGGTTCGCAGCATTGGCATCAGGTTA
+
+Barnadesia_arborea       ??????????????????????????????????????????????????????????????????????
+Chuquiraga_sp            ATG-------------------------------------------------------------------
+Gongylolepis_benthamania ATGCGTAAATATAGTGCCATTTTTAACCATCCATAGCAGTTTGACATTTGAGGTCAAACCTTTTACTTTT
+Hyalis_argentea          ATGCTTAATTGCAATTGCCATTTTCACCATCTCTAGCAGTTTGCCATTTAAGGTCAAACCTTTTACTTTT
+
+Barnadesia_arborea       ??????????????????????????????????????????????????????????????????????
+Chuquiraga_sp            ----------------------------------------------------------------------
+Gongylolepis_benthamania CAAACTAAAAATCGATATGGTTTGATTTCAATTTTAACAC------------TTGTAGTTCACGACAT-A
+Hyalis_argentea          GAAACCTAAAATTGAATGACTTTCAGTTCAACTTAAACTCCCAACATTTTGATTGTGGTTCACAACATAA
+
+Barnadesia_arborea       ??????????????????????????????????????????????????????????????????????
+Chuquiraga_sp            ----------------------------------------------------------------------
+Gongylolepis_benthamania TTATCAACTTCTGGATTTTTTGAACATTTTTTCATATGATCATATCAGTTGGGAAGTTTCTGATTAGCTT
+Hyalis_argentea          CTATCAACTTC-----ATCTTGAATATTTGTTGAT---TTTAAATCAATTAGGAGATTTCTGATTAGCTT
+
+Barnadesia_arborea       ?????????????????CGTTT------------------------------------------------
+Chuquiraga_sp            ----------------------------------------------------------------------
+Gongylolepis_benthamania GTTAGACTTTAGAAAGTCATTTTGTATAGTTTGACTTTTAAGGTCAAACCTGGAACTTTTCAAACATAAA
+Hyalis_argentea          GTTAGACTTTAAAAAGTCATCT----TAGTTTGACTTTTAGGGTCAAATGTA-----TTTCAAACCTAAA
+
+Barnadesia_arborea       ----------------------------------------------------------------------
+Chuquiraga_sp            ----------------------------------------------------------------------
+Gongylolepis_benthamania ATCAACATGGGTTTCATTTCAATTTTAGTACCCAATATGATTGTTTATGGTTCTCAACATAAGTATCAAC
+Hyalis_argentea          CTCTATGTGGGTTTCATTTCAATTTTAACGCCCATCATGATTCTTTG-----------------------
+
+Barnadesia_arborea       ----------------------------------------------------------------------
+Chuquiraga_sp            ----------------------------------------------------------------------
+Gongylolepis_benthamania TTTATCTTGAAAATTTGAAGATTTCATATCAATTGCGAAGTTGAGGATTAGTTTGTTTAAAAGCCATCTT
+Hyalis_argentea          ---------------TATGGACAGCATACCAATCG-----------------------------------
+
+Barnadesia_arborea       ----------------------------------------------------------------------
+Chuquiraga_sp            ----------------------------------------------------------------------
+Gongylolepis_benthamania GTAGGTAGTTTGACTTTTAAGGTCAAACCATTTACTTTTCAAAATTAAAATCAATACGAATCCCATTTCA
+Hyalis_argentea          ----------------------------------------------------------------------
+
+Barnadesia_arborea       ----------------------------------------------------------------------
+Chuquiraga_sp            ----------------------------------------------------------------------
+Gongylolepis_benthamania ATTTTAAAACCCAGCACTTTCTCTGTAGCGCACAGCATAACCTTTTTCCTTGAAATTTTACCGGCTTTTG
+Hyalis_argentea          ----------------------------------------TTTTTTTCCTTGGAACCTTATAGAC-TTTG
+
+Barnadesia_arborea       -----------------------------------TTCAAAAATT-------------------------
+Chuquiraga_sp            ----------------------------------------------------------------------
+Gongylolepis_benthamania TATCAATTTGGTGGCTGATGAGTAGTTTGTTTGACTCCAAAAGTCAACTTGTACCTCTTTTTGAAACGAA
+Hyalis_argentea          TATCAGTTTGAAAGTTGAAGATTAGTTTGTTTG--ATCAAAAGTCAGCTTATAGCTCTTCTTGAAATGAA
+
+Barnadesia_arborea       ------------------------------------------TGCAGCAACTATGACCTTTTCTTGACCA
+Chuquiraga_sp            ----------------------------------------------------------------------
+Gongylolepis_benthamania GGGAATGCTATTTCCCAGATGACTAACTTTTTTTGATATTTATGCAGCAATTACGACATTTTCTTGACCA
+Hyalis_argentea          GGGAGTATGAACTCCTGGGTGACTAAC-TTTTATGAAATTTATGCAGCAATTACGATATTTTCTTGACCA
+
+Barnadesia_arborea       GAGATTCCTTGGCTTACGCCAAGGTGAAGCCTGCTGTGAATCAAATTGAAACACACCCTTACTTCCAGCG
+Chuquiraga_sp            ----------------------------------------------------------------------
+Gongylolepis_benthamania GAGATTGCTTGGCTTACTCAAAAATCAAGCCTGCTGTAAATCAGATTGAAACACATCCTTACTTCCAGCG
+Hyalis_argentea          GAGATTGCTTGGCTTACTCAAAAATCAAGCCTGCTGTAAATCAGATTGAAACACATCCTTACTTCCAGCG
+
+Barnadesia_arborea       TGAGTCTCTTGTTAAATTCTGTCAAAAACATGGAATCGTGGTCACAGCCCACACACCGCTCGGAGGCTCT
+Chuquiraga_sp            ----------------------------------------------------------------------
+Gongylolepis_benthamania CGAGTCCCTCATTAAGTTCTGCCAGAAGCACGGAGTTGCTGTCACGGCCCACACCCCACTCGGAGGTTCT
+Hyalis_argentea          TGAATCTCTTGTTAAGTTCTGCCAGAAGCACGGAATTGCTGTCACGGCCCACACCCCGCTTGGAGGTTCT
+
+Barnadesia_arborea       GTGGCTAATACAGAATGGTTCGGTTCAGTTTCTTGCTTGGACGATCCTGTTATCAAAGTTAGTTTATCAT
+Chuquiraga_sp            --------------------------AGTTTTTCGATTG-------------------------------
+Gongylolepis_benthamania GTGGCTAATACGGAATGGTTTGGTTCAGTTTCTTGCTTGGATGATCCAGCTCTCAAAGTAAGTTTGCCCT
+Hyalis_argentea          GTGGCTAATACAGAGTGGTTTGGTTCGGTTTCTTGCTTGGATGATCCAGCTCTCAAAGTAAGTTTCCCTT
+
+Barnadesia_arborea       TTACACTTCCCATTGTAGCTTCAAA-----------------------------------TAACTTTTTT
+Chuquiraga_sp            ----------------------------------------------------------------------
+Gongylolepis_benthamania TTATATCCTCCATTTTGACTTTTGAGGTCGAATGAACAAAAGTCAACATAAAAATTATTGTGAATTTTTT
+Hyalis_argentea          TAGCTCCC-----TTTGATTTTTGAGGTCGAATGAGCATATTTCAACATAAATATTAATATGAACCATTT
+
+Barnadesia_arborea       GCGCTGT---------------------------------------------------------------
+Chuquiraga_sp            ----------------------------------------------------------------------
+Gongylolepis_benthamania AAAGTTTTCGAACAAGCTTTTTTAACCAGTAATCTTAGCAACCGATACTGCAAATAGAAATATGTGAGTT
+Hyalis_argentea          ACA-------------------------------------------------------------------
+
+Barnadesia_arborea       ----------CCTTTTCATTCTTATACTCTATTTTGAC--------------------------------
+Chuquiraga_sp            ----------------------------------------------------------------------
+Gongylolepis_benthamania AAATTTGTAACTAATTCCTTATCAATTTTTACTTAAAG-ATATTATCTGGTTGACCTGGAAAGTCAAAGA
+Hyalis_argentea          --------------------------CTTTACTTAAAACATATTATTTGATCGACTTCGGAAGTCAAAGA
+
+Barnadesia_arborea       --------------------------TTGAGGTCAACCACACTAAT
+Chuquiraga_sp            -----------CCATTAGTTTGACTTTTGTGGTCAAACCTTTTAGT
+Gongylolepis_benthamania TTCTAAAGAAATTATAGGGTTGACCTTTGAGGTCAAACATTTTAAT
+Hyalis_argentea          TTTCAAAGAAAGTATAGGGTTGCCCTTGGAGGTCAAAGATTCTATT
+
+;
+end;

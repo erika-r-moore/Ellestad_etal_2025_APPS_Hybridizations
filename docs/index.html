@@ -1563,9 +1563,9 @@ done</code></pre>
 </ul>
 <p>After installation, the java script needed to run Trimmomatic should be in a folder such as ‘Trimmomatic-0.36’. Go into your folder containing the sequence files and run Trimmomatic in a loop on all paired-end fastq files (here ending in R1.fastq and R2.fastq) using the following code:</p>
 <pre class="bash"><code>#bash
-for fileR1 in *R1.fastq
+for fileR1 in *_1.fastq
 do
-fileR2=`echo ${fileR1} | sed &#39;s/R1/R2/&#39;`
+fileR2=`echo ${fileR1} | sed &#39;s/_1/_2/&#39;`
 java -jar /PATH/TO/Trimmomatic-0.36/trimmomatic-0.36.jar PE $fileR1 $fileR2 $fileR1.tp.fastq $fileR1.tunp.fastq $fileR2.tp.fastq $fileR2.tunp.fastq ILLUMINACLIP:/PATH/TO/Trimmomatic-0.36/adapters/TruSeq3-PE.fa:2:30:10 LEADING:20 TRAILING:20 SLIDINGWINDOW:5:20 MINLEN:36
 done</code></pre>
 <p>One common change made to the script is changing the values for ILLUMINACLIP, LEADING, TRAILING, SLIDINGWINDOW, and MINLEN. Please refer to the GitHub or primary literature to determine which values best fit your data.</p>
@@ -1595,9 +1595,9 @@ done</code></pre>
 <li>*.tp.fastq: the trimmed sequence data</li>
 </ul>
 <pre class="bash"><code>#bash
-for trimR1 in `find ./ -name &quot;*R1.fastq.tp.fastq&quot;`    
+for trimR1 in `find ./ -name &quot;*_1_tp.fastq&quot;`    
 do
-trimR2=`echo ${trimR1} | sed &#39;s/R1/R2/&#39;`
+trimR2=`echo ${trimR1} | sed &#39;s/_1/_2/&#39;`
 /PATH/TO/bin/spades.py -k 21,33,55,77,99 --only-assembler --pe1-1 $trimR1 --pe1-2 $trimR2 -o ./$trimR1.spades_output 
 done
 
@@ -1631,24 +1631,20 @@ done</code></pre>
 <p>Trinity <span class="citation">(<a href="#ref-Grabherr2011">Grabherr et al., 2011</a>)</span> represents a novel method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data.</p>
 <div id="installing-trinity" class="section level3" number="3.2.1">
 <h3><span class="header-section-number">3.2.1</span> Installing Trinity</h3>
-<p>Installation instructions can be found at <a href="https://github.com/trinityrnaseq/trinityrnaseq/wiki" class="uri">https://github.com/trinityrnaseq/trinityrnaseq/wiki</a> or can be installed using conda.</p>
-<pre class="bash"><code>#bash
-conda create -n spades
-conda activate spades
-conda install bioconda::spades</code></pre>
+<p>Installation instructions can be found at <a href="https://github.com/trinityrnaseq/trinityrnaseq/wiki" class="uri">https://github.com/trinityrnaseq/trinityrnaseq/wiki</a>.</p>
 </div>
 <div id="running-trinity" class="section level3" number="3.2.2">
 <h3><span class="header-section-number">3.2.2</span> Running Trinity</h3>
 <p><strong>INPUT</strong></p>
 <ul>
-<li>*.tp.fasta: trimmed RNA-sequence data</li>
+<li>*.tp.fastq: trimmed RNA-sequence data</li>
 </ul>
 <pre class="bash"><code>#bash
-# run SPADES for all the samples with a loop
-for trimR1 in `find ./ -name &quot;*_1_tp.fastq&quot;`
+#run trinity on all trimmed paired end files in a loop
+for fileR1 in *R1.tp.fastq
 do
-trimR2=`echo ${trimR1} | sed &#39;s/_1/_2/&#39;`
-/PATH/TO/miniconda3/envs/spades/bin/spades.py -k 21,33,55,77,99 --only-assembler --pe1-1 $trimR1 --pe1-2 $trimR2 -o ../$trimR1.spades_output
+fileR2=`echo ${fileR1} | sed &#39;s/R1/R2/&#39;`
+Trinity --seqType fq --left $fileR1 --right $fileR2 --CPU 6 --max_memory 20G
 done</code></pre>
 <p><strong>OUTPUT</strong></p>
 <ul>
@@ -1699,7 +1695,7 @@ unzip Bandage_Ubuntu_dynamic_v0_8_1.zip</code></pre>
 <li>*.selected_graph.gfa, output from GetOrganelle</li>
 </ul>
 <pre class="bash"><code>#bash
-for file in *.p_ctg.gfa;
+for file in *.gfa;
 do
 ~/Bandage image $file $file.jpg;
 done</code></pre>
@@ -1976,7 +1972,7 @@ model_df &lt;- as.data.frame(rbind(model_GTR, model_GTRG, model_GTRIG))
 colnames(model_df) &lt;- c(&quot;uce&quot;, &quot;model&quot;)
 
 
-uce_original_location &lt;- &quot;/PATH/TO/taxon-set-all/mafft-nexus-trimmed-clean-100p/&quot;
+uce_original_location &lt;- &quot;/PATH/TO/taxon-set-all/mafft-nexus-trimmed-clean/&quot;
 uce_model_location &lt;- &quot;/PATH/TO/astral_raxml/&quot;
 files &lt;- list.files(uce_original_location)
 
@@ -2408,9 +2404,9 @@ concon.tre &gt; phyparts.concon.tre
 <li>*.svg: file containing your tree with pie charts at each node indicating:
 <ul>
 <li>Blue: concordant</li>
-<li>Green: the top alternative bipartition</li>
-<li>Red: all other alternative bipartitions</li>
-<li>Black: uninformative for that node</li>
+<li>Yellow: the top alternative bipartition</li>
+<li>Orange: all other alternative bipartitions</li>
+<li>Grey: uninformative for that node</li>
 </ul></li>
 </ul>
 <div class="figure"><span style="display:block;" id="fig:phyparts"></span>
@@ -2490,7 +2486,7 @@ Pkg.add(&quot;Gadfly&quot;)
 Pkg.add(&quot;Plots&quot;)</code></pre>
 <p><strong>INPUT</strong></p>
 <ul>
-<li>Astral_lpp.tre: species tree (output from Astral)</li>
+<li>Astral_best.tre: species tree (output from Astral)</li>
 <li>concat_best.tre: concatenated gene tree matrix (output from Astral)</li>
 <li>bs-files: folder with all bootstrap files (output from Astral)</li>
 </ul>
@@ -2643,10 +2639,10 @@ singularity exec -e ~/TransDecoder/transdecoder.v5.7.1.simg</code></pre>
 </ul>
 <pre class="bash"><code>#bash
 #extract the long open reading frames
-TransDecoder.LongOrfs -t assembled_transctipts.fasta --output_dir output
+TransDecoder.LongOrfs -t assembled_transcripts.fasta --output_dir output
 
 #predict the likely coding regions
-TransDecoder.Predict -t assembled_transctipts.fasta --output_dir output </code></pre>
+TransDecoder.Predict -t assembled_transcripts.fasta --output_dir output </code></pre>
 <p><strong>OUTPUT</strong></p>
 <ul>
 <li>*.fasta.transdecoder.pep: peptide sequences for the final candidate ORFs; all shorter candidates within longer ORFs were removed.</li>

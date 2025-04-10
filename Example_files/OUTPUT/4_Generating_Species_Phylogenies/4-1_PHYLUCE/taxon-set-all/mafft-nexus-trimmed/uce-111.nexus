@@ -1,0 +1,122 @@
+#NEXUS
+begin data;
+dimensions ntax=4 nchar=1573;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-111_Famatinanthus_sp'         CAATGACGGACTCGGCGACGGCCCTGCCGCCATCCCAAGCTGGAAATCAAATGGCACCGTGGAGCTAGTG
+'uce-111_Gongylolepis_benthamania' CGACGACGGACTCGGAGACGGCCCCGCCGTCATCCCAAGCTGGAAATCAAACGGCACGGTGGAGCTAGTG
+'uce-111_Nastanthus_patagonicus'   ??????????????????????????????????????????????????????????????????????
+'uce-111_Scaveola_tomentosa'       CGACGACGGGCCAGGCGACGGTCGTGCCGCCATCCCAAGCTGGAAATCAGACGGCACCGTCGAGATCGTC
+
+'uce-111_Famatinanthus_sp'         GCCTCGGGTCAAAAACAAGGTGGGATGATCCTCATTGTACCGGAAGGTAGACACGCTGTGAGACTCGGCA
+'uce-111_Gongylolepis_benthamania' GCCTCAGGGCAGAAACAAGGTGGGATGATCCTCATCGTACCGGAAGGTAGACACGCGGTGAGACTCGGCA
+'uce-111_Nastanthus_patagonicus'   ??????????????????????????????????????????????????????????????????????
+'uce-111_Scaveola_tomentosa'       GCCTCCGGGAAAAAACAAGGCGGGATGATCCTCATCGTACCGGAAGGTAGACACGCGGCGAGACTCGGCA
+
+'uce-111_Famatinanthus_sp'         ACGATGCTCAGATCAGCCAAGACGTGAAGGTGGAAAAGGGCGAGATCTACTCCATCACGTTCAGCGCGTC
+'uce-111_Gongylolepis_benthamania' ACGACGCTCAGATCAGCCAAGACGTGAAGGTGGAAAAGGGCGAGATCTACTCCATCACGTTTAGCGCCGC
+'uce-111_Nastanthus_patagonicus'   ??????????????????????????????????????????????????????????????????????
+'uce-111_Scaveola_tomentosa'       ACGACGCTCAGATCAGCCAAGACGTGAAATTGGAGAAAGGCGAAATCTACTCGATCACGTTTAGTGCGGC
+
+'uce-111_Famatinanthus_sp'         TCGCACGTGCGCCCAGCTAGAGTCACTCAACGTGTCTGTTCCGCCGGCGTCACAGACTATTGATCTACAG
+'uce-111_Gongylolepis_benthamania' TCGCACCTGCGCCCAGCTAGAGTCGCTCAACGTGTCTGTTCCGCCAGCGTCACAGACCATTGATCTACAG
+'uce-111_Nastanthus_patagonicus'   ??????????????????????????????????????????????????????????????ATCTTCAG
+'uce-111_Scaveola_tomentosa'       TCGCACCTGCGCCCAGCTAGAGTCACTCAACGTCTCCGTTCCGCCGGCGTCACAGACCATTGATTTGCAG
+
+'uce-111_Famatinanthus_sp'         ACGCTGTACAGCGTCCAAGGGTGGGATACGTACGCGTGGGCTTTTCGGGCGGAGGAGGAAGACGCGCATG
+'uce-111_Gongylolepis_benthamania' ACGCTCTACAGCGTCCAAGGGTGGGATACGTACGCGTGGGCTTTTCAGGCGGAGGAAGAAGACGCCCATG
+'uce-111_Nastanthus_patagonicus'   ACGCTGTATAGTGTGCAGGGGTGGGATACGTACGCGTGGGCCTTTCAGGCGGAGGAGGAAGACGCGCGTG
+'uce-111_Scaveola_tomentosa'       ACGCTGTATAGCGTCCAGGGGTGGGATACGTACGCGTGGGCCTTTCAGGCGGAGGAGGACGATGGGCGCG
+
+'uce-111_Famatinanthus_sp'         TCGTTTTTACGAATCCTGGCATGGAAGACGACCCCACGTGTGGGCCCATCATCGATGATATTGCTATTAA
+'uce-111_Gongylolepis_benthamania' TCGTTTTTACAAATCCTGGCATGGAAGATGACCCCACATGTGGGCCCATCATTGATGACATTGCTATTAA
+'uce-111_Nastanthus_patagonicus'   TCGTTTTTACGAATCCGGGCATGGAGGATGACCCGACTTGTGGGCCCATTATTGATGATATTGCTATTAA
+'uce-111_Scaveola_tomentosa'       TCGTTTTTACGAATCCGGGGATGGAAGATGACCCCACTTGTGGGCCCATCATTGATGACATTGCTATCAA
+
+'uce-111_Famatinanthus_sp'         AAAGCTTTTTGTACCAGTAAAGCCAAAAGGTTCGATTTCTTTTATTTTATTATTA------------TTT
+'uce-111_Gongylolepis_benthamania' AAAGCTTTTCGTACCAGTAAAGCCCAAAGGTTTGATTTCTTTGTTTTTTATTTTA-------------TT
+'uce-111_Nastanthus_patagonicus'   AAAGCTCTTTGTACCACAGAAGTCAAAAGGTTTGACTCCTTTTCTTTCCTTTTTA------------TTT
+'uce-111_Scaveola_tomentosa'       AAAGCTTTTCGTACCGGAAAAGTCTAAAGGTTTGATTTTTTTTAGTCCATCTTTATATATTTTTGATTTT
+
+'uce-111_Famatinanthus_sp'         TCCATGAAATTG------------------CATTTTTTCCCTTTTTCCTATTTTGATAC-----------
+'uce-111_Gongylolepis_benthamania' TTGGCAAAACTGATTAAAAGGTGAATATATTTTTCTTCTCCTATTTTTTATTTAGTTATTTAAAAAAAAT
+'uce-111_Nastanthus_patagonicus'   TCGGCGAATATGAGAAAC----------------------------------------------------
+'uce-111_Scaveola_tomentosa'       CCATCGCAAGTAATTAAC--------TTTTAATTTTTTAAATTCAGATTATTACATTATTTTTTGAAAAT
+
+'uce-111_Famatinanthus_sp'         ----------------------------------------------------------------------
+'uce-111_Gongylolepis_benthamania' TATTAGTTATATATTTATATTATGATAGTCATGTAAGTTATATC--------------AATTTTTTTTCT
+'uce-111_Nastanthus_patagonicus'   ----------------------------------------------------------------------
+'uce-111_Scaveola_tomentosa'       AAAT---------------TTACAGTGTTTTTGAAAGATACATCGTAAAATGGGTGTTAGATATTTGCAT
+
+'uce-111_Famatinanthus_sp'         -ATCTCTGATAATTTTTTTGAAA-----------------------------------------------
+'uce-111_Gongylolepis_benthamania' AATTTTAAATAAATTATTTAAAATAAATAA----------------------------------------
+'uce-111_Nastanthus_patagonicus'   ------------TTTTTTCAAAA-----------------------------------------------
+'uce-111_Scaveola_tomentosa'       ACCATTTATTGATTTTTGCATATGAAATGATACTGAAAAACAGTTATACCGTTAATGTTGTGGGTTTTTG
+
+'uce-111_Famatinanthus_sp'         ----------------------------------------------------------------------
+'uce-111_Gongylolepis_benthamania' ----TTAATAACAATTAAAATAATTAACAAATTTTTTTTTTCATTCTCTTG-------------------
+'uce-111_Nastanthus_patagonicus'   ----------------------------------------------------------------------
+'uce-111_Scaveola_tomentosa'       TTGTTCAACCATAAGTAAAATAAGAACATAGTTGTCATTCACAACTATTTGGTGCGCAAGAATAAACATT
+
+'uce-111_Famatinanthus_sp'         ----------------------------------------------------------------------
+'uce-111_Gongylolepis_benthamania' ------TTAATTTTCTTTTATTTTCTGCATTTTTTTTCAATTTTTAATTTTTAGAAAACATGGGATGAAG
+'uce-111_Nastanthus_patagonicus'   ----------------------------------------------------------------ATAAAA
+'uce-111_Scaveola_tomentosa'       GGATGTGTAAATATCACCACCTTATAACATTATAAGGAAGGTAATATGATGTTAAAAACAT---ATAAAA
+
+'uce-111_Famatinanthus_sp'         ----------------------------------------ATTATCGTGAGGAAGTCCCAATCA------
+'uce-111_Gongylolepis_benthamania' CTTTTGGCCCTCGTCTTTCATGCACCCACGTAATTCAATTGTTAGTACGAAGACGAGCTATTTGAGTTAA
+'uce-111_Nastanthus_patagonicus'   ----------------------------------------------------------------------
+'uce-111_Scaveola_tomentosa'       ATTT----------------------CATGAAACATTGTTTTCAAAACAAAAAAGAAAAAGAAAAAAGAA
+
+'uce-111_Famatinanthus_sp'         --------------------TTTTAATTATGTCAAATTTAAACTAA------------------------
+'uce-111_Gongylolepis_benthamania' GGA---------------ACTTAAAATTATGTTAAATTTAAACTAA------------------------
+'uce-111_Nastanthus_patagonicus'   ----------------------------TTGATAAATTGGTATTAAG-----------------------
+'uce-111_Scaveola_tomentosa'       AAAAGAATTTCATGAAACATTTGAAAACTCGAAGAATTGAAGTTGACTTTCAAGATTTGGAACTGCTAGA
+
+'uce-111_Famatinanthus_sp'         ----------ATTTATTTATTTGTTGTCATCGTTACAGATAATGCAGTATTGAATGGAGATTTTGAAGAA
+'uce-111_Gongylolepis_benthamania' ------AGTTAATTATTTGTTTATTATCATCATTGCAGATAACGCGGTACTGAATGGAGATTTTGAAGAA
+'uce-111_Nastanthus_patagonicus'   ------AGTTAATTTT??????????????????????????????????????????????????????
+'uce-111_Scaveola_tomentosa'       ATGATTTGCCAATTTTTTCTTGAAAATTTTGTATACAGATAATGCAGTTCTGAATGGAGATTTTGAAGAA
+
+'uce-111_Famatinanthus_sp'         GGCCCATGGATGTTTAGAAATGCTTCTCTAGGAGTCCTGCTCCCAACCAACCTCGACGAAGAAACTTCGT
+'uce-111_Gongylolepis_benthamania' GGCCCATGGATGTTTAGAAATGCTTCTCTAGGAGTTCTACTCCCAACCAACCTTGACGAAGAAACTTCGT
+'uce-111_Nastanthus_patagonicus'   ??????????????????????????????????????????????????????????????????????
+'uce-111_Scaveola_tomentosa'       GGTCCCTGGATGTTTAGAAATGCTTCTTTAGGAGTCCTGCTTCCAACGAACCTCGATGAAGAAACTTCAT
+
+'uce-111_Famatinanthus_sp'         CGTTGCCCGGTTGGATAGTCGAGTCTAACCGGGCGGTCCGTTACATCGACTCCTACCACTTCTCCGTTCC
+'uce-111_Gongylolepis_benthamania' CGTTGCCAGGTTGGATAGTCGAGTCTAACCGGGCAGTTCGTTACATTGACTCCTACCACTTCTCTGTTCC
+'uce-111_Nastanthus_patagonicus'   ??????????????????????????????????????????????????????????????????????
+'uce-111_Scaveola_tomentosa'       CCCTGCCCGGTTGGATAGTCGAATCAAACAGGGCGGTCCGTTACATCGATTCCTACCACTTCACGGTTCC
+
+'uce-111_Famatinanthus_sp'         GGGGGGCAAACGTGCCCTCGAATTGCTTTCCGGGAAAGAAGGCATAATCTCCCAAATGGTTGCAACCGCT
+'uce-111_Gongylolepis_benthamania' GGGTGGAAAACGTGCCCTCGAATTGCTTTCGGGTAAAGAAGGCATAATCTCACAAATGGTTCCAACCACT
+'uce-111_Nastanthus_patagonicus'   ??????????????????????????????????????????????????????????????????????
+'uce-111_Scaveola_tomentosa'       GGGAGGTAAACGTGCTGTGGAATTGCTTTCAGGAAAGGAAGGCATAATCTCCCAGATGGTTCAAACTACC
+
+'uce-111_Famatinanthus_sp'         CCAAACAAGCCCTACAGAATGACATTCTCGCTAGGCCATGCCAGAGACTCGTGCAAACAACCGCTGGCGG
+'uce-111_Gongylolepis_benthamania' CCGAACAAGCCTTACAGAATGACATTCTCACTAGGCCACGCCGGAGACTCGTGCAAGCAACCGCTAGCAG
+'uce-111_Nastanthus_patagonicus'   ??????????????????????????????????????????????????????????????????????
+'uce-111_Scaveola_tomentosa'       CCGAACAAGCCTTACAGGATGACATTCTCGTTAGGCCATGCTGGAGACTCGTGCAAGCAGCCGCTAGCAG
+
+'uce-111_Famatinanthus_sp'         TCATGGCCTTCGCAGGGGACCAAGCTGAAAACGTACATTATACACCCAATGCAAATTCCACGTTCCAAAC
+'uce-111_Gongylolepis_benthamania' TCATGGCCTTTGCAGGGGACCAAGCGGAAAACGTGCATTATACACCCAATGCTAATTCCACATTCCAGAT
+'uce-111_Nastanthus_patagonicus'   ??????????????????????????????????????????????????????????????????????
+'uce-111_Scaveola_tomentosa'       TTATGGCTTTCGCTGGAGACCAAGCTGAGAATGTGCATTACACTCCCAATGCCAATACAAGTTTCCAAAC
+
+'uce-111_Famatinanthus_sp'         AGCGGGTGTGAATTTCACGGCGAAGGCCGAGAGAACACGGGTGGCGTTCTATAGTGTGTATTATAAT--A
+'uce-111_Gongylolepis_benthamania' TGCGGGTGTGAATTTCACAGCTAAGGCTGAAAGGACACGAGTGGCGTTCTATAGTGTGTATTATAAC--A
+'uce-111_Nastanthus_patagonicus'   ??????????????????????????????????????????????????????????????????????
+'uce-111_Scaveola_tomentosa'       AGCTGATGTCAATTTCACGGCTAAGGCTGAGAGAACAAGAGTTGCTTTTTATAGTGTGTATTATAAC--A
+
+'uce-111_Famatinanthus_sp'         CTCGAAGCGACGATATGAGCTCTTTATGTGGACCGGTGGTGGACGATGTGAGGGTGGTTGTTTCTGGTGG
+'uce-111_Gongylolepis_benthamania' CTCGGAGCGATGACATGAGCTCGTTATGTGGACCGGTGGTGGACGATGTGAAGGTTGGGGTCTCCGGGGG
+'uce-111_Nastanthus_patagonicus'   ??????????????????????????????????????????????????????????????????????
+'uce-111_Scaveola_tomentosa'       TTCGGAGTGATGATATGAGCTCTCTTTGTGGACCGGTGGTGGATGATGTGAGGGTGGTGGTTGCAGCCGG
+
+'uce-111_Famatinanthus_sp'         TTTTAAAAGTTTAGGGTTTTCGGTTTTAAGGTT
+'uce-111_Gongylolepis_benthamania' TTTTCGAGGTTTAGGGATTTTGGTTTCGAGGTT
+'uce-111_Nastanthus_patagonicus'   ?????????????????????????????????
+'uce-111_Scaveola_tomentosa'       TGTTAGGAATTTAGGGTTTTCGGTTTTGAAGTT
+
+;
+end;

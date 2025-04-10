@@ -1,0 +1,13 @@
+2024-09-25 12:41:46,550 - phyluce_align_convert_one_align_to_another - INFO - ====== Starting phyluce_align_convert_one_align_to_another ======
+2024-09-25 12:41:46,550 - phyluce_align_convert_one_align_to_another - INFO - Version: 1.7.1
+2024-09-25 12:41:46,550 - phyluce_align_convert_one_align_to_another - INFO - Commit: None
+2024-09-25 12:41:46,550 - phyluce_align_convert_one_align_to_another - INFO - Argument --alignments: /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/mafft-nexus-trimmed-clean-100p
+2024-09-25 12:41:46,550 - phyluce_align_convert_one_align_to_another - INFO - Argument --cores: 1
+2024-09-25 12:41:46,550 - phyluce_align_convert_one_align_to_another - INFO - Argument --input_format: nexus
+2024-09-25 12:41:46,550 - phyluce_align_convert_one_align_to_another - INFO - Argument --log_path: /project/ermoore3/basalAsteraceae/barnadesioideae/log
+2024-09-25 12:41:46,550 - phyluce_align_convert_one_align_to_another - INFO - Argument --name_conf: None
+2024-09-25 12:41:46,550 - phyluce_align_convert_one_align_to_another - INFO - Argument --output: /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/mafft-fasta
+2024-09-25 12:41:46,550 - phyluce_align_convert_one_align_to_another - INFO - Argument --output_format: phylip-relaxed
+2024-09-25 12:41:46,550 - phyluce_align_convert_one_align_to_another - INFO - Argument --shorten_name: False
+2024-09-25 12:41:46,550 - phyluce_align_convert_one_align_to_another - INFO - Argument --verbosity: INFO
+2024-09-25 12:41:47,671 - phyluce_align_convert_one_align_to_another - INFO - ====== Completed phyluce_align_convert_one_align_to_another =====

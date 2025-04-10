@@ -1,0 +1,95 @@
+#NEXUS
+begin data;
+dimensions ntax=3 nchar=1479;
+format datatype=dna missing=? gap=- interleave;
+matrix
+Hyalis_argentea              TTCCGTTTTAAAAGTTCGGATAAAGGGTGCTGTCATTATGTAAGTTTGTATTGAATAAAGGGTAGAACTG
+Scaveola_tomentosa           TACCAGTAAGAAATCCAAAACAAAATGTTGTTTGGTTATTCATGCT--TTTTGAATAAGA----------
+Schlechtendalia_luzulaefolia ???TAGTGACGAAAACACAAACCATGATTGTT------TTCATGCC--GCTCGAAGA-------------
+
+Hyalis_argentea              TCGAAAACAC------TTGAGCTTACCGTAGTATTTGCTTGCAGGGGAGCAATTGGGCAGCCGCGATTGT
+Scaveola_tomentosa           -TGAATGCATCTTTTGCTTGCCTTACTGAATTTTTTTCTTTCAGGGGTGCAATTGGACAGCCACGATTAT
+Schlechtendalia_luzulaefolia ------GCGCAGTTTGTTATATGCATATATTTATTTACTTTCAGGGGTGCAATTGGGCAGCCGCGGTTAT
+
+Hyalis_argentea              TGGTCCCCGTTGCCTTGGTCATGGTCTATAACCGGTGGAACGGGTAAGCTTTTCCTTGCAGTGAATAGAA
+Scaveola_tomentosa           TGGTCCCTGTTGCCTTGGTCATGATCTATAACCGGTGGAATGGGTAAGCTTTTTTGC-------------
+Schlechtendalia_luzulaefolia TAGTCCCCGTCGCCTTAGTCATGATCTATAACCGTTGGAACGGGTAAGCTTGTTT---------------
+
+Hyalis_argentea              ACTATTGTCATTTCAACATAAACCCTATTAAGGGTATTTTAGTCATTTGACTTCTAGTAAGCAGTATG-A
+Scaveola_tomentosa           ------------------TAAAC-----------TGCTTTCACTATTTCACTAATCTTCAGGAATACTCT
+Schlechtendalia_luzulaefolia ------------------------------------CTTTTTCTTTTTTCCTTTTCTTGGATGAAGGT--
+
+Hyalis_argentea              AACGTTGT----AATTTTATGTTGCATTTAGTATGAGATAATCACACTGGAAA-TGAAATACACCATCAT
+Scaveola_tomentosa           ATTGTTACTCCAAATTTCATAATCCACTTG---------TGTCTTCTTAGAGAGTGTACTGTTCCAT--T
+Schlechtendalia_luzulaefolia ------------------GTTATACATTGG---------AAACATGTCGAAAA-----------------
+
+Hyalis_argentea              GATGGAATGGAAAAAAAACAT---------------ATGTTTAGTTGGCCGATGGGAATAGAATGAACTA
+Scaveola_tomentosa           TAAGAAAGAAAAAAAAAGTATCTGGATTTCAAAGCCATCCTTAGT---ACCATTCGAGTGGAACA-----
+Schlechtendalia_luzulaefolia TCAGAAACACAAAAAAAGT---------------------------------------------------
+
+Hyalis_argentea              TTTATTAAGGAATATGATTTTTTCAAAGAGAATGTTTTTTTTATTCCATCAAGGAATGAAATGAAAATTA
+Scaveola_tomentosa           -TTGTTATGAAATTCTGTTGATAACACAAAATTGTCCTATTAAT------AATAATTGCAGTGAAGGTTT
+Schlechtendalia_luzulaefolia --------------------------CAAAGTTG------------------------------------
+
+Hyalis_argentea              CTATATGTGTTATTAAATAATTAATTTTTAATTATACATTTCTCCCTATTTTTATATCTCTAAAAAATTT
+Scaveola_tomentosa           TCCGATATCATATTA-----------------------------------------------------TT
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Hyalis_argentea              CTAAACTTTTTAATTTAACGATACTTTATAAATTTCTAAAAAGGCTTAATAATATGTTTTATCA-----A
+Scaveola_tomentosa           CCCAACATGTTCCATTAATCACA------GCAGTTTTGAAATTGAATATTAACGCGTGATGTTACGAGGA
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Hyalis_argentea              CAATTGCTATATTTGAAATATTTTTTGTCTAAAAACCTATGTTTTTTTTATATAAACGTGGATATATTTT
+Scaveola_tomentosa           AAGTTGAGGGATCTG----ATCTTTTGT-----------GATTTTTCTTATAGA---------------C
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Hyalis_argentea              GTCATTATTATGTATATTTAATTCAATTACTGCATACCAAATATCATATTTCAATGATTTATTCCATTCA
+Scaveola_tomentosa           ATCTAAGACTTGCACATTTGGTGGTTCTGCTGCATGGTAATGGTCAAATTTTCGTTATCTTTATCATTCA
+Schlechtendalia_luzulaefolia GTTCTAAATTTTGACATTTTGTGG----------------------------------------------
+
+Hyalis_argentea              G-----------------ACATGCCAATCAAATATAA--TAATAGAATAGAATAAACGATTTCATTCCTT
+Scaveola_tomentosa           GTTAGTGATTAGTGACTTATTCGCTAGTTCACCCTAGATCACCCAAGGAGACTAGTAAAGATGGTTCTTT
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Hyalis_argentea              TACTCATTTCATTCTATCTCTCACTCCATTATCTTTTTATTCCATTTCGTCCAACCAAATGCATCATTTG
+Scaveola_tomentosa           CATCTGTGGCAATTCATCTTTAATATTGTCA--TTCTTGTGCCATTACTTC---------------TTCT
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Hyalis_argentea              TTGGATGTTTGCTGCATAAATCATGCGGTGTGTTATATTTTAATTTTCC---------------------
+Scaveola_tomentosa           TTTCATACTGGCTGTTTAGCTTGTTTAGTGCAAGGTAATTGTATCTTCCATTTACGTGACAAGAAGAATT
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Hyalis_argentea              ----GCTCTGCAGGATCGTGGTTCCTGAATACGGATTGATGCACCTAGAGTTAATTCCTATGCTAGTTGG
+Scaveola_tomentosa           TCCATTTATGCAGGATCCTAGTCCCTGATTACGGATTCATGCATCTAGAGTTGATACCAATGCTAGTAGG
+Schlechtendalia_luzulaefolia ----TCGGTGCAGGATCGTAGTTCCAGAATATGGGTTGATGCATCTGGAGTTGATACCGATGCTAGTGGG
+
+Hyalis_argentea              ATTTTTCACATACAAGATTGCCACTTTCGCCCAAACAATCGAAGACGCAATTGTCGTGGTCGGTAATGAT
+Scaveola_tomentosa           ATTTTTCACTTACAAGATTGCCACCTTTACCCAAGCAATTGAGGAGGCAATTACAGTATCCAGGAACGAT
+Schlechtendalia_luzulaefolia ATTTTTCACATACAAGATTGCAACCTTCACCCAAGCGATCGAGGAGGCCATTACAGTCGTGGGCAACGAT
+
+Hyalis_argentea              GCTCGACTCGACTAGGAGTCCAGGCCTACACGAACCAAGCCATTTTATGTAACATTTGGTCAGAGCTAAT
+Scaveola_tomentosa           GCTAAACTTGAGTAGGACTCTAACTCATTGCG----AAGCCGTTCTTTTCTGGAG---------------
+Schlechtendalia_luzulaefolia GCTCAAGTCGAGTAGGAC------------------GGGCTATATTTGGCTGTAC----ACATAGGATAA
+
+Hyalis_argentea              GGGAACTGGGTGCACCGTCACCGACACTTGGCCAGAGCCAACGGAAT-------CTGGTTCTCTGTTTGA
+Scaveola_tomentosa           ------TTGATTC-------------TCTTGGAATTGCGAGTCCAGTTTTCTAACTGCTGTTATCCTC--
+Schlechtendalia_luzulaefolia AATGATTTGGTTCACCCTTAACGCAAGCTCGAAGTTGCAGACCCATT--------GGCTGCTATTTCT--
+
+Hyalis_argentea              GACACCTCCAGGCTAAACCAAGACAGTTGAACTGAACCGATTTACCGATATGATATTATGG-------GC
+Scaveola_tomentosa           ----TCTCCAG--TAGAAAATCATCATCCAA--AGACGCATCCTCTGGTATAACATCAT-----------
+Schlechtendalia_luzulaefolia ----TCCCCAA---------------------------GGTTTACTGACTTGGTATTGTATTTAGTAAAG
+
+Hyalis_argentea              CAGTGTAATGGGGGAGGCTTTCGT-----TGAATGTATAGTGCACA--TTGCACAACTGACGGTTCGTAC
+Scaveola_tomentosa           -CATGCTAGGGTAAACATTTTCAT--GATTGAATTTATAGTAGAAACTTTACTCAATTGAGGTTTCTTTG
+Schlechtendalia_luzulaefolia ACATGGCAAGTCTGATACTGTAATTGGGATGAATGTATAGTGCACA-ATTAGGGTACCAAAGTTATGAGG
+
+Hyalis_argentea              AACTATCTATG---------CATATGTTA?????????????????????????????????????????
+Scaveola_tomentosa           TACCCTGTATAGTTAAAAACCATATTTTAGGTCCGTGTTTAAAAACGCGATCATATA-TAATGTAGTCTT
+Schlechtendalia_luzulaefolia TAAAAGGTTTG----------ATCTATTGA--------CAAAATACATGGATAGATACCACTGTCATCT-
+
+Hyalis_argentea              ?????????
+Scaveola_tomentosa           GGCCTTGTA
+Schlechtendalia_luzulaefolia ---CTTGTA
+
+;
+end;

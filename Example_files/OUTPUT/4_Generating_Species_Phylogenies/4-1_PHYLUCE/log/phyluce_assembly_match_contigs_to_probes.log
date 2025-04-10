@@ -1,0 +1,31 @@
+2024-09-25 12:35:13,767 - phyluce_assembly_match_contigs_to_probes - INFO - ======= Starting phyluce_assembly_match_contigs_to_probes =======
+2024-09-25 12:35:13,767 - phyluce_assembly_match_contigs_to_probes - INFO - Version: 1.7.1
+2024-09-25 12:35:13,767 - phyluce_assembly_match_contigs_to_probes - INFO - Commit: None
+2024-09-25 12:35:13,767 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --contigs: /project/ermoore3/basalAsteraceae/barnadesioideae/contigs
+2024-09-25 12:35:13,767 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --csv: None
+2024-09-25 12:35:13,767 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --dupefile: None
+2024-09-25 12:35:13,767 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --keep_duplicates: None
+2024-09-25 12:35:13,767 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --log_path: /project/ermoore3/basalAsteraceae/barnadesioideae/log
+2024-09-25 12:35:13,767 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --min_coverage: 80
+2024-09-25 12:35:13,767 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --min_identity: 80
+2024-09-25 12:35:13,767 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --output: /project/ermoore3/basalAsteraceae/barnadesioideae/output
+2024-09-25 12:35:13,767 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --probes: /project/ermoore3/basalAsteraceae/barnadesioideae/cos_probes.fasta
+2024-09-25 12:35:13,767 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --regex: ^(uce-\d+)(?:_p\d+.*)
+2024-09-25 12:35:13,767 - phyluce_assembly_match_contigs_to_probes - INFO - Argument --verbosity: INFO
+2024-09-25 12:35:13,992 - phyluce_assembly_match_contigs_to_probes - INFO - Creating the UCE-match database
+2024-09-25 12:35:14,136 - phyluce_assembly_match_contigs_to_probes - INFO - Processing contig data
+2024-09-25 12:35:14,136 - phyluce_assembly_match_contigs_to_probes - INFO - -----------------------------------------------------------------
+2024-09-25 12:35:26,195 - phyluce_assembly_match_contigs_to_probes - INFO - Barnadesia_arborea: 388 (9.39%) uniques of 4132 contigs, 0 dupe probe matches, 574 UCE loci removed for matching multiple contigs, 18 contigs removed for matching multiple UCE loci
+2024-09-25 12:35:29,985 - phyluce_assembly_match_contigs_to_probes - INFO - Chuquiraga_sp: 208 (7.19%) uniques of 2894 contigs, 0 dupe probe matches, 106 UCE loci removed for matching multiple contigs, 3 contigs removed for matching multiple UCE loci
+2024-09-25 12:35:48,543 - phyluce_assembly_match_contigs_to_probes - INFO - Dasyphyllum_reticulatum: 320 (3.60%) uniques of 8877 contigs, 0 dupe probe matches, 656 UCE loci removed for matching multiple contigs, 63 contigs removed for matching multiple UCE loci
+2024-09-25 12:36:11,050 - phyluce_assembly_match_contigs_to_probes - INFO - Famatinanthus_sp: 264 (1.27%) uniques of 20850 contigs, 0 dupe probe matches, 768 UCE loci removed for matching multiple contigs, 11 contigs removed for matching multiple UCE loci
+2024-09-25 12:36:26,801 - phyluce_assembly_match_contigs_to_probes - INFO - Fulcaldea_stuessyi: 398 (1.77%) uniques of 22437 contigs, 0 dupe probe matches, 384 UCE loci removed for matching multiple contigs, 9 contigs removed for matching multiple UCE loci
+2024-09-25 12:36:44,607 - phyluce_assembly_match_contigs_to_probes - INFO - Gongylolepis_benthamania: 368 (3.66%) uniques of 10048 contigs, 0 dupe probe matches, 650 UCE loci removed for matching multiple contigs, 24 contigs removed for matching multiple UCE loci
+2024-09-25 12:37:02,402 - phyluce_assembly_match_contigs_to_probes - INFO - Hyalis_argentea: 402 (3.90%) uniques of 10305 contigs, 0 dupe probe matches, 612 UCE loci removed for matching multiple contigs, 23 contigs removed for matching multiple UCE loci
+2024-09-25 12:37:12,852 - phyluce_assembly_match_contigs_to_probes - INFO - Nastanthus_patagonicus: 368 (3.25%) uniques of 11336 contigs, 0 dupe probe matches, 389 UCE loci removed for matching multiple contigs, 2 contigs removed for matching multiple UCE loci
+2024-09-25 12:37:41,787 - phyluce_assembly_match_contigs_to_probes - INFO - Scaveola_tomentosa: 532 (1.77%) uniques of 30119 contigs, 0 dupe probe matches, 414 UCE loci removed for matching multiple contigs, 8 contigs removed for matching multiple UCE loci
+2024-09-25 12:38:02,546 - phyluce_assembly_match_contigs_to_probes - INFO - Schlechtendalia_luzulaefolia: 325 (2.46%) uniques of 13212 contigs, 0 dupe probe matches, 626 UCE loci removed for matching multiple contigs, 58 contigs removed for matching multiple UCE loci
+2024-09-25 12:38:02,546 - phyluce_assembly_match_contigs_to_probes - INFO - -----------------------------------------------------------------
+2024-09-25 12:38:02,546 - phyluce_assembly_match_contigs_to_probes - INFO - The LASTZ alignments are in /project/ermoore3/basalAsteraceae/barnadesioideae/output
+2024-09-25 12:38:02,546 - phyluce_assembly_match_contigs_to_probes - INFO - The UCE match database is in /project/ermoore3/basalAsteraceae/barnadesioideae/output/probe.matches.sqlite
+2024-09-25 12:38:02,546 - phyluce_assembly_match_contigs_to_probes - INFO - ======= Completed phyluce_assembly_match_contigs_to_probes ======

@@ -1,0 +1,88 @@
+ 7 513
+Barnadesia_arborea        AGATATTTAG TTCAAAGG-- -------AGG ACAGCAACGG CGTAAAGAAA
+Famatinanthus_sp          AGATATTTAG CTCAAAAGAA GAAGAAAAGG AAGACAAGGA GGTGAAGAAA
+Fulcaldea_stuessyi        AGATATTTAG GTCAGAG--- ---------- ---------- ----AGAAAG
+Gongylolepis_benthamania  AGATATTCAG ATCAGAGG-- -------AGG AAGATAACAA GGTGAAGAAG
+Hyalis_argentea           AGATATTTAG CTCAAAGG-- -------AGG AAGATAACAA GGCAAAGAAA
+Nastanthus_patagonicus    ?????????? ?????????? ?????????? ?????????? ??????????
+Scaveola_tomentosa        AGATATTTAG CTCCAAGGAT GAAGAGAAGG GTGATGGGGA TGGAAAGAAA
+
+                          TCGAAAGGAG ATCAAGCCAA AGAGCTGCTA ACGAAATACG GAGGAGCTTA
+                          TCAAAAGGGG ATCAGGCCAA AGAGCTGTTG ACAAAATATG GAGGAGCTTA
+                          TGGAAAGGGG AAGAAGCTAA AGAGCTGTTA ACGAAATATG GAGGAGCTTA
+                          TCGAAAGGGG ATCAAGCAAA AGAGCTCTTG ACCAAATATG GAGGAGCTTA
+                          TCAAAAGGGG ATCAAGCCAA AGAGCTGTTG ACTAAATATG GAGGAGCTTA
+                          ?????????? ?????????? ?????????? ?????????? ??????????
+                          TCGAAAGGGG ATCAAGCCAA AGAGCTCTTG GCAAAATATG GAGGAGCTTA
+
+                          CCTTGCCACC TCCATCACTC TCTCCTTAAT CTCCTTCTCC CTTTGCTACG
+                          TCTGGCCACT TCCATCACTC TCTCCTTGAT CTCCTTCTCC CTCTGCTATG
+                          TGTAGCCACC TCTGTCACTC TCTCCCTGCT CTCCTTCTCC CTTTGCTATG
+                          TCTAGCCACC TCAATCACTC TCTCCTTGAT TTCCTTCTCC CTTTGCTATG
+                          TCTGGCCACC TCCATCACTC TCTCCTTGAT TTCTTTCTCC CTCTGCTATG
+                          ?????????? ?????????? ?????????? ?????????? ??????????
+                          TCTAGCAACC TCCATTACTC TCTCCATCAT CTCCTTCTCC CTCTGCTATT
+
+                          CCCTCATTAG TGCCGGCGTC GATATCCAAG CATTGCTTCA CAAGGTATAA
+                          CCCTCATTAG CGCTGGTGTT GATGTCCAAG CATTGCTACA AAAGGTAACA
+                          CTCTCGTTAC TGCTGGCGTT GATATCCAAA CATTGCTACA AAAGGTAA--
+                          CCCTCGTTAG CGCCGGTGTC GACATCCAAG CACTGCTACA GAAGGTAATA
+                          CCCTCATTAG TGTTGGTGTC GATGTCCAAG CATTGCTACA GAAGGTAA--
+                          ?????????? ?????????? ?????????? ?????????? ??????????
+                          TACTCATAAG TGCTGGCGTT GACGTCCAAG CGTTGTTACA AAAGGTAA--
+
+                          TCCCTCGTTT AACGTTTCCG TTTTTTGAAT TTAACACAAT CAATAATACG
+                          CATTGCTCAA AATGAGTACA TTA-TCGCAT TTGTTGATCC CATAAGCAAG
+                          ---------- ---------- ----ATATCC CTCTTTAGTA GACTATCACG
+                          C--------- ---------- ----ATTCAT TCATCACTCC CACGGGCAAA
+                          ---------- ---------- ----ATGCAT TCGTCATTCC CACAAGCAAG
+                          ??AAT----- ---------- ----AAACAT CTTTTTTTTT AAAGATCGCA
+                          ---------- ---------- ---------- -CTGCAGTCT TGTAAGTATG
+
+                          CCGTG----- ---------- ---------- ----TGTGTA TACAAAAATC
+                          CCTCCTCTCG GTGCACCCAA TAGACCCTAT GTGTTGGCAG AGCTGCAATC
+                          ATGAC----- ---------- ---------- ---------- ----------
+                          A--------- ---------- ---------- ---------- ----------
+                          CCTT------ ---------- ---------- ---------- ----------
+                          C--------- ---------- ---------- ---------- ----GGAACC
+                          T--------- ---------- ---------- --------AA GACGAGAATT
+
+                          ATAGAATGTA AGACTCGTGT TCCATGTG-- ---------- --TTTGTAGG
+                          GTTGAATGCA AGAAACTCAA GTTGTGTTTT TAC-TGGATT GTTTTGTAGG
+                          ----AACTCC AAAATCATAT TTTTCCTA-- ---------- --CTTGTAGG
+                          ----AATGCT AGAAACTCAT GTTGTATA-- --------CT TGTTTGTAGG
+                          -TGGCATGCA AGAAGCTCAT GTTGTATGTT TTTGCTGGCT TGTTTGTAGG
+                          ATCGAATTCA AGATACTGAT GTTTCACATG TTT---GAGT GGTTTATAGG
+                          ATTGAACGGG AGATGCTCAT TTTTCATGGT ATT----ACT GTCTTGTAGG
+
+                          TGGGAATTTC AACCGATGAA ACTGGAGAAA AAGTTGGGAC GTTTGCGTTG
+                          TGGGAATTTC GGCTAATGAA ACTGGAGAAA AAGTGGGGAC TTTTGCATTG
+                          TGGAAATTTC AGCCGATGTA ACTGGAGAAA AAGTGGGGAC TTTTGCATTG
+                          TGGGAATTTC AGCTAATGAA ACTGGGGAAA AAGTGGGCAC TTTTGCGTTG
+                          TTGGAATTTC AGCTAGTGAA ACTGGAGAAA AAGTGGGAAC TTTTGCATTG
+                          TGGGAATTTC AGCAAATGAA ACTGGAGAAA AAGTGGGGAC TTTTGCATTG
+                          TGGGGATTTC GGCTAATGAG ACTGGAGAAA AAGTTGGGAC TTTTGCTTTG
+
+                          GCGTATGCTG CACATAAAGC TGCATCACCG ATAAGGTTCC CTCCTACTGT
+                          GCATATGCTG CACATAAAGC TGCATCACCT ATAAGATTTC CACCTACTGT
+                          GCATATGCTG CACATAAAGC TGCGTCACCC ATAAGATTCC C-CCTACTAT
+                          GCATATGCTG CACATAAGGC TGCATCACCC ATAAGGTTTC CACCTACTGT
+                          GCATATGCTG CACATAAAGC TGCGTCACCG ATCAGGTTTC CACCTACTGT
+                          GCATATGCTG CACATAAAGC TGCATCACCA ATAAGATTTC CACCAACTGT
+                          GCGTATGCTG CACACAAAGC TGCATCACCG ATAAGATTTC CTCCTACGGT
+
+                          AGCCCTCACT CCGATTGTTG CTAGTTGGAT AGGAAAGAAT GTCGATAAAG
+                          AGCCCTCACT CCCATCGTTG CTAGTTGGAT AGGAAAGAAA GTTGATAAGG
+                          AGCCCTCACT GCAATCATTG CTAGTTGGAT GGGAAAGAAT GTCAATAAGG
+                          AGCGCTTACA CCCATCGTTG CTAGCTGGAT AGGAAAGAAA GTCGAAAAAG
+                          AGCACTCACT CCTATCGTTG CTAGTTGGAT TGGAAAGAAA GTTGATAAAG
+                          AGCTCTCACT CCCATTGTTG CTACTTGGAT AGGAAAGAAA GTTAATAAAG
+                          AGCTCTTACT CCAATTGTTG CCAGTTGGAT AGGAAAGAAG GTTGGTAAAG
+
+                          ATAACTAGG? ???
+                          ATAACTAGGT TCT
+                          ATAACTAGAT ???
+                          ATAACTAGCT TCT
+                          ATGACTGACT TCT
+                          ATAACTAGCC TCT
+                          AAAACTAGGT TTT

@@ -1,0 +1,11 @@
+EDGE	database	loci	loci_gene_sequential	loci_sequential	details
+22570	embplant_mt;embplant_pt	rrnS;rrn16	rrn16>>rrnS	rrn16>>rrnS	rrn16(1-347,embplant_pt)>>rrnS(109-283,embplant_mt)
+339636	embplant_pt	rrn16	rrn16	rrn16	rrn16(128-278,embplant_pt)
+341272	embplant_pt	rrn23	rrn23	rrn23	rrn23(1-241,embplant_pt)
+345774	embplant_pt	rps12_2	rps12_2	rps12_2	rps12_2(33-544,embplant_pt)
+354082	embplant_mt;embplant_pt	rrnS;rrn16	rrn16>>rrnS	rrn16>>rrnS	rrn16(1-476,embplant_pt)>>rrnS(1-228,embplant_mt)
+355300	embplant_pt	rpl2,rpl23	rpl23>>rpl2	rpl23>>rpl2	rpl23(1-86,embplant_pt)>>rpl2(107-396,embplant_pt)
+359088	embplant_pt	ycf2	ycf2	ycf2	ycf2(1-237,embplant_pt)
+361146	embplant_pt	rrn23	rrn23	rrn23	rrn23(1-344,embplant_pt)
+362630	embplant_pt	rrn23	rrn23	rrn23	rrn23(23-145,embplant_pt)
+44476	embplant_pt	atpI	atpI	atpI	atpI(1-337,embplant_pt)

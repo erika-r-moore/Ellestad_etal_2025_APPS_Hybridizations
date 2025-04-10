@@ -1,0 +1,112 @@
+#NEXUS
+begin data;
+dimensions ntax=4 nchar=1469;
+format datatype=dna missing=? gap=- interleave;
+matrix
+Chuquiraga_sp          ??????????????????????????????????????????????????????????????????????
+Hyalis_argentea        ACATAGTATGTCATATGCAGATATCTAAAGAACATGGTGGAATCATGAGATTCATACAAGTTTCTTGCTT
+Nastanthus_patagonicus ACATAGTGTTCCATATGCAGCTATCCAAAGAACATGGTGGAATTATGAGGTTTATACAAATTTCTTGCTT
+Scaveola_tomentosa     ACAGAGCATTCCTTATGCAGATATCGAAAGAACATGGTGGAATTATGAGATTCATACAAGTTTCGTGCTT
+
+Chuquiraga_sp          ??????????????????????????????????????????????????????????????????????
+Hyalis_argentea        AGGAGCCTCTCAATCATCTCCATCCAGAATGCTCAGAGCTAAAGCTGCTGCAGAGGAAGCTATTTTGCGT
+Nastanthus_patagonicus AGGAGCCTCTCAATCATCTCCATCCAGAATGCTCAAAGCTAAAGCTGCCGCGGAGGAAGCTATCTTGCAT
+Scaveola_tomentosa     AGGAGCCTCACAATCATCTCCATCTAAAATGCTTAGAGCTAAAGCTGCTGCTGAGGAAGCGATATTACAA
+
+Chuquiraga_sp          ??????????????????????????????????????????????????????????????????????
+Hyalis_argentea        GAACTGCCTGAGGTGATTCTCATATTTGATTTGTGGAATAATGACCTGACCCTTTTTTTCCATGACTCTA
+Nastanthus_patagonicus CAAGTGCCTGAGGTGATTTGCATATGTAATTTGTGTAATTAAAG--------AATTTTTCCTTGA--CTG
+Scaveola_tomentosa     GAATTGCCTGAGGTGAATAACATCTTAGATTTGCATAAGGAAAG------AAATTTCTTCTGTGA-----
+
+Chuquiraga_sp          ??????????????????????????????????????????????????????????????????????
+Hyalis_argentea        CTGGGTGGCTGAACTTCT----CTTTGGAGTTCTTTTCCATCTTCTAAGAGTTATAAGTACTCTGAATTT
+Nastanthus_patagonicus CTGGTCAACTGAACTTGTGTAATTAAGGAATTTTTCATTAATTTAAGATGTTTTTAGATA----------
+Scaveola_tomentosa     CTGGTTGAGTGAACTT------------------------------------------------------
+
+Chuquiraga_sp          ??????????????????????????????????????????????????????????????????????
+Hyalis_argentea        ACTAGATTTGCTATAATCAGGTTAAAATTTTTCCAAGTCTACAAGACTGTACTTCTATTATGCTTTAAGG
+Nastanthus_patagonicus ----------GTAAAGTTATGATAAAAGTAAACAAACTCTAGA------TATCACCATAACAT----AAA
+Scaveola_tomentosa     ----------------------------------------------------------------------
+
+Chuquiraga_sp          ??????????????????????????????????????????????????????????????????????
+Hyalis_argentea        TCTGTTGAGATGTACTTGCTTGTATGGACTAGTGGCGCTGGATAAAAACGAGGGATCATTGGCATTTCCA
+Nastanthus_patagonicus TATGATGAGGTACTTTTTTGAAAAAAGGCAAATGGGGGAGG-----------------------------
+Scaveola_tomentosa     ---------------------------------------------------------ACTGGTCTTTGCA
+
+Chuquiraga_sp          ??????????????????????????????????????????????????????????????????????
+Hyalis_argentea        TTAATTTAAGGCATTTTTAGCAGTTTTGCAAAGTATAGTCATCAAACATACTTGCACAACTTATCTTAGC
+Nastanthus_patagonicus --------AAGTTTTTTGAACAAACT--CTAGATATCACCATCAA----------ATTAAACATTTCATC
+Scaveola_tomentosa     TCAAATATAAGTTCTTTAACCAAACT------GTATGACAGTCTA------------AATCTATTAGACC
+
+Chuquiraga_sp          ?????????TGAGACATTCG--TATCTATGCTTG-------------AACTATAAGCTTAGTAGTATTCT
+Hyalis_argentea        AGACATATATGAGACATCTAG-TGCACATGCTTAAGCTAAGTGGTTAAACTATAAACCGAGCAGTATTCT
+Nastanthus_patagonicus GTAAAATGATGAGACATTTAATTCCCCATGCTTAAACTAA----TTGAACTA-AAGATAGGTTGTATTCT
+Scaveola_tomentosa     AAAAACAGATGTGAAAGCACGACAGAAATGCATAAAT-----------------------------TCTT
+
+Chuquiraga_sp          ACAATAATTTAGAA------CTAATGGTTTGCTTGTCTTTAGGCCACGATACTGAGACCTGCTGTGATGG
+Hyalis_argentea        GCAGTCACTAGGAA------CTAATAACTTGCTTGTCTTCAGGCCACGATATTGAGACCTGCAGTGATGA
+Nastanthus_patagonicus TCGATCATTGAAAA------CTAACAATATCCTCGTTTTCAGGCCACAATCTTGAGACCTGCAGTGATGA
+Scaveola_tomentosa     TGAACAATTGAGAATGACATCTAATAATTTGCTCATCTTTAGGCGACAATACTGAGACCTGCAGTGATGG
+
+Chuquiraga_sp          TTGGTACAGAAGATCGGATTTTGAATCCATGGGCTCACTTCACAAAAAAATACAACTTTCTTCCGCTTGT
+Hyalis_argentea        TAGGTACAGAAGATCGGATTTTGAATCCATGGGCTCAATTTGCAAAAAAATATAACTTCCTTCCACTTAT
+Nastanthus_patagonicus TTGGTACAGAAGATCGAATTTTGAATCCATGGGCACACTTTGCAAAGAAATATAACTTTCTTCCACTTAT
+Scaveola_tomentosa     TTGGAACAGAAGATCGGATTCTGAATGCATGGGCACAGTTCGTCAAAAAATATAACTTCCTTCCACTAGT
+
+Chuquiraga_sp          TGGAAGTGGAACTACCAAGTATGACTTACTTTTCATCCCGTT--AACTTTTCAATTTAACTATTAAACAT
+Hyalis_argentea        TGGGGATGGATCTACCAAGTATGACTTAATTCT-------------------------------AAATTT
+Nastanthus_patagonicus AGGGGATGGTTCTATCAAGTATGGCTTTATTTTCGTCCCATCAAAATCTTTCATTTTAACT---CAATGT
+Scaveola_tomentosa     TGGAGGTGGATCTACCAAGTATGGCTTAAATATGTTCCCACT--AAACTTTTCATTTGACTGTAACATGC
+
+Chuquiraga_sp          GAATGGTATCAGCATTAACCTGTTGCTCTGTTTTTTTATTGG-------------------------GGG
+Hyalis_argentea        AAATGTTAACAAATTAAA-----------GTTGATTAACTAT----------------------------
+Nastanthus_patagonicus GAAAGCTACCAGCTTTATTGCATTGCTCCGATTATCTATTACTCGCCCCAAAAAAAGAGTCCAATTTTGA
+Scaveola_tomentosa     GAAAGATACCAAC-----------------TTGTTTGATTGC----------------------------
+
+Chuquiraga_sp          TTTTTCA-----------GTTATATACCAAAAACAGAAT--------ATATTTACA------------AA
+Hyalis_argentea        -TTCTCA---------------------------------------------------------------
+Nastanthus_patagonicus CTTTTCATGGCCAAACCTAGTATTTATCAACTCCAAAATTACCATTGTTGTTTTCATTTTTTAGCTCCAA
+Scaveola_tomentosa     ----------------------------------------------------------------------
+
+Chuquiraga_sp          ATATGTCC-------TGTGTATTGATATACAACTGATATACAGTAATATAAAATTGATATACAACTGATA
+Hyalis_argentea        ----------------------------------------------------------------------
+Nastanthus_patagonicus ATATGATTATTTCAATACGTTTTAGTATATAACATACTTAT-------CAATCTTTTTCAACAACCAAAA
+Scaveola_tomentosa     ----------------------------------------------------------------------
+
+Chuquiraga_sp          CACAATTTAACTATATTTTGTAATTATTTTTTATAAAGTGACTATGAGTGTAATTTT-------------
+Hyalis_argentea        ----------------------------------------------------------------------
+Nastanthus_patagonicus CCCAATTATGTCAAATTTGAAAATAA--------------ATTATATTTACAACTTTGACACTCAAAAAT
+Scaveola_tomentosa     ----------------------------------------------------------------------
+
+Chuquiraga_sp          ----------CCCTTTTTTTA-------------TTTGGAACTCTTGGTAAATATTTTTATTAAAAATTT
+Hyalis_argentea        ---------------------------------------AACCCTTGGTAAATATTTGT-----------
+Nastanthus_patagonicus CAAACGTGGACTCTTTTTTTGGGACGAATGGAGTATCATAAAACTTGGTCAATGCTTATATC-ACAATTT
+Scaveola_tomentosa     ----------------------------------------------------------------AAATGG
+
+Chuquiraga_sp          ATGTTTACAGAATTCAACCAGTGTATGTTGCCGACGTTGCTTCCGCTGTTGTTGCCGCCTTGAAAGATGA
+Hyalis_argentea        -TGTTTACAGAATTCAACCTGTATATGTTGCTGATGTTGCCTCTGCTGTTGTTGCTGCCTTGAAAGACGA
+Nastanthus_patagonicus TTTTTTCCAGGATTCAACCTGTTTATGTTGCTGATGTTGCTTCTGCTGTTATTGCGGCCTTGAAAGATGA
+Scaveola_tomentosa     ATTTTTACAGAATCCAACCTGTGTATGTTGCTGATATCGCTTCTGCTGTTGTTGCGGCTTTGAAAGATGA
+
+Chuquiraga_sp          CGGTAGCAGCATGGGAAAAGTGTATGAACTTGGTGGGCCAGATATCTATACTTTACGTCAATTGGTATCT
+Hyalis_argentea        TGGTAGCAGCATGGGAAAGCTATATGAACTTGGTGGGCCAGATATCTATACAGTTCATGAATTGGTAATT
+Nastanthus_patagonicus TGGTAGCAGCATGGGAAAAGTATATGAACTTGGTGGGCCAGATAT?????????????????????????
+Scaveola_tomentosa     TGGTAGCAGCATGGGAAAAGTATATGAACTTGGTGGACCAGATATCTATACATTGCATCAACTGGTGATT
+
+Chuquiraga_sp          TTTACCCTCTTTCT-------TGCTTCTATATTTCACTTCTGCAGCTTCCCATTCTCTCCTGTTT-----
+Hyalis_argentea        CTGAGCTCTTTATTGTTTCTGTGTTATTATGTTATATTGCCACAACTTCCCATTCTGTTTTCTTCA----
+Nastanthus_patagonicus ??????????????????????????????????????????????????????????????????????
+Scaveola_tomentosa     CTTAGCTCTTTCT--------TGCTTCTGTGTTTCCCTGCTACAATTTCCCTATCTGCCCTTGTTAACTG
+
+Chuquiraga_sp          ------------------GATTAAGTCG------------ATCATAATTTCTTTAATCTTTACCGTGTAG
+Hyalis_argentea        ------------------AATTAAGTTGCTTATCATTTGAGGCCGAATTTCTTAAACCTTTGTTTCACAG
+Nastanthus_patagonicus ??????????????????????????????????????????????????????????????????????
+Scaveola_tomentosa     CCTTATTAACTGTTTGCTAACTAAGTTGCTTGTATGTTGAATCATAACTTGATC--TTGTTGCTCTGCAG
+
+Chuquiraga_sp          GCTGAACTGATGTACGATATGATTCGTGAATGGCCTCATTACGTTAACGTTCCTTTCTCTATTGCTAAG
+Hyalis_argentea        GCTGAACTTATGTATGACATGATTCGAGAATGGCCTCATTATGTTCATGTTCCTTTCCCTATTGCTAAG
+Nastanthus_patagonicus ?????????????????????????????????????????????????????????????????????
+Scaveola_tomentosa     GCAGAACTTATGTACGATATGATTCGGGAATGGCCTCGTTACGTTAATGTTCCTTTCCCCATAGCCAAG
+
+;
+end;

@@ -1,0 +1,82 @@
+#NEXUS
+begin data;
+dimensions ntax=4 nchar=1004;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-978_Barnadesia_arborea'           ???????????????????????????????????????????????????????????????GCCGAAT
+'uce-978_Gongylolepis_benthamania'     CAGATATTCTACTATGCACCAAAGGTGTCAGAGAGTTGGAAAGGACAGAAGCTCCTTTCGAGGGCTGAGT
+'uce-978_Hyalis_argentea'              CAGATATTCTACTATGCGCCAAAGGTGTCCGAGAGTTGGAAAGGGCAGAAGCTTCTTTCTAGGGCGGAGT
+'uce-978_Schlechtendalia_luzulaefolia' CAGATATTTTACTATGCTCCAAAGATGTCCGAGAGCTGGAAAGGGCAGAAGCTCCTTTCGAGGGCTGAGT
+
+'uce-978_Barnadesia_arborea'           TTCATGTCGGGGCACACGTAACGAAGTTTTTACGGTTACAGATGCTTCCAA---CTTCTGATCGAACCAG
+'uce-978_Gongylolepis_benthamania'     TTCATATCGGGGCACATGTGACAAAATTTTTACGGTTGCAGATGCTTCCAACTTCTTCTGATCGAACCAA
+'uce-978_Hyalis_argentea'              TCCATGTCGGGGCACACGTGACCAAATTTTTACGACTGCAGATGCTTCCAA---CTTCTGATCGGACCAG
+'uce-978_Schlechtendalia_luzulaefolia' TTCATGTCGGGGCCCACGTGACCAAATTTTTAAGGTTACAGATGCTCCCGA---CATCCGACCGAACCAG
+
+'uce-978_Barnadesia_arborea'           TGCTGCTCCAGGCTCCGATAAGATAAACCGTTTTGCCCTTTTGTTTGGGACCCTCGACGGCAGCGTTGGG
+'uce-978_Gongylolepis_benthamania'     TGCTGCTCCAAGCTCTGATAAGACGAACCGTTTTGCCCTTCTGTTTGGTACCCTGGACGGCAGCATTGGG
+'uce-978_Hyalis_argentea'              TGCTGCTCCAGGCTCTGATAAGACAAACCGTTTCGCCCTTCTGTTTGGTACCCTGGATGGCAGCATCGGC
+'uce-978_Schlechtendalia_luzulaefolia' CGCCACTCCAGGCTCCGATAAGACCAACCGTTTTGCCCTTTTGTTTGGCACACTTGACGGTAGTGTCGGG
+
+'uce-978_Barnadesia_arborea'           TGTATCGCTCCTCTCGACGAACTCACATTTCGCAGACTACAGTCGCTGCAGAAAAAACTTGTTGACGATG
+'uce-978_Gongylolepis_benthamania'     TGTATCGCACCTCTTGATGAACTAACATTTCGCAGACTTCAGTCACTGCAAAAGAAACTTGTCGATGCTG
+'uce-978_Hyalis_argentea'              TGTGTTGCCCCTCTTGATGAACTAACGTTTCGCAGACTTCAGTCGCTGCAGAAAAAACTTGTAGACGCCG
+'uce-978_Schlechtendalia_luzulaefolia' TGCATTGCACCTCTTGACGAACTAACTTTTCGCAGGCTTCAGTCGCTGCAGAAGAAACTCATTGATGCCG
+
+'uce-978_Barnadesia_arborea'           TTCCTCATGTCGCTGGATTGAATCCAAGATCTTTCCGCCAGTTTCACTCAAACGGAAAGGCTCATAGGCC
+'uce-978_Gongylolepis_benthamania'     TTTCTCATGTTGCTGGATTGAATCCAAGATCTTTCCGCCAGTTCCATTCAAACGGAAAGGCTCACCGGCC
+'uce-978_Hyalis_argentea'              TTCCTCATGTTGCTGGATTGAACCCAAGATCTTTCCGCCAGTTCCATTCAAATGGAAAGGCTCACCGGCC
+'uce-978_Schlechtendalia_luzulaefolia' TTTCTCATGTAGCTGGTTTGAACCCAAGATCTTTCCGCCAGTTCCGTTCAAATGGAAAGGCTCACCGGCC
+
+'uce-978_Barnadesia_arborea'           TGGACCCGACAGCATCGTTGACTGTGAGCTGCTATGCCAGTAAGTATCT------------TTAAGCCCT
+'uce-978_Gongylolepis_benthamania'     TGGACCTGACAGCATAGTTGACTGTGAGCTGCTGTGCCAGTAAGTATCT------------TTAAGCTCT
+'uce-978_Hyalis_argentea'              TGGACCTGACAGCATTGTCGACTGTGAGCTACTGTGCCAGTAAGTATCC------------TCATCTCCT
+'uce-978_Schlechtendalia_luzulaefolia' TGGACCCGACAGCATAGTCGACTGTGAGCTGCTTTGCCAGTAAGTATATGATAATTTTGACTTACAAATT
+
+'uce-978_Barnadesia_arborea'           CTTTAC----------------------------------------------------------------
+'uce-978_Gongylolepis_benthamania'     TCTTCCTTGCATATCTGATAACCTTAATCAGCTTTTTCCATGTTTTAATGGTAGTCTTACCTCTCTCTGG
+'uce-978_Hyalis_argentea'              TCTTCCTTGCATATATGATAGCCTTGA-------------------------------------------
+'uce-978_Schlechtendalia_luzulaefolia' TCATCCTTGAACTATTCTTAACCTTTA-------------------------------------------
+
+'uce-978_Barnadesia_arborea'           -----------------------ATTTTTTCTCGGTCTTTCTGCTTTCGATTTTCCTGTTGT---CGAAG
+'uce-978_Gongylolepis_benthamania'     TATTGTTGCATTTTTTTAATTCATTTTTGTTTCCCTTTATCGACTCTTGATTCTCTTACCATGAGCAAAA
+'uce-978_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-978_Schlechtendalia_luzulaefolia' ----------------------AATTTCATCCCCGGTCTTTTAATTTTGA---------------CAGAA
+
+'uce-978_Barnadesia_arborea'           TATCGTGTTCAGCAATAA????????????????????????????????????????????????????
+'uce-978_Gongylolepis_benthamania'     TATCGTGTTGGACAGCAGAAATAATTAAGATAACCAAGATACCAAGGCTGTCCGAAATGCTCAAATGGTC
+'uce-978_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-978_Schlechtendalia_luzulaefolia' TA--------------------------------------------------------------------
+
+'uce-978_Barnadesia_arborea'           ??????????????????????????????????????????????????????????????????????
+'uce-978_Gongylolepis_benthamania'     TTTGTATGCGTTGCATGCTATCTTGCTGAAAATATACACACCCTAGACTGTTTTCCCACGTTGCAACTTA
+'uce-978_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-978_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-978_Barnadesia_arborea'           ??????????????????????????????????????????????????????????????????????
+'uce-978_Gongylolepis_benthamania'     ATTTATAACAGAAAATCTCTCCAGGGTATGCATCTTTTGATACTTCCCTAAAGAATCGAGTTCCCAACAT
+'uce-978_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-978_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-978_Barnadesia_arborea'           ??????????????????????????????????????????????????????????????????????
+'uce-978_Gongylolepis_benthamania'     CTACAGTTTCATTGTGTAGCTTGGTTATTAGGCACAAGATTCACTCCCTCGAATTTGTTACTACATTACT
+'uce-978_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-978_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-978_Barnadesia_arborea'           ??????????????????????????????????????????????????????????????????????
+'uce-978_Gongylolepis_benthamania'     GGCCAAGCATTTTGCCACTTCCTATGAACTGCCAGATTGATACCCAAAACATGTTATGCATTTCTGGTAT
+'uce-978_Hyalis_argentea'              ------------------------------------------------ACATCTTATGCATTTATGGTTT
+'uce-978_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-978_Barnadesia_arborea'           ??????????????????????????????????????????????????????????????????????
+'uce-978_Gongylolepis_benthamania'     TTTTTGTGCAGCTATGATATGCTCCCCCATGAACACCAGCTTGAAATCGCTAATCAGATTGGGACCACAC
+'uce-978_Hyalis_argentea'              TCTTTGTGCAGTTATGACATGCTGCCCTATGAACACCAGCTTGAAATCGCGAACCAGATTGGCACCACGC
+'uce-978_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-978_Barnadesia_arborea'           ????????????????????????
+'uce-978_Gongylolepis_benthamania'     GTTCGCAGATCATTTCAAATTTGA
+'uce-978_Hyalis_argentea'              GTTCGCAGATCATTTCAAATTTGA
+'uce-978_Schlechtendalia_luzulaefolia' GACCCCAAATAACTTTAAATTACA
+
+;
+end;

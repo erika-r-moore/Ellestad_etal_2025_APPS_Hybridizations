@@ -1,0 +1,14 @@
+2024-09-25 12:41:42,783 - phyluce_align_get_only_loci_with_min_taxa - INFO - ======= Starting phyluce_align_get_only_loci_with_min_taxa ======
+2024-09-25 12:41:42,783 - phyluce_align_get_only_loci_with_min_taxa - INFO - Version: 1.7.1
+2024-09-25 12:41:42,783 - phyluce_align_get_only_loci_with_min_taxa - INFO - Commit: None
+2024-09-25 12:41:42,783 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --alignments: /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/mafft-nexus-trimmed-clean
+2024-09-25 12:41:42,783 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --cores: 4
+2024-09-25 12:41:42,783 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --input_format: nexus
+2024-09-25 12:41:42,783 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --log_path: /project/ermoore3/basalAsteraceae/barnadesioideae/log
+2024-09-25 12:41:42,783 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --output: /project/ermoore3/basalAsteraceae/barnadesioideae/taxon-set-all/mafft-nexus-trimmed-clean-100p
+2024-09-25 12:41:42,783 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --percent: 0.0
+2024-09-25 12:41:42,783 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --taxa: 10
+2024-09-25 12:41:42,783 - phyluce_align_get_only_loci_with_min_taxa - INFO - Argument --verbosity: INFO
+2024-09-25 12:41:42,783 - phyluce_align_get_only_loci_with_min_taxa - INFO - Getting alignment files
+2024-09-25 12:41:44,868 - phyluce_align_get_only_loci_with_min_taxa - INFO - Copied 551 alignments of 551 total containing ≥ 0.0 proportion of taxa (n = 0)
+2024-09-25 12:41:44,868 - phyluce_align_get_only_loci_with_min_taxa - INFO - ====== Completed phyluce_align_get_only_loci_with_min_taxa ======

@@ -1,0 +1,67 @@
+#NEXUS
+begin data;
+dimensions ntax=3 nchar=1029;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-69_Gongylolepis_benthamania' TTGTCTCAGCCAAGGCAAAGCCCTAAACCTGTGCCTTGCCTTGCCTTGCCTAGCCCCATCTCGTGCACCT
+'uce-69_Hyalis_argentea'          ??????AAGCTAAGTCAGT------------------------------------------CGAGGATGC
+'uce-69_Scaveola_tomentosa'       TTGTTAAAGCATAAGATAT----------------------------------------------CATCT
+
+'uce-69_Gongylolepis_benthamania' AAACTTGCCTTTGTTAACACTGGATATGCCT---------TACCATC---------------AAACATCA
+'uce-69_Hyalis_argentea'          AATCGCGCAGTTGACCGTTGCGGATAGCTTGCCCGTGGATAAGCATCCTGAAAAAAGGCTGAAAGCATCG
+'uce-69_Scaveola_tomentosa'       TACCTTGTAACCAGTAAAATCGAACACCCTG------------------------------------TCT
+
+'uce-69_Gongylolepis_benthamania' TTTAAAGGTCCTTGTGTTTATTTCGAAC-CCAAGGTTGTGCATAACAGCAAGCT--CTGCAAACCCAGAG
+'uce-69_Hyalis_argentea'          TTTAAGGTACC----ATTCTTATCGATCATCAGATTTGCTTGTTGCAG-------------GTTACAGGG
+'uce-69_Scaveola_tomentosa'       TTTAATAGTCTGAGTATTTCTTTCCGAC-CTAAACCCATGCCAAATAG-AGGCTACCTACAAACCTAGGA
+
+'uce-69_Gongylolepis_benthamania' CATTATTGA-TTTCCATTAAATTATG--------------------------------------------
+'uce-69_Hyalis_argentea'          CATTGTTGATTTTTCGTTAAATTATG--------------------------------------------
+'uce-69_Scaveola_tomentosa'       CATC------TTTTGGTGCAATTGTGTCTACCCCTGAACCATAGCCATTATCAACGACTGATTCTTAGAG
+
+'uce-69_Gongylolepis_benthamania' -----------------ATTTAATCAA---------------------------TGCCCACCAGAGCATC
+'uce-69_Hyalis_argentea'          -----------------ATTTAACCAG---------------------------TGCTCACCAGAGCATC
+'uce-69_Scaveola_tomentosa'       GTGAAGAACGTGTGTGTATTTAACTTAACTTGGGTCCTGCTGTCTTGCACTTCTTGCCATCTGGTTCATC
+
+'uce-69_Gongylolepis_benthamania' TTTATGTTATGTGGT----CTTGCTTCATCATTGGATTATGCATTTGCAGGCTTTTGAGGAAGCTGAGCT
+'uce-69_Hyalis_argentea'          TTTATGTTATGTGCT----CTTGTTTGATTCTTGGATTATGTATTTGCAGGCTTTTGAAGAAGCTGAGCT
+'uce-69_Scaveola_tomentosa'       TTTGCGCCATGTAGTGTTGCTTGCTTACTCATTCTATCTTGTATTTGCAGGCTTTTGAAGAAGCTGAGAT
+
+'uce-69_Gongylolepis_benthamania' TCCAAAGCTGAAGGAAGAGAAGCCTGGCCTCACCCACACCCAGTATAAGGACATGATATGGAAGCTATGG
+'uce-69_Hyalis_argentea'          TCCAAAGCTGAAGCAAGAGAAGCCTGGCCTCACCCACACCCAGTATAAGGACATGATATGGAAGCTATGG
+'uce-69_Scaveola_tomentosa'       GCCAAAGCTGAAAGCAGAGAAGCCAGGCCTTACTCACACCCAATATAAGGACATGATATGGAAGCTATGG
+
+'uce-69_Gongylolepis_benthamania' AAAAAGTCTCCAGACAATCCACTTAACCAGGTAATATGATGGATCTTTGCCTTATATTTTTGTTTTAATA
+'uce-69_Hyalis_argentea'          AAAAAATCTCCAGACAATCCACTTAACCAGGTAA-ATGATTGACCTTTGTCTT-TACTTTTATTGTAATA
+'uce-69_Scaveola_tomentosa'       AAAAAATCTCCTGACAATCCACTCAACCAGGTAACATGATGGATCTTTAGATCTTGGCTCGGAGATAATA
+
+'uce-69_Gongylolepis_benthamania' TTTTAGTAGGTGCATTGATGATATA-------------TGATGCTTATTCCATCTTACAACCATACATTA
+'uce-69_Hyalis_argentea'          TCTTAGTAGGTTCTTTGATG-TGTA-------------TGATGTTTAGTCTATCTTACAAACATACATTC
+'uce-69_Scaveola_tomentosa'       ATTTAGTAGGTTCTCTGATGATATGT????????????????????????????????????????????
+
+'uce-69_Gongylolepis_benthamania' TTACATCCTGGG---------------CTAACCAATCTTGTCATAT-CATC---GTTGGGGCTTAATGAG
+'uce-69_Hyalis_argentea'          ATACAGTCTGG-----------------TAACCAATCTAGTGATATGGGTC---ATTGGGGCTTAATG--
+'uce-69_Scaveola_tomentosa'       ??????????????????????????????????????????????????????????????????????
+
+'uce-69_Gongylolepis_benthamania' TTAA--TGTTAAATGTAGTCTTGTGGCTGACATCTGAACCCTTCA-------TAGGCAACCATATGAAGA
+'uce-69_Hyalis_argentea'          -------TTAGAATGTACTCCCATGGTTGTGAGCAGAACAATTCA-------TAGGCGGCCGTATGAAAA
+'uce-69_Scaveola_tomentosa'       ??????????????????????????????????????????????????????????????????????
+
+'uce-69_Gongylolepis_benthamania' TGCTATTATATACAAGTAGGTAGGATATGTAGATTGCTAAAGCCTGTGAAGATGAGCATG--------AA
+'uce-69_Hyalis_argentea'          ----AATATATATATCTACGTAGGATATA-----TTCAAAAGCAGATGAAGATGAGTTTG--------AA
+'uce-69_Scaveola_tomentosa'       ??????????????????????????????????????????????????????????????????????
+
+'uce-69_Gongylolepis_benthamania' ACTCCTGATTACAAGGGATAATGGAATTGA------AGGTCAACCATCACCAAAATTCCTGTTTTGGCCA
+'uce-69_Hyalis_argentea'          ACTCCCAATTACAAGTGATAA-----------------------------------------CTAGACCA
+'uce-69_Scaveola_tomentosa'       ??????????????????????????????????????????????????????????????????????
+
+'uce-69_Gongylolepis_benthamania' ATGGACTAAAAAATTTCAAGGTCATCA-------------------------------------------
+'uce-69_Hyalis_argentea'          ATGAGCTAAAATA-ATCGAGGTGATCA-------------------------------------------
+'uce-69_Scaveola_tomentosa'       ??????????????????????????????????????????????????????????????????????
+
+'uce-69_Gongylolepis_benthamania' ---AACTACATTACAGGTTGAAACCCTCAATTCCGGCCAAAATCATGCT
+'uce-69_Hyalis_argentea'          ---AACTATACCTT--GTTCAAAACCCCAATTCCAGCCTAAATCATGCT
+'uce-69_Scaveola_tomentosa'       ?????????????????????????????????????????????????
+
+;
+end;

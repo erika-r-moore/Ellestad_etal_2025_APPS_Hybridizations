@@ -1,0 +1,196 @@
+#NEXUS
+begin data;
+dimensions ntax=6 nchar=1866;
+format datatype=dna missing=? gap=- interleave;
+matrix
+'uce-241_Chuquiraga_sp'                ??ATTATTTGTTGCAGGCATTTGTGAATGTTGTTCTTGCACTGTGTGATGCTGGGGATTCGGTGGTTATG
+'uce-241_Fulcaldea_stuessyi'           CCATTATTTCTTGCAGGCATTTGTGAATATTGTTCTTGCACTGTGTGATGCTGGGGATTCGGTTGTTATG
+'uce-241_Gongylolepis_benthamania'     CCGTTATTTCTTGCAGGCATTTGTGAATATTGTTCTTGCACTGTGTGATGCTGGGGATTCGGTCGTTATG
+'uce-241_Hyalis_argentea'              CCATTATTGCTTGCAGGCTTTTGTGAATATTGTTCTTGCACTGTGTGATGCCGGGGATTCAGTCGTTATG
+'uce-241_Scaveola_tomentosa'           CCACTCTTTCTTGCAGGCATTTGTGAATATTGTTCTTGCACTGTGTGATGCTGGGGATTCGGTCGTCATG
+'uce-241_Schlechtendalia_luzulaefolia' ??ATTATTTACTTCAGGCATTTGTGAATATTGTTCTAGCGCTGTGTGATGCGGGGGACTCGGTGGTTATG
+
+'uce-241_Chuquiraga_sp'                TTTGCACCATATTACTTCAATGCGTACATGTCATTCCAGATGACGGGTGTCACCGATATTCTCGTGGGCC
+'uce-241_Fulcaldea_stuessyi'           TTTGCACCATATTATTTCAACGCGTACATGTCATTCCAGATGACAGGTGTTACCGATATTCTTGTGGGCC
+'uce-241_Gongylolepis_benthamania'     TTTGCACCATACTACTTCAATGCATACATGTCGTTCCAGATGACAGGTGTTACAGATATTCTGGTGGGCC
+'uce-241_Hyalis_argentea'              TTTGCACCATACTACTTCAATGCATACATGTCGTTCCAGATGACTGGTGTTACTGACATTCTGGTTGGCC
+'uce-241_Scaveola_tomentosa'           TTTGCTCCATATTACTTCAACTCCTACATGTCATTCCAGATGACAGGTGTTACTGACATTCTGGTGGGAC
+'uce-241_Schlechtendalia_luzulaefolia' TTTGCACCGTATTACTTCAATGCGTACATGTCATTCCAGATGACAGGCGTTACCGATATTCTTGTGGGCC
+
+'uce-241_Chuquiraga_sp'                CTGGTGATCCGACTACGCTTCATCCAGATACAGGTTCAATGTTTATTCATTC------------------
+'uce-241_Fulcaldea_stuessyi'           CTGGTGATCCATCGACACTTCATCCAGACGCAGGTTGAATCTTTATTAGATG------------------
+'uce-241_Gongylolepis_benthamania'     CTGGTGATCCCAAGACACTTCATCCCGATACAGGTTGAAGCTTTATTAGATGGCA-ACTTTATTCTATTT
+'uce-241_Hyalis_argentea'              CTGGTGATCCGAAAACCCTTCATCCTGATACAGGTTGAAGCTTTACTGGATGGCAGACTTTATTCTATTT
+'uce-241_Scaveola_tomentosa'           CTGGTGATCCAAAGACACTTCATCCTGATGCAGGTTGAAGCTTTTTTGTGTATTTTACTT----------
+'uce-241_Schlechtendalia_luzulaefolia' CTGGTGATCCCGAAACACTTCATCCTGATGCAGGTTGAATCTTTATTCGTTGTT----------------
+
+'uce-241_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-241_Fulcaldea_stuessyi'           ----------------------------------------------------------------------
+'uce-241_Gongylolepis_benthamania'     TTTTTTACCTCACGTGTTTCTTGCCCTTTGGAATTCTTGGGCTATTCTGGGAATTC-TTGAAAAAGATGT
+'uce-241_Hyalis_argentea'              GTTTACAC--------------------------------------------------------------
+'uce-241_Scaveola_tomentosa'           -------------GTAATTTTCGCACTCCTGAATTCCTAGGCTACTCTGGAAATTCTTTGACAAGGTTTT
+'uce-241_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-241_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-241_Fulcaldea_stuessyi'           ----------------------------------------------------------------------
+'uce-241_Gongylolepis_benthamania'     AGATGTTTTGGTAAAATGTTTGACCTGTGAAGTTACTAGAAACAGGAAGGCTGTTTC--TAAAGGGATTT
+'uce-241_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-241_Scaveola_tomentosa'           AGATGTAATGGTCAAAGATTTGACTT----------TATAAACAAGATAGCAATTTCATTAAAGGTACTT
+'uce-241_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------GAACTT
+
+'uce-241_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-241_Fulcaldea_stuessyi'           ------------------------------------GCCGCATCACTCTATTC-----------------
+'uce-241_Gongylolepis_benthamania'     TGGGGTGCAAAAGTTCCGTTTCGCTCCATACCAAATTTAGAGTTCATGTTGTCAAAGTACTACATTTGAA
+'uce-241_Hyalis_argentea'              ---------------CCCCCCCTCCCCACCCCAACCCCCCACCCCCTG----------------------
+'uce-241_Scaveola_tomentosa'           TAGAGGGCAGTAGTTCTGTCCATTCGTTTTC---AGTTAGTATTATTATTTTC-----------------
+'uce-241_Schlechtendalia_luzulaefolia' TAGAAG-----------GTCAATATATTTTCCAAATTCTAAATTTACATAATG-----------------
+
+'uce-241_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-241_Fulcaldea_stuessyi'           ----------------------------------------------------------------------
+'uce-241_Gongylolepis_benthamania'     CTTCCAGATTGATATGTTGGCAACTTCTTTCTTCTAAGAAAGATTTTTTTGGGGGGCGGGAGGGTATGGG
+'uce-241_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-241_Scaveola_tomentosa'           ----------------------------------------------------------------------
+'uce-241_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-241_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-241_Fulcaldea_stuessyi'           ----------------------------------------------------------------------
+'uce-241_Gongylolepis_benthamania'     GCTTGGTGGTTTATTTGAGCCAAGCCTGAGCTTGGTTGCTTGTGAAATATTAGTAGGCTTGGGCTCCACT
+'uce-241_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-241_Scaveola_tomentosa'           ----------------------------------------------------------------------
+'uce-241_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-241_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-241_Fulcaldea_stuessyi'           ---------------------------ATTTACTTTTGACTT----------------------------
+'uce-241_Gongylolepis_benthamania'     GTAGTTTGACAAGCTCGGTAAACTCATGCCTGGGCTCTGCTTGGCGAAAGCTTTACCCTTGGCTCAGCTC
+'uce-241_Hyalis_argentea'              ---------------------------ATTTGGGCTCAGCTTGC--------------------------
+'uce-241_Scaveola_tomentosa'           ---------------------------TTTAGTCTTTGGCCTAAGAA----------------TGAGCTG
+'uce-241_Schlechtendalia_luzulaefolia' ---------------------------TTTTAATTTCGATCTATA-------------------------
+
+'uce-241_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-241_Fulcaldea_stuessyi'           ----------------------------------------------------------------------
+'uce-241_Gongylolepis_benthamania'     ATCTTGTCTCATATAGGCTTGGGTTCTGAGGGCTCTGTGTAAAATTAAACCCTTTAAATGGAGTTACAAA
+'uce-241_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-241_Scaveola_tomentosa'           TCCTCACCTGCATTAGATATGA------------------------------------------------
+'uce-241_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-241_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-241_Fulcaldea_stuessyi'           ----------------------------------------------------------------------
+'uce-241_Gongylolepis_benthamania'     CTGTTTCCCGAAAAATTGCAATTAGAAGTCTCCAAGAGGCTAAGGTCGATGTTTTAAGAACACACAAATT
+'uce-241_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-241_Scaveola_tomentosa'           ----------------------TAAATGATGCCTATACACAAACTTTCATG------------AAATGCT
+'uce-241_Schlechtendalia_luzulaefolia' -----------------------TAATCATTCCAGTATGCTATGTTTTA--------------------T
+
+'uce-241_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-241_Fulcaldea_stuessyi'           ---------------CCTGCACTTTTGAATTCATGCATCGTCT---------------------------
+'uce-241_Gongylolepis_benthamania'     ACACTAAGTGGCTTGTATAGATTTGTATAAGCTTGTATGGCGTACTCCAAAATGCCTCCACAGCAAACTT
+'uce-241_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-241_Scaveola_tomentosa'           ACTTCCAGTTACTAGTCAAATCTCTTGTATTTTTATATCTTGGTATTTTG--------------------
+'uce-241_Schlechtendalia_luzulaefolia' ACTTGAATGTGGTAATCGATATTCTTGTATACAAAAACAGTATTCTTT----------------------
+
+'uce-241_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-241_Fulcaldea_stuessyi'           ----------------------------------------------------------------------
+'uce-241_Gongylolepis_benthamania'     ATGTGAAATGCCACTTCAAACACAATTATAAGTCAAATTATCTCTATCTTTTCTTCTTTGGTACCTTTGG
+'uce-241_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-241_Scaveola_tomentosa'           ----------------------------------------------------------CTGTAGCTTTGA
+'uce-241_Schlechtendalia_luzulaefolia' ----------------------------------------------------------------------
+
+'uce-241_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-241_Fulcaldea_stuessyi'           ----------------------------------------------------------------------
+'uce-241_Gongylolepis_benthamania'     TTCCACCTTTTCATTATGCAGCACATCTAGAGTCGAGAAAGTTTCTTTGTATATCATTTGAACTACATCA
+'uce-241_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-241_Scaveola_tomentosa'           TCCCA-CTTAACATGATGCAGCACATGTACAT--AGAAGAGCTTATCTGTATTTTATTTGTATTCGAGTA
+'uce-241_Schlechtendalia_luzulaefolia' ------------GTTGTCTATGAAGTAAAAAG--AAAAAAACATGTTTG---------------------
+
+'uce-241_Chuquiraga_sp'                -------------------------------------------------------------------TAC
+'uce-241_Fulcaldea_stuessyi'           --------------------------------------------------------------TTAATCAC
+'uce-241_Gongylolepis_benthamania'     AGTTACTGTTCTCTA----------TCAAACTATTTTTCTTGAATTTGTGCAT---------CTTCTTAT
+'uce-241_Hyalis_argentea'              --------------------------------------------------------------CCAAATTC
+'uce-241_Scaveola_tomentosa'           GGTGGAATTTCTGATTAAATGAAATCAAGATTATTTTTCTTGGGTTCGTGAATTGGTCT---TTAATCAT
+'uce-241_Schlechtendalia_luzulaefolia' -------ACCCTACAAAGTCAAAAGCAAGGTCCTTTTATTTTTGCACAAAGCTTGGACATGATTGATCAC
+
+'uce-241_Chuquiraga_sp'                TTATG----------------------------------------------------------------G
+'uce-241_Fulcaldea_stuessyi'           TTATATTCAACTTACGTGAA-TTGTAGATTGGCTAGAAAAGACGTTGCGGGAAACCAAGCCAACACCAAA
+'uce-241_Gongylolepis_benthamania'     TTATTCCCAAATT-CATGAACTTCTAGATTGGCTAGAAAGGACTTTGCGGGAAACGAAACCAACACCAAA
+'uce-241_Hyalis_argentea'              TCATTCCCAAATT-TGTGAA-CTTCAGATTGGCTAGAAAGGACTTTGCGGGAAACGAAACCAACACCAAA
+'uce-241_Scaveola_tomentosa'           TTAAA-TCAACTTTCATGAC-TTATAGATTGGCTAGAGAAGACATTGCGGGAAACCACACCAACACCAAA
+'uce-241_Schlechtendalia_luzulaefolia' TTATGTTCAGCTTACATGAATTTTTAGATTGGCTCGAAAAGACTTTGCGGGAAACCAATCCGACACCGAA
+
+'uce-241_Chuquiraga_sp'                ACTTATTGTAAT--------------------------------------------TTCCAAAGATTCTA
+'uce-241_Fulcaldea_stuessyi'           GCTTGTTACAGTTGTTAATCCTGGCAATCCATCTGGGACCTACATTCCTGAACCCCTTCTAAAGGTTCTC
+'uce-241_Gongylolepis_benthamania'     GCTTGTTACAGTTGTTAATCCTGGCAACCCATCTGGAACTTACATCCCAGAACCCCTTCTCAAGGTGCTC
+'uce-241_Hyalis_argentea'              GCTCGTTACAGTTGTTAATCCTGGCAACCCATCTGGAACGTACATCCCAGAACCCCTTCTAAAGGTGCTC
+'uce-241_Scaveola_tomentosa'           ACTTGTTTCAGTTGTTAATCCAGGCAACCCGTCTGGAACTTGCATCCCAGAACCCCTTTTGAAGGTTCTC
+'uce-241_Schlechtendalia_luzulaefolia' GCTTGTTACAGTCGTTAATCCGGGCAATCCATCTGGAACTTATATCCCGGAACCCCTTCTAAAGGTTGCT
+
+'uce-241_Chuquiraga_sp'                TAATGTTAT-------------------------------------------------------------
+'uce-241_Fulcaldea_stuessyi'           CCGCACCCC-----------------ACCCGCTCGTCCTTTTTGCTA-----------------------
+'uce-241_Gongylolepis_benthamania'     TCTTTCTCTCGCTC------TCTCTGTATCTCTCTCTCTGGTTGCTA-----------------------
+'uce-241_Hyalis_argentea'              TATCTCCCTCTCTCA--CACACGCGCCTACACACACACGTGCCACTA-----------------------
+'uce-241_Scaveola_tomentosa'           TCTCTCTCTCTCTCTCTCCCTCCCTCCCTCTCTCCCCCCTTCCATGAGCTAATGTTGTATTGAATCTATT
+'uce-241_Schlechtendalia_luzulaefolia' TCTAATACT-----------TTGTTTACTTTCCTGACATTTTTGCTA-----------------------
+
+'uce-241_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-241_Fulcaldea_stuessyi'           ---------------------------------------------------------------------C
+'uce-241_Gongylolepis_benthamania'     ---------------------------------------------------------------------T
+'uce-241_Hyalis_argentea'              ---------------------------------------------------------------------T
+'uce-241_Scaveola_tomentosa'           GATTATCTATTGGTAATAGAGCTGGTGTAAGGTTTGCTTCTCAATGGGAATTAGACATTGTATTCTGCTT
+'uce-241_Schlechtendalia_luzulaefolia' ---------------------------------------------------------------------T
+
+'uce-241_Chuquiraga_sp'                --------------------------------------------------------GGTCAAATCCTTAA
+'uce-241_Fulcaldea_stuessyi'           GCCTTCTAACATTTTTCCGTTTTGTTTATTTTCAT---------------------GTAGAGGATATCAA
+'uce-241_Gongylolepis_benthamania'     GATTCTAACTGTATTTTTTTTCATTTCTTGGTTTT--------------------GGTAGAAAATATCAG
+'uce-241_Hyalis_argentea'              GATTCTAACTGTATGTTGTTTTCGTTTTTG--------------------------GTAGAAAATATCAG
+'uce-241_Scaveola_tomentosa'           GTCCTCCAATGATTCTAATTTCTGATTTTATCTATTTCAATACTTTTCATTCCCAAGCAGAGGATATCAA
+'uce-241_Schlechtendalia_luzulaefolia' G-CTTCTAATACTTGTTTTCCTTTTT-------------------------------TAGAGGATATCAA
+
+'uce-241_Chuquiraga_sp'                TTAT------AGACGCT-----TTAAGTTGTTTGAAACAGGACA--------------------------
+'uce-241_Fulcaldea_stuessyi'           ATATCTGCAAGGATGCTGGATGTTGGCTTGTTGTAGATAACACATACGAGTAAG-TA-------------
+'uce-241_Gongylolepis_benthamania'     ATATCTGCAAAGATGCCGGATGTTGGCTTGTTGTAGATAACACATATGAGTAAG-TAACTTCA-------
+'uce-241_Hyalis_argentea'              ATATCTGCAAAGATGCTGGATGTTGGCTTGTTGTAGATAACACATATGAGTAAGTTAACTTCA-------
+'uce-241_Scaveola_tomentosa'           ATATTTGCAAGGATGCTGGATGTTGGCTTGTTGTAGATAACACATACGAGTAAG-TAATTCCGATTTTCT
+'uce-241_Schlechtendalia_luzulaefolia' CGATCTGCAAGGACGCCGGATGTTGGCTTGTTGTAGATAACACATATGAGTAAG-TA-------------
+
+'uce-241_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-241_Fulcaldea_stuessyi'           -------------------------------------------------------------TAAAT--AG
+'uce-241_Gongylolepis_benthamania'     --TTTGTCCAAGAA-----------CATCTTGAACGTTAA--CTTGTCATGTGGATCGGTTCAGATCAGA
+'uce-241_Hyalis_argentea'              --TTTGTTCAAGA---------------------------------------------------------
+'uce-241_Scaveola_tomentosa'           TTTCTTTTCTGCAATTTTCTCGTTTTCTCTTGTACATTGACTCTTTCCATGTGGATTTCTTTAAAT--GT
+'uce-241_Schlechtendalia_luzulaefolia' -------------------------------------------------------------CAAAG--GC
+
+'uce-241_Chuquiraga_sp'                ----GTATCCCAAAAGAAGAGCCTCGTTTTGACTTTT----AAGTTTCGAACCGAGTACATTACAAACTC
+'uce-241_Fulcaldea_stuessyi'           ATATATACTCTCAAAAAAGAGTCCATTTTTGACTTTT---TAAGGGTCAAATAAGCTGTTCTTTAAGTTC
+'uce-241_Gongylolepis_benthamania'     CTCCATATCCACA------------TTTCTTACCCTTACTGTTTAGTTTAAGAAGATATGGATATAGATC
+'uce-241_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-241_Scaveola_tomentosa'           CTTGAGAGTCACCCTTAACACTTTGTTTGTGAGTTTAG--GAAGAAGTGAAAGTGACATAAAAGGAAGTG
+'uce-241_Schlechtendalia_luzulaefolia' ATTTGTTAACCTA--------------TTTGACTTTTA--AAAGAGTCAAAGAAGATATTTCCCAAATTC
+
+'uce-241_Chuquiraga_sp'                GGAT-------------------------------------------------TTGACATATATTTTGTT
+'uce-241_Fulcaldea_stuessyi'           TAAA-------------------------------------------------TTAACAGTGAT------
+'uce-241_Gongylolepis_benthamania'     GAGAAACCATAATCCTCTATTCTAATGATTCTTCTTCATCCCCGTTTCCATATTTTTTCAAGATTTCGTC
+'uce-241_Hyalis_argentea'              ----------------------------------------------------------------------
+'uce-241_Scaveola_tomentosa'           GAAAAAATG-------GTAAGGCACAGAGTGACCTTCCTCCC----------TTTGAGTTTGAGTTTGTA
+'uce-241_Schlechtendalia_luzulaefolia' CAAA-------------------------------------------------TTAACATTGATATTGTA
+
+'uce-241_Chuquiraga_sp'                AC--------------------------------------------------------------------
+'uce-241_Fulcaldea_stuessyi'           ----------------------------------------------------------------------
+'uce-241_Gongylolepis_benthamania'     TTTGTTGTATCTACAACTGTCGGTTTCACTAGACATGGTATTTCTTGGAATTTAATCATCTT--------
+'uce-241_Hyalis_argentea'              --------------------------------ACATGGTGTTTCTTGGAAGTTAACCATCAT--------
+'uce-241_Scaveola_tomentosa'           ACTGAAAAG--------------------CTGAAATAACGTGTCCTGCTACTGTTTTATAAG--------
+'uce-241_Schlechtendalia_luzulaefolia' ATTGTAGAAACT----------------TTTTAAATCTAACTTTTAAAAACATCCATGTAAGATTTAATT
+
+'uce-241_Chuquiraga_sp'                ----------------------------------------------------------------------
+'uce-241_Fulcaldea_stuessyi'           ----------------------------------------------------------------------
+'uce-241_Gongylolepis_benthamania'     --------------------GATACACAGGTATTTTATGTATGATGGTTTGAAGCACTCTTGCATCGAGG
+'uce-241_Hyalis_argentea'              --------------------GATACACAGGTACTTTATGTATGATGGTTTGAAGCACTCTTGCATCGAGG
+'uce-241_Scaveola_tomentosa'           -TTGGAAAGGAAGGAGAGGAAGTACGTCATTATTAC-TTTACTGCCCCTTAATGTATTC-----------
+'uce-241_Schlechtendalia_luzulaefolia' CATGGGTACTAACGAGATGATATGCGTAGGTATTTTATGTATGATGATTTGAAGCACTCGTGCATTGAGG
+
+'uce-241_Chuquiraga_sp'                ------------------TTTTTTTTTTATCTAGA???????????
+'uce-241_Fulcaldea_stuessyi'           ------------------TCTTTCTATTTTGTAGA???????????
+'uce-241_Gongylolepis_benthamania'     GCAATCACATTGTCAACATTTTCTCTTTCTCTAAAGCTTACGGGAT
+'uce-241_Hyalis_argentea'              GCAACCACATAGTCAACATATTCTCATTCTCAAAAGCTTATGGGAT
+'uce-241_Scaveola_tomentosa'           ------------------TTCTTTGAATACACAAATCTAACCACAT
+'uce-241_Schlechtendalia_luzulaefolia' GCAATCACATAGTAAACATTTTTTCCTTCTCTAAAGCTTATGGCAT
+
+;
+end;

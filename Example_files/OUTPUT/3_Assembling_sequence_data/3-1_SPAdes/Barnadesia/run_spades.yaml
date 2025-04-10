@@ -1,0 +1,131 @@
+- STAGE: Before start
+  args: []
+  config_dir: ''
+  del_after:
+  - .bin_reads
+  - tmp/spades_blprbqex
+  - configs
+  - .bin_reads
+  - tmp/spades_j1n2a9om
+  - configs
+  - .bin_reads
+  - tmp/spades_1o23xp7u
+  - configs
+  - .bin_reads
+  - tmp/spades_4cz7ikud
+  - configs
+  - .bin_reads
+  - tmp/spades_ddc491qw
+  - configs
+  - .bin_reads
+  - tmp/spades_xsbf1vtg
+  - configs
+  output_files: []
+  path: 'true'
+  short_name: before_start
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: as_start
+- STAGE: K21
+  args:
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/K21/configs/config.info
+  config_dir: K21
+  del_after: []
+  output_files: []
+  path: /home/ermoore3/miniconda2/envs/mamba/envs/spades/bin/spades-core
+  short_name: k21
+- STAGE: K33
+  args:
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/K33/configs/config.info
+  config_dir: K33
+  del_after: []
+  output_files: []
+  path: /home/ermoore3/miniconda2/envs/mamba/envs/spades/bin/spades-core
+  short_name: k33
+- STAGE: K55
+  args:
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/K55/configs/config.info
+  config_dir: K55
+  del_after: []
+  output_files: []
+  path: /home/ermoore3/miniconda2/envs/mamba/envs/spades/bin/spades-core
+  short_name: k55
+- STAGE: K77
+  args:
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/K77/configs/config.info
+  config_dir: K77
+  del_after: []
+  output_files: []
+  path: /home/ermoore3/miniconda2/envs/mamba/envs/spades/bin/spades-core
+  short_name: k77
+- STAGE: K99
+  args:
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/K99/configs/config.info
+  config_dir: K99
+  del_after: []
+  output_files: []
+  path: /home/ermoore3/miniconda2/envs/mamba/envs/spades/bin/spades-core
+  short_name: k99
+- STAGE: Copy files
+  args:
+  - /home/ermoore3/miniconda2/envs/mamba/envs/spades/share/spades/spades_pipeline/scripts/copy_files.py
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/K99/before_rr.fasta
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/before_rr.fasta
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/K99/assembly_graph_after_simplification.gfa
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/assembly_graph_after_simplification.gfa
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/K99/final_contigs.fasta
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/contigs.fasta
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/K99/first_pe_contigs.fasta
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/first_pe_contigs.fasta
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/K99/strain_graph.gfa
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/strain_graph.gfa
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/K99/scaffolds.fasta
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/scaffolds.fasta
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/K99/scaffolds.paths
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/scaffolds.paths
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/K99/assembly_graph_with_scaffolds.gfa
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/assembly_graph_with_scaffolds.gfa
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/K99/assembly_graph.fastg
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/assembly_graph.fastg
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/K99/final_contigs.paths
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/contigs.paths
+  config_dir: ''
+  del_after:
+  - .bin_reads
+  - tmp/spades_8fxax1r4
+  output_files: []
+  path: /home/ermoore3/miniconda2/envs/mamba/envs/spades/bin/python3
+  short_name: copy_files
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: as_finish
+- STAGE: Breaking scaffolds
+  args:
+  - /home/ermoore3/miniconda2/envs/mamba/envs/spades/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py
+  - --result_scaffolds_filename
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/scaffolds.fasta
+  - --misc_dir
+  - /home/ermoore3/backup/basalAsteraceae/spades/Barnadesia_arborea_1_tp.fastq.spades_output/misc
+  - --threshold_for_breaking_scaffolds
+  - '3'
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: /home/ermoore3/miniconda2/envs/mamba/envs/spades/bin/python3
+  short_name: bs
+- STAGE: Terminate
+  args: []
+  config_dir: ''
+  del_after:
+  - configs
+  output_files: []
+  path: 'true'
+  short_name: terminate

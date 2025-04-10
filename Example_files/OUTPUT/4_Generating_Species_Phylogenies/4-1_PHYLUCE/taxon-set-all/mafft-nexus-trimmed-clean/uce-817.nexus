@@ -1,0 +1,295 @@
+#NEXUS
+begin data;
+dimensions ntax=8 nchar=2237;
+format datatype=dna missing=? gap=- interleave;
+matrix
+Barnadesia_arborea           TCAGATTCCCATGA-TGGCACCACACAGACTGAACCTT--------------------------------
+Chuquiraga_sp                TCAGATCCATATGA-TGGCAGCAAAAAGTGCGAACCTC--------------------------------
+Famatinanthus_sp             TCAGATCCCCATGA-TGGAAGCACAGAGAGTGGACTTT--------------------------------
+Gongylolepis_benthamania     TCAGATCTTCATGATTGGCAGCACATGGAGTGAACCTT--------------------------------
+Hyalis_argentea              TCAGATCCCCATGA-TGGCAGCAAAAAGAATGACTCCT--------------------------------
+Nastanthus_patagonicus       TCAGATCCCCATGA-TGGCAGTTCAATGAATGAACCTT--------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia TTAGATCCCCAAGA-TGGAAGCAGAAAGAGTGAAGGTTT-------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia --------------------------------------------------------------------GG
+
+Barnadesia_arborea           TGGAACCGGTTAATTTAG----------------------------------------------------
+Chuquiraga_sp                TGGAACCTGTTAATGTAG----------------------------------------------------
+Famatinanthus_sp             CAGAACCTGTTCAATTAG----------------------------------------------------
+Gongylolepis_benthamania     CAGAATCTCTTGAATTTG----------------------------------------------------
+Hyalis_argentea              CAGAGCCTGTTCAACCAG----------------------------------------------------
+Nastanthus_patagonicus       CAGAGCCTGTTGACTTAG----------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia AAGCAGCAATAAATGCAG----------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ---GGATGGCTTCAGCTGGTGACA----------------------------------------------
+Chuquiraga_sp                ---GGA---------CTGGCGAAG----------------------------------------------
+Famatinanthus_sp             ---AGACGGTTTTGGCTGGTGACG----------------------------------------------
+Gongylolepis_benthamania     ---AATCAGTTTT-GTTGGTGACA----------------------------------------------
+Hyalis_argentea              ---AGACGGTTTTGGCGGGTGACC----------------------------------------------
+Nastanthus_patagonicus       ---AGACTGTTTTGTCTGGTGATC----------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ---GAAAGGCTTCAGGTGGTGAA-----------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ----------------------------------------------------------------------
+Chuquiraga_sp                ----------------------------------------------------------------------
+Famatinanthus_sp             ----------------------------------------------------------------------
+Gongylolepis_benthamania     ----------------------------------------------------------------------
+Hyalis_argentea              ----------------------------------------------------------------------
+Nastanthus_patagonicus       ----------------------------------------------------------------------
+Scaveola_tomentosa           ??????????????????????????????????????????????????????????????????????
+Schlechtendalia_luzulaefolia ----------------------------------------------------------------------
+
+Barnadesia_arborea           ---------------------------CAAAACATCAACCCTCTGTGGACACAGTTGAAGCCAAAAAAGT
+Chuquiraga_sp                ---------------------------TAAAACCTCAATCTGCT------ACCTCTAAAGACAAGACAGT
+Famatinanthus_sp             ---------------------------GAAAACATCAATCCTCTACAGACTCAGTTCAACCCAACGAAGT
+Gongylolepis_benthamania     ---------------------------TAGAACTTCAATTCTCTACAGACACAGTTCAAGCCAAGAAAGT
+Hyalis_argentea              ---------------------------CAACATATCATTCCTCCACAGACACACTTCACGACAATAAAGC
+Nastanthus_patagonicus       ---------------------------GAAAAAATGAATCCTCTACAGAAACAGTTGAAGTCAACAAAGT
+Scaveola_tomentosa           ???????????????????????????GGAAACACCAATCCTCTACAGAAACGGTTCAAGCAAGAAAAAT
+Schlechtendalia_luzulaefolia -----------------------------------------------------GTAGAAGGCAAGAAAGT
+
+Barnadesia_arborea           TGATAATGTCAAA-------------------------------------GCGATTGTGGATCCTGCAGA
+Chuquiraga_sp                TGAGAG----------------------------------------------------------TGCAGA
+Famatinanthus_sp             TGACACGGGCGAA-------AATGAGAATGCAAGACAGAGTGTAGATCCTGCAGATAGGGATTCTGGTGA
+Gongylolepis_benthamania     TGACATACATGAATCATGATAATGAGAATGTCAAACAGTGTGTGAATCCAGCACATAGGGATTCTGGAGA
+Hyalis_argentea              GGACACTGTTGAGCCA-------AAAAACGTCAGACAGAGCGTAGATCCTGCAGATAGGGATTCGGGTGA
+Nastanthus_patagonicus       TGACTTTAGGGAC-------AATGAAAAAGTCAAACAGAGTGAGGATCCTTTAGACGGGGATTTTGGTGA
+Scaveola_tomentosa           TGATACCGGTGAT-------AGTCAAATTATCAAACAGAGTGTAGATCCTGCAGATAAGGATTCTGGTGA
+Schlechtendalia_luzulaefolia TGATGGTGGAGGT-------------------------------------------------------GA
+
+Barnadesia_arborea           TGTGAACATGGAGGCTTCTATCTCAGCCGATGACGTAATGCGCGCTGGAGGCTTTGGCGCCAGAGACGAC
+Chuquiraga_sp                TGTGAACATGGAGGCCTTGGTTTCAGCGGATGATGTATTGCGGGCTGGAGGGTTTGGGGCTAGAGATGAC
+Famatinanthus_sp             TGTAAACATGGAGGCGTCTATCTCAGCCGATGATGTAATCCGGGCTGGAGGCTTTGGTGCTAGAGATGAC
+Gongylolepis_benthamania     TGCAACCATTGAGGCTTTTGTATCAGCT--TG-------------------CTTTGGCGCTATAGATGAC
+Hyalis_argentea              CGTAAATATGGAGGCTTCTATCTCAGCCGATGACGTGATGCGGGCTGGAGGCTTTGGTGCTAGAGATGAC
+Nastanthus_patagonicus       TGTAAACATGGAGGCTTCGATCTCAGCCGATGATTTTATGAGGGCAGGAGGCTTTGGTGCTAGAGATGAC
+Scaveola_tomentosa           TGTGAATATGGAGGCTTCAATCTCAGCTGACGATGTAATGCGGGCAGGAGGCTTTGGCGCTAGAGATGAC
+Schlechtendalia_luzulaefolia CGTAAATATGGAGGCGTCTATCTCAGCTGAAGACGTACTGCGGGCCGGAGGGTTCGGGGCGAGAGATGAT
+
+Barnadesia_arborea           ATTAGCAGTTTTCTTCCTGTTGCGAGCGACTCCACCGACTTTGAAGCATCTCTACGTGATGCCCGAGACT
+Chuquiraga_sp                ATTAGTAGTTTTATTCCAGTTGCAAGCGACTCCACCGACTTTGAAGCTTCTCTACGTGACGCTCGAGACT
+Famatinanthus_sp             ATAAGTAGTTTTCTTCCTGTTGCAAGTGATTCCACTGACTTTGAAGCTTCTCTACGTGATGCCCGAGACT
+Gongylolepis_benthamania     ATAAGTAGTTTTCTT---GTTGCAAGTGACTCCA---ACTTTGAAGCTTCTCTACATTATGCCAGAGACT
+Hyalis_argentea              ATAAGTACTTTTCTTCCTGTTGCAAGTGATTCCACCGATTTTGAAGCTTCTCTACGTGATGCCCGAGACT
+Nastanthus_patagonicus       ATCAGCAGTTTTCTTCCTGTTGCAAGTGACTCCACTGATTTTGAAGCTTCATTACGTGATGCCCGAGACT
+Scaveola_tomentosa           ATAAGCAGTTTTCTTCCTGTTGCAAGCGACTCCACTGATTTTGAAGCTTCTCTACTCGATGCTCGAGACT
+Schlechtendalia_luzulaefolia ATAAGTAATTTCCTTCCTGTTGCAAGCGATTCGACGGACTATGAAGCTTCTTTACGTGACGCCCGAGGCT
+
+Barnadesia_arborea           ATGAAGAGCCACAAAAAGATATCTGCAGACCAGGCCTTGGCTGGAAAGACGTGAGAAAGTAAGACCC
+Chuquiraga_sp                ATGAAGAGCCCCAAACAAATATCTGCAGACC????????????????????????????????????
+Famatinanthus_sp             ATGAAGAGCCGCAGAAAGATATCTGCAGACCAGGGCTAGGC-------------AAGAGTAAGACTA
+Gongylolepis_benthamania     ATGGAGAACCGCAAAAAATTATCTGATAACCAGGCCTTGGCTGGAAAGAAGCGAGGGGGTAAGATTA
+Hyalis_argentea              ATGAAGAGCCGCAAACGGATATCTGCAGACCAGGGCTAGGCTGGAAAGATCTGAAAGAGTGAGATTA
+Nastanthus_patagonicus       ACGAAGAGCCACAAAAAGATATCAGCAGGCCAGGCCTTGGCTGGAAAGATACGACAGAGTAAGATT?
+Scaveola_tomentosa           ATGAGGAGCCACAGAATAATATCTGCAGACCAGGCCTTGGGTGGAAAGATGTTAGAGATTAAGATGA
+Schlechtendalia_luzulaefolia ATGAGGAGCCGCAGAAAGATGTATGCAGGCCAGGCCTCGGCTGGAAAGAC---AAAGACTAAAAAAA
+
+;
+end;
