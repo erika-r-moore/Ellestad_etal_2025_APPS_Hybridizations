@@ -76,7 +76,7 @@ Astral_best_rooted.tre          # rooted ASTRAL tree from /OUTPUT/4-4_RAxML_ASTR
 #### 3-3_GetOrganelle
 
 ```
-/Barnadesia_arborea_plastome   # includes *.jpg Bandage plots; others available on request
+/Nastanthus_plastome   # includes *.jpg Bandage plots; others available on request
 ```
 
 ### 4_Generating_Species_Phylogenies
