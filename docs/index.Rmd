@@ -1,7 +1,7 @@
 ---
 title: "Methods for detecting hybridization and phylogenetic discordance"
 subtitle: "Bioinformatic Tutorial"
-author: "Paige Ellestad, Erika R. Moore-Pollard, Carolina M. Siniscalchi, Ramhari Thapa, Linda E. Watson, J. Mauricio Bonifacino, Jennifer R. Mandel"
+author: "Paige A. Ellestad, Erika R. Moore-Pollard, Carolina M. Siniscalchi, Ramhari Thapa, Linda E. Watson, J. Mauricio Bonifacino, Jennifer R. Mandel"
 #date: "`r Sys.Date()`"
 output: 
 #  bookdown::word_document2:
@@ -62,7 +62,7 @@ source ~/miniconda3/bin/activate
 conda init --all 
 ```
 
-# Preparing sequence data 
+# Preparing genome sequence data 
 
 ## Assessing raw sequence quality
 
@@ -194,28 +194,21 @@ Trinity [@Grabherr2011] represents a novel method for the efficient and robust d
 
 ### Installing Trinity
 
-Installation instructions can be found at https://github.com/trinityrnaseq/trinityrnaseq/wiki or can be installed using conda. 
-
-```{bash echo = T, eval = F}
-#bash
-conda create -n spades
-conda activate spades
-conda install bioconda::spades
-```
+Installation instructions can be found at https://github.com/trinityrnaseq/trinityrnaseq/wiki. 
 
 ### Running Trinity
 
 **INPUT**
 
-* *.tp.fasta: trimmed RNA-sequence data
+* *.tp.fastq: trimmed RNA-sequence data
 
 ```{bash echo = T, eval = F}
 #bash
-# run SPADES for all the samples with a loop
-for trimR1 in `find ./ -name "*_1_tp.fastq"`
+#run trinity on all trimmed paired end files in a loop
+for fileR1 in *R1.tp.fastq
 do
-trimR2=`echo ${trimR1} | sed 's/_1/_2/'`
-/PATH/TO/miniconda3/envs/spades/bin/spades.py -k 21,33,55,77,99 --only-assembler --pe1-1 $trimR1 --pe1-2 $trimR2 -o ../$trimR1.spades_output
+fileR2=`echo ${fileR1} | sed 's/R1/R2/'`
+Trinity --seqType fq --left $fileR1 --right $fileR2 --CPU 6 --max_memory 20G
 done
 ```
 
@@ -490,11 +483,11 @@ Note: Change the -m function depending on the best fitting model (GTR model: GTR
 
 **OUTPUT**
 
-*RAxML_bipartitionsBranchLabels.out
-*RAxML_bootstrap.out
-*RAxML_info.out
-*RAxML_bestTree.out
-*RAxML_bipartitions.out
+* RAxML_bipartitionsBranchLabels.out
+* RAxML_bootstrap.out
+* RAxML_info.out
+* RAxML_bestTree.out
+* RAxML_bipartitions.out
 
 ```{r concat_tree, echo=FALSE, fig.cap="Phylogenetic tree produced from RAxML analysis on a concatenated matrix visualized using FigTree.", out.width = '100%'}
 knitr::include_graphics("Images/concat.raxml.png")
@@ -502,13 +495,13 @@ knitr::include_graphics("Images/concat.raxml.png")
 
 ## Coalescent-based Phylogeny
 
-In contrast to a concatenated approach, a coalescent phylogenetic approach analyzes individual gene trees, accounting for the high probability that different genes likely have different evolutionary histories. This method may be better suited for resolving phylogenetic relationships in the presence of incomplete lineage sorting and hybridization, but is more computationally demanding than concatenated methods. One method to generate a coalescent phylogeny is by using Astral-III [@Zhang2018] on a suite of RAxML [@Stamatakis2014] gene trees constructed under different evolutionary models. 
+In contrast to a concatenated approach, a pseudo-coalescent phylogenetic approach analyzes individual gene trees, accounting for the high probability that different genes likely have different evolutionary histories. This method may be better suited for resolving phylogenetic relationships in the presence of incomplete lineage sorting and hybridization, but is more computationally demanding than concatenated methods. One method to generate a coalescent phylogeny is by using Astral-III [@Zhang2018] on a suite of RAxML [@Stamatakis2014] gene trees constructed under different evolutionary models. 
 
 ### Installing RAxML
 
 Installation instructions can be found at https://cme.h-its.org/exelixis/web/software/raxml/cluster.html.
 
-### Running RAxML for coalescent analyses
+### Running RAxML for pseudo-coalescent analyses
 
 When running RAxmL for a pseudo-coalescent (hereafter referred to as “ASTRAL”) analysis, individual loci should be analyzed separately using the most appropriate model as indicated in the results of PartitionFinder.
 
@@ -608,7 +601,7 @@ done
 * /output/RAxML_bootstrap*: bootstrap files for each model type
 * /output/RAxML_bestTree*: best tree files for each model type
 
-Output from these RAxML [@Stamatakis2014] analyses will be used as input for the Astral-III [@Zhang2018] analysis. 
+Output from these RAxML [@Stamatakis2014] analyses will be used as input for the ASTRAL-III [@Zhang2018] analysis. 
 
 ### Installing ASTRAL-III
 
@@ -648,7 +641,7 @@ done
 cd bestTree
 cat RAxML_bestTree* > concat_best.tre 
 
-#make a new folder named Astral and copy the concatenated best tree file into it
+#make a new folder named Astral_try/ and copy the concatenated best tree file into it
 cd /PATH/TO/astral_raxml/
 mkdir Astral_try
 cd Astral_try
@@ -902,7 +895,7 @@ Installation instructions are located at https://evomics.org/resources/software/
 
 * visualizations may be exported in multiple formats
 
-## Installing phytools, ape
+### Installing phytools, ape
 
 ```{bash echo = T, eval = F}
 #R
@@ -911,7 +904,7 @@ install.packages("phytools")
 install.packages("ape")
 ```
 
-## Running phytools, ape
+### Running phytools, ape
 
 **INPUT** 
 
@@ -958,18 +951,20 @@ Phylogenomic incongruence is routinely observed in phylogenomics studies and typ
 
 ## PhyParts
 
-PhyParts [@Smith2015], along with PhypartsPieCharts, are tools that indicate the percentage of concordant gene trees, percentage in the top alternative bipartition, other conflicting topologies, and uninformative genes as pie charts on the nodes of a species phylogeny. This provides a better visualization of discordant nodes resulting from gene tree conflict. To prepare the input data for PhyParts, Phyx [@Brown2017] can be used to root the species and gene trees produced from Astral-III [@Zhang2018].
+PhyParts [@Smith2015], along with PhypartsPieCharts (https://github.com/mossmatters/phyloscripts/tree/master/phypartspiecharts), are tools that indicate the percentage of concordant gene trees, percentage in the top alternative bipartition, other conflicting topologies, and missing and uninformative genes as pie charts on the nodes of a species phylogeny. This provides a visualization of discordant nodes resulting from gene tree conflict. New python scripts have also been produced that show missing and uninformative data as two separate pie slices (see https://bitbucket.org/dfmoralesb/target_enrichment_orthology/src/master/), providing an even better visualization of the underlying data. Below we will show how to run PhyParts on the ASTRAL tree with the original PhypartsPieCharts script, but also with this new python script that has the extra slice.
 
-## Installing Phyx
+To prepare the input data for PhyParts, Phyx [@Brown2017] can be used to root the species and gene trees.
 
-Isntallation instructions are located at https://github.com/FePhyFoFum/phyx. 
+### Installing Phyx
 
-## Running Phyx
+Installation instructions are located at https://github.com/FePhyFoFum/phyx. 
+
+### Running Phyx
 
 **INPUT**
 
-* Astral_best.tre: species tree output from Astral-III
-* /astral_raxml/bestTree/*.tre: gene tree files output from Astral-III
+* Astral_best.tre: species tree output from ASTRAL-III
+* /astral_raxml/bestTree/*.tre: gene tree files output from ASTRAL-III
 
 Phyx [@Brown2017] is a very helpful phylogenetic tool that has many functions. For the purposes of running PhyParts, only the ‘rerooting and unrooting tree’ function, pxrr, needs to be used. Designating the proper taxa/taxon as outgroups for rooting, the following code may be used:
 
@@ -1012,7 +1007,7 @@ git clone https://bitbucket.org/blackrim/phyparts.git
 
 **INPUT**
 
-* Astral_best_rooted.tre: rooted species tree from Phyx
+* Astral_best_rooted.tre: rooted concatenated species tree from Phyx
 * *.rooted.tre: rooted gene trees from Phyx
 
 ```{bash echo = T, eval = F}
@@ -1037,7 +1032,7 @@ Detailed information on the output of PhyParts can be found at https://bitbucket
 
 ### Running PhyPartsPieCharts
 
-To create figures for publication, Matt Johnson (Texas Tech University) generated a visualization script that can be used, ‘phypartspiecharts.py’, to produce svg images.
+To create figures for publication, Matt Johnson (Texas Tech University) generated a visualization script that can be used, ‘phypartspiecharts.py’ from https://github.com/mossmatters/phyloscripts/tree/master/phypartspiecharts, to produce svg images.
 
 **INPUT**
 
@@ -1059,7 +1054,7 @@ concon.tre > phyparts.concon.tre
 
 #Now you just need the rooted species tree (Astral_best_rooted.tre), what the different outfiles can be referred to as (e.g., phyparts), and knowledge on how many gene trees were used (e.g., 1000 gene trees).
 
-/PATH/TO/phyluce/PhyParts/phypartspiecharts.py /Path/TO/phyluce/PhyParts/Astral_best-rooted.newick phyparts 1000 --svg_name phyparts_piechart.svg
+/PATH/TO/phyluce/PhyParts/phypartspiecharts.py /PATH/TO/phyluce/PhyParts/Astral_best_rooted.tre phyparts 1000 --svg_name phyparts_piechart.svg
 ```
 
 **OUTPUT**
@@ -1073,6 +1068,65 @@ concon.tre > phyparts.concon.tre
 ```{r phyparts, echo=FALSE, fig.cap="Phylogenetic discordance visualized using PhyParts", out.width = '100%'}
 knitr::include_graphics("Images/phyparts.pdf")
 ```
+
+Alternatively, you can run a new python script from Diego Morales-Briones, 'phypartspiecharts_missing_uninformative.py' from https://bitbucket.org/dfmoralesb/target_enrichment_orthology/src/master/, to separate the missing and uninformative data into two separate pie charts. To do this, you need to re-run PhyParts as two separate runs. Additionally, you need to use the bootstrap gene trees instead of the best trees and root them with Phyx as described above.
+
+**INPUT**
+
+* Astral_best_rooted.tre: rooted species tree from Phyx
+* /astral_raxml/bootTree/root/*.tre: rooted gene tree files with bootstrap supports from ASTRAL-III
+
+
+```{bash echo = T, eval = F}
+#bash
+java -jar /PATH/TO/phyparts/target/phyparts-0.0.1-SNAPSHOT-jar-with-dependencies.jar -a 0 -d /astral_raxml/bootTree/root/ -m Astral_best_rooted.tre -o concat50_noBS
+java -jar /PATH/TO/phyparts/target/phyparts-0.0.1-SNAPSHOT-jar-with-dependencies.jar -a 1 -s 50 -d /astral_raxml/bootTree/root/ -m Astral_best_rooted.tre -o concat50_BSfull #NOTE: 50 is for 50 BS support. You can alter this number or use different support if using LPP or PP to better fit your data.
+```
+
+From there, you will want to go to R and follow the script provided that alters the *concon.tre.
+```{bash echo = T, eval = F}
+#R
+#Read in trees
+read.tree("astral50_BSfull.concon.tre")->bs_full_concordance
+read.tree("astral50_noBS.concon.tre")->No_bs
+
+#run code
+total_no_bs<-No_bs[[1]] # get a tree to add total node numbers
+
+total_no_bs$node.label<-mapply("+",as.numeric(No_bs[[1]]$node.label), as.numeric(No_bs[[2]]$node.label)) #get total number of nodes
+total_no_bs$node.label[is.na(total_no_bs$node.label)] <- "" #remove NA values
+total_no_bs$node.label[total_no_bs$node.label=="0"]<-"" #remove 0 values. to avoid divisions by zero.
+
+append(bs_full_concordance, total_no_bs, after=2)-> full_concordance_and_total_nodes
+
+#write tree
+write.tree(full_concordance_and_total_nodes, file = "astral50_all_homologs.concon.tre") #write tree - this will replace the orignal *.concon.tre file.
+```
+
+Upload this new .concon.tre file to where you ran PhyParts and rename it to match the original run.
+```{bash echo = T, eval = F}
+#bash
+#rename tree to match the old run
+mv astral50_all_homologs.concon.tre astral50_BSfull.concon.tre
+
+#Run the new python script now on the data, following the same guidelines as phyparts_piechart.py:
+python phypartspiecharts_missing_uninformative.py Astral_best_rooted.tre astral50_BSfull 1000 #change 1000 to however many gene trees were used as input
+```
+
+**OUTPUT**
+
+* *.svg: file containing your tree with pie charts at each node indicating:
+  + Blue: concordant
+  + Green: the top alternative bipartition
+  + Red: all other alternative bipartitions
+  + Dark gray: uninformative for that node
+  + Light gray: missing data for that node
+
+```{r phyparts_new, echo=FALSE, fig.cap="Phylogenetic discordance visualized using PhyParts with the new python script adding an additional pie slice separating uninformative to informative genes", out.width = '100%'}
+knitr::include_graphics("Images/phyparts_new.pdf")
+```
+
+
 
 ## Quartet Sampling
 
