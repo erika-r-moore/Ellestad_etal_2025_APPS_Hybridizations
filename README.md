@@ -1,5 +1,5 @@
 # Ellestad_etal_2025_APPS_Hybridizations
-This repository contains all the scripts and data associated with the following publication: DOI: __
+This repository contains all the scripts and data associated with the following publication: DOI: [10.1002/aps3.70058](https://doi.org/10.1002/aps3.70058).
 
 
 # Description
