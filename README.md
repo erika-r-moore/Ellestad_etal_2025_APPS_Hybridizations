@@ -20,4 +20,5 @@ All scripts are provided as is and are not guaranteed to work. If you have any i
 
 
 # Citation
-If you use the scripts from this tutorial, please reference the associated publication: ____
+If you use the scripts from this tutorial, please reference the associated publication:  
+Ellestad, P. A., E. R. Moore-Pollard, C. M. Siniscalchi, R. Thapa, L. E. Watson, J. M. Bonifacino, and J. R. Mandel. 2026. Ancient hybridization and phylogenetic discordance: Exploring evolutionary complexity in Asteraceae. *Applications in Plant Sciences* 14(3): e70058. https://doi.org/10.1002/aps3.70058.
